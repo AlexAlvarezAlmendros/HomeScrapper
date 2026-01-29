@@ -6,6 +6,9 @@ Ejecuta este script después de abrir Chrome con start_chrome_debug.bat
 import time
 import json
 import re
+import random
+import subprocess
+import shutil
 from datetime import datetime
 from typing import List, Optional
 from dataclasses import dataclass, asdict
@@ -14,6 +17,27 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
+
+
+# ============== CONFIGURACIÓN ANTI-DETECCIÓN ==============
+# Número de peticiones antes de cambiar IP (si usas proxy/VPN)
+PETICIONES_ANTES_CAMBIO_IP = 15
+
+# Delays aleatorios entre peticiones (en segundos)
+DELAY_MIN_ENTRE_PAGINAS = 3
+DELAY_MAX_ENTRE_PAGINAS = 7
+DELAY_MIN_ENTRE_DETALLES = 2
+DELAY_MAX_ENTRE_DETALLES = 5
+
+# Delay adicional largo cada X peticiones para parecer más humano
+PETICIONES_ANTES_PAUSA_LARGA = 10
+PAUSA_LARGA_MIN = 15
+PAUSA_LARGA_MAX = 30
+
+# Configuración de VPN automática
+# Opciones: 'nordvpn', 'expressvpn', 'protonvpn', 'surfshark', 'windscribe', 'manual', None
+VPN_PROVIDER = None  # Se configura en tiempo de ejecución
+# ===========================================================
 
 
 @dataclass
@@ -30,16 +54,318 @@ class Vivienda:
 
 
 # URL objetivo
-URL_IDEALISTA = "https://www.idealista.com/areas/venta-viviendas/?shape=%28%28gdh%7DFywmFs_NqcLa_Bwsi%40sxIkgUmEqvdA%7CkN%7BbH%60t%5CceIltPxpNdfDh%7DLvrB%60og%40re%40n%7Be%40cnNbdf%40ch%5Bl%60R%29%29"
+URL_IDEALISTA = "https://www.idealista.com/venta-viviendas/barcelona/anoia/"
 
 
 class ScraperPersonalizado:
     
-    def __init__(self, modo_debug=False):
+    def __init__(self, modo_debug=False, usar_rotacion_ip=False, vpn_provider=None):
         self.driver = None
         self.viviendas = []
         self.modo_debug = modo_debug
         self.resultados = []
+        
+        # Contadores para anti-detección
+        self.peticiones_realizadas = 0
+        self.peticiones_desde_ultima_pausa = 0
+        self.usar_rotacion_ip = usar_rotacion_ip
+        self.vpn_provider = vpn_provider  # 'nordvpn', 'expressvpn', 'protonvpn', 'surfshark', 'windscribe', 'manual'
+    
+    def detectar_vpn_instalada(self):
+        """Detecta qué VPN está instalada en el sistema"""
+        vpns = {
+            'nordvpn': 'nordvpn',
+            'expressvpn': 'expressvpn', 
+            'protonvpn': 'protonvpn-cli',
+            'surfshark': 'surfshark',
+            'windscribe': 'windscribe'
+        }
+        
+        detectadas = []
+        for nombre, comando in vpns.items():
+            if shutil.which(comando):
+                detectadas.append(nombre)
+        
+        return detectadas
+    
+    def cambiar_vpn_automatico(self):
+        """Cambia la conexión VPN automáticamente según el proveedor"""
+        if not self.vpn_provider or self.vpn_provider == 'manual':
+            return False
+        
+        print(f"\n🔄 Cambiando servidor VPN ({self.vpn_provider})...")
+        
+        try:
+            if self.vpn_provider == 'nordvpn':
+                # NordVPN: desconectar y reconectar a servidor aleatorio
+                subprocess.run(['nordvpn', 'disconnect'], capture_output=True, timeout=30)
+                time.sleep(2)
+                # Conectar a países europeos aleatorios (mejor para Idealista España)
+                paises = ['Spain', 'France', 'Germany', 'Italy', 'Netherlands', 'Portugal', 'Belgium']
+                pais = random.choice(paises)
+                result = subprocess.run(['nordvpn', 'connect', pais], capture_output=True, text=True, timeout=60)
+                if 'connected' in result.stdout.lower() or result.returncode == 0:
+                    print(f"   ✅ Conectado a NordVPN ({pais})")
+                    return True
+                    
+            elif self.vpn_provider == 'expressvpn':
+                # ExpressVPN
+                subprocess.run(['expressvpn', 'disconnect'], capture_output=True, timeout=30)
+                time.sleep(2)
+                locations = ['Spain', 'France', 'Germany', 'Italy', 'Netherlands']
+                location = random.choice(locations)
+                result = subprocess.run(['expressvpn', 'connect', location], capture_output=True, text=True, timeout=60)
+                if result.returncode == 0:
+                    print(f"   ✅ Conectado a ExpressVPN ({location})")
+                    return True
+                    
+            elif self.vpn_provider == 'protonvpn':
+                # ProtonVPN CLI
+                subprocess.run(['protonvpn-cli', 'disconnect'], capture_output=True, timeout=30)
+                time.sleep(2)
+                # Conectar al servidor más rápido o aleatorio
+                result = subprocess.run(['protonvpn-cli', 'connect', '--random'], capture_output=True, text=True, timeout=60)
+                if result.returncode == 0:
+                    print(f"   ✅ Conectado a ProtonVPN (servidor aleatorio)")
+                    return True
+                    
+            elif self.vpn_provider == 'surfshark':
+                # Surfshark
+                subprocess.run(['surfshark', 'disconnect'], capture_output=True, timeout=30)
+                time.sleep(2)
+                result = subprocess.run(['surfshark', 'connect'], capture_output=True, text=True, timeout=60)
+                if result.returncode == 0:
+                    print(f"   ✅ Conectado a Surfshark")
+                    return True
+                    
+            elif self.vpn_provider == 'windscribe':
+                # Windscribe - usar ruta completa en Windows
+                windscribe_cli = r'C:\Program Files\Windscribe\windscribe-cli.exe'
+                
+                # Desconectar primero
+                subprocess.run([windscribe_cli, 'disconnect'], capture_output=True, timeout=30)
+                time.sleep(3)
+                
+                # Ubicaciones disponibles en plan gratuito (europeas para mejor latencia con Idealista)
+                # Nota: Las ubicaciones gratuitas varían, "best" siempre funciona
+                ubicaciones = ['best', 'Paris', 'Amsterdam', 'Frankfurt', 'Zurich', 'London']
+                ubicacion = random.choice(ubicaciones)
+                
+                result = subprocess.run([windscribe_cli, 'connect', ubicacion], capture_output=True, text=True, timeout=60)
+                
+                # Verificar conexión
+                time.sleep(3)
+                status = subprocess.run([windscribe_cli, 'status'], capture_output=True, text=True, timeout=30)
+                
+                if 'Conectado' in status.stdout or 'Connected' in status.stdout:
+                    # Extraer nombre del servidor
+                    servidor = ubicacion
+                    if 'Conectado:' in status.stdout:
+                        try:
+                            servidor = status.stdout.split('Conectado:')[1].split('\n')[0].strip()
+                        except:
+                            pass
+                    print(f"   ✅ Conectado a Windscribe ({servidor})")
+                    return True
+                else:
+                    print(f"   ⚠️ No se pudo conectar")
+            
+            print(f"   ⚠️ No se pudo cambiar automáticamente")
+            return False
+            
+        except subprocess.TimeoutExpired:
+            print(f"   ⚠️ Timeout al cambiar VPN")
+            return False
+        except FileNotFoundError:
+            print(f"   ⚠️ CLI de {self.vpn_provider} no encontrado")
+            return False
+        except Exception as e:
+            print(f"   ⚠️ Error: {e}")
+            return False
+    
+    def delay_aleatorio(self, tipo='pagina'):
+        """Aplica un delay aleatorio para parecer más humano"""
+        if tipo == 'pagina':
+            delay = random.uniform(DELAY_MIN_ENTRE_PAGINAS, DELAY_MAX_ENTRE_PAGINAS)
+        else:  # detalle
+            delay = random.uniform(DELAY_MIN_ENTRE_DETALLES, DELAY_MAX_ENTRE_DETALLES)
+        
+        if self.modo_debug:
+            print(f"      [DEBUG] Delay aleatorio: {delay:.1f}s")
+        
+        time.sleep(delay)
+    
+    def incrementar_contador_peticiones(self):
+        """Incrementa contadores y gestiona pausas/cambios de IP"""
+        self.peticiones_realizadas += 1
+        self.peticiones_desde_ultima_pausa += 1
+        
+        # Pausa larga periódica para parecer más humano
+        if self.peticiones_desde_ultima_pausa >= PETICIONES_ANTES_PAUSA_LARGA:
+            pausa = random.uniform(PAUSA_LARGA_MIN, PAUSA_LARGA_MAX)
+            print(f"\n☕ Pausa de {pausa:.0f}s para evitar detección (petición #{self.peticiones_realizadas})...")
+            time.sleep(pausa)
+            self.peticiones_desde_ultima_pausa = 0
+        
+        # Verificar si hay que cambiar IP
+        if self.usar_rotacion_ip and self.peticiones_realizadas % PETICIONES_ANTES_CAMBIO_IP == 0:
+            self.solicitar_cambio_ip()
+    
+    def solicitar_cambio_ip(self):
+        """Cambia la IP automáticamente o pide al usuario que lo haga"""
+        print("\n" + "="*70)
+        print("🔄 CAMBIO DE IP")
+        print("="*70)
+        print(f"\n📊 Peticiones realizadas: {self.peticiones_realizadas}")
+        
+        # Intentar cambio automático si hay VPN configurada
+        if self.vpn_provider and self.vpn_provider != 'manual':
+            if self.cambiar_vpn_automatico():
+                # Esperar a que la nueva conexión se estabilice
+                print("   ⏳ Esperando 10s para estabilizar conexión...")
+                time.sleep(10)
+                print("[OK] IP cambiada automáticamente. Continuando...\n")
+                return
+            else:
+                print("\n   ⚠️ Cambio automático falló. Cambia manualmente.")
+        
+        # Modo manual
+        print("\n🌐 OPCIONES PARA CAMBIAR TU IP:")
+        print("")
+        print("   OPCIÓN 1 - VPN:")
+        print("   • Desconecta y reconecta tu VPN a otro servidor")
+        print("   • O usa la función 'cambiar servidor' de tu VPN")
+        print("")
+        print("   OPCIÓN 2 - Proxy en Chrome:")
+        print("   • Cambia el proxy en la configuración de Chrome")
+        print("   • O usa una extensión de proxy rotativo")
+        print("")
+        print("   OPCIÓN 3 - Router (si tienes IP dinámica):")
+        print("   • Reinicia tu router para obtener nueva IP")
+        print("")
+        print("   OPCIÓN 4 - Continuar sin cambiar:")
+        print("   • Puedes continuar, pero hay más riesgo de captcha")
+        print("")
+        print("⏳ El scraper está PAUSADO...")
+        print("="*70)
+        
+        input("\n>>> Presiona Enter cuando hayas cambiado la IP (o para continuar)... ")
+        print("[OK] Continuando con el scraping...\n")
+    
+    def detectar_captcha(self):
+        """Detecta si hay un captcha en la página actual y pausa hasta que se resuelva
+        
+        Retorna True si se detectó y resolvió un captcha, False si no había captcha
+        """
+        page_source = self.driver.page_source
+        page_source_lower = page_source.lower()
+        current_url = self.driver.current_url.lower()
+        
+        captcha_detectado = False
+        razon_deteccion = ""
+        
+        # 1. Verificar si la URL es claramente de captcha (más fiable)
+        url_captcha_signals = ['geo.captcha-delivery.com', 'datadome.co', '/challenge', '/blocked']
+        for signal in url_captcha_signals:
+            if signal in current_url:
+                captcha_detectado = True
+                razon_deteccion = f"URL de captcha: {signal}"
+                break
+        
+        # 2. Verificar si estamos en una página de DataDome (el captcha más común de Idealista)
+        if not captcha_detectado:
+            # DataDome muestra una página específica con estos elementos
+            datadome_signals = [
+                '<title>Pardon Our Interruption</title>',
+                'geo.captcha-delivery.com',
+                'dd.datadome.co',
+                'datadome.co/captcha',
+                'Please complete the security check',
+                'Por favor, completa la verificación de seguridad'
+            ]
+            for signal in datadome_signals:
+                if signal.lower() in page_source_lower:
+                    captcha_detectado = True
+                    razon_deteccion = f"DataDome detectado: {signal[:40]}"
+                    break
+        
+        # 3. Verificar si hay un iframe de captcha visible
+        if not captcha_detectado:
+            iframe_captcha_signals = [
+                'iframe[src*="captcha"]',
+                'iframe[src*="recaptcha"]',
+                'iframe[src*="hcaptcha"]',
+                'g-recaptcha',
+                'h-captcha'
+            ]
+            for signal in iframe_captcha_signals:
+                # Buscar el elemento real, no solo texto
+                if signal.startswith('iframe'):
+                    if 'recaptcha' in page_source_lower and '<iframe' in page_source_lower and 'src="https://www.google.com/recaptcha' in page_source:
+                        captcha_detectado = True
+                        razon_deteccion = "reCAPTCHA iframe detectado"
+                        break
+                elif signal == 'g-recaptcha':
+                    if 'class="g-recaptcha"' in page_source or "class='g-recaptcha'" in page_source:
+                        captcha_detectado = True
+                        razon_deteccion = "reCAPTCHA widget detectado"
+                        break
+                elif signal == 'h-captcha':
+                    if 'class="h-captcha"' in page_source or "class='h-captcha'" in page_source:
+                        captcha_detectado = True
+                        razon_deteccion = "hCaptcha widget detectado"
+                        break
+        
+        # 4. Verificar si la página está completamente vacía o bloqueada
+        if not captcha_detectado:
+            # Solo marcar como captcha si NO hay contenido de Idealista Y estamos en una URL extraña
+            tiene_contenido_idealista = (
+                'idealista.com' in current_url and
+                ('class="item-link"' in page_source or 
+                 'class="main-info__title"' in page_source or
+                 'class="item "' in page_source or
+                 'article class="item' in page_source_lower)
+            )
+            
+            pagina_bloqueada = (
+                'idealista.com' not in current_url and
+                'access denied' in page_source_lower and
+                len(page_source) < 5000  # Páginas de bloqueo suelen ser pequeñas
+            )
+            
+            if pagina_bloqueada:
+                captcha_detectado = True
+                razon_deteccion = "Página de acceso denegado"
+        
+        if captcha_detectado:
+            print("\n" + "="*70)
+            print("⚠️  CAPTCHA DETECTADO")
+            print("="*70)
+            if self.modo_debug:
+                print(f"    [DEBUG] Razón: {razon_deteccion}")
+            print("\n🔒 Se ha detectado un captcha o verificación de seguridad.")
+            print("\n📋 INSTRUCCIONES:")
+            print("    1. Ve al navegador Chrome")
+            print("    2. Completa el captcha manualmente")
+            print("    3. Espera a que cargue la página de Idealista")
+            print("    4. Vuelve aquí y presiona Enter")
+            print("\n⏳ El scraper está PAUSADO esperando tu acción...")
+            print("="*70)
+            
+            input("\n>>> Presiona Enter cuando hayas resuelto el captcha... ")
+            
+            # Dar tiempo para que la página cargue después del captcha
+            print("\n[*] Verificando que el captcha se haya resuelto...")
+            time.sleep(3)
+            
+            # Verificar si todavía hay captcha (recursivo)
+            if self.detectar_captcha():
+                return True  # Ya se manejó en la llamada recursiva
+            
+            print("[OK] ¡Captcha resuelto! Continuando con el scraping...\n")
+            return True
+        
+        return False
     
     def conectar_chrome(self):
         """Conecta a Chrome abierto con debugging"""
@@ -68,21 +394,19 @@ class ScraperPersonalizado:
         
         self.driver.get(URL_IDEALISTA)
         print("[*] Esperando carga de página...")
-        time.sleep(5)
+        self.delay_aleatorio('pagina')
+        self.incrementar_contador_peticiones()
         
-        # Verificar si hay bloqueo
-        if "datadome" in self.driver.page_source.lower() or "bloqueado" in self.driver.page_source.lower():
-            print("\n[!] ADVERTENCIA: Parece que DataDome bloqueó el acceso")
-            print("    Resuelve el CAPTCHA manualmente en el navegador si aparece")
-            input("\n    Presiona Enter cuando hayas resuelto el CAPTCHA...")
+        # Verificar si hay captcha
+        self.detectar_captcha()
         
-        # Scroll para cargar contenido
+        # Scroll para cargar contenido (con delays aleatorios)
         print("[*] Haciendo scroll...")
         for i in range(5):
             self.driver.execute_script(f"window.scrollTo(0, {300 * (i + 1)});")
-            time.sleep(0.5)
+            time.sleep(random.uniform(0.3, 0.8))
         
-        time.sleep(2)
+        time.sleep(random.uniform(1, 2))
     
     def filtrar_listado_particulares(self, paginas=None):
         """Filtra viviendas que NO tienen logo de inmobiliaria en el listado
@@ -97,8 +421,19 @@ class ScraperPersonalizado:
         
         posibles_particulares = []
         pagina_actual = 1
-        url_base_sin_pagina = self.driver.current_url.split('?')[0].replace('/pagina-1', '').replace('/pagina-2', '').replace('/pagina-3', '').replace('/pagina-4', '').replace('/pagina-5', '').replace('/pagina-6', '').replace('/pagina-7', '').replace('/pagina-8', '').replace('/pagina-9', '')
+        
+        # Limpiar URL base: quitar parámetros, extensión .htm y paginación existente
+        url_base = self.driver.current_url.split('?')[0]
         parametros = '?' + self.driver.current_url.split('?')[1] if '?' in self.driver.current_url else ''
+        
+        # Quitar .htm si existe
+        url_base = re.sub(r'\.htm$', '', url_base)
+        
+        # Quitar /pagina-X si existe
+        url_base = re.sub(r'/pagina-\d+', '', url_base)
+        
+        # Asegurar que termina sin barra
+        url_base = url_base.rstrip('/')
         
         while True:
             # Si se especificó un límite de páginas, respetarlo
@@ -110,16 +445,20 @@ class ScraperPersonalizado:
             
             # Construir URL de la página actual
             if pagina_actual == 1:
-                url_pagina = url_base_sin_pagina + parametros
+                url_pagina = f"{url_base}/{parametros}" if parametros else f"{url_base}/"
             else:
-                url_pagina = f"{url_base_sin_pagina}/pagina-{pagina_actual}{parametros}"
+                url_pagina = f"{url_base}/pagina-{pagina_actual}.htm{parametros}"
             
             if self.modo_debug:
                 print(f"    [DEBUG] URL: {url_pagina[:80]}...")
             
             # Navegar a la página
             self.driver.get(url_pagina)
-            time.sleep(3)
+            self.delay_aleatorio('pagina')
+            self.incrementar_contador_peticiones()
+            
+            # Verificar si hay captcha después de navegar
+            self.detectar_captcha()
             
             # Detectar si nos redirigió a página-1 (significa que llegamos al final)
             url_actual = self.driver.current_url
@@ -130,12 +469,12 @@ class ScraperPersonalizado:
                     print(f"\n✅ Detectado final del listado (redirigió a página-1)")
                     break
             
-            # Scroll para cargar contenido
+            # Scroll para cargar contenido (con delays aleatorios)
             for i in range(5):
                 self.driver.execute_script(f"window.scrollTo(0, {300 * (i + 1)});")
-                time.sleep(0.5)
+                time.sleep(random.uniform(0.3, 0.8))
             
-            time.sleep(2)
+            time.sleep(random.uniform(1, 2))
             
             # Parsear con BeautifulSoup
             soup = BeautifulSoup(self.driver.page_source, 'html.parser')
@@ -188,9 +527,6 @@ class ScraperPersonalizado:
             
             # Incrementar contador
             pagina_actual += 1
-            
-            # Pausa entre páginas
-            time.sleep(2)
         
         print(f"\n📊 RESUMEN DEL FILTRADO:")
         print(f"    Páginas procesadas: {pagina_actual - 1}")
@@ -204,7 +540,11 @@ class ScraperPersonalizado:
         
         try:
             self.driver.get(url)
-            time.sleep(3)
+            self.delay_aleatorio('detalle')
+            self.incrementar_contador_peticiones()
+            
+            # Verificar si hay captcha después de navegar al detalle
+            self.detectar_captcha()
             
             # Parsear la página
             soup = BeautifulSoup(self.driver.page_source, 'html.parser')
@@ -383,10 +723,6 @@ class ScraperPersonalizado:
                         print(f"       🏠 {vivienda.habitaciones or 'N/A'} | {vivienda.metros or 'N/A'}")
             else:
                 print(f"    ❌ No es particular: {tipo}")
-            
-            # Pausa entre viviendas
-            if idx < len(posibles):
-                time.sleep(2)
         
         # Resumen final
         print("\n" + "="*70)
@@ -660,7 +996,11 @@ class ScraperPersonalizado:
                     next_btn = self.driver.find_element(By.XPATH, "//a[contains(@class, 'icon-arrow-right-after')]")
                     print(f"\n[*] Navegando a página {pagina + 1}...")
                     next_btn.click()
-                    time.sleep(5)
+                    self.delay_aleatorio('pagina')
+                    self.incrementar_contador_peticiones()
+                    
+                    # Verificar si hay captcha después de navegar
+                    self.detectar_captcha()
                 except:
                     print(f"\n[!] No se encontró botón 'siguiente'. Terminando.")
                     break
@@ -738,7 +1078,60 @@ def main():
     print("    (Mostrará cómo se detecta cada particular)")
     debug = input("    s/n (Enter = no): ").strip().lower() == 's'
     
-    scraper = ScraperPersonalizado(modo_debug=debug)
+    # Preguntar por rotación de IP
+    print("\n[?] ¿Activar ROTACIÓN DE IP?")
+    print("    (Te avisará cada cierto tiempo para cambiar IP y evitar captchas)")
+    print("    Recomendado si usas VPN, proxy, o tienes IP dinámica")
+    usar_rotacion = input("    s/n (Enter = no): ").strip().lower() == 's'
+    
+    vpn_provider = None
+    if usar_rotacion:
+        print(f"\n[OK] Rotación de IP activada (cada {PETICIONES_ANTES_CAMBIO_IP} peticiones)")
+        
+        # Detectar VPNs instaladas
+        scraper_temp = ScraperPersonalizado()
+        vpns_detectadas = scraper_temp.detectar_vpn_instalada()
+        
+        print("\n[?] ¿Quieres cambio de VPN AUTOMÁTICO?")
+        print("    (Requiere tener una VPN con CLI instalada)")
+        print("")
+        
+        if vpns_detectadas:
+            print(f"    ✅ VPNs detectadas en tu sistema: {', '.join(vpns_detectadas)}")
+        else:
+            print("    ⚠️ No se detectaron VPNs con CLI instaladas")
+            print("    (NordVPN, ExpressVPN, ProtonVPN, Surfshark, Windscribe)")
+        
+        print("")
+        print("    Opciones:")
+        print("    1. NordVPN (automático)")
+        print("    2. ExpressVPN (automático)")
+        print("    3. ProtonVPN (automático)")
+        print("    4. Surfshark (automático)")
+        print("    5. Windscribe (automático)")
+        print("    6. Manual (te avisará para cambiar tú)")
+        print("")
+        
+        vpn_opcion = input("    Elige (1-6, Enter = manual): ").strip()
+        
+        vpn_map = {
+            '1': 'nordvpn',
+            '2': 'expressvpn', 
+            '3': 'protonvpn',
+            '4': 'surfshark',
+            '5': 'windscribe',
+            '6': 'manual'
+        }
+        
+        vpn_provider = vpn_map.get(vpn_opcion, 'manual')
+        
+        if vpn_provider != 'manual':
+            print(f"\n[OK] VPN automática configurada: {vpn_provider}")
+            print("    El scraper cambiará de servidor automáticamente")
+        else:
+            print("\n[OK] Modo manual: te avisará cuando debas cambiar IP")
+    
+    scraper = ScraperPersonalizado(modo_debug=debug, usar_rotacion_ip=usar_rotacion, vpn_provider=vpn_provider)
     
     # Conectar
     if not scraper.conectar_chrome():
