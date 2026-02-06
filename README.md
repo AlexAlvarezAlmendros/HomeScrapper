@@ -1,30 +1,42 @@
-# HomeScrapper - Idealista Property Scraper
+# HomeScraper - Multi-Portal Property Scraper
 
-Web scraper para extraer anuncios de viviendas de Idealista, con enfoque especial en detectar y filtrar anuncios de **particulares** (propietarios directos) vs inmobiliarias.
+Web scraper **escalable** para múltiples portales inmobiliarios, con enfoque especial en detectar y filtrar anuncios de **particulares** (propietarios directos) vs inmobiliarias/profesionales.
+
+## 🌟 Portales Soportados
+
+✅ **Idealista** - Portal líder en España  
+✅ **Fotocasa** - Portal de clasificados inmobiliarios  
+🔜 **Fácilmente extensible** a nuevos portales (Pisos.com, Habitaclia, etc.)
 
 ## 🚀 Características Principales
 
-- **Filtrado de dos etapas**: Identifica particulares primero en el listado y luego verifica en la página de detalle
-- **Detección automática de páginas**: Procesa todas las páginas disponibles automáticamente
-- **Extracción completa de datos**: Título, precio, ubicación, habitaciones, metros cuadrados, descripción, teléfono
-- **Método CDP (Chrome DevTools Protocol)**: Conexión a Chrome en modo debug para evitar detección
-- **Anti-detección**: Sin bloqueos de DataDome o sistemas anti-bot
+- **🔌 Arquitectura Multi-Portal**: Sistema escalable basado en Factory Pattern
+- **🎯 Filtrado de dos etapas**: Identifica particulares en listado y verifica en detalle
+- **♾️ Detección automática de páginas**: Procesa todas las páginas disponibles
+- **📊 Extracción completa de datos**: Título, precio, ubicación, habitaciones, m², descripción
+- **🛡️ Método CDP**: Conexión a Chrome en modo debug para evitar detección
+- **🔄 Rotación de IP**: Soporte para cambio automático de VPN (NordVPN, Windscribe, etc.)
+- **🤖 Anti-detección**: Delays aleatorios, pausas inteligentes, manejo de captchas
 
-## 📁 Archivos del Proyecto
+## 📁 Estructura del Proyecto
 
-### Scrapers
+### Scrapers Core
 
-- **`HomeScraperIdealista.py`**
-  - Scraper con filtrado de particulares mediante CDP
-  - Se conecta a Chrome en modo debugging
-  - Extracción completa de datos incluyendo teléfono
-  - Procesamiento automático de todas las páginas
+- **`HomeScraper.py`** ⭐ - Script principal con menú interactivo multi-portal
+- **`base_scraper.py`** - Clase base abstracta con funcionalidad común
+- **`idealista_scraper.py`** - Scraper específico para Idealista
+- **`fotocasa_scraper.py`** - Scraper específico para Fotocasa
+- **`scraper_factory.py`** - Factory para gestionar portales de forma escalable
+
+### Archivos Legacy
+
+- **`HomeScraperIdealista.py`** - Versión antigua solo para Idealista (mantener por compatibilidad)
 
 ### Archivos de Configuración
 
-- **`start_chrome_debug.bat`**: Inicia Chrome en modo debugging
-- **`requirements_advanced.txt`**: Dependencias del proyecto
-- **`profile_4931/`**: Perfil de Chrome para debugging
+- **`start_chrome_debug.bat`** - Inicia Chrome en modo debugging
+- **`requirements_advanced.txt`** - Dependencias del proyecto
+- **`profile_4931/`** - Perfil de Chrome para debugging
 
 ## 🛠️ Instalación
 
@@ -53,51 +65,58 @@ python -m venv .venv
 pip install -r requirements_advanced.txt
 ```
 
-## 📖 Uso
+## 📖 Uso Rápido
 
-### HomeScraperIdealista.py (CDP)
+### Script Principal: HomeScraper.py (Recomendado)
 
-Este método usa Chrome DevTools Protocol para evitar detección.
+Este es el script multi-portal con menú interactivo.
 
 #### Paso 1: Iniciar Chrome en modo debugging
 ```bash
 .\start_chrome_debug.bat
 ```
 
-#### Paso 2: Navegar a tu búsqueda de Idealista
-En el Chrome que se abrió, ve a Idealista y configura tu búsqueda (ubicación, precio, tipo de vivienda, etc.)
-
-#### Paso 3: Ejecutar el scraper
+#### Paso 2: Ejecutar el scraper
 ```bash
-python HomeScraperIdealista.py
+python HomeScraper.py
 ```
 
-#### Opciones interactivas:
+#### Paso 3: Seguir el menú interactivo
+
+**Selección de Portal:**
+```
+Portales disponibles:
+  1. Idealista
+  2. Fotocasa
+
+Elige un portal (1-2):
+```
+
+**Configuración:**
 ```
 [?] ¿Activar modo DEBUG? (s/n)
-    > Muestra información detallada del proceso
+    > Muestra información detallada del proceso de detección
+
+[?] ¿Activar ROTACIÓN DE IP? (s/n)
+    > Cambia de IP automáticamente o manualmente cada N peticiones
+    > Soporte para NordVPN, ExpressVPN, ProtonVPN, Surfshark, Windscribe
 
 [?] OPCIONES:
-    1. Navegar automáticamente a tu URL y scrapear CON FILTRADO (recomendado)
-    2. Ya estoy en la página, scrapear CON FILTRADO
-    3. Ya estoy en la página, scrapear sin filtrado (método antiguo)
+    1. Navegar automáticamente a la URL y scrapear
+    2. Ya estoy en la página, scrapear directamente
 
 [?] ¿Cuántas páginas quieres scrapear?
-    > Deja vacío o escribe 'todas' para procesar TODAS las páginas
+    > Enter = TODAS las páginas disponibles
     > O especifica un número (ej: 3)
 ```
 
-### Método Alternativo: scraper_particulares.py
+### Uso del Script Legacy (Solo Idealista)
+
+Si solo necesitas Idealista, puedes usar el script original:
 
 ```bash
-python scraper_particulares.py --url "https://www.idealista.com/venta-viviendas/barcelona/" --paginas 3
+python HomeScraperIdealista.py
 ```
-
-**Opciones:**
-- `--url`: URL de búsqueda de Idealista (requerido)
-- `--paginas`: Número de páginas a procesar (default: 1)
-- `--headless`: Ejecutar sin interfaz gráfica
-- `--debug`: Activar mensajes de debug
 
 ## 🎯 Cómo Funciona el Filtrado de Particulares
 
@@ -158,60 +177,123 @@ Los resultados se guardan en formato JSON con timestamp:
 }
 ```
 
-Nombre del archivo: `viviendas_idealista_YYYYMMDD_HHMMSS.json`
+Nombre del archivo: `viviendas_<portal>_YYYYMMDD_HHMMSS.json`
+
+## 🔧 Añadir Nuevos Portales
+
+La arquitectura es totalmente escalable. Para añadir un nuevo portal:
+
+### Paso 1: Crear el scraper específico
+
+```python
+# nuevo_portal_scraper.py
+from base_scraper import BaseScraper, Vivienda
+from bs4 import BeautifulSoup
+
+class NuevoPortalScraper(BaseScraper):
+    
+    def get_portal_name(self) -> str:
+        return "NuevoPortal"
+    
+    def get_search_url(self) -> str:
+        return "https://www.nuevoportal.com/buscar/..."
+    
+    def es_particular(self, html_texto: str) -> tuple[bool, str]:
+        # Implementar lógica específica del portal
+        pass
+    
+    def extraer_vivienda(self, elemento):
+        # Implementar extracción específica del portal
+        pass
+    
+    def scrapear_pagina(self):
+        # Implementar scraping de página
+        pass
+    
+    def scrapear_con_filtrado(self, paginas=None):
+        # Implementar método principal
+        pass
+```
+
+### Paso 2: Registrar en la factory
+
+```python
+# scraper_factory.py
+from nuevo_portal_scraper import NuevoPortalScraper
+
+class ScraperFactory:
+    _scrapers: Dict[str, Type[BaseScraper]] = {
+        'idealista': IdealistaScraper,
+        'fotocasa': FotocasaScraper,
+        'nuevoportal': NuevoPortalScraper,  # ← Añadir aquí
+    }
+```
+
+**¡Listo!** El nuevo portal aparecerá automáticamente en el menú.
 
 ## 🔍 Detección Automática de Páginas
 
 El scraper detecta automáticamente cuándo ha llegado a la última página:
 
-- Construye URLs: `/pagina-2`, `/pagina-3`, etc.
-- Detecta redirección a `pagina-1` (indica el final)
-- Regex preciso: evita confundir `pagina-10` con `pagina-1`
+- Busca botones de "siguiente página" en el DOM
+- Detecta redirecciones o URLs repetidas
+- Para automáticamente cuando no hay más resultados
 
-## 🛡️ Anti-Detección
+## 🛡️ Anti-Detección y Rotación de IP
 
-### Técnicas Utilizadas:
+### Técnicas Anti-Detección:
 
 1. **Chrome DevTools Protocol (CDP)**
-   - Se conecta a Chrome ya abierto
-   - No usa automatización detectable
+   - Conexión a Chrome ya abierto, no automatización detectable
 
-2. **Tiempos aleatorios**
-   - Pausas entre 1-3 segundos
-   - Simula comportamiento humano
+2. **Delays aleatorios**
+   - Entre páginas: 3-7 segundos
+   - Entre detalles: 2-5 segundos
+   - Pausas largas cada 10 peticiones: 15-30 segundos
 
-3. **Scroll natural**
-   - Hace scroll progresivo en la página
-   - Activa carga lazy-load
+3. **Rotación de IP automática**
+   - Soporte para VPNs: NordVPN, ExpressVPN, ProtonVPN, Surfshark, Windscribe
+   - Cambio automático cada N peticiones (configurable)
+   - Modo manual con pausas para cambio manual
 
-4. **User Agent real**
-   - Usa User-Agent de Chrome actualizado
+4. **Detección y manejo de captchas**
+   - Detecta captchas de DataDome automáticamente
+   - Pausa el scraper para resolución manual
+   - Continúa automáticamente después
 
 ## ⚠️ Consideraciones
 
-- **Uso responsable**: No hacer scraping masivo que sobrecargue el servidor
-- **Terms of Service**: Revisa los términos de uso de Idealista
-- **Rate limiting**: El scraper incluye pausas para no ser agresivo
-- **Datos personales**: Los teléfonos son datos sensibles, úsalos responsablemente
+- **Uso responsable**: No hacer scraping masivo que sobrecargue servidores
+- **Terms of Service**: Revisa los términos de uso de cada portal
+- **Rate limiting**: El scraper incluye pausas inteligentes
+- **Datos personales**: Los datos extraídos deben usarse responsablemente
+- **IP bans**: Usa rotación de IP si planeas hacer scraping extensivo
 
 ## 🐛 Troubleshooting
 
 ### Error: "No se pudo conectar a Chrome"
-**Solución**: Asegúrate de ejecutar `start_chrome_debug.bat` primero
+**Solución**: Ejecuta `start_chrome_debug.bat` primero y espera a que Chrome se abra
 
-### Error: "DataDome bloqueó el acceso"
-**Solución**: El script te pedirá resolver el CAPTCHA manualmente en el navegador
+### Error: "Portal no disponible"
+**Solución**: Verifica que el portal esté en la lista con `ScraperFactory.get_available_portals()`
+
+### Captcha detectado constantemente
+**Solución**: 
+- Activa rotación de IP automática
+- Aumenta los delays en `base_scraper.py`
+- Reduce el número de páginas por sesión
 
 ### No se encuentran artículos
 **Solución**: 
-- Verifica que estás en una página de resultados de Idealista
-- Comprueba que hay anuncios visibles en la página
+- Verifica que estás en una página de resultados del portal
+- Los selectores CSS pueden haber cambiado, actualiza el scraper específico
+- Activa modo debug para ver qué está pasando
 
-### No se extraen teléfonos
-**Solución**: 
-- Activa modo debug con `-s` o `--debug`
-- Verifica que el botón "Ver teléfono" es clickeable
-- Algunos anuncios pueden no tener teléfono visible
+### Selectores CSS no funcionan
+**Solución**:
+- Los portales cambian su HTML frecuentemente
+- Inspecciona el HTML con DevTools de Chrome
+- Actualiza los selectores en el archivo `<portal>_scraper.py` correspondiente
 
 ## 📝 Licencia
 

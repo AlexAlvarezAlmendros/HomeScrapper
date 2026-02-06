@@ -1,27 +1,27 @@
 @echo off
-REM Script para ejecutar HomeScraper.py (Multi-Portal)
-REM Asegúrate de haber ejecutado start_chrome_debug.bat primero
+REM Script LEGACY para ejecutar solo Idealista con HomeScraperIdealista.py
+REM Si quieres el nuevo sistema multi-portal, usa: start_scraper.bat
 
 echo.
 echo ============================================================
-echo   HomeScraper - Multi-Portal Property Scraper
-echo   Soporta: Idealista, Fotocasa, y mas...
+echo   HomeScraper - Idealista SOLO (Version Legacy)
 echo ============================================================
+echo.
+echo [!] NOTA: Este es el script antiguo (solo Idealista)
+echo     Para el nuevo sistema multi-portal, usa: start_scraper.bat
 echo.
 echo [!] IMPORTANTE: Asegurate de haber ejecutado primero:
 echo     start_chrome_debug.bat
 echo.
-echo [*] El scraper te permitira elegir el portal:
-echo     1. Idealista
-echo     2. Fotocasa
+echo     Y estar en la pagina de Idealista con tu busqueda
 echo.
 echo ============================================================
 echo.
 pause
 
-REM Activar entorno virtual y ejecutar scraper multi-portal
+REM Activar entorno virtual y ejecutar scraper legacy
 call .venv\Scripts\activate.bat
-python HomeScraper.py
+python HomeScraperIdealista.py
 
 echo.
 echo ============================================================

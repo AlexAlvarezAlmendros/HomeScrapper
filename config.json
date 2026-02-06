@@ -1,0 +1,571 @@
+{
+  "idealista": {
+    "urls": [
+      {
+        "nombre": "Igualada",
+        "url": "https://www.idealista.com/venta-viviendas/igualada-barcelona/",
+        "descripcion": "Igualada"
+      },
+      {
+        "nombre": "Barcelona - Sants-Montjuïc",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/sants-montjuic/",
+        "descripcion": "Barcelona - Toda la ciudad"
+      },
+      {
+        "nombre": "Catalunya Central",
+		"url": "https://www.idealista.com/areas/venta-viviendas/?shape=%28%28wte%7CF_zoFyf%5CmbAqpTivIa_D_zh%40qXkxk%40_Gsdo%40%60yP%7BaZra%5DpcLvuU%7C%7D%5BtbQb%7Db%40lCxic%40eaIbhYchHbaVgtK%7C%7EI%29%29",
+		"descripcion": "Catalunya Central"
+      },
+      {
+        "nombre": "Barcelona - Ciutat Vella",
+		"url": "https://www.idealista.com/venta-viviendas/barcelona/ciutat-vella/",
+		"descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Eixample",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/eixample/",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Gracia",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/gracia/",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Horta - Guinardó",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/horta-guinardo/",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Les Corts",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/les-corts/les-corts/",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Nou Barris",
+		"url": "https://www.idealista.com/venta-viviendas/barcelona/nou-barris/",
+		"descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Sant Andreu",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/sant-andreu/sant-andreu/",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Sant Martí",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/sant-marti/",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Sarrià - Sant Gervasi",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/sarria-sant-gervasi/",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Anoia",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/anoia/",
+        "descripcion": "Anoia"
+      },
+      {
+        "nombre": "AltPenedès",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/alt-penedes/",
+        "descripcion": "AltPenedès"
+      },
+      {
+        "nombre": "Bages",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/bages/",
+        "descripcion": "Bages"
+      },
+      {
+        "nombre": "Baix Llobregat",
+        "url": "https://www.idealista.com/multi/venta-viviendas/btP,dR7,dSG,dSR,dSm,dSn,dSp,dSx,dSz,dTb,daS/",
+        "descripcion": "Baix Llobregat"
+      },
+      {
+        "nombre": "Badalona",
+        "url": "https://www.idealista.com/venta-viviendas/badalona-barcelona/",
+        "descripcion": "Badalona"
+      }
+	  ,
+      {
+        "nombre": "L'Hospitalet de Llobregat",
+		"url": "https://www.idealista.com/venta-viviendas/hospitalet-de-llobregat-barcelona/",
+		"descripcion": "L'Hospitalet de Llobregat"
+      }
+	  ,
+      {
+        "nombre": "Sant Adrià de Besòs",
+        "url": "https://www.idealista.com/venta-viviendas/sant-adria-de-besos-barcelona/",
+        "descripcion": "Sant Adrià de Besòs"
+      }
+	  ,
+      {
+        "nombre": "Santa Coloma de Gramenet",
+        "url": "https://www.idealista.com/venta-viviendas/santa-coloma-de-gramenet-barcelona/",
+        "descripcion": "Santa Coloma de Gramenet"
+      }
+	  ,
+      {
+        "nombre": "Berguedà",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/bergueda/",
+        "descripcion": "Berguedà"
+      }
+	  ,
+      {
+        "nombre": "Garraf",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/garraf/",
+        "descripcion": "Garraf"
+      },
+      {
+        "nombre": "Maresme",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/maresme/",
+        "descripcion": "Maresme"
+      },
+      {
+        "nombre": "Moianes",
+		"url": "https://www.idealista.com/venta-viviendas/barcelona/moianes/",
+		"descripcion": "Moianes"
+      },
+      {
+        "nombre": "Osona",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/osona/",
+        "descripcion": "Osona"
+      },
+      {
+        "nombre": "Vallès Occidental",
+        "url": "https://www.idealista.com/venta-viviendas/barcelona/valles-occidental/",
+        "descripcion": "Vallès Occidental"
+      },
+      {
+        "nombre": "Vallès Oriental",
+		"url": "https://www.idealista.com/venta-viviendas/barcelona/valles-oriental/",
+		"descripcion": "Vallès Oriental"
+      },
+      {
+        "nombre": "Alt Empordà",
+        "url": "https://www.idealista.com/venta-viviendas/girona/alt-emporda/",
+        "descripcion": "Alt Empordà"
+      },
+      {
+        "nombre": "Baix Empordà",
+        "url": "https://www.idealista.com/venta-viviendas/girona/baix-emporda/",
+        "descripcion": "Baix Empordà"
+      },
+      {
+        "nombre": "Cerdanya(Girona)",
+        "url": "https://www.idealista.com/venta-viviendas/girona/la-cerdanya/",
+        "descripcion": "Cerdanya(Girona)"
+      },
+      {
+        "nombre": "Garrotxa",
+        "url": "https://www.idealista.com/venta-viviendas/girona/la-garrotxa/",
+        "descripcion": "Garrotxa"
+      },
+      {
+        "nombre": "Girones",
+		"url": "https://www.idealista.com/venta-viviendas/girona/girones/",
+		"descripcion": "Girones"
+      },
+      {
+        "nombre": "La Selva",
+        "url": "https://www.idealista.com/venta-viviendas/girona/la-selva/",
+        "descripcion": "La Selva"
+      },
+      {
+        "nombre": "Pla de l'Estany",
+        "url": "https://www.idealista.com/venta-viviendas/girona/pla-de-l-estany/",
+        "descripcion": "Pla de l'Estany"
+      },
+      {
+        "nombre": "Ripollès",
+		"url": "https://www.idealista.com/venta-viviendas/girona/ripolles/",
+		"descripcion": "Ripollès"
+      },
+      {
+        "nombre": "Alt Urgell",
+        "url": "https://www.idealista.com/venta-viviendas/lleida/urgell/",
+        "descripcion": "Alt Urgell"
+      },
+      {
+        "nombre": "Cerdanya(Lleida)",
+        "url": "https://www.idealista.com/venta-viviendas/lleida/cerdanya/",
+        "descripcion": "Cerdanya(Lleida)"
+      },
+      {
+        "nombre": "Noguera",
+        "url": "https://www.idealista.com/venta-viviendas/lleida/noguera/",
+        "descripcion": "Noguera"
+      },
+      {
+        "nombre": "Pla d'Urgell",
+        "url": "https://www.idealista.com/venta-viviendas/lleida/pla-d-urgell/",
+        "descripcion": "Pla d'Urgell"
+      },
+      {
+        "nombre": "Segrià",
+        "url": "https://www.idealista.com/venta-viviendas/lleida/segria/",
+        "descripcion": "Segrià"
+      },
+      {
+        "nombre": "Urgell",
+        "url": "https://www.idealista.com/venta-viviendas/lleida/urgell/",
+        "descripcion": "Urgell"
+      },
+      {
+        "nombre": "Val d'Aran",
+        "url": "https://www.idealista.com/venta-viviendas/lleida/val-d-aran/",
+        "descripcion": "Val d'Aran"
+      },
+      {
+        "nombre": "Alt Camp",
+        "url": "https://www.idealista.com/venta-viviendas/tarragona/alt-camp/",
+        "descripcion": "Alt Camp"
+      },
+      {
+        "nombre": "Baix Camp",
+        "url": "https://www.idealista.com/venta-viviendas/tarragona/baix-camp/",
+        "descripcion": "Baix Camp"
+      },
+      {
+        "nombre": "Baix Ebre",
+        "url": "https://www.idealista.com/venta-viviendas/tarragona/baix-ebre/",
+        "descripcion": "Baix Ebre"
+      },
+      {
+        "nombre": "Baix Penedes",
+        "url": "https://www.idealista.com/venta-viviendas/tarragona/baix-penedes/",
+        "descripcion": "Baix Penedes"
+      },
+      {
+        "nombre": "Conca de Barberà",
+        "url": "https://www.idealista.com/venta-viviendas/tarragona/conca-de-barbera/",
+        "descripcion": "Conca de Barberà"
+      },
+      {
+        "nombre": "Montsia",
+        "url": "https://www.idealista.com/venta-viviendas/tarragona/montsia/",
+        "descripcion": "Montsia"
+      },
+      {
+        "nombre": "Priorat",
+        "url": "https://www.idealista.com/venta-viviendas/tarragona/priorat/",
+        "descripcion": "Priorat"
+      },
+      {
+        "nombre": "Ribera d'Ebre",
+        "url": "https://www.idealista.com/venta-viviendas/tarragona/ribera-d-ebre/",
+        "descripcion": "Ribera d'Ebre"
+      },
+      {
+        "nombre": "Tarragonès",
+        "url": "https://www.idealista.com/venta-viviendas/tarragona/tarragones/",
+        "descripcion": "Tarragonès"
+      },
+      {
+        "nombre": "Terra Alta",
+        "url": "https://www.idealista.com/venta-viviendas/tarragona/terra-alta/",
+        "descripcion": "Terra Alta"
+      }
+    ]
+  },
+  "fotocasa": {
+    "urls": [
+      {
+        "nombre": "Igualada",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l?text=igualada",
+        "descripcion": "Igualada"
+      },
+      {
+        "nombre": "Barcelona - Sants-Montjuïc",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-capital/sants-montjuic/l",
+        "descripcion": "Barcelona - Toda la ciudad"
+      },
+      {
+        "nombre": "Catalunya Central",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/todas-las-zonas/l?searchArea=vit-pm7rhB7zUmzlB7zU_tzE7zU03sK7zUrw0EixwDrw0EinUrw0E7zU_tzE7zU03sKlvxD_tzE7zUrw0E7zUlyu4BixwD30vrEixwD2p7iGixwDhpuSlvxDu7giqIp6U8sr9CigxD6twSp6Ulyu4BigxDoxwpBp6UoxwpBp6U30vrEigxDv67cp6U03sKp6Um91pCutUmzlBigxDhpuSn_xDhpuSigxD03sKp6U6twSigxD03sKigxDrw0EigxDmzlBp6Uyk5cp6Urw0Ep6UhpuSp8kO9hlBn_xD_tzEp6Uo-3IigxDmzlBjiwD9hlBp6Urw0Ep6UigxDmzlBp6U_tzEp6Urw0Ep6U9hlBp6Urw0Ep6U9hlBp6Urw0Ep6U9hlBigxDutUrw0EigxDmzlBp6U_tzEn_xDp6U_tzEp6Urw0Eo-3I9hlBp6Urw0Ep6U9hlBigxDrw0EutUrw0Ep6U_tzEp6Urw0Ep6U9hlBn_xD9hlBp6U9hlBp6Urw0EigxDmzlBp6U_tzEutUmzlBp6U_tzEp6Urw0Ep6U9hlBp6UmzlBp6UigxDrw0EutU9hlBp6UigxDmzlBp6U9hlBp6U9hlB2izC03sK-oyCrw0Ep6Urw0E2izC9hlBigxDmzlBp6U9hlButUigxDmzlBp6U9hlBp6U9hlBp6Un_xD9hlButU9hlBp6U9hlB2izCmzlBp6U9hlBmgjOp6U9hlBp6U9hlBp6Urw0E-oyC9hlB2izCmzlBp6U9hlBp6U9hlBp6UmzlButUigxDp6U9hlBp6UmzlBp6U9hlButU9hlB2izCrw0Ep6U9hlButUmzlB2izC9hlBigxD-oyCmzlBp6U9hlB2izCrw0E-oyC9hlBp6UigxDp6UmzlB-oyC9hlBp6U9hlB-oyCmzlB2izC9hlB-oyCigxDp6UmzlB-oyC9hlB2izCigxD-oyCmzlBp6U9hlB0y5F9hlBp6UmzlBtqqK9hlBjiwD2izCmzlBp6UjiwDp6U9hlBp6UkgxDp6U9hlB2izC9hlButUn_xD9hlB-oyCp8kOutU9hlBigxD2izCrw0EutUp8kOutU9hlBp6UigxDutUmzlB2izC_tzE0y5FmzlButU9hlB2izC9hlButUp8kO-oyC9hlBp6UmzlButU9hlB2izCmgjO-oyC9hlBlkhO2izCmzlButU-v2I-oyCmzlB2izC9hlB-oyCjiwDmzlB0y5F9hlBp6U9hlB0y5FmzlBjiwDp6U9hlB-oyCmzlB-oyCigxD9hlB-oyCn_xD-oyC9hlB-oyC9hlB0y5Frw0E-oyCigxD-oyCmzlB-oyCjiwDp6U9hlBn_xDls4F9hlBp6U9hlButUn_xDp6UjiwDp6Upmzf-oyC9hlB-oyCmzlB2izC9hlButU9hlBi3oKmzlB0y5F_tzEpqjXkgxDi3oKigxDpqjX9hlB-4sfmzlBt6g0B9hlBgwgQ9hlB-4sfmzlB-oyCwhlHgwgQigxDsvxCn_xDgwgQ9hlButUwhlHl8_oBmzlBgwgQ9hlB-on8C9hlBhw7vEmzlB6lpyKxqlBs-pfq5kBls4FkzvDls4FxqlBp6Uq5kButUq5kBls4FxqlButUq5kButUq5xfutUq5kBp6UxqlButUq5kButUq5kButUkvxDutUq5kButUq5kButUxqlBp6UkzvDq5kButUxqlButUq5kBp6Uq5kButUxqlButUq5kButUq5kBp6UjxwDq5kButUq5kButUxqlB-oyCq5kButUq5kButUxqlBhxwDutUq5kButUjxwDq5kBp6Uq5kButUjxwDutU58yEutUkvxDutUq5kButUk-zEutUq5kB-oyCq5kButUxqlBkzvDutUkzvDp6UxqlButU58yEsvxCxqlBkzvDq5kBp6Uq5kBomgOq5kButUk-zEutUq5kB_2lHq5kBkzvDxqlButUq5kBkzvDxqlButUq5kBp6Uk-zEx-uf9pkQrp0IvwjmBkzvDxqlBrp0Ik-zEkzvDk-zE9pkQq5kBjxwDs41Ik-zEkzvD79rKu41I79rKomgO79rKutU39upButU79rKs41IxqlBkzvD153cutUwv6cutUz-o9CutUk-zErp0I39upBu41Ii2s4Bp6Uo2srEkzvD79rKjxwDynx-MkzvDq8tvWjxwDvxswhErp0Ii5myiBjxwDmpsy2InkvDvj6lFnkvDz-o9CkiwD66wiGinU2mtSinUwv6cinUi2s4B7zU39upBnkvDxqlBnkvDwv6cinU58yEkiwD79rKinU79rKnkvD7zUwv6cinU79rKinU79rKinUq5kBro-N2mtSinUq5kB7zUxqlBnkvDk-zEnkvDq5kBinUk-zEnkvDxqlBinU58yE7zUk-zEinUq5kBinUxqlBinU58yEinUk-zEnkvDq5kB7zUxqlBnkvDq5kBinUk-zEinUk-zE0ixC79rK7zUq5kBnkvDxqlBnkvDinUk-zEpo-NxqlBnkvDq5kB0ixCk-zEinUk-zE7zUq5kBinUnkvDxqlBtswfinU58yEinUkiwDq5kBmkhOq5kBinUq5kBkiwDinU58yEkiwD7zUq5kBnkvDxqlB0ixCq5kB7zUq5kB9g1IinUnkvDxqlB7zUq5kBinUk-zE0ixCq5kB7zUq5kBinUxqlBnkvDl8xCk-zEinUq5kBnkvDl8xCxqlBinUq5kBinUq5kBinUjgxDq5kB0ixCk-zE-43Fq5kBinUq5kB-43FkiwD-43Fq5kBinUiiwD-43FxqlB2y2F42jHgw-Pq5kB-43FnkvD-43F62jHlsrfnkvDp695Qq5kB0yofjgxDi3-Wq5kBlsrfq5kB7zvtCkiwDu9nKq5kBhwkwEnkvDvghhSjgxDmwqwEnkvDhwhQt3hMsisvblzvD91jpBnziM4wkXlvxD4wkXlzvD61yC9hlBl8xClvxDs-4FlzvDs-4FixwD-2lH61yCixwDl8xC9hlBl8xCmzlB7zU9hlBl8xCixwD61yClzvD7zUmzlB7zUkskHixwDl8xCmzlB61yC9hlBlzvD61yClvxDinU9hlB9l6FmiiO61yC9hlBinU92lH7zUmiiO7zUixwDl8xClvxD7zU9hlBinU9hlB61yCmzlB7zUlzvD61yCixwDmzlB7zUlzvD61yC9hlB7zUlvxDinUkiiO7zU-2lH9hlB61yCixwDmzlBl8xC9hlB61yCixwD7zUmzlBlzvD7zUixwD61yCmzlBinUkiiO7zUlvxD7zUlzvD7zU9hlBlvxD61yC9hlBl8xC9hlB7zUlvxD7zU9hlB7zUixwDl8xCmzlBixwD7zUixwDmzlB61yCixwDinU9hlB7zUn_jO61yC9hlB7zUmzlBl8xC9hlB7zU9hlB7zUmzlB61yC9hlB7zUixwDmzlBl8xC9hlB7zU9hlB61yCmzlBixwD7zU9hlB7zUmzlB61yC9hlB7zU9hlBinUmzlB7zU9hlB61yCrw0E7zU9hlB7zU9hlB61yCrw0E7zU9hlB7zU9hlB7zUmzlB7zU_tzEinUmzlB7zU9hlBixwDmzlB7zU9hlB7zUrw0Et41I7zU6twS7zUixwD03sK7zU03sK7zUrw0E7zU_tzE7zUrw0E7zU03sK7zUhpuS7zUmzlB7zU03sKinUhpuS7zU03sK7zU03sK7zUp9lzD7zU",
+        "descripcion": "Catalunya Central"
+      },
+      {
+        "nombre": "Barcelona - Ciutat Vella",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-capital/ciutat-vella/l",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Eixample",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-capital/eixample/l",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Gracia",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-capital/gracia/l",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Horta - Guinardó",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-capital/horta-guinardo/l",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Les Corts",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-capital/les-corts/l",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Nou Barris",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-capital/nou-barris/l",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Sant Andreu",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-capital/sant-andreu/l",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Sant Martí",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-capital/sant-marti/l",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Barcelona - Sarrià - Sant Gervasi",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-capital/sarria-sant-gervasi/l",
+        "descripcion": "Barcelona"
+      },
+      {
+        "nombre": "Anoia",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/anoia/l",
+        "descripcion": "Anoia"
+      },
+      {
+        "nombre": "AltPenedès",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/alt-penedes/l",
+        "descripcion": "AltPenedès"
+      },
+      {
+        "nombre": "Bages",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/bages/l",
+        "descripcion": "Bages"
+      },
+      {
+        "nombre": "Baix Llobregat",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/baix-llobregat/l",
+        "descripcion": "Baix Llobregat"
+      },
+      {
+        "nombre": "Badalona",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/badalona/todas-las-zonas/l",
+        "descripcion": "Badalona"
+      }
+	  ,
+      {
+        "nombre": "L'Hospitalet de Llobregat",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/l-hospitalet-de-llobregat/todas-las-zonas/l",
+        "descripcion": "L'Hospitalet de Llobregat"
+      }
+	  ,
+      {
+        "nombre": "Sant Adrià de Besòs",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/sant-adria-de-besos/todas-las-zonas/l",
+        "descripcion": "Sant Adrià de Besòs"
+      }
+	  ,
+      {
+        "nombre": "Santa Coloma de Gramenet",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/santa-coloma-de-gramenet/todas-las-zonas/l",
+        "descripcion": "Santa Coloma de Gramenet"
+      }
+	  ,
+      {
+        "nombre": "Berguedà",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/bergueda/l",
+        "descripcion": ""
+      }
+	  ,
+      {
+        "nombre": "Garraf",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/garraf/l",
+        "descripcion": "Garraf"
+      },
+      {
+        "nombre": "Maresme",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/maresme/l",
+        "descripcion": "Maresme"
+      },
+      {
+        "nombre": "Moianes",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/moianes/l",
+        "descripcion": "Moianes"
+      },
+      {
+        "nombre": "Osona",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/osona/l",
+        "descripcion": "Osona"
+      },
+      {
+        "nombre": "Vallès Occidental",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/valles-occidental/l",
+        "descripcion": "Vallès Occidental"
+      },
+      {
+        "nombre": "Vallès Oriental",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/barcelona-provincia/valles-oriental/l",
+        "descripcion": "Vallès Oriental"
+      },
+      {
+        "nombre": "Alt Empordà",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/girona-provincia/alt-emporda/l",
+        "descripcion": "Alt Empordà"
+      },
+      {
+        "nombre": "Baix Empordà",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/girona-provincia/baix-emporda/l",
+        "descripcion": "Baix Empordà"
+      },
+      {
+        "nombre": "Cerdanya(Girona)",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/girona-provincia/cerdanya-girona/l",
+        "descripcion": "Cerdanya(Girona)"
+      },
+      {
+        "nombre": "Garrotxa",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/girona-provincia/garrotxa/l",
+        "descripcion": "Garrotxa"
+      },
+      {
+        "nombre": "Girones",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/girona-provincia/girones/l",
+        "descripcion": "Girones"
+      },
+      {
+        "nombre": "La Selva",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/girona-provincia/la-selva/l",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Pla de l'Estany",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/girona-provincia/pla-de-l-estany/l",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Ripollès",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/girona-provincia/ripolles/l",
+        "descripcion": "Ripollès"
+      },
+      {
+        "nombre": "Alt Urgell",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/alt-urgell/l",
+        "descripcion": "Alt Urgell"
+      },
+      {
+        "nombre": "Alta Ribagorça",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/alta-ribagorca/l",
+        "descripcion": "Alta Ribagorça"
+      },
+      {
+        "nombre": "Cerdanya(Lleida)",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/cerdanya-lleida/l",
+        "descripcion": "Cerdanya(Lleida)"
+      },
+      {
+        "nombre": "Garrigues",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/garrigues/l",
+        "descripcion": "Garrigues"
+      },
+      {
+        "nombre": "Noguera",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/noguera/l",
+        "descripcion": "Noguera"
+      },
+      {
+        "nombre": "Pallars Jussà",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/pallars-jussa/l",
+        "descripcion": "Pallars Jussà"
+      },
+      {
+        "nombre": "Pallars Sobirà",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/pallars-sobira/l",
+        "descripcion": "Pallars Sobirà"
+      },
+      {
+        "nombre": "Pla d'Urgell",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/pla-d-urgell/l",
+        "descripcion": "Pla d'Urgell"
+      },
+      {
+        "nombre": "Segarra",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/segarra/l",
+        "descripcion": "Segarra"
+      },
+      {
+        "nombre": "Segrià",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/segria/l",
+        "descripcion": "Segrià"
+      },
+      {
+        "nombre": "Solsonès",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/solsones/l",
+        "descripcion": "Solsonès"
+      },
+      {
+        "nombre": "Urgell",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/urgell/l",
+        "descripcion": "Urgell"
+      },
+      {
+        "nombre": "Val d'Aran",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/lleida-provincia/val-d-aran/l",
+        "descripcion": "Val d'Aran"
+      },
+      {
+        "nombre": "Alt Camp",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/tarragona-provincia/alt-camp/l",
+        "descripcion": "Alt Camp"
+      },
+      {
+        "nombre": "Baix Camp",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/tarragona-provincia/baix-camp/l",
+        "descripcion": "Baix Camp"
+      },
+      {
+        "nombre": "Baix Ebre",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/tarragona-provincia/baix-ebre/l",
+        "descripcion": "Baix Ebre"
+      },
+      {
+        "nombre": "Baix Penedes",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/tarragona-provincia/baix-penedes/l",
+        "descripcion": "Baix Penedes"
+      },
+      {
+        "nombre": "Conca de Barberà",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/tarragona-provincia/conca-de-barbera/l",
+        "descripcion": "Conca de Barberà"
+      },
+      {
+        "nombre": "Montsia",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/tarragona-provincia/montsia/l",
+        "descripcion": "Montsia"
+      },
+      {
+        "nombre": "Priorat",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/tarragona-provincia/priorat/l",
+        "descripcion": "Priorat"
+      },
+      {
+        "nombre": "Ribera d'Ebre",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/tarragona-provincia/ribera-d-ebre/l",
+        "descripcion": "Ribera d'Ebre"
+      },
+      {
+        "nombre": "Tarragonès",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/tarragona-provincia/tarragones/l",
+        "descripcion": "Tarragonès"
+      },
+      {
+        "nombre": "Terra Alta",
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/tarragona-provincia/terra-alta/l",
+        "descripcion": ""
+      }
+
+    ]
+  }
+}

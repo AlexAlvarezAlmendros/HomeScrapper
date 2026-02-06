@@ -56,8 +56,9 @@ echo Chrome abierto con debugging habilitado
 echo.
 echo Ahora:
 echo 1. Ve al Chrome que se abrio
-echo 2. Navega a: https://www.idealista.com/venta-viviendas/madrid/
-echo 3. Busca las viviendas que quieras
-echo 4. Cuando estes listo, ejecuta: python scraper_cdp.py
+echo 2. Opcion A: Deja que el scraper navegue por ti (recomendado)
+echo    Opcion B: Navega manualmente al portal (Idealista, Fotocasa, etc.)
+echo 3. Cuando estes listo, ejecuta: start_scraper.bat
+echo    O directamente: python HomeScraper.py
 echo.
 pause
