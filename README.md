@@ -22,11 +22,57 @@ Web scraper para extraer anuncios de viviendas de Idealista, con enfoque especia
 
 ### Archivos de Configuración
 
-- **`start_chrome_debug.bat`**: Inicia Chrome en modo debugging
+- **`start_chrome_debug.sh`**: Inicia Chrome en modo debugging (Linux)
+- **`start_chrome_debug.bat`**: Inicia Chrome en modo debugging (Windows)
+- **`start_scraper.sh`**: Script para ejecutar el scraper (Linux)
+- **`start_scraper.bat`**: Script para ejecutar el scraper (Windows)
 - **`requirements_advanced.txt`**: Dependencias del proyecto
 - **`profile_4931/`**: Perfil de Chrome para debugging
 
 ## 🛠️ Instalación
+
+### 🐧 Linux (Ubuntu/Debian/Xubuntu)
+
+1. **Clonar el repositorio**
+```bash
+git clone https://github.com/AlexAlvarezAlmendros/HomeScrapper.git
+cd HomeScrapper
+```
+
+2. **Instalar Python y pip (si no los tienes)**
+```bash
+sudo apt update
+sudo apt install python3 python3-pip python3-venv python-is-python3
+```
+
+3. **Instalar Chrome o Chromium**
+```bash
+# Opción A: Chromium (recomendado)
+sudo apt install chromium-browser
+
+# Opción B: Google Chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt -f install
+```
+
+4. **Crear y activar entorno virtual**
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+5. **Instalar dependencias**
+```bash
+pip install -r requirements_advanced.txt
+```
+
+6. **Dar permisos a los scripts**
+```bash
+chmod +x start_chrome_debug.sh start_scraper.sh
+```
+
+### 🪟 Windows
 
 1. **Clonar el repositorio**
 ```bash
@@ -54,6 +100,101 @@ pip install -r requirements_advanced.txt
 ```
 
 ## 📖 Uso
+
+### 🐧 Uso en Linux
+
+#### Paso 1: Iniciar Chrome en modo debugging
+
+En una terminal:
+```bash
+cd HomeScrapper
+./start_chrome_debug.sh
+```
+
+O manualmente:
+```bash
+# Con Google Chrome
+google-chrome --remote-debugging-port=9222 --user-data-dir="$HOME/selenium_chrome_profile"
+
+# Con Chromium
+chromium-browser --remote-debugging-port=9222 --user-data-dir="$HOME/selenium_chrome_profile"
+```
+
+#### Paso 2: Navegar a Idealista
+En el Chrome que se abrió:
+1. Ve a **idealista.com**
+2. Configura tu búsqueda (zona, precio, tipo de vivienda)
+3. Resuelve cualquier CAPTCHA si aparece
+
+#### Paso 3: Ejecutar el scraper
+En otra terminal:
+```bash
+cd HomeScrapper
+source .venv/bin/activate
+python HomeScraperIdealista.py
+```
+
+O usa el script:
+```bash
+./start_scraper.sh
+```
+
+---
+
+### 🔐 Uso con VPN (ProtonVPN en Linux)
+
+El scraper soporta cambio automático de VPN para evitar bloqueos.
+
+#### Instalar ProtonVPN
+```bash
+# Descargar desde https://protonvpn.com/support/linux-vpn-tool/
+# O instalar con pip:
+pip install protonvpn-cli
+
+# Iniciar sesión
+protonvpn signin tu_email@ejemplo.com
+```
+
+#### Ejecutar scraper con rotación de VPN
+
+1. Ejecuta el scraper:
+```bash
+python HomeScraperIdealista.py
+```
+
+2. Cuando pregunte **"¿Activar ROTACIÓN DE IP?"** → Responde `s`
+
+3. Cuando pregunte **"¿Quieres cambio de VPN AUTOMÁTICO?"** → Elige `3` (ProtonVPN)
+
+El scraper cambiará automáticamente de servidor VPN cada 15 peticiones, conectándose a servidores europeos (España, Francia, Alemania, etc.) para mejor rendimiento con Idealista.
+
+#### Comandos útiles de ProtonVPN
+```bash
+protonvpn connect --fastest      # Conectar al más rápido
+protonvpn connect --country ES   # Conectar a España
+protonvpn connect --random       # Servidor aleatorio
+protonvpn disconnect             # Desconectar
+protonvpn countries              # Ver países disponibles
+```
+
+---
+
+### 🪟 Uso en Windows
+
+#### Paso 1: Iniciar Chrome en modo debugging
+```bash
+.\start_chrome_debug.bat
+```
+
+#### Paso 2: Navegar a tu búsqueda de Idealista
+En el Chrome que se abrió, ve a Idealista y configura tu búsqueda (ubicación, precio, tipo de vivienda, etc.)
+
+#### Paso 3: Ejecutar el scraper
+```bash
+python HomeScraperIdealista.py
+```
+
+---
 
 ### HomeScraperIdealista.py (CDP)
 
