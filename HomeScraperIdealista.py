@@ -76,7 +76,7 @@ class ScraperPersonalizado:
         vpns = {
             'nordvpn': 'nordvpn',
             'expressvpn': 'expressvpn', 
-            'protonvpn': 'protonvpn-cli',
+            'protonvpn': 'protonvpn',  # Comando actualizado (antes era protonvpn-cli)
             'surfshark': 'surfshark',
             'windscribe': 'windscribe'
         }
@@ -120,13 +120,21 @@ class ScraperPersonalizado:
                     return True
                     
             elif self.vpn_provider == 'protonvpn':
-                # ProtonVPN CLI
-                subprocess.run(['protonvpn-cli', 'disconnect'], capture_output=True, timeout=30)
-                time.sleep(2)
-                # Conectar al servidor más rápido o aleatorio
-                result = subprocess.run(['protonvpn-cli', 'connect', '--random'], capture_output=True, text=True, timeout=60)
+                # ProtonVPN (comando actualizado)
+                subprocess.run(['protonvpn', 'disconnect'], capture_output=True, timeout=30)
+                time.sleep(3)
+                # Conectar a servidor aleatorio o a países europeos (mejor para Idealista España)
+                usar_pais_aleatorio = random.choice([True, False])
+                if usar_pais_aleatorio:
+                    paises = ['ES', 'FR', 'DE', 'IT', 'NL', 'PT', 'BE', 'CH']
+                    pais = random.choice(paises)
+                    result = subprocess.run(['protonvpn', 'connect', '--country', pais], capture_output=True, text=True, timeout=60)
+                    servidor_info = f"país {pais}"
+                else:
+                    result = subprocess.run(['protonvpn', 'connect', '--random'], capture_output=True, text=True, timeout=60)
+                    servidor_info = "servidor aleatorio"
                 if result.returncode == 0:
-                    print(f"   ✅ Conectado a ProtonVPN (servidor aleatorio)")
+                    print(f"   ✅ Conectado a ProtonVPN ({servidor_info})")
                     return True
                     
             elif self.vpn_provider == 'surfshark':
