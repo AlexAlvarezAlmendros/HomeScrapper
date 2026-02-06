@@ -34,11 +34,54 @@ Web scraper **escalable** para múltiples portales inmobiliarios, con enfoque es
 
 ### Archivos de Configuración
 
-- **`start_chrome_debug.bat`** - Inicia Chrome en modo debugging
-- **`requirements_advanced.txt`** - Dependencias del proyecto
-- **`profile_4931/`** - Perfil de Chrome para debugging
+- **`start_chrome_debug.bat`**: Inicia Chrome en modo debugging
+- **`requirements_advanced.txt`**: Dependencias del proyecto
+- **`profile_4931/`**: Perfil de Chrome para debugging
 
 ## 🛠️ Instalación
+
+### 🐧 Linux (Ubuntu/Debian/Xubuntu)
+
+1. **Clonar el repositorio**
+```bash
+git clone https://github.com/AlexAlvarezAlmendros/HomeScrapper.git
+cd HomeScrapper
+```
+
+2. **Instalar Python y pip (si no los tienes)**
+```bash
+sudo apt update
+sudo apt install python3 python3-pip python3-venv python-is-python3
+```
+
+3. **Instalar Chrome o Chromium**
+```bash
+# Opción A: Chromium (recomendado)
+sudo apt install chromium-browser
+
+# Opción B: Google Chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt -f install
+```
+
+4. **Crear y activar entorno virtual**
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+5. **Instalar dependencias**
+```bash
+pip install -r requirements_advanced.txt
+```
+
+6. **Dar permisos a los scripts**
+```bash
+chmod +x start_chrome_debug.sh start_scraper.sh
+```
+
+### 🪟 Windows
 
 1. **Clonar el repositorio**
 ```bash
@@ -65,7 +108,7 @@ python -m venv .venv
 pip install -r requirements_advanced.txt
 ```
 
-## 📖 Uso Rápido
+## 📖 Uso
 
 ### Script Principal: HomeScraper.py (Recomendado)
 
