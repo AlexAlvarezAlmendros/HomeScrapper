@@ -1,11 +1,11 @@
 #!/bin/bash
 # Script para iniciar Chrome en modo debugging (Linux)
-# Para usar con HomeScraperIdealista.py
+# Para usar con HomeScraper.py (Multi-Portal)
 
 echo ""
 echo "========================================================"
 echo "  INICIADOR DE CHROME CON DEBUGGING HABILITADO"
-echo "  Para usar con HomeScraperIdealista.py"
+echo "  Para usar con HomeScraper.py (Multi-Portal)"
 echo "========================================================"
 echo ""
 
@@ -21,9 +21,10 @@ echo "Abriendo Chrome con debugging en puerto 9222..."
 echo ""
 echo "IMPORTANTE:"
 echo "  - NO cierres este Chrome manualmente"
-echo "  - Navega a Idealista y busca viviendas"
+echo "  - Opcion A: Deja que el scraper navegue por ti (recomendado)"
+echo "  - Opcion B: Navega manualmente al portal (Idealista, Fotocasa, etc.)"
 echo "  - Resuelve cualquier CAPTCHA que aparezca"
-echo "  - Luego ejecuta: python HomeScraperIdealista.py"
+echo "  - Luego ejecuta: ./start_scraper.sh o python HomeScraper.py"
 echo ""
 
 # Intentar encontrar Chrome/Chromium
@@ -58,13 +59,16 @@ fi
 echo "Usando: $CHROME"
 echo ""
 
-# Iniciar Chrome con debugging
+# Iniciar Chrome con debugging y opciones anti-detección
 $CHROME \
     --remote-debugging-port=9222 \
     --user-data-dir="$PROFILE_DIR" \
     --no-first-run \
     --disable-default-apps \
     --disable-popup-blocking \
+    --disable-infobars \
+    --lang=es-ES \
+    --window-size=1920,1080 \
     2>/dev/null &
 
 echo "Chrome iniciado. Puedes minimizar esta terminal."

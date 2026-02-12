@@ -3,7 +3,9 @@ Scraper específico para Idealista
 Hereda de BaseScraper e implementa lógica específica del portal
 """
 
+import os
 import re
+import json
 import time
 import random
 from typing import List, Optional
@@ -12,7 +14,7 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, NoAlertPresentException, UnexpectedAlertPresentException
 
 from base_scraper import BaseScraper, Vivienda
 
@@ -29,6 +31,39 @@ class IdealistaScraper(BaseScraper):
     
     def get_search_url(self) -> str:
         return self.search_url
+    
+    @staticmethod
+    def _obtener_ruta_json_persistente(ubicacion: str) -> str:
+        """Devuelve la ruta del JSON persistente para una ubicación."""
+        ubicacion_limpia = ubicacion.replace(' ', '_').replace('/', '-')
+        return f"viviendas_idealista_{ubicacion_limpia}.json"
+    
+    @staticmethod
+    def _cargar_json_existente(ruta_json: str) -> dict:
+        """Carga el JSON existente y devuelve {data, urls_conocidas}."""
+        if not os.path.exists(ruta_json):
+            return {'data': None, 'urls_conocidas': set()}
+        try:
+            with open(ruta_json, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            urls = {v['url'] for v in data.get('viviendas', []) if 'url' in v}
+            print(f"\n📂 JSON existente cargado: {ruta_json}")
+            print(f"   {len(urls)} viviendas ya registradas")
+            return {'data': data, 'urls_conocidas': urls}
+        except Exception as e:
+            print(f"\n⚠️  Error leyendo {ruta_json}: {e}")
+            return {'data': None, 'urls_conocidas': set()}
+    
+    @staticmethod
+    def _asegurar_orden_fecha_idealista(url: str) -> str:
+        """Asegura que la URL ordena por fecha de publicación descendente."""
+        param = 'ordenado-por=fecha-publicacion-desc'
+        if param in url:
+            return url
+        if '?' in url:
+            return f"{url}&{param}"
+        else:
+            return f"{url}?{param}"
     
     def es_particular(self, html_texto: str) -> tuple[bool, str]:
         """
@@ -129,6 +164,480 @@ class IdealistaScraper(BaseScraper):
             return False, "Inmobiliaria"
         else:
             return False, "Desconocido" if score == 0 else f"Incierto (score: {score})"
+    
+    def _extraer_telefono_detalle(self) -> Optional[str]:
+        """
+        Extrae el teléfono de la página de detalle de Idealista.
+        
+        Estrategia multicapa:
+        1. Verificar si ya hay un enlace tel: visible
+        2. Inyectar interceptores (setAttribute, href setter, XHR, fetch, MutationObserver)
+        3. Hacer clic JS en el botón "Llamar"
+        4. Esperar y comprobar todas las fuentes de datos
+        5. Segundo clic si el primero solo prepara el botón
+        6. Llamada directa a API de Idealista como último recurso
+        7. Validación estricta final: nunca devolver texto sin >= 7 dígitos
+        """
+        telefono = None
+        
+        try:
+            # ── Paso 1: ¿Ya hay un enlace tel: visible? ──
+            try:
+                tel_links = self.driver.find_elements(By.CSS_SELECTOR, "a[href^='tel:']")
+                for tel_link in tel_links:
+                    href = tel_link.get_attribute('href')
+                    if href and href.startswith('tel:') and len(href) > 6:
+                        telefono = href.replace('tel:', '').strip()
+                        if self.modo_debug:
+                            print(f"      [DEBUG] ✓ Teléfono ya visible: {telefono}")
+                        return self._validar_telefono_final(telefono)
+            except:
+                pass
+            
+            # ── Paso 2: Buscar el botón de teléfono ──
+            phone_selectors = [
+                "a.phone-number._mobilePhone",
+                "a.phone-number.icon-phone-outline",
+                "a.phone-number.icon-phone-fill",
+                "a.item-clickable-phone",
+                "a.see-phones-btn",
+                "button.phone-btn",
+                "[data-testid='phone-btn']",
+            ]
+            
+            phone_button = None
+            for selector in phone_selectors:
+                try:
+                    phone_button = self.driver.find_element(By.CSS_SELECTOR, selector)
+                    if self.modo_debug:
+                        print(f"      [DEBUG] Botón encontrado con: {selector}")
+                    break
+                except NoSuchElementException:
+                    continue
+            
+            if not phone_button:
+                if self.modo_debug:
+                    print("      [DEBUG] No se encontró botón de teléfono")
+                return None
+            
+            # Scroll al botón
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", phone_button)
+            time.sleep(0.5)
+            
+            # ── Paso 3: Inyectar interceptores comprehensivos ──
+            self.driver.execute_script("""
+                window.__capturedPhone = null;
+                window.__phoneAjaxResponse = null;
+                
+                // A) Override setAttribute
+                if (!window.__origSetAttribute) {
+                    window.__origSetAttribute = Element.prototype.setAttribute;
+                    Element.prototype.setAttribute = function(name, value) {
+                        if (name === 'href' && value && typeof value === 'string' && value.startsWith('tel:')) {
+                            window.__capturedPhone = value;
+                            return;
+                        }
+                        return window.__origSetAttribute.call(this, name, value);
+                    };
+                }
+                
+                // B) Override href property setter
+                if (!window.__hrefOverridden) {
+                    window.__hrefOverridden = true;
+                    var desc = Object.getOwnPropertyDescriptor(HTMLAnchorElement.prototype, 'href');
+                    if (desc && desc.set) {
+                        window.__origHrefSet = desc.set;
+                        window.__origHrefGet = desc.get;
+                        Object.defineProperty(HTMLAnchorElement.prototype, 'href', {
+                            set: function(val) {
+                                if (val && typeof val === 'string' && val.startsWith('tel:')) {
+                                    window.__capturedPhone = val;
+                                    return;
+                                }
+                                window.__origHrefSet.call(this, val);
+                            },
+                            get: function() { return window.__origHrefGet.call(this); },
+                            configurable: true
+                        });
+                    }
+                }
+                
+                // C) Interceptar XHR
+                if (!window.__xhrIntercepted) {
+                    window.__xhrIntercepted = true;
+                    var OrigOpen = XMLHttpRequest.prototype.open;
+                    var OrigSend = XMLHttpRequest.prototype.send;
+                    XMLHttpRequest.prototype.open = function(method, url) {
+                        this.__reqUrl = url;
+                        return OrigOpen.apply(this, arguments);
+                    };
+                    XMLHttpRequest.prototype.send = function() {
+                        var xhr = this;
+                        this.addEventListener('load', function() {
+                            if (xhr.__reqUrl) {
+                                var u = xhr.__reqUrl.toLowerCase();
+                                if (u.includes('phone') || u.includes('contact') || 
+                                    u.includes('getphones') || u.includes('telefon')) {
+                                    window.__phoneAjaxResponse = xhr.responseText;
+                                }
+                                if (xhr.responseText && xhr.responseText.includes('tel:')) {
+                                    window.__phoneAjaxResponse = xhr.responseText;
+                                }
+                            }
+                        });
+                        return OrigSend.apply(this, arguments);
+                    };
+                }
+                
+                // D) Interceptar fetch
+                if (!window.__fetchIntercepted) {
+                    window.__fetchIntercepted = true;
+                    var origFetch = window.fetch;
+                    window.fetch = function(input, init) {
+                        var url = (typeof input === 'string') ? input : (input && input.url ? input.url : '');
+                        return origFetch.apply(this, arguments).then(function(response) {
+                            if (url) {
+                                var lower = url.toLowerCase();
+                                if (lower.includes('phone') || lower.includes('contact') || 
+                                    lower.includes('getphones') || lower.includes('telefon')) {
+                                    response.clone().text().then(function(text) {
+                                        window.__phoneAjaxResponse = text;
+                                    });
+                                }
+                            }
+                            return response;
+                        });
+                    };
+                }
+                
+                // E) MutationObserver
+                if (window.__telObserver) {
+                    try { window.__telObserver.disconnect(); } catch(e) {}
+                }
+                window.__telObserver = new MutationObserver(function(mutations) {
+                    mutations.forEach(function(m) {
+                        if (m.type === 'attributes' && m.attributeName === 'href') {
+                            var href = m.target.getAttribute('href');
+                            if (href && href.startsWith('tel:')) {
+                                window.__capturedPhone = href;
+                                m.target.removeAttribute('href');
+                            }
+                        }
+                        if (m.type === 'childList') {
+                            m.addedNodes.forEach(function(node) {
+                                if (node.nodeType !== 1) return;
+                                var els = [node];
+                                if (node.querySelectorAll) {
+                                    els = els.concat(Array.from(node.querySelectorAll('a[href^="tel:"]')));
+                                }
+                                els.forEach(function(el) {
+                                    if (el.tagName === 'A') {
+                                        var h = el.getAttribute('href');
+                                        if (h && h.startsWith('tel:')) {
+                                            window.__capturedPhone = h;
+                                            el.removeAttribute('href');
+                                        }
+                                    }
+                                });
+                            });
+                        }
+                        if (m.type === 'childList' || m.type === 'characterData') {
+                            var target = m.target;
+                            if (target && target.textContent) {
+                                var match = target.textContent.match(/(\\+34[\\s]?[6789]\\d{2}[\\s]?\\d{3}[\\s]?\\d{3})/);
+                                if (!match) match = target.textContent.match(/([6789]\\d{2}[\\s]?\\d{2}[\\s]?\\d{2}[\\s]?\\d{2})/);
+                                if (match && !window.__capturedPhone) {
+                                    window.__capturedPhone = 'tel:' + match[1];
+                                }
+                            }
+                        }
+                    });
+                });
+                window.__telObserver.observe(document.body, {
+                    attributes: true, childList: true, subtree: true,
+                    characterData: true, attributeFilter: ['href']
+                });
+                
+                // F) Click interceptor
+                if (window.__telClickHandler) {
+                    document.removeEventListener('click', window.__telClickHandler, true);
+                }
+                window.__telClickHandler = function(e) {
+                    var a = e.target.closest ? e.target.closest('a') : e.target;
+                    if (a && a.getAttribute) {
+                        var href = a.getAttribute('href');
+                        if (href && href.startsWith('tel:')) {
+                            window.__capturedPhone = href;
+                            e.preventDefault();
+                            e.stopPropagation();
+                            e.stopImmediatePropagation();
+                            a.removeAttribute('href');
+                        }
+                    }
+                };
+                document.addEventListener('click', window.__telClickHandler, true);
+            """)
+            
+            if self.modo_debug:
+                print("      [DEBUG] Interceptores inyectados, haciendo clic...")
+            
+            # ── Paso 4: Primer clic ──
+            telefono = self._hacer_clic_y_capturar(phone_button)
+            
+            # ── Paso 5: Segundo clic si necesario ──
+            if not telefono:
+                if self.modo_debug:
+                    print("      [DEBUG] Primer clic sin resultado, intentando segundo clic...")
+                time.sleep(1)
+                phone_button2 = None
+                for selector in phone_selectors:
+                    try:
+                        phone_button2 = self.driver.find_element(By.CSS_SELECTOR, selector)
+                        break
+                    except NoSuchElementException:
+                        continue
+                if phone_button2:
+                    telefono = self._hacer_clic_y_capturar(phone_button2)
+            
+            # ── Paso 6: API directa ──
+            if not telefono:
+                telefono = self._intentar_api_telefono_directa()
+            
+            # Limpieza
+            try:
+                self.driver.execute_script("""
+                    if (window.__telObserver) window.__telObserver.disconnect();
+                    if (window.__telClickHandler) document.removeEventListener('click', window.__telClickHandler, true);
+                    if (window.__origSetAttribute) { Element.prototype.setAttribute = window.__origSetAttribute; window.__origSetAttribute = null; }
+                    if (window.__origHrefSet) {
+                        Object.defineProperty(HTMLAnchorElement.prototype, 'href', { set: window.__origHrefSet, get: window.__origHrefGet, configurable: true });
+                        window.__origHrefSet = null;
+                    }
+                """)
+            except:
+                pass
+                    
+        except UnexpectedAlertPresentException:
+            try:
+                alert = self.driver.switch_to.alert
+                alert_text = alert.text
+                alert.accept()
+                telefono = self._extraer_telefono_de_texto(alert_text)
+                if self.modo_debug and telefono:
+                    print(f"      [DEBUG] ✓ Teléfono del alert inesperado: {telefono}")
+            except:
+                pass
+                
+        except Exception as e:
+            if self.modo_debug:
+                print(f"      [DEBUG] Error extrayendo teléfono: {e}")
+        
+        return self._validar_telefono_final(telefono)
+    
+    def _hacer_clic_y_capturar(self, phone_button) -> Optional[str]:
+        """Hace clic en el botón de teléfono y comprueba todas las fuentes de captura."""
+        try:
+            self.driver.execute_script("""
+                var btn = arguments[0];
+                var rect = btn.getBoundingClientRect();
+                var x = rect.left + rect.width / 2;
+                var y = rect.top + rect.height / 2;
+                ['pointerdown', 'mousedown', 'pointerup', 'mouseup', 'click'].forEach(function(type) {
+                    var evt = new MouseEvent(type, {
+                        bubbles: true, cancelable: true, view: window,
+                        clientX: x, clientY: y, button: 0, buttons: 1
+                    });
+                    btn.dispatchEvent(evt);
+                });
+            """, phone_button)
+        except UnexpectedAlertPresentException:
+            try:
+                alert = self.driver.switch_to.alert
+                alert_text = alert.text
+                alert.accept()
+                telefono = self._extraer_telefono_de_texto(alert_text)
+                if telefono:
+                    return telefono
+            except:
+                pass
+        except Exception as e:
+            if self.modo_debug:
+                print(f"      [DEBUG] Error en clic: {e}")
+        
+        for intento in range(8):
+            time.sleep(0.5)
+            
+            captured = self.driver.execute_script("return window.__capturedPhone;")
+            if captured:
+                telefono = captured.replace('tel:', '').strip()
+                if self.modo_debug:
+                    print(f"      [DEBUG] ✓ Teléfono capturado por interceptor: {telefono}")
+                return self._validar_telefono_final(telefono)
+            
+            ajax_resp = self.driver.execute_script("return window.__phoneAjaxResponse;")
+            if ajax_resp:
+                telefono = self._extraer_telefono_de_texto(ajax_resp)
+                if telefono:
+                    if self.modo_debug:
+                        print(f"      [DEBUG] ✓ Teléfono del AJAX: {telefono}")
+                    return telefono
+            
+            try:
+                tel_links = self.driver.find_elements(By.CSS_SELECTOR, "a[href^='tel:']")
+                for tl in tel_links:
+                    href = tl.get_attribute('href')
+                    if href and href.startswith('tel:') and len(href) > 6:
+                        telefono = href.replace('tel:', '').strip()
+                        if self.modo_debug:
+                            print(f"      [DEBUG] ✓ Teléfono del href DOM: {telefono}")
+                        return self._validar_telefono_final(telefono)
+            except:
+                pass
+            
+            if intento >= 3:
+                try:
+                    phone_text = self.driver.execute_script("""
+                        var selectors = ['span.hidden-contact-phones_text', '.phone-number span',
+                            '.see-phones-btn span', '.phone-details span', 'a.phone-number'];
+                        for (var i = 0; i < selectors.length; i++) {
+                            var els = document.querySelectorAll(selectors[i]);
+                            for (var j = 0; j < els.length; j++) {
+                                var text = els[j].textContent.trim();
+                                var digits = text.replace(/[^0-9]/g, '');
+                                if (digits.length >= 7) return text;
+                            }
+                        }
+                        return null;
+                    """)
+                    if phone_text:
+                        telefono = self._extraer_telefono_de_texto(phone_text)
+                        if telefono:
+                            if self.modo_debug:
+                                print(f"      [DEBUG] ✓ Teléfono del texto visible: {telefono}")
+                            return telefono
+                except:
+                    pass
+        
+        if self.modo_debug:
+            print("      [DEBUG] No se pudo capturar teléfono tras clic")
+        return None
+    
+    def _intentar_api_telefono_directa(self) -> Optional[str]:
+        """Intenta obtener el teléfono directamente de la API de Idealista."""
+        try:
+            current_url = self.driver.current_url
+            id_match = re.search(r'/inmueble/(\d+)', current_url)
+            if not id_match:
+                id_match = re.search(r'/(\d{6,})/', current_url)
+            if not id_match:
+                return None
+            
+            prop_id = id_match.group(1)
+            if self.modo_debug:
+                print(f"      [DEBUG] Intentando API directa para inmueble {prop_id}...")
+            
+            phone_response = self.driver.execute_script("""
+                var id = arguments[0];
+                var endpoints = [
+                    '/es/ajax/ads/' + id + '/contact/phones',
+                    '/ajax/listingController/phoneAction.ajax?adId=' + id,
+                    '/ajax/ads/' + id + '/phones',
+                    '/es/ajax/listingController/phoneAction.ajax?adId=' + id
+                ];
+                for (var i = 0; i < endpoints.length; i++) {
+                    try {
+                        var xhr = new XMLHttpRequest();
+                        xhr.open('GET', endpoints[i], false);
+                        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                        xhr.send();
+                        if (xhr.status === 200 && xhr.responseText && xhr.responseText.length > 2) {
+                            return {url: endpoints[i], status: xhr.status, body: xhr.responseText};
+                        }
+                    } catch(e) {}
+                    try {
+                        var xhr2 = new XMLHttpRequest();
+                        xhr2.open('POST', endpoints[i], false);
+                        xhr2.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+                        xhr2.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                        xhr2.send();
+                        if (xhr2.status === 200 && xhr2.responseText && xhr2.responseText.length > 2) {
+                            return {url: endpoints[i], status: xhr2.status, body: xhr2.responseText};
+                        }
+                    } catch(e) {}
+                }
+                return null;
+            """, prop_id)
+            
+            if phone_response and phone_response.get('body'):
+                body = phone_response['body']
+                if self.modo_debug:
+                    print(f"      [DEBUG] API respondió: {body[:200]}")
+                telefono = self._extraer_telefono_de_texto(body)
+                if telefono:
+                    return telefono
+                try:
+                    import json
+                    data = json.loads(body)
+                    return self._buscar_telefono_en_json(data)
+                except:
+                    pass
+        except Exception as e:
+            if self.modo_debug:
+                print(f"      [DEBUG] Error en API directa: {e}")
+        return None
+    
+    def _buscar_telefono_en_json(self, data) -> Optional[str]:
+        """Busca recursivamente un teléfono en una estructura JSON."""
+        if isinstance(data, str):
+            return self._extraer_telefono_de_texto(data)
+        elif isinstance(data, dict):
+            for key, value in data.items():
+                key_lower = key.lower()
+                if 'phone' in key_lower or 'telefon' in key_lower or 'tel' == key_lower or 'mobile' in key_lower:
+                    if isinstance(value, str):
+                        telefono = self._extraer_telefono_de_texto(value)
+                        if not telefono:
+                            digitos = re.sub(r'[^\d]', '', value)
+                            if len(digitos) >= 7:
+                                return value.strip()
+                        return telefono
+                result = self._buscar_telefono_en_json(value)
+                if result:
+                    return result
+        elif isinstance(data, list):
+            for item in data:
+                result = self._buscar_telefono_en_json(item)
+                if result:
+                    return result
+        return None
+    
+    def _validar_telefono_final(self, telefono: Optional[str]) -> Optional[str]:
+        """Validación estricta: nunca devolver texto sin al menos 7 dígitos."""
+        if not telefono:
+            return None
+        digitos = re.sub(r'[^\d]', '', telefono)
+        if len(digitos) < 7:
+            if self.modo_debug:
+                print(f"      [DEBUG] ✗ Rechazado (no es teléfono): '{telefono}' ({len(digitos)} dígitos)")
+            return None
+        return telefono
+    
+    def _extraer_telefono_de_texto(self, texto: str) -> Optional[str]:
+        """Extrae un número de teléfono de un texto usando regex"""
+        if not texto:
+            return None
+        phone_patterns = [
+            r'\+34[\s]?[6789]\d{2}[\s]?\d{3}[\s]?\d{3}',
+            r'[6789]\d{2}[\s]?\d{2}[\s]?\d{2}[\s]?\d{2}',
+            r'[6789]\d{2}[\s]?\d{3}[\s]?\d{3}',
+            r'\d{3}[\s]?\d{3}[\s]?\d{3}',
+            r'\d{9}',
+        ]
+        for pattern in phone_patterns:
+            match = re.search(pattern, texto)
+            if match:
+                return match.group(0).strip()
+        return None
     
     def extraer_vivienda(self, articulo) -> Optional[Vivienda]:
         """Extrae datos de un artículo de Idealista"""
@@ -328,59 +837,7 @@ class IdealistaScraper(BaseScraper):
             descripcion = descripcion_elem.get_text(strip=True) if descripcion_elem else None
             
             # Teléfono - Hacer clic en el botón para revelarlo
-            telefono = None
-            try:
-                # Buscar el botón de teléfono
-                phone_button = self.driver.find_element(By.CSS_SELECTOR, "a.phone-number._mobilePhone, a.icon-phone-fill")
-                
-                if self.modo_debug:
-                    print("      [DEBUG] Botón de teléfono encontrado, haciendo clic...")
-                
-                # Scroll al botón para asegurarse que es visible
-                self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", phone_button)
-                time.sleep(0.5)
-                
-                # Hacer clic en el botón
-                phone_button.click()
-                
-                # Esperar a que aparezca el número (puede tardar un momento)
-                time.sleep(1)
-                
-                # Intentar extraer el número del botón actualizado o de elementos que aparecen
-                try:
-                    # Opción 1: El número puede aparecer en el href del enlace
-                    phone_link = WebDriverWait(self.driver, 3).until(
-                        EC.presence_of_element_located((By.CSS_SELECTOR, "a.phone-number[href^='tel:'], a._mobilePhone[href^='tel:']"))
-                    )
-                    href = phone_link.get_attribute('href')
-                    if href and href.startswith('tel:'):
-                        telefono = href.replace('tel:', '').strip()
-                        if self.modo_debug:
-                            print(f"      [DEBUG] ✓ Teléfono extraído: {telefono}")
-                except TimeoutException:
-                    # Opción 2: El número puede aparecer en el texto del botón
-                    phone_text = phone_button.text.strip()
-                    if phone_text and phone_text != 'Llamar' and len(phone_text) > 5:
-                        telefono = phone_text
-                        if self.modo_debug:
-                            print(f"      [DEBUG] ✓ Teléfono extraído del texto: {telefono}")
-                    else:
-                        # Opción 3: Buscar en spans dentro del botón
-                        phone_spans = phone_button.find_elements(By.TAG_NAME, 'span')
-                        for span in phone_spans:
-                            span_text = span.text.strip()
-                            if span_text and span_text != 'Llamar' and len(span_text) > 5:
-                                telefono = span_text
-                                if self.modo_debug:
-                                    print(f"      [DEBUG] ✓ Teléfono extraído de span: {telefono}")
-                                break
-                
-            except NoSuchElementException:
-                if self.modo_debug:
-                    print("      [DEBUG] No se encontró botón de teléfono")
-            except Exception as e:
-                if self.modo_debug:
-                    print(f"      [DEBUG] Error extrayendo teléfono: {e}")
+            telefono = self._extraer_telefono_detalle()
             
             # Tipo de anunciante
             _, tipo_anunciante = self.es_particular(str(soup))
@@ -403,8 +860,12 @@ class IdealistaScraper(BaseScraper):
             print(f"    ⚠️ Error extrayendo datos: {e}")
             return None
     
-    def filtrar_listado_particulares(self, paginas=None):
-        """Filtra viviendas que NO tienen logo de inmobiliaria en el listado (método original)"""
+    def filtrar_listado_particulares(self, paginas=None, urls_conocidas=None):
+        """Filtra viviendas que NO tienen logo de inmobiliaria en el listado.
+        
+        Si urls_conocidas contiene URLs, se detiene al encontrar un anuncio ya conocido
+        (el listado se asume ordenado por fecha descendente).
+        """
         if not self.driver:
             print("[ERROR] Driver no inicializado")
             return []
@@ -417,10 +878,15 @@ class IdealistaScraper(BaseScraper):
         else:
             print(f"    Modo: {paginas} página(s)")
         
+        if urls_conocidas:
+            print(f"    📂 URLs ya conocidas: {len(urls_conocidas)} (se parará al encontrar una)")
+        
         posibles_particulares = []
         pagina_actual = 1
-        articulos_vistos_ids = set()  # Para detectar páginas repetidas
-        primer_articulo_id = None  # ID del primer artículo de la página 1
+        articulos_vistos_ids = set()
+        primer_articulo_id = None
+        urls_primera_pagina = set()
+        encontrado_conocido = False
         
         # Limpiar URL base: quitar parámetros, extensión .htm y paginación existente
         url_base = self.driver.current_url.split('?')[0]
@@ -464,7 +930,7 @@ class IdealistaScraper(BaseScraper):
             url_actual = self.driver.current_url
             if pagina_actual > 1:
                 # Buscar pagina-1 seguido de ? o final de URL
-                if re.search(r'pagina-1(\?|$)', url_actual):
+                if re.search(r'pagina-1(\?|$|\.htm)', url_actual):
                     print(f"\n✅ Detectado final del listado (redirigió a página-1)")
                     break
                 
@@ -476,9 +942,13 @@ class IdealistaScraper(BaseScraper):
                     if numero_en_url < pagina_actual:
                         print(f"\n✅ Detectado final del listado (URL muestra página {numero_en_url}, esperábamos {pagina_actual})")
                         break
-                elif not url_actual.endswith('/'):
-                    # Si estamos en página > 1 pero la URL no tiene /pagina-X, llegamos al final
-                    print(f"\n✅ Detectado final del listado (URL sin paginación en página {pagina_actual})")
+                else:
+                    # Si estamos en página > 1 pero la URL no tiene /pagina-X, nos redirigieron a la primera
+                    # Esto ocurre cuando Idealista redirige páginas inexistentes a la URL base
+                    print(f"\n✅ Detectado final del listado (URL sin paginación, redirigido desde página {pagina_actual})")
+                    if self.modo_debug:
+                        print(f"      [DEBUG] URL actual: {url_actual}")
+                        print(f"      [DEBUG] URL esperada contenía: pagina-{pagina_actual}")
                     break
             
             # Scroll para cargar contenido
@@ -503,18 +973,45 @@ class IdealistaScraper(BaseScraper):
             
             print(f"📊 Total artículos encontrados: {len(articulos)}")
             
-            # Obtener el ID del primer artículo
+            # Obtener el ID del primer artículo y las URLs de todos los artículos
             primer_articulo_actual = articulos[0].get('data-element-id') if articulos else None
+            
+            # Extraer URLs de artículos actuales para comparación
+            urls_articulos_actuales = set()
+            for art in articulos:
+                link = art.find('a', class_='item-link')
+                if link:
+                    url_art = link.get('href', '')
+                    if url_art:
+                        urls_articulos_actuales.add(url_art)
             
             # VERIFICACIÓN CRÍTICA: Si el primer artículo coincide con el de la página 1, volvimos al inicio
             if pagina_actual == 1:
                 primer_articulo_id = primer_articulo_actual
+                urls_primera_pagina = urls_articulos_actuales.copy()
                 if self.modo_debug:
                     print(f"      [DEBUG] Primer artículo de página 1: {primer_articulo_id}")
-            elif pagina_actual > 1 and primer_articulo_actual == primer_articulo_id:
-                print(f"\n✅ Detectado final del listado (primer artículo repetido: {primer_articulo_actual})")
-                print(f"    → La página {pagina_actual} muestra los mismos resultados que la página 1")
-                break
+                    print(f"      [DEBUG] URLs guardadas de página 1: {len(urls_primera_pagina)}")
+            elif pagina_actual > 1:
+                # Verificar si el primer artículo es el mismo que la página 1
+                if primer_articulo_actual and primer_articulo_actual == primer_articulo_id:
+                    print(f"\n✅ Detectado final del listado (primer artículo repetido: {primer_articulo_actual})")
+                    print(f"    → La página {pagina_actual} muestra los mismos resultados que la página 1")
+                    break
+                
+                # Verificación adicional: comparar URLs de artículos
+                # Si más del 80% de las URLs coinciden con la página 1, es una redirección
+                if urls_primera_pagina and urls_articulos_actuales:
+                    coincidentes = len(urls_articulos_actuales.intersection(urls_primera_pagina))
+                    porcentaje_coincidencia = (coincidentes / len(urls_articulos_actuales)) * 100 if urls_articulos_actuales else 0
+                    
+                    if self.modo_debug:
+                        print(f"      [DEBUG] URLs coincidentes con página 1: {coincidentes}/{len(urls_articulos_actuales)} ({porcentaje_coincidencia:.1f}%)")
+                    
+                    if porcentaje_coincidencia >= 80:
+                        print(f"\n✅ Detectado final del listado (redirección detectada)")
+                        print(f"    → {coincidentes}/{len(urls_articulos_actuales)} artículos ({porcentaje_coincidencia:.1f}%) coinciden con página 1")
+                        break
             
             # Analizar el componente de paginación para verificar control
             try:
@@ -588,6 +1085,13 @@ class IdealistaScraper(BaseScraper):
                         if url_detalle and not url_detalle.startswith('http'):
                             url_detalle = "https://www.idealista.com" + url_detalle
                         
+                        # Comprobar si este anuncio ya está en el JSON
+                        if urls_conocidas and url_detalle in urls_conocidas:
+                            print(f"\n🛑 Anuncio ya conocido encontrado: {url_detalle[:60]}...")
+                            print("    Deteniendo búsqueda (los siguientes ya están registrados)")
+                            encontrado_conocido = True
+                            break
+                        
                         titulo = link.get('title', 'Sin título')
                         
                         posibles_particulares.append({
@@ -601,6 +1105,9 @@ class IdealistaScraper(BaseScraper):
                         if self.modo_debug:
                             print(f"      [DEBUG] ✓ Posible particular: ID {element_id} - {titulo[:50]}")
             
+            if encontrado_conocido:
+                break
+            
             print(f"✅ Posibles particulares en esta página: {posibles_en_esta_pagina}")
             
             # Incrementar contador
@@ -608,12 +1115,17 @@ class IdealistaScraper(BaseScraper):
         
         print(f"\n{'='*70}")
         print(f"[RESUMEN ETAPA 1]")
-        print(f"  Páginas procesadas: {pagina_actual - 1}")
-        print(f"  Posibles particulares detectados: {len(posibles_particulares)}")
+        print(f"  Páginas procesadas: {pagina_actual}")
+        print(f"  Posibles particulares nuevos: {len(posibles_particulares)}")
+        if encontrado_conocido:
+            print(f"  🛑 Se detuvo al encontrar un anuncio ya registrado")
         print(f"{'='*70}")
         
         if not posibles_particulares:
-            print("\n[!] No se encontraron posibles particulares en el listado")
+            if urls_conocidas:
+                print("\n✅ No hay viviendas nuevas desde la última búsqueda")
+            else:
+                print("\n[!] No se encontraron posibles particulares en el listado")
             return []
         
         # ETAPA 2: Verificación en detalle
@@ -655,6 +1167,18 @@ class IdealistaScraper(BaseScraper):
         
         return todas_viviendas
     
-    def scrapear_con_filtrado(self, paginas=None):
-        """Método principal de scraping con filtrado de dos etapas"""
-        return self.filtrar_listado_particulares(paginas)
+    def scrapear_con_filtrado(self, paginas=None, ubicacion=None):
+        """Método principal de scraping con filtrado de dos etapas.
+        
+        Si ubicacion se proporciona, carga el JSON persistente y para al encontrar
+        un anuncio ya conocido.
+        """
+        urls_conocidas = set()
+        if ubicacion:
+            ruta_json = self._obtener_ruta_json_persistente(ubicacion)
+            json_existente = self._cargar_json_existente(ruta_json)
+            urls_conocidas = json_existente['urls_conocidas']
+            if not urls_conocidas:
+                print("    📋 No hay datos previos, se hará búsqueda completa")
+        
+        return self.filtrar_listado_particulares(paginas, urls_conocidas=urls_conocidas)

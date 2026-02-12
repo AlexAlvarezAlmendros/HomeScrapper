@@ -3,6 +3,7 @@ Clase base abstracta para scrapers de portales inmobiliarios
 Proporciona funcionalidad común anti-detección, rotación de IP y estructura base
 """
 
+import os
 import time
 import random
 import subprocess
@@ -98,7 +99,7 @@ class BaseScraper(ABC):
         vpns = {
             'nordvpn': 'nordvpn',
             'expressvpn': 'expressvpn', 
-            'protonvpn': 'protonvpn-cli',
+            'protonvpn': 'protonvpn',  # Comando actualizado (antes era protonvpn-cli)
             'surfshark': 'surfshark',
             'windscribe': 'windscribe'
         }
@@ -139,11 +140,33 @@ class BaseScraper(ABC):
                     return True
                     
             elif self.vpn_provider == 'protonvpn':
-                subprocess.run(['protonvpn-cli', 'disconnect'], capture_output=True, timeout=30)
-                time.sleep(2)
-                result = subprocess.run(['protonvpn-cli', 'connect', '--random'], capture_output=True, text=True, timeout=60)
+                # ProtonVPN (compatible con plan gratuito y de pago)
+                subprocess.run(['protonvpn', 'disconnect'], capture_output=True, timeout=30)
+                time.sleep(3)
+                
+                # Primero intentar con país aleatorio (solo funciona en plan de pago)
+                paises = ['ES', 'FR', 'DE', 'IT', 'NL', 'PT', 'BE', 'CH']
+                pais = random.choice(paises)
+                result = subprocess.run(['protonvpn', 'connect', '--country', pais], capture_output=True, text=True, timeout=60)
+                
                 if result.returncode == 0:
-                    print(f"   ✅ Conectado a ProtonVPN (servidor aleatorio)")
+                    print(f"   ✅ Conectado a ProtonVPN (país {pais})")
+                    return True
+                
+                # Si falla (plan gratuito), usar conexión básica sin elegir servidor
+                # El plan free solo permite 'protonvpn connect' sin opciones
+                print(f"   ℹ️  Plan gratuito detectado, conectando a servidor FREE disponible...")
+                result = subprocess.run(['protonvpn', 'connect'], capture_output=True, text=True, timeout=60)
+                
+                if result.returncode == 0:
+                    # Extraer info del servidor del output
+                    servidor_info = "servidor FREE"
+                    if 'Connected to' in result.stdout:
+                        try:
+                            servidor_info = result.stdout.split('Connected to')[1].split('.')[0].strip()
+                        except:
+                            pass
+                    print(f"   ✅ Conectado a ProtonVPN ({servidor_info})")
                     return True
                     
             elif self.vpn_provider == 'surfshark':
@@ -468,16 +491,48 @@ class BaseScraper(ABC):
                     raise
         return False
     
-    def guardar(self, viviendas: List[Vivienda], filename: str):
-        """Guarda las viviendas en un archivo JSON"""
+    def guardar(self, viviendas: List[Vivienda], filename: str, ubicacion: str = None, url_scrapeada: str = None):
+        """Guarda en JSON persistente, fusionando con datos existentes.
+        
+        Los nuevos registros se añaden al principio (más recientes primero).
+        """
         import json
         
-        datos_serializable = [asdict(v) for v in viviendas]
+        # Cargar datos existentes
+        viviendas_existentes = []
+        if os.path.exists(filename):
+            try:
+                with open(filename, 'r', encoding='utf-8') as f:
+                    data_existente = json.load(f)
+                # Soportar ambos formatos: lista directa o dict con 'viviendas'
+                if isinstance(data_existente, list):
+                    viviendas_existentes = data_existente
+                elif isinstance(data_existente, dict):
+                    viviendas_existentes = data_existente.get('viviendas', [])
+                print(f"\n📂 Cargando JSON existente: {len(viviendas_existentes)} registros previos")
+            except Exception as e:
+                print(f"\n⚠️  Error leyendo JSON existente: {e}")
+        
+        # Fusionar: nuevos al principio, existentes después (sin duplicados)
+        nuevos = [asdict(v) for v in viviendas]
+        urls_nuevas = {v['url'] for v in nuevos if 'url' in v}
+        existentes_filtrados = [v for v in viviendas_existentes if v.get('url') not in urls_nuevas]
+        todas_viviendas = nuevos + existentes_filtrados
+        
+        data = {
+            'timestamp': datetime.now().isoformat(),
+            'ubicacion': ubicacion or '',
+            'url': url_scrapeada or '',
+            'total': len(todas_viviendas),
+            'viviendas': todas_viviendas
+        }
         
         with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(datos_serializable, f, ensure_ascii=False, indent=2)
+            json.dump(data, f, ensure_ascii=False, indent=2)
         
         print(f"\n[OK] Datos guardados en: {filename}")
+        print(f"     Nuevos añadidos: {len(nuevos)}")
+        print(f"     Total registros: {len(todas_viviendas)}")
     
     def mostrar_resumen(self, viviendas: List[Vivienda]):
         """Muestra un resumen de las viviendas encontradas"""

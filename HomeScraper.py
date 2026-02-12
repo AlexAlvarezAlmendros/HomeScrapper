@@ -5,6 +5,8 @@ Soporta múltiples portales inmobiliarios de forma escalable
 
 import json
 import os
+import time
+import random
 from datetime import datetime
 from scraper_factory import ScraperFactory
 from base_scraper import PETICIONES_ANTES_CAMBIO_IP
@@ -25,7 +27,13 @@ def cargar_config():
 
 
 def seleccionar_url(portal, config):
-    """Permite al usuario seleccionar una URL del portal"""
+    """Permite al usuario seleccionar una URL del portal.
+    
+    Returns:
+        - Un dict {'url': ..., 'nombre': ...} para una sola URL
+        - Una lista de dicts para modo batch (todas)
+        - None si hay error
+    """
     if portal not in config:
         print(f"[ERROR] Portal '{portal}' no encontrado en config.json")
         return None
@@ -37,11 +45,10 @@ def seleccionar_url(portal, config):
         return None
     
     if len(urls_disponibles) == 1:
-        # Si solo hay una URL, usarla automáticamente
         url_data = urls_disponibles[0]
         print(f"\n[*] URL: {url_data['nombre']}")
         print(f"    {url_data.get('descripcion', '')}")
-        return url_data['url']
+        return {'url': url_data['url'], 'nombre': url_data['nombre']}
     
     # Mostrar menú de selección
     print(f"\n{'='*70}")
@@ -54,20 +61,116 @@ def seleccionar_url(portal, config):
         if url_data.get('descripcion'):
             print(f"     → {url_data['descripcion']}")
     
+    print(f"\n  0. TODAS las zonas (modo batch automático)")
+    
     print()
     while True:
-        seleccion = input(f"Elige una zona (1-{len(urls_disponibles)}): ").strip()
+        seleccion = input(f"Elige una zona (0-{len(urls_disponibles)}, 0 = todas): ").strip()
+        
+        if seleccion == '0' or seleccion.lower() == 'todas':
+            print(f"\n[OK] Modo BATCH: se procesarán las {len(urls_disponibles)} zonas secuencialmente")
+            return [{'url': u['url'], 'nombre': u['nombre']} for u in urls_disponibles]
         
         try:
             idx = int(seleccion) - 1
             if 0 <= idx < len(urls_disponibles):
                 url_data = urls_disponibles[idx]
                 print(f"\n[OK] Zona seleccionada: {url_data['nombre']}")
-                return url_data['url']
+                return {'url': url_data['url'], 'nombre': url_data['nombre']}
             else:
-                print(f"[!] Por favor, elige un número entre 1 y {len(urls_disponibles)}")
+                print(f"[!] Por favor, elige un número entre 0 y {len(urls_disponibles)}")
         except ValueError:
             print("[!] Por favor, introduce un número válido")
+
+
+def scrapear_idealista_batch(urls_list, debug, usar_rotacion, vpn_provider, num_paginas):
+    """Procesa todas las URLs de Idealista secuencialmente via CDP."""
+    from idealista_scraper import IdealistaScraper
+    
+    scraper = IdealistaScraper(
+        modo_debug=debug,
+        usar_rotacion_ip=usar_rotacion,
+        vpn_provider=vpn_provider
+    )
+    
+    if not scraper.conectar_chrome():
+        return
+    
+    total = len(urls_list)
+    for i, item in enumerate(urls_list, 1):
+        url = item['url']
+        nombre = item['nombre']
+        
+        print(f"\n\n{'#'*70}")
+        print(f"  [{i}/{total}] PROCESANDO: {nombre}")
+        print(f"  🔗 {url[:80]}...")
+        print(f"{'#'*70}")
+        
+        # Configurar URL del scraper
+        scraper.search_url = url
+        
+        # Navegar a la URL
+        print(f"\n[*] Navegando a {nombre}...")
+        scraper.navegar_a_url()
+        
+        # Scrapear con filtrado (usa JSON persistente por ubicación)
+        viviendas = scraper.scrapear_con_filtrado(num_paginas, ubicacion=nombre)
+        
+        if viviendas:
+            # Guardar en JSON persistente por ubicación
+            filename = IdealistaScraper._obtener_ruta_json_persistente(nombre)
+            scraper.guardar(viviendas, filename, ubicacion=nombre, url_scrapeada=url)
+            scraper.mostrar_resumen(viviendas)
+        else:
+            print(f"\n⚠️  No se encontraron viviendas nuevas de particulares en {nombre}")
+        
+        if i < total:
+            delay = random.uniform(8, 15)
+            print(f"\n⏳ Esperando {delay:.0f}s antes de la siguiente zona...")
+            time.sleep(delay)
+    
+    print(f"\n\n{'='*70}")
+    print(f"  ✅ BATCH COMPLETADO: {total} zonas procesadas")
+    print(f"{'='*70}")
+
+
+def scrapear_fotocasa_batch(urls_list, debug, num_paginas):
+    """Procesa todas las URLs de Fotocasa secuencialmente via Playwright."""
+    from fotocasa_scraper_firefox import FotocasaScraperFirefox
+    
+    scraper = FotocasaScraperFirefox(modo_debug=debug)
+    
+    if not scraper.iniciar_navegador():
+        return
+    
+    total = len(urls_list)
+    try:
+        for i, item in enumerate(urls_list, 1):
+            url = FotocasaScraperFirefox._asegurar_orden_fecha_fotocasa(item['url'])
+            nombre = item['nombre']
+            
+            print(f"\n\n{'#'*70}")
+            print(f"  [{i}/{total}] PROCESANDO: {nombre}")
+            print(f"  📅 Ordenado por fecha de publicación (más recientes primero)")
+            print(f"{'#'*70}")
+            
+            viviendas = scraper.scrapear(url, num_paginas, ubicacion=nombre)
+            
+            if viviendas:
+                scraper.guardar_resultados(viviendas, ubicacion=nombre, url_scrapeada=url)
+            else:
+                print(f"\n⚠️  No se encontraron viviendas nuevas de particulares en {nombre}")
+            
+            if i < total:
+                delay = random.uniform(5, 10)
+                print(f"\n⏳ Esperando {delay:.0f}s antes de la siguiente zona...")
+                time.sleep(delay)
+    finally:
+        scraper.cerrar_navegador()
+    
+    print(f"\n\n{'='*70}")
+    print(f"  ✅ BATCH COMPLETADO: {total} zonas procesadas")
+    print(f"{'='*70}")
 
 
 def main():
@@ -105,7 +208,6 @@ def main():
     print("\nPortales disponibles:")
     for idx, portal in enumerate(portales, 1):
         info = ScraperFactory.get_portal_info(portal)
-        # Contar cuántas URLs tiene configuradas
         num_urls = len(config.get(portal, {}).get('urls', []))
         print(f"  {idx}. {info['name']} ({num_urls} zona(s) configurada(s))")
     
@@ -127,20 +229,68 @@ def main():
     print(f"\n[OK] Portal seleccionado: {info_portal['name']}")
     
     # ============== SELECCIÓN DE URL ==============
-    search_url = seleccionar_url(portal_seleccionado, config)
-    if not search_url:
+    seleccion_url = seleccionar_url(portal_seleccionado, config)
+    if not seleccion_url:
         return
     
-    print(f"[*] URL: {search_url}")
+    is_batch = isinstance(seleccion_url, list)
     
-    # ============== CONFIGURACIÓN ==============
+    # ============== CONFIGURACIÓN COMÚN ==============
     
     # Modo debug
     print("\n[?] ¿Activar modo DEBUG?")
     print("    (Mostrará cómo se detecta cada particular)")
     debug = input("    s/n (Enter = no): ").strip().lower() == 's'
     
-    # Rotación de IP
+    # Número de páginas
+    print("\n[?] ¿Cuántas páginas quieres scrapear por zona?")
+    print("    (Deja vacío o escribe 'todas' para procesar todas las páginas)")
+    num_paginas_input = input("    Número (Enter = todas): ").strip().lower()
+    
+    if num_paginas_input == '' or num_paginas_input == 'todas' or num_paginas_input == 'all':
+        num_paginas = None
+        print("\n[*] Modo: TODAS LAS PÁGINAS (hasta detectar el final)")
+    else:
+        try:
+            num_paginas = int(num_paginas_input)
+            print(f"\n[*] Modo: {num_paginas} página(s) por zona")
+        except:
+            num_paginas = None
+            print("\n[*] Valor no válido, usando modo: TODAS LAS PÁGINAS")
+    
+    # ============== FOTOCASA: ANTI-DETECCIÓN ==============
+    if portal_seleccionado == 'fotocasa':
+        print("\n" + "="*70)
+        print("⚠️  AVISO: Fotocasa tiene detección anti-bot muy agresiva")
+        print("="*70)
+        print("\n[?] ¿Qué método quieres usar?")
+        print("    1. Playwright Chromium (anti-detección) - RECOMENDADO")
+        print("       → Abre su propio navegador")
+        print("       → No necesita Chrome en modo debugging")
+        print("       → Mayor probabilidad de éxito")
+        print("")
+        print("    2. Método CDP (Chrome debugging)")
+        print("       → Usa Chrome ya abierto")
+        print("       → Puede ser bloqueado fácilmente")
+        print("")
+        
+        metodo = input("Elige método (1 o 2, Enter = 1): ").strip()
+        
+        if metodo != "2":
+            print("\n[*] Usando Playwright Chromium...")
+            
+            if is_batch:
+                scrapear_fotocasa_batch(seleccion_url, debug, num_paginas)
+            else:
+                scrapear_fotocasa_batch([seleccion_url], debug, num_paginas)
+            
+            print("\n✅ Scraping completado")
+            input("\nPresiona Enter para salir...")
+            return
+    
+    # ============== IDEALISTA / FOTOCASA CDP ==============
+    
+    # Rotación de IP (solo para CDP)
     print("\n[?] ¿Activar ROTACIÓN DE IP?")
     print("    (Te avisará cada cierto tiempo para cambiar IP y evitar captchas)")
     print("    Recomendado si usas VPN, proxy, o tienes IP dinámica")
@@ -150,7 +300,6 @@ def main():
     if usar_rotacion:
         print(f"\n[OK] Rotación de IP activada (cada {PETICIONES_ANTES_CAMBIO_IP} peticiones)")
         
-        # Detectar VPNs instaladas (usar IdealistaScraper temporalmente)
         from idealista_scraper import IdealistaScraper
         scraper_temp = IdealistaScraper()
         vpns_detectadas = scraper_temp.detectar_vpn_instalada()
@@ -194,7 +343,24 @@ def main():
         else:
             print("\n[OK] Modo manual: te avisará cuando debas cambiar IP")
     
-    # ============== CREAR SCRAPER ==============
+    # ============== MODO BATCH O INDIVIDUAL ==============
+    
+    if is_batch and portal_seleccionado == 'idealista':
+        # Batch mode para Idealista via CDP
+        scrapear_idealista_batch(seleccion_url, debug, usar_rotacion, vpn_provider, num_paginas)
+        print("\n✅ Scraping completado!")
+        print("\n[!] El navegador Chrome sigue abierto. NO lo cierres si quieres seguir usándolo.")
+        return
+    
+    # ============== MODO INDIVIDUAL (compatibilidad) ==============
+    
+    if is_batch:
+        urls_list = seleccion_url
+    else:
+        urls_list = [seleccion_url]
+    
+    search_url = urls_list[0]['url']
+    nombre = urls_list[0]['nombre']
     
     try:
         scraper = ScraperFactory.create_scraper(
@@ -224,27 +390,9 @@ def main():
     if opcion == "1":
         scraper.navegar_a_url()
     
-    # Preguntar cuántas páginas
-    print("\n[?] ¿Cuántas páginas quieres scrapear?")
-    print("    (Deja vacío o escribe 'todas' para procesar todas las páginas)")
-    num_paginas_input = input("    Número (Enter = todas): ").strip().lower()
-    
-    # Determinar número de páginas
-    if num_paginas_input == '' or num_paginas_input == 'todas' or num_paginas_input == 'all':
-        num_paginas = None
-        print("\n[*] Modo: TODAS LAS PÁGINAS (hasta detectar el final)")
-    else:
-        try:
-            num_paginas = int(num_paginas_input)
-            num_paginas = min(num_paginas, 50)  # Máximo 50 por seguridad
-            print(f"\n[*] Modo: {num_paginas} página(s)")
-        except:
-            num_paginas = None
-            print("\n[*] Valor no válido, usando modo: TODAS LAS PÁGINAS")
-    
     # Scrapear
     print(f"\n[*] Iniciando scraping de {info_portal['name']}...")
-    viviendas = scraper.scrapear_con_filtrado(num_paginas)
+    viviendas = scraper.scrapear_con_filtrado(num_paginas, ubicacion=nombre)
     
     if not viviendas:
         print("\n[!] No se encontraron viviendas de particulares")
@@ -253,10 +401,9 @@ def main():
     # ============== GUARDAR Y MOSTRAR RESULTADOS ==============
     
     portal_name = info_portal['name'].lower().replace(' ', '_')
-    filename = f"viviendas_{portal_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-    scraper.guardar(viviendas, filename)
+    filename = f"viviendas_{portal_name}_{nombre.replace(' ', '_').replace('/', '-')}.json"
+    scraper.guardar(viviendas, filename, ubicacion=nombre, url_scrapeada=search_url)
     
-    # Mostrar resumen
     scraper.mostrar_resumen(viviendas)
     
     print("\n[OK] Scraping completado!")
