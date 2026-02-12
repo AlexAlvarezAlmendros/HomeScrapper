@@ -567,5 +567,10 @@
       }
 
     ]
+  },
+  "api": {
+    "url": "https://inmo-capt-web-api.vercel.app/api/automation/upload",
+    "auto_upload": true,
+    "create_if_not_exists": true
   }
 }

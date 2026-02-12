@@ -35,7 +35,7 @@ case $opcion in
         
         # Activar entorno virtual y ejecutar scraper Idealista
         source .venv/bin/activate
-        python HomeScraperIdealista.py
+        python idealista_scraper.py
         ;;
     2)
         echo ""

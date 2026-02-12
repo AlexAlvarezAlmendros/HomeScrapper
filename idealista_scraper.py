@@ -861,7 +861,12 @@ class IdealistaScraper(BaseScraper):
             return None
     
     def filtrar_listado_particulares(self, paginas=None, urls_conocidas=None):
-        """Filtra viviendas que NO tienen logo de inmobiliaria en el listado.
+        """Filtra viviendas de particulares usando utag_data del HTML.
+        
+        Extrae la variable JavaScript utag_data que contiene datos estructurados
+        de todos los anuncios, incluyendo owner.type:
+          - type "1" = Particular/Propietario
+          - type "2" = Profesional (Agencia/Banco)
         
         Si urls_conocidas contiene URLs, se detiene al encontrar un anuncio ya conocido
         (el listado se asume ordenado por fecha descendente).
@@ -870,7 +875,7 @@ class IdealistaScraper(BaseScraper):
             print("[ERROR] Driver no inicializado")
             return []
         
-        print(f"\n🔍 [ETAPA 1: FILTRADO EN LISTADO]")
+        print(f"\n🔍 [FILTRADO POR utag_data]")
         print("="*70)
         
         if paginas is None:
@@ -881,9 +886,8 @@ class IdealistaScraper(BaseScraper):
         if urls_conocidas:
             print(f"    📂 URLs ya conocidas: {len(urls_conocidas)} (se parará al encontrar una)")
         
-        posibles_particulares = []
+        particulares = []
         pagina_actual = 1
-        articulos_vistos_ids = set()
         primer_articulo_id = None
         urls_primera_pagina = set()
         encontrado_conocido = False
@@ -891,6 +895,9 @@ class IdealistaScraper(BaseScraper):
         # Limpiar URL base: quitar parámetros, extensión .htm y paginación existente
         url_base = self.driver.current_url.split('?')[0]
         parametros = '?' + self.driver.current_url.split('?')[1] if '?' in self.driver.current_url else ''
+        
+        # Detectar si es URL de tipo "areas" (formato diferente de paginación)
+        es_url_areas = '/areas/' in url_base
         
         # Quitar .htm si existe
         url_base = re.sub(r'\.htm$', '', url_base)
@@ -913,7 +920,10 @@ class IdealistaScraper(BaseScraper):
             if pagina_actual == 1:
                 url_pagina = f"{url_base}/{parametros}" if parametros else f"{url_base}/"
             else:
-                url_pagina = f"{url_base}/pagina-{pagina_actual}.htm{parametros}"
+                if es_url_areas:
+                    url_pagina = f"{url_base}/pagina-{pagina_actual}{parametros}"
+                else:
+                    url_pagina = f"{url_base}/pagina-{pagina_actual}.htm{parametros}"
             
             if self.modo_debug:
                 print(f"    [DEBUG] URL: {url_pagina[:80]}...")
@@ -929,13 +939,10 @@ class IdealistaScraper(BaseScraper):
             # Detectar si nos redirigió a página-1 (significa que llegamos al final)
             url_actual = self.driver.current_url
             if pagina_actual > 1:
-                # Buscar pagina-1 seguido de ? o final de URL
                 if re.search(r'pagina-1(\?|$|\.htm)', url_actual):
                     print(f"\n✅ Detectado final del listado (redirigió a página-1)")
                     break
                 
-                # Verificar si la URL actual no contiene el número de página esperado
-                # Esto puede indicar que la página no existe y nos redirigió
                 pagina_en_url = re.search(r'pagina-(\d+)', url_actual)
                 if pagina_en_url:
                     numero_en_url = int(pagina_en_url.group(1))
@@ -943,12 +950,7 @@ class IdealistaScraper(BaseScraper):
                         print(f"\n✅ Detectado final del listado (URL muestra página {numero_en_url}, esperábamos {pagina_actual})")
                         break
                 else:
-                    # Si estamos en página > 1 pero la URL no tiene /pagina-X, nos redirigieron a la primera
-                    # Esto ocurre cuando Idealista redirige páginas inexistentes a la URL base
                     print(f"\n✅ Detectado final del listado (URL sin paginación, redirigido desde página {pagina_actual})")
-                    if self.modo_debug:
-                        print(f"      [DEBUG] URL actual: {url_actual}")
-                        print(f"      [DEBUG] URL esperada contenía: pagina-{pagina_actual}")
                     break
             
             # Scroll para cargar contenido
@@ -957,26 +959,40 @@ class IdealistaScraper(BaseScraper):
                 time.sleep(random.uniform(0.3, 0.8))
             time.sleep(random.uniform(1, 2))
             
-            # Parsear con BeautifulSoup
+            # Parsear HTML
             soup = BeautifulSoup(self.driver.page_source, 'html.parser')
             
-            # Buscar todos los artículos
+            # Buscar artículos para comprobar que la página cargó
             articulos = soup.find_all('article', class_='item')
             
             if not articulos:
-                print("[!] No se encontraron artículos")
-                if pagina_actual == 1:
-                    break
+                print("[!] No se encontraron artículos - recargando página...")
+                time.sleep(random.uniform(2, 4))
+                self.driver.refresh()
+                time.sleep(random.uniform(3, 5))
+                
+                for i in range(5):
+                    self.driver.execute_script(f"window.scrollTo(0, {300 * (i + 1)});")
+                    time.sleep(random.uniform(0.3, 0.8))
+                time.sleep(random.uniform(1, 2))
+                
+                soup = BeautifulSoup(self.driver.page_source, 'html.parser')
+                articulos = soup.find_all('article', class_='item')
+                
+                if not articulos:
+                    print("    ⚠️  Sigue sin artículos tras recargar")
+                    print("    📁 Verifica el navegador manualmente (posible captcha/bloqueo)")
+                    respuesta = input("    ¿Reintentar? (s/n, Enter=s): ").strip().lower()
+                    if respuesta != 'n':
+                        print("    🔄 Reintentando...")
+                        continue
+                    else:
+                        print("    ⏭️  Saltando a la siguiente URL...")
+                        break
                 else:
-                    print("[*] Posiblemente llegamos al final del listado")
-                    break
+                    print(f"    ✅ Recarga exitosa, {len(articulos)} artículos encontrados")
             
-            print(f"📊 Total artículos encontrados: {len(articulos)}")
-            
-            # Obtener el ID del primer artículo y las URLs de todos los artículos
-            primer_articulo_actual = articulos[0].get('data-element-id') if articulos else None
-            
-            # Extraer URLs de artículos actuales para comparación
+            # Extraer URLs de artículos actuales para detectar fin de listado
             urls_articulos_actuales = set()
             for art in articulos:
                 link = art.find('a', class_='item-link')
@@ -985,187 +1001,311 @@ class IdealistaScraper(BaseScraper):
                     if url_art:
                         urls_articulos_actuales.add(url_art)
             
-            # VERIFICACIÓN CRÍTICA: Si el primer artículo coincide con el de la página 1, volvimos al inicio
+            # Detectar fin de listado comparando con página 1
+            primer_articulo_actual = articulos[0].get('data-element-id') if articulos else None
+            
             if pagina_actual == 1:
                 primer_articulo_id = primer_articulo_actual
                 urls_primera_pagina = urls_articulos_actuales.copy()
-                if self.modo_debug:
-                    print(f"      [DEBUG] Primer artículo de página 1: {primer_articulo_id}")
-                    print(f"      [DEBUG] URLs guardadas de página 1: {len(urls_primera_pagina)}")
             elif pagina_actual > 1:
-                # Verificar si el primer artículo es el mismo que la página 1
                 if primer_articulo_actual and primer_articulo_actual == primer_articulo_id:
-                    print(f"\n✅ Detectado final del listado (primer artículo repetido: {primer_articulo_actual})")
-                    print(f"    → La página {pagina_actual} muestra los mismos resultados que la página 1")
+                    print(f"\n✅ Detectado final del listado (primer artículo repetido)")
                     break
                 
-                # Verificación adicional: comparar URLs de artículos
-                # Si más del 80% de las URLs coinciden con la página 1, es una redirección
                 if urls_primera_pagina and urls_articulos_actuales:
                     coincidentes = len(urls_articulos_actuales.intersection(urls_primera_pagina))
-                    porcentaje_coincidencia = (coincidentes / len(urls_articulos_actuales)) * 100 if urls_articulos_actuales else 0
-                    
-                    if self.modo_debug:
-                        print(f"      [DEBUG] URLs coincidentes con página 1: {coincidentes}/{len(urls_articulos_actuales)} ({porcentaje_coincidencia:.1f}%)")
-                    
-                    if porcentaje_coincidencia >= 80:
-                        print(f"\n✅ Detectado final del listado (redirección detectada)")
-                        print(f"    → {coincidentes}/{len(urls_articulos_actuales)} artículos ({porcentaje_coincidencia:.1f}%) coinciden con página 1")
+                    porcentaje = (coincidentes / len(urls_articulos_actuales)) * 100
+                    if porcentaje >= 80:
+                        print(f"\n✅ Detectado final del listado ({porcentaje:.0f}% artículos coinciden con página 1)")
                         break
             
-            # Analizar el componente de paginación para verificar control
+            # ============================================================
+            # EXTRAER utag_data: datos estructurados con owner.type
+            # ============================================================
+            script_tag = soup.find('script', string=re.compile(r'var\s+utag_data\s*='))
+            
+            if not script_tag:
+                print("    ⚠️  No se encontró utag_data, usando método fallback (logo-branding)")
+                # Fallback: método antiguo con logo
+                particulares_en_pagina = self._filtrar_por_logo(articulos, urls_conocidas)
+                if particulares_en_pagina is None:
+                    encontrado_conocido = True
+                    break
+                particulares.extend(particulares_en_pagina)
+                print(f"✅ Particulares en esta página (fallback): {len(particulares_en_pagina)}")
+                pagina_actual += 1
+                continue
+            
+            # Extraer el JSON de utag_data
             try:
-                paginacion_div = soup.find('div', class_='pagination')
-                if paginacion_div:
-                    # Extraer todos los números de página disponibles
-                    enlaces_pagina = paginacion_div.find_all('a', href=re.compile(r'/pagina-\d+\.htm'))
-                    numeros_pagina = []
-                    for enlace in enlaces_pagina:
-                        match = re.search(r'/pagina-(\d+)\.htm', enlace.get('href', ''))
-                        if match:
-                            numeros_pagina.append(int(match.group(1)))
-                    
-                    # También buscar enlace a página 1 (sin /pagina-X)
-                    enlace_pag1 = paginacion_div.find('a', href=re.compile(r'^[^#]+(?<!pagina-\d)\.htm$|/$'))
-                    if enlace_pag1:
-                        numeros_pagina.append(1)
-                    
-                    if numeros_pagina:
-                        max_pagina_disponible = max(numeros_pagina)
-                        if self.modo_debug:
-                            print(f"      [DEBUG] Páginas disponibles en paginación: {sorted(set(numeros_pagina))}")
-                            print(f"      [DEBUG] Máxima página disponible: {max_pagina_disponible}")
-                        
-                        # Si estamos intentando acceder a una página mayor que la máxima, terminamos
-                        if pagina_actual > max_pagina_disponible:
-                            print(f"\n✅ Detectado final del listado (página {pagina_actual} > máxima disponible {max_pagina_disponible})")
-                            break
-                    
-                    # Verificar si existe botón "Siguiente"
-                    boton_siguiente = paginacion_div.find('li', class_='next')
-                    if not boton_siguiente:
-                        print(f"\n✅ Detectado final del listado (no existe botón 'Siguiente' en paginación)")
-                        pagina_actual += 1
-                        break
-                    
-                    if self.modo_debug:
-                        print(f"      [DEBUG] Paginación HTML: {paginacion_div}")
-            except Exception as e:
-                if self.modo_debug:
-                    print(f"      [DEBUG] Error analizando paginación: {str(e)}")
+                script_text = script_tag.string
+                match = re.search(r'utag_data\s*=\s*(\{.*?\})\s*;', script_text, re.DOTALL)
+                if not match:
+                    print("    ⚠️  No se pudo parsear utag_data")
+                    pagina_actual += 1
+                    continue
+                
+                json_str = match.group(1)
+                data = json.loads(json_str)
+            except (json.JSONDecodeError, AttributeError) as e:
+                print(f"    ⚠️  Error parseando utag_data: {e}")
+                pagina_actual += 1
+                continue
             
-            # Verificar si estamos viendo artículos repetidos (indica que llegamos al final)
-            articulos_actuales_ids = set()
+            # Extraer anuncios del listado
+            ads = data.get('list', {}).get('ads', [])
+            
+            if not ads:
+                print(f"    📊 utag_data encontrado pero sin anuncios en list.ads")
+                if self.modo_debug:
+                    keys = list(data.keys())
+                    print(f"      [DEBUG] Claves disponibles en utag_data: {keys[:10]}")
+                pagina_actual += 1
+                continue
+            
+            # Crear un índice de artículos HTML por data-element-id para extraer datos visuales
+            articulos_por_id = {}
             for art in articulos:
                 art_id = art.get('data-element-id')
                 if art_id:
-                    articulos_actuales_ids.add(art_id)
+                    articulos_por_id[art_id] = art
             
-            # Si todos los artículos ya los vimos antes, llegamos al final
-            if pagina_actual > 1 and articulos_actuales_ids and articulos_actuales_ids.issubset(articulos_vistos_ids):
-                print(f"\n✅ Detectado final del listado (todos los artículos ya fueron vistos)")
-                break
+            print(f"📊 Total artículos: {len(articulos)} | utag_data ads: {len(ads)}")
             
-            # Agregar los IDs actuales a la lista de vistos
-            articulos_vistos_ids.update(articulos_actuales_ids)
+            # Identificar IDs de particulares con utag_data
+            ids_particulares_pagina = set()
+            particulares_en_pagina = 0
+            profesionales_en_pagina = 0
             
-            # Filtrar los que NO tienen logo de inmobiliaria
-            posibles_en_esta_pagina = 0
-            for articulo in articulos:
-                # CLAVE: Buscar si tiene logo de marca/empresa
-                tiene_logo = articulo.find('picture', class_='logo-branding')
+            for ad in ads:
+                ad_id = str(ad.get('adId', ''))
+                owner_type = ad.get('owner', {}).get('type', '')
                 
-                if not tiene_logo:
-                    # Es posible particular - extraer ID y URL
-                    element_id = articulo.get('data-element-id')
-                    link = articulo.find('a', class_='item-link')
+                # Construir URL del anuncio
+                url_detalle = f"https://www.idealista.com/inmueble/{ad_id}/"
+                
+                # Comprobar si ya conocido
+                if urls_conocidas and url_detalle in urls_conocidas:
+                    print(f"\n🛑 Anuncio ya conocido: {url_detalle}")
+                    print("    Deteniendo búsqueda (los siguientes ya están registrados)")
+                    encontrado_conocido = True
+                    break
+                
+                if owner_type == "1":
+                    ids_particulares_pagina.add(ad_id)
                     
-                    if element_id and link:
-                        url_detalle = link.get('href', '')
-                        if url_detalle and not url_detalle.startswith('http'):
-                            url_detalle = "https://www.idealista.com" + url_detalle
+                    # Extraer datos del HTML del listado
+                    art_html = articulos_por_id.get(ad_id)
+                    
+                    if art_html:
+                        # Título
+                        link = art_html.find('a', class_='item-link')
+                        titulo = link.get('title', 'Sin título') if link else 'Sin título'
                         
-                        # Comprobar si este anuncio ya está en el JSON
-                        if urls_conocidas and url_detalle in urls_conocidas:
-                            print(f"\n🛑 Anuncio ya conocido encontrado: {url_detalle[:60]}...")
-                            print("    Deteniendo búsqueda (los siguientes ya están registrados)")
-                            encontrado_conocido = True
-                            break
+                        # Precio
+                        precio_elem = art_html.find('span', class_='item-price')
+                        precio = precio_elem.get_text(strip=True) if precio_elem else 'N/A'
                         
-                        titulo = link.get('title', 'Sin título')
+                        # Habitaciones y metros desde item-detail
+                        habitaciones = None
+                        metros = None
+                        detalles = art_html.find_all('span', class_='item-detail')
+                        for detalle in detalles:
+                            texto = detalle.get_text(strip=True)
+                            if 'hab.' in texto:
+                                habitaciones = texto
+                            elif 'm²' in texto:
+                                metros = texto
                         
-                        posibles_particulares.append({
-                            'id': element_id,
-                            'url': url_detalle,
-                            'titulo': titulo
-                        })
+                        # Descripción
+                        desc_elem = art_html.find('div', class_='item-description')
+                        descripcion = desc_elem.get_text(strip=True) if desc_elem else None
                         
-                        posibles_en_esta_pagina += 1
-                        
-                        if self.modo_debug:
-                            print(f"      [DEBUG] ✓ Posible particular: ID {element_id} - {titulo[:50]}")
+                        # Ubicación (del título, tras la coma: "Piso en X, UBICACION")
+                        ubicacion = ''
+                        if titulo and ',' in titulo:
+                            # "Piso en Calle de Sants, Sants - Badal, Barcelona" -> "Sants - Badal, Barcelona"
+                            partes = titulo.split(',', 1)
+                            ubicacion = partes[1].strip() if len(partes) > 1 else ''
+                    else:
+                        # Fallback: datos mínimos de utag_data
+                        titulo = ad.get('title', 'Sin título')
+                        precio_val = ad.get('price', 'N/A')
+                        precio = f"{precio_val:,.0f}€".replace(',', '.') if isinstance(precio_val, (int, float)) else str(precio_val)
+                        hab_val = ad.get('rooms', None)
+                        met_val = ad.get('size', None)
+                        habitaciones = f"{hab_val} hab." if hab_val else None
+                        metros = f"{met_val} m²" if met_val else None
+                        ubicacion = ad.get('address', ad.get('neighborhood', ''))
+                        descripcion = ad.get('description', None)
+                    
+                    particulares.append({
+                        'id': ad_id,
+                        'url': url_detalle,
+                        'titulo': titulo,
+                        'precio': precio,
+                        'habitaciones': habitaciones,
+                        'metros': metros,
+                        'ubicacion': ubicacion,
+                        'descripcion': descripcion,
+                    })
+                    
+                    particulares_en_pagina += 1
+                    
+                    if self.modo_debug:
+                        print(f"      [DEBUG] ✓ PARTICULAR: ID {ad_id} - {titulo[:50]}")
+                else:
+                    profesionales_en_pagina += 1
+                    if self.modo_debug:
+                        print(f"      [DEBUG] ✗ Profesional: ID {ad_id} (owner.type={owner_type})")
             
             if encontrado_conocido:
                 break
             
-            print(f"✅ Posibles particulares en esta página: {posibles_en_esta_pagina}")
+            print(f"✅ Particulares: {particulares_en_pagina} | Profesionales: {profesionales_en_pagina}")
             
-            # Incrementar contador
+            # Extraer teléfonos de los particulares en esta página
+            if particulares_en_pagina > 0:
+                ids_particulares_pagina = [p['id'] for p in particulares[-particulares_en_pagina:]]
+                telefonos = self._extraer_telefonos_listado(ids_particulares_pagina)
+                
+                # Asignar teléfonos a los particulares
+                for p in particulares[-particulares_en_pagina:]:
+                    p['telefono'] = telefonos.get(p['id'], None)
+            
             pagina_actual += 1
         
         print(f"\n{'='*70}")
-        print(f"[RESUMEN ETAPA 1]")
+        print(f"[RESUMEN]")
         print(f"  Páginas procesadas: {pagina_actual}")
-        print(f"  Posibles particulares nuevos: {len(posibles_particulares)}")
+        print(f"  Particulares encontrados: {len(particulares)}")
         if encontrado_conocido:
             print(f"  🛑 Se detuvo al encontrar un anuncio ya registrado")
         print(f"{'='*70}")
         
-        if not posibles_particulares:
+        if not particulares:
             if urls_conocidas:
                 print("\n✅ No hay viviendas nuevas desde la última búsqueda")
             else:
-                print("\n[!] No se encontraron posibles particulares en el listado")
+                print("\n[!] No se encontraron particulares en el listado")
             return []
         
-        # ETAPA 2: Verificación en detalle
-        print(f"\n[ETAPA 2: VERIFICACIÓN EN DETALLE]")
-        print("="*70)
-        print(f"Verificando {len(posibles_particulares)} anuncios...\n")
-        
-        confirmados = 0
+        # Construir objetos Vivienda directamente (sin visitar páginas de detalle)
+        print(f"\n📋 Construyendo {len(particulares)} registros de particulares...")
         todas_viviendas = []
         
-        for idx, vivienda_info in enumerate(posibles_particulares, 1):
-            print(f"\n[{idx}/{len(posibles_particulares)}] Verificando ID {vivienda_info['id']}...")
-            print(f"    {vivienda_info['titulo'][:60]}...")
+        for info in particulares:
+            telefono = info.get('telefono')
+            vivienda = Vivienda(
+                titulo=info['titulo'],
+                precio=info['precio'],
+                ubicacion=info.get('ubicacion', ''),
+                habitaciones=info.get('habitaciones'),
+                metros=info.get('metros'),
+                url=info['url'],
+                descripcion=info.get('descripcion'),
+                anunciante="Particular",
+                fecha_scraping=datetime.now().isoformat(),
+                portal="Idealista",
+                telefono=telefono
+            )
+            todas_viviendas.append(vivienda)
             
-            es_particular, tipo = self.verificar_es_particular(vivienda_info['url'])
-            
-            if es_particular:
-                print(f"    ✅ CONFIRMADO: Particular")
-                
-                vivienda = self.extraer_datos_vivienda_detalle(vivienda_info['url'])
-                
-                if vivienda:
-                    todas_viviendas.append(vivienda)
-                    confirmados += 1
-                    
-                    print(f"       📍 {vivienda.ubicacion}")
-                    print(f"       💰 {vivienda.precio}")
-                    if vivienda.habitaciones or vivienda.metros:
-                        print(f"       🏠 {vivienda.habitaciones or 'N/A'} | {vivienda.metros or 'N/A'}")
-            else:
-                print(f"    ❌ No es particular: {tipo}")
+            print(f"    ✅ {info['titulo'][:50]}... | 💰 {info['precio']} | 📞 {telefono or 'N/A'}")
         
         print("\n" + "="*70)
         print("📊 RESUMEN FINAL")
         print("="*70)
-        print(f"Posibles particulares (listado): {len(posibles_particulares)}")
-        print(f"Confirmados como particulares:   {confirmados}")
-        print(f"Descartados (empresas):          {len(posibles_particulares) - confirmados}")
+        print(f"Particulares encontrados:  {len(todas_viviendas)}")
+        con_telefono = sum(1 for v in todas_viviendas if v.telefono)
+        print(f"Con teléfono extraído:     {con_telefono}")
         
         return todas_viviendas
+    
+    def _extraer_telefonos_listado(self, ids_particulares: list) -> dict:
+        """Extrae teléfonos haciendo clic en 'Ver teléfono' de cada particular en el listado.
+        
+        Retorna dict {ad_id: telefono_str}
+        """
+        telefonos = {}
+        
+        for ad_id in ids_particulares:
+            try:
+                # Buscar el article con este ID
+                article_selector = f'article[data-element-id="{ad_id}"]'
+                article = self.driver.find_elements(By.CSS_SELECTOR, article_selector)
+                
+                if not article:
+                    if self.modo_debug:
+                        print(f"      [DEBUG] No se encontró article para ID {ad_id}")
+                    continue
+                
+                article = article[0]
+                
+                # Buscar el botón "Ver teléfono" dentro del article
+                phone_btn = article.find_elements(By.CSS_SELECTOR, 'button.see-phones-btn')
+                
+                if not phone_btn:
+                    # Intentar selector alternativo
+                    phone_btn = article.find_elements(By.CSS_SELECTOR, 'button.phone-btn')
+                
+                if not phone_btn:
+                    if self.modo_debug:
+                        print(f"      [DEBUG] No se encontró botón teléfono para ID {ad_id}")
+                    continue
+                
+                # Scroll al artículo para que sea visible
+                self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", article)
+                time.sleep(random.uniform(0.3, 0.6))
+                
+                # Hacer clic en "Ver teléfono"
+                phone_btn[0].click()
+                time.sleep(random.uniform(0.8, 1.5))
+                
+                # Leer el teléfono revelado
+                phone_text = article.find_elements(By.CSS_SELECTOR, '.hidden-contact-phones_text')
+                
+                for elem in phone_text:
+                    texto = elem.text.strip()
+                    # Verificar que es un número de teléfono (contiene dígitos)
+                    if texto and any(c.isdigit() for c in texto):
+                        telefonos[ad_id] = texto
+                        if self.modo_debug:
+                            print(f"      [DEBUG] 📞 ID {ad_id}: {texto}")
+                        break
+                
+                # Pequeña pausa entre clics
+                time.sleep(random.uniform(0.3, 0.8))
+                
+            except Exception as e:
+                if self.modo_debug:
+                    print(f"      [DEBUG] Error extrayendo teléfono de {ad_id}: {e}")
+        
+        print(f"    📞 Teléfonos extraídos: {len(telefonos)}/{len(ids_particulares)}")
+        return telefonos
+    
+    def _filtrar_por_logo(self, articulos, urls_conocidas=None):
+        """Método fallback: filtra por ausencia de logo-branding.
+        Retorna lista de particulares o None si se encontró uno conocido."""
+        resultado = []
+        for articulo in articulos:
+            tiene_logo = articulo.find('picture', class_='logo-branding')
+            if not tiene_logo:
+                element_id = articulo.get('data-element-id')
+                link = articulo.find('a', class_='item-link')
+                if element_id and link:
+                    url_detalle = link.get('href', '')
+                    if url_detalle and not url_detalle.startswith('http'):
+                        url_detalle = "https://www.idealista.com" + url_detalle
+                    if urls_conocidas and url_detalle in urls_conocidas:
+                        return None  # Señal de que se encontró conocido
+                    titulo = link.get('title', 'Sin título')
+                    resultado.append({
+                        'id': element_id,
+                        'url': url_detalle,
+                        'titulo': titulo,
+                    })
+        return resultado
     
     def scrapear_con_filtrado(self, paginas=None, ubicacion=None):
         """Método principal de scraping con filtrado de dos etapas.
@@ -1182,3 +1322,152 @@ class IdealistaScraper(BaseScraper):
                 print("    📋 No hay datos previos, se hará búsqueda completa")
         
         return self.filtrar_listado_particulares(paginas, urls_conocidas=urls_conocidas)
+
+
+def cargar_urls_idealista(config_file: str = "config.json") -> list:
+    """Carga las URLs de Idealista desde config.json"""
+    try:
+        with open(config_file, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+        
+        if 'idealista' in config and 'urls' in config['idealista']:
+            return config['idealista']['urls']
+        return []
+    except:
+        return []
+
+
+def main():
+    print("""
+    ╔══════════════════════════════════════════════════════╗
+    ║     IDEALISTA SCRAPER - Selenium                     ║
+    ║     Usando Chrome en modo debug                      ║
+    ╚══════════════════════════════════════════════════════╝
+    """)
+    
+    # Modo debug
+    print("[?] ¿Activar modo DEBUG?")
+    debug = input("    s/n (Enter = no): ").strip().lower() == 's'
+    
+    # Cargar URLs de config
+    urls_config = cargar_urls_idealista()
+    urls_a_procesar = []  # Lista de {'url': ..., 'nombre': ...}
+    
+    # Modo no interactivo por argumentos
+    import sys
+    if len(sys.argv) > 1:
+        # Uso: python idealista_scraper.py [indice] [paginas]
+        # Ej: python idealista_scraper.py 1 3   (primera URL, 3 páginas)
+        idx = int(sys.argv[1]) - 1
+        paginas = int(sys.argv[2]) if len(sys.argv) > 2 else 3
+        debug = "--debug" in sys.argv or "-d" in sys.argv
+        
+        if urls_config and 0 <= idx < len(urls_config):
+            item = urls_config[idx]
+            urls_a_procesar = [{'url': IdealistaScraper._asegurar_orden_fecha_idealista(item['url']), 'nombre': item.get('nombre', 'Sin nombre')}]
+            print(f"\n[*] Modo no-interactivo: {item.get('nombre', 'URL')}, {paginas} página(s)")
+        else:
+            print(f"Índice inválido. Hay {len(urls_config)} URLs disponibles.")
+            return
+    elif urls_config:
+        print(f"\n[*] URLs encontradas en config.json: {len(urls_config)}")
+        print("\n[?] ¿Qué quieres hacer?")
+        print("    1. Usar URLs de config.json")
+        print("    2. Introducir URL manualmente")
+        
+        opcion = input("\nElige (1 o 2): ").strip()
+        
+        if opcion == "1":
+            print("\nURLs disponibles:")
+            for i, item in enumerate(urls_config, 1):
+                print(f"    {i}. {item.get('nombre', 'Sin nombre')}")
+            
+            seleccion = input("\nSelecciona número (o 'todas'): ").strip()
+            
+            if seleccion.lower() == 'todas':
+                urls_a_procesar = [{'url': item['url'], 'nombre': item.get('nombre', 'Sin nombre')} for item in urls_config]
+            else:
+                try:
+                    idx = int(seleccion) - 1
+                    item = urls_config[idx]
+                    urls_a_procesar = [{'url': item['url'], 'nombre': item.get('nombre', 'Sin nombre')}]
+                except:
+                    print("Selección inválida")
+                    return
+        else:
+            url = input("\nIntroduce la URL de Idealista: ").strip()
+            nombre = input("Nombre/ubicación para esta búsqueda: ").strip() or "Manual"
+            urls_a_procesar = [{'url': url, 'nombre': nombre}]
+    else:
+        url = input("\nIntroduce la URL de Idealista: ").strip()
+        nombre = input("Nombre/ubicación para esta búsqueda: ").strip() or "Manual"
+        urls_a_procesar = [{'url': url, 'nombre': nombre}]
+    
+    # Número de páginas
+    print("\n[?] ¿Cuántas páginas por búsqueda?")
+    num_input = input("    (Enter = todas): ").strip()
+    paginas = None if not num_input or num_input.lower() == 'todas' else int(num_input)
+    
+    # Crear scraper (se conectará al Chrome en modo debug)
+    scraper = IdealistaScraper(modo_debug=debug)
+    
+    if not scraper.conectar_chrome():
+        print("\n[!] No se pudo conectar al Chrome.")
+        print("    Asegúrate de ejecutar primero: ./start_chrome_debug.sh")
+        return
+    
+    try:
+        for i, item in enumerate(urls_a_procesar, 1):
+            url = IdealistaScraper._asegurar_orden_fecha_idealista(item['url'])
+            nombre = item['nombre']
+            
+            # Actualizar la URL de búsqueda del scraper
+            scraper.search_url = url
+            
+            print(f"\n\n{'='*70}")
+            print(f"  PROCESANDO: {nombre} ({i}/{len(urls_a_procesar)})")
+            print(f"  📅 Ordenado por fecha de publicación (más recientes primero)")
+            print(f"{'='*70}")
+            
+            # Navegar primero a la URL antes de scrapear
+            print(f"\n[*] Navegando a: {url[:80]}...")
+            scraper._navegar_con_reintentos(url)
+            time.sleep(random.uniform(2, 4))
+            
+            # Verificar si hay captcha
+            scraper.detectar_captcha()
+            
+            viviendas = scraper.scrapear_con_filtrado(paginas, ubicacion=nombre)
+            
+            # Guardar resultados de esta URL
+            if viviendas:
+                ruta_json = scraper._obtener_ruta_json_persistente(nombre)
+                scraper.guardar(viviendas, ruta_json, ubicacion=nombre, url_scrapeada=url)
+            else:
+                print(f"\n⚠️  No se encontraron viviendas nuevas de particulares en {nombre}")
+                # Subir JSON existente a la API igualmente
+                ruta_json = scraper._obtener_ruta_json_persistente(nombre)
+                if os.path.exists(ruta_json):
+                    try:
+                        with open(ruta_json, 'r', encoding='utf-8') as f:
+                            data_existente = json.load(f)
+                        print(f"☁️  Subiendo JSON existente ({data_existente.get('total', 0)} registros) a la API...")
+                        BaseScraper.subir_a_api(data_existente)
+                    except Exception as e:
+                        print(f"⚠️  Error al leer JSON existente para subir: {e}")
+            
+            if i < len(urls_a_procesar):
+                print("\n⏳ Esperando antes de la siguiente URL...")
+                time.sleep(random.uniform(10, 20))
+        
+    except KeyboardInterrupt:
+        print("\n\n[!] Scraping interrumpido por el usuario")
+    except Exception as e:
+        print(f"\n[ERROR] {e}")
+    
+    print("\n✅ Scraping completado")
+    input("\nPresiona Enter para salir...")
+
+
+if __name__ == "__main__":
+    main()

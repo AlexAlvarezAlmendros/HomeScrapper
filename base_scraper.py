@@ -4,6 +4,7 @@ Proporciona funcionalidad común anti-detección, rotación de IP y estructura b
 """
 
 import os
+import json
 import time
 import random
 import subprocess
@@ -533,6 +534,93 @@ class BaseScraper(ABC):
         print(f"\n[OK] Datos guardados en: {filename}")
         print(f"     Nuevos añadidos: {len(nuevos)}")
         print(f"     Total registros: {len(todas_viviendas)}")
+        
+        # Subir a la API si está configurado
+        self.subir_a_api(data)
+    
+    @staticmethod
+    def _cargar_api_key() -> str:
+        """Lee la API key de INMOCAPT_API_KEY desde .env o variables de entorno."""
+        # Primero intentar variable de entorno
+        api_key = os.environ.get('INMOCAPT_API_KEY', '')
+        if api_key:
+            return api_key
+        # Leer de .env
+        env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env')
+        try:
+            with open(env_path, 'r') as f:
+                for line in f:
+                    line = line.strip()
+                    if line.startswith('#') or '=' not in line:
+                        continue
+                    key, _, value = line.partition('=')
+                    if key.strip() == 'INMOCAPT_API_KEY':
+                        return value.strip()
+        except FileNotFoundError:
+            pass
+        return ''
+    
+    @staticmethod
+    def cargar_config_api(config_file: str = "config.json") -> dict:
+        """Carga la configuración de la API desde config.json"""
+        try:
+            with open(config_file, 'r', encoding='utf-8') as f:
+                config = json.load(f)
+            return config.get('api', {})
+        except:
+            return {}
+    
+    @staticmethod
+    def subir_a_api(data: dict, config_file: str = "config.json"):
+        """Sube los datos a la API de InmoCapt.
+        
+        Lee la configuración de api.url, api.auto_upload y api.create_if_not_exists
+        desde config.json. La API key se lee de la variable INMOCAPT_API_KEY en .env.
+        """
+        try:
+            import requests
+        except ImportError:
+            print("\n⚠️  requests no instalado, no se puede subir a la API")
+            return
+        
+        config = BaseScraper.cargar_config_api(config_file)
+        
+        if not config.get('auto_upload', False):
+            return
+        
+        api_url = config.get('url', '')
+        api_key = BaseScraper._cargar_api_key()
+        
+        if not api_url or not api_key:
+            print("\n⚠️  API no configurada (falta url en config.json o INMOCAPT_API_KEY en .env)")
+            return
+        
+        create = config.get('create_if_not_exists', True)
+        ubicacion = data.get('ubicacion', 'Sin nombre')
+        
+        try:
+            url = f"{api_url}?createIfNotExists=true" if create else api_url
+            
+            response = requests.post(
+                url,
+                headers={
+                    'X-API-Key': api_key,
+                    'Content-Type': 'application/json',
+                },
+                json=data,
+                timeout=30,
+            )
+            
+            if response.status_code == 200:
+                result = response.json()
+                stats = result.get('stats', {})
+                print(f"\n☁️  API [{ubicacion}]: ✅ añadidas={stats.get('added', 0)} | ⏭️ omitidas={stats.get('skipped', 0)} | lista={'nueva' if result.get('listCreated') else 'existente'}")
+            else:
+                print(f"\n☁️  API [{ubicacion}]: ❌ Error {response.status_code}: {response.text[:100]}")
+        except requests.exceptions.Timeout:
+            print(f"\n☁️  API [{ubicacion}]: ⚠️ Timeout (30s)")
+        except Exception as e:
+            print(f"\n☁️  API [{ubicacion}]: ⚠️ Error: {e}")
     
     def mostrar_resumen(self, viviendas: List[Vivienda]):
         """Muestra un resumen de las viviendas encontradas"""

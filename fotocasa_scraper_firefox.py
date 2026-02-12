@@ -1059,7 +1059,77 @@ class FotocasaScraperFirefox:
         print(f"💾 Resultados guardados en: {filename}")
         print(f"   Nuevos añadidos: {len(viviendas)}")
         print(f"   Total registros: {len(todas_viviendas)}")
+        
+        # Subir a la API
+        self._subir_a_api(data)
+        
         return filename
+    
+    @staticmethod
+    def _subir_a_api(data: dict, config_file: str = "config.json"):
+        """Sube los datos a la API de InmoCapt."""
+        try:
+            import requests
+        except ImportError:
+            print("\n⚠️  requests no instalado, no se puede subir a la API")
+            return
+        
+        try:
+            with open(config_file, 'r', encoding='utf-8') as f:
+                config = json.load(f)
+            api_config = config.get('api', {})
+        except:
+            return
+        
+        if not api_config.get('auto_upload', False):
+            return
+        
+        api_url = api_config.get('url', '')
+        # Leer API key de .env o variable de entorno
+        api_key = os.environ.get('INMOCAPT_API_KEY', '')
+        if not api_key:
+            env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env')
+            try:
+                with open(env_path, 'r') as f:
+                    for line in f:
+                        line = line.strip()
+                        if line.startswith('#') or '=' not in line:
+                            continue
+                        key, _, value = line.partition('=')
+                        if key.strip() == 'INMOCAPT_API_KEY':
+                            api_key = value.strip()
+                            break
+            except FileNotFoundError:
+                pass
+        
+        if not api_url or not api_key:
+            print("\n⚠️  API no configurada (falta url en config.json o INMOCAPT_API_KEY en .env)")
+            return
+        
+        create = api_config.get('create_if_not_exists', True)
+        ubicacion = data.get('ubicacion', 'Sin nombre')
+        
+        try:
+            url = f"{api_url}?createIfNotExists=true" if create else api_url
+            
+            response = requests.post(
+                url,
+                headers={
+                    'X-API-Key': api_key,
+                    'Content-Type': 'application/json',
+                },
+                json=data,
+                timeout=30,
+            )
+            
+            if response.status_code == 200:
+                result = response.json()
+                stats = result.get('stats', {})
+                print(f"\n☁️  API [{ubicacion}]: ✅ añadidas={stats.get('added', 0)} | ⏭️ omitidas={stats.get('skipped', 0)} | lista={'nueva' if result.get('listCreated') else 'existente'}")
+            else:
+                print(f"\n☁️  API [{ubicacion}]: ❌ Error {response.status_code}: {response.text[:100]}")
+        except Exception as e:
+            print(f"\n☁️  API [{ubicacion}]: ⚠️ Error: {e}")
 
 
 def cargar_urls_fotocasa(config_file: str = "config.json") -> list:
@@ -1169,6 +1239,16 @@ def main():
                 scraper.guardar_resultados(viviendas, ubicacion=nombre, url_scrapeada=url)
             else:
                 print(f"\n⚠️  No se encontraron viviendas nuevas de particulares en {nombre}")
+                # Subir JSON existente a la API igualmente
+                ruta_json = scraper._obtener_ruta_json_persistente(nombre)
+                if os.path.exists(ruta_json):
+                    try:
+                        with open(ruta_json, 'r', encoding='utf-8') as f:
+                            data_existente = json.load(f)
+                        print(f"☁️  Subiendo JSON existente ({data_existente.get('total', 0)} registros) a la API...")
+                        FotocasaScraperFirefox._subir_a_api(data_existente)
+                    except Exception as e:
+                        print(f"⚠️  Error al leer JSON existente para subir: {e}")
             
             if i < len(urls_a_procesar):
                 print("\n⏳ Esperando antes de la siguiente URL...")
