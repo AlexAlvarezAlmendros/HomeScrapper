@@ -1,0 +1,696 @@
+{
+  "portal": "fotocasa",
+  "timestamp": "2026-03-04T17:06:20.692076",
+  "total_captured": 331,
+  "apis_json": [
+    {
+      "url": "https://web.gw.fotocasa.es/v2/propertysearch/searchurl?combinedLocationIds=724,9,8,236,410,8102,0,0,0&culture=es-ES&latitude=41.5801&longitude=1.61951&text=",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"location\":\"igualada\",\"zone\":\"todas-las-zonas\",\"text\":\"\"}"
+    },
+    {
+      "url": "https://web.gw.fotocasa.es/v2/propertysearch/urllocationsegments?location=igualada&zone=todas-las-zonas",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"ids\":\"724,9,8,236,410,8102,0,0,0\",\"coordinates\":{\"accuracy\":0,\"latitude\":41.580100000000002,\"longitude\":1.61951},\"locationLiteral\":\"Igualada\",\"upperLevel\":5,\"upperLevelValue\":\"Igualada\"}"
+    },
+    {
+      "url": "https://adit.gw.fotocasa.es/saitama/v1/display/advertised-page",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"id\":\"b6a68b04-23c1-475d-92dd-54094a68e1b1\",\"site\":\"fc\",\"device\":\"wde\",\"vertical\":\"realestate\",\"pageType\":\"list\",\"section\":\"tv\",\"layout\":\"fc_wde_list\",\"saitamaAds\":[{\"id\":\"ad-footer\",\"product\":{\"type\":\"google-ad-sense-js-v1.ad-sense-v1\",\"adUnit\":\"partner-pub-2748826169855967\",\"styleId\":\"8842822448\",\"channel\":\"\",\"numberOfAds\":3,\"shoppingAdsInCarousel\":true},\"reservedMinHeight\":null},{\"id\":\"ad-inline_1\",\"product\":{\"type\":\"google-ad-manager-js-v1.banner-v1\",\"adUnit\":\"/5180329/Fotocasa/Fotocasa-web_desktop/fc-wde-tv-list-inline_1\",\"sizes\":[\"728x90\"],\"prebid\":null},\"reservedMinHeight\":null},{\"id\":\"ad-inline_2\",\"product\":{\"type\":\"google-ad-manager-js-v1.banner-v1\",\"adUnit\":\"/5180329/Fotocasa/Fotocasa-web_desktop/fc-wde-tv-list-inline_2\",\"sizes\":[\"fluid\"],\"prebid\":null},\"reservedMinHeight\":null},{\"id\":\"ad-inline_3\",\"product\":{\"type\":\"google-ad-manager-js-v1.banner-v1\",\"adUnit\":\"/5180329/Fotocasa/Fotocasa-web_desktop/fc-wde-tv-list-inline_3\",\"sizes\":[\"fluid\"],\"prebid\":null},\"reservedMinHeight\":null},{\"id\":\"ad-right_1\",\"product\":{\"type\":\"google-ad-manager-js-v1.banner-v1\",\"adUnit\":\"/5180329/Fotocasa/Fotocasa-web_desktop/fc-wde-tv-list-right_1\",\"sizes\":[\"300x600\"],\"prebid\":null},\"reservedMinHeight\":null},{\"id\":\"ad-right_2\",\"product\":{\"type\":\"google-ad-manager-js-v1.banner-v1\",\"adUnit\":\"/5180329/Fotocasa/Fotocasa-web_desktop/fc-wde-tv-list-right_2\",\"sizes\":[\"300x50\"],\"prebid\":null},\"reservedMinHeight\":null},{\"id\":\"ad-right_3\",\"product\":{\"type\":\"google-ad-manager-js-v1.banner-v1\",\"adUnit\":\"/5180329/Fotocasa/Fotocasa-web_desktop/fc-wde-tv-list-right_3\",\"sizes\":[\"300x600\"],\"prebid\":{\"bannerSizes\":[\"300x600\"],\"bids\":[{\"bidder\":\"criteo\",\"params\":{\"networkId\":12482,\"publisherSubId\":\"112001\"}}]}},\"reservedMinHeight\":null},{\"id\":\"ad-right_4\",\"product\":{\"type\":\"google-ad-manager-js-v1.banner-v1\",\"adUnit\":\"/5180329/Fotocasa/Fotocasa-web_desktop/fc-wde-tv-list-right_4\",\"sizes\":[\"300x250\"],\"prebid\":{\"bannerSizes\":[\"300x250\"],\"bids\":[{\"bidder\":\"criteo\",\"params\":{\"networkId\":12482,\"publish"
+    },
+    {
+      "url": "https://dpm.demdex.net/id?d_visid_ver=4.6.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=05FF6243578784B37F000101%40AdobeOrg&d_nsid=0&d_mid=51249001810483216622472726941720094298&d_blob=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&ts=1772640367361",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"d_mid\":\"51249001810483216622472726941720094298\",\"id_sync_ttl\":604800,\"d_blob\":\"6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y\",\"dcs_region\":6,\"d_ottl\":7200,\"ibs\":[],\"subdomain\":\"mpispain\",\"tid\":\"tqlG7kF9TPs=\"}"
+    },
+    {
+      "url": "https://search.gw.fotocasa.es/v1/properties/latest",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"itemsCount\":5,\"ads\":[{\"id\":\"1_189007759\",\"propertyId\":\"189007759\",\"promotionId\":null,\"propertyType\":\"2\",\"propertySubtype\":\"1\",\"surface\":72,\"rooms\":3,\"baths\":1,\"zone\":\"\",\"street\":null,\"streetType\":null,\"number\":null,\"floor\":\"11\",\"phone\":\"+34938048171\",\"externalContactUrl\":null,\"transaction\":{\"type\":\"SALE\",\"price\":143000,\"priceDrop\":null},\"location\":{\"countryId\":\"724\",\"countryName\":\"España\",\"level1Id\":\"9\",\"level1Name\":\"Cataluña\",\"level2Id\":\"8\",\"level2Name\":\"Barcelona\",\"level3Id\":\"236\",\"level3Name\":\"Anoia\",\"level4Id\":\"410\",\"level4Name\":\"Igualada, Zona de\",\"level5Id\":\"8102\",\"level5Name\":\"Igualada\",\"level6Id\":null,\"level6Name\":null,\"level7Id\":\"1216\",\"level7Name\":\"Llevant\",\"level8Id\":null,\"level8Name\":null,\"latitude\":41.57664602665213,\"longitude\":1.62911253512071},\"agency\":{\"id\":\"9202767543385\",\"publisherId\":\"0e33ff23-fd8b-4bb8-8f9a-04b07c0adba3\",\"wasId\":null,\"logo\":\"https://static.fotocasa.es/images/client/9202767543385/665290.jpg?rule=original\",\"web\":null,\"name\":\"FINQUES SASI, S.L\",\"alias\":\"FINQUES SASI, S.L\",\"type\":\"professional\",\"urls\":[{\"language\":\"es_ES\",\"value\":\"/inmobiliarias/finques-sasi-sl-9202767543385\"},{\"language\":\"ca_ES\",\"value\":\"/ca/immobiliaries/finques-sasi-sl-9202767543385\"},{\"language\":\"de_DE\",\"value\":\"/de/immobilienagentur/finques-sasi-sl-9202767543385\"},{\"language\":\"en_US\",\"value\":\"/en/real-estate-agencies/finques-sasi-sl-9202767543385\"}]},\"multimedia\":[{\"url\":\"https://static.fotocasa.es/images/ads/f006da38-3f41-41fd-9a87-3e3fd5a38e99?rule=original\",\"type\":\"2\",\"position\":1},{\"url\":\"https://static.fotocasa.es/images/ads/faa3cc5d-a4c4-429b-bc84-41aec45cb866?rule=original\",\"type\":\"2\",\"position\":2},{\"url\":\"https://static.fotocasa.es/images/ads/74bec1c3-3206-47b1-a10c-1ad9f3a354d1?rule=original\",\"type\":\"2\",\"position\":3},{\"url\":\"https://static.fotocasa.es/images/ads/179a8470-8001-4c3f-a4ef-fff218c11397?rule=original\",\"type\":\"2\",\"position\":4},{\"url\":\"https://static.fotocasa.es/images/ads/a2bc8126-6647-47d8-a08c-162c4b00cd1c?rule=original\",\"type\":\"2\",\"posit"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json?date=20260304",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"generatedAt\":\"2026-03-04T16:00:29.311Z\",\"dataAsOf\":\"2026-03-04T00:00:00.000Z\",\"conversions\":{\"USD\":{\"EUR\":0.8584427847883939,\"USD\":1,\"JPY\":157.11219847197185,\"CZK\":20.911666237445274,\"DKK\":6.413855266546484,\"GBP\":0.7472744441582969,\"HUF\":329.9253154777234,\"PLN\":3.6559361318568118,\"RON\":4.371619881534896,\"SEK\":9.166881277362863,\"CHF\":0.7796377371448193,\"ISK\":124.21667095888058,\"NOK\":9.647609236844364,\"TRY\":43.97407502789939,\"AUD\":1.4166881277362864,\"BRL\":5.219761352905829,\"CAD\":1.3657824705983346,\"CNY\":6.897330242939309,\"HKD\":7.817323375397031,\"IDR\":16854.59696111254,\"ILS\":3.076487252124646,\"INR\":92.08326895012448,\"KRW\":1464.795261395828,\"MXN\":17.547858185251954,\"MYR\":3.9415400463559105,\"NZD\":1.688900334792686,\"PHP\":58.4693965147223,\"SGD\":1.2742724697398917,\"THB\":31.47995536097519,\"ZAR\":16.31882565027041},\"GBP\":{\"EUR\":1.1487650775416427,\"USD\":1.3381964388282597,\"JPY\":210.24698449167147,\"CZK\":27.983917288914416,\"DKK\":8.582998276852383,\"GBP\":1,\"HUF\":441.50488225157955,\"PLN\":4.892360712234348,\"RON\":5.850086157380816,\"SEK\":12.26708788052843,\"CHF\":1.04330844342332,\"ISK\":166.2263067202757,\"NOK\":12.910396323951751,\"TRY\":58.84595060310166,\"AUD\":1.895807007466973,\"BRL\":6.985066053991958,\"CAD\":1.8276852383687534,\"CNY\":9.229982768523838,\"HKD\":10.461114302125216,\"IDR\":22554.76163124641,\"ILS\":4.116944284893739,\"INR\":123.22550258472141,\"KRW\":1960.1838024124065,\"MXN\":23.48248133256749,\"MYR\":5.274554853532452,\"NZD\":2.260080413555428,\"PHP\":78.24353819643883,\"SGD\":1.7052268811028144,\"THB\":42.126364158529576,\"ZAR\":21.837794371051118}}}"
+    },
+    {
+      "url": "https://prebid.media.net/rtb/prebid?cid=8CU995W35",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"id\":\"74dd9a29-6c42-4f95-ba6a-fdc5c476bd9e\",\"ext\":{\"csUrl\":[{\"type\":\"image\",\"url\":\"https://x.bidswitch.net/sync?ssp=medianet&gdpr=1&gdpr_consent=&gdpr_pd=1\"},{\"type\":\"iframe\",\"url\":\"https://hbx.media.net/checksync.php?vsSync=1&cs=8&cv=31&https=1&cid=8CU995W35&prvid=77%2C20000%2C2034%2C3011%2C182%2C2031%2C2030%2C251%2C460%2C462%2C201%2C2027%2C203%2C214%2C313%2C2025%2C413%2C117%2C319&itype=PREBID&purpose1=1&gdprconsent=0&gdpr=1&coppa=0&usp_status=0&usp_consent=1&dn=fotocasa.es\"}]}}"
+    },
+    {
+      "url": "https://g2.gumgum.com/hbid/imp?displaymanager=Prebid.js%20-%20gumgum&displaymanagerver=8.52.0&lt=1772640367838&to=-60&aun=fuse-slot-fc-wde-tv-list-right_4-1&pubcid=7cf7349a-3058-4999-97f8-cf7bd749ca12&gpid=5180329%2FFotocasa%2FFotocasa-web_desktop%2Ffc-wde-tv-list-right_4%23single-1&t=ks0wrxem&pi=3&maxw=300&maxh=250&si=1366027&bf=300x250&schain=1.0%2C1!publift.com%2C01KC9P62JQF09XFJH2KAEM7RP3%2C1%2C%2C%2C&vw=1259&vh=1324&sw=2560&sh=1440&pu=https%3A%2F%2Fwww.fotocasa.es%2Fes%2Fcomprar%2Fviviendas%2Figualada%2Ftodas-las-zonas%2Fl%3FpropertyNotFound&ce=true&dpr=1&jcsi=%7B%22t%22%3A0%2C%22rq%22%3A8%2C%22pbv%22%3A%228.52.0%22%7D&ogu=null&ns=10240",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"ad\":{},\"pxs\":{\"scr\":[{\"u\":\"https://id5-sync.com/s/441/9.gif?puid=&gdpr=1&gdpr_consent=\",\"t\":\"i\",\"i\":false}]},\"dmppxs\":{\"qac\":\"p-00TsOkvHvnsZU\",\"quantcast\":true,\"labels\":\"Lifestyles.ks0wrxem.*_fotocasa_es\"},\"pag\":{\"t\":\"ks0wrxem\",\"pu\":\"https://www.fotocasa.es/es/comprar/viviendas/igualada/todas-las-zonas/l?propertyNotFound\",\"pvid\":\"950a7abf-fdf6-49d6-b65d-febcb49a9b82\"},\"jcsi\":{\"t\":0,\"rq\":8},\"meta\":{},\"thms\":10000}\n"
+    },
+    {
+      "url": "https://g2.gumgum.com/hbid/imp?displaymanager=Prebid.js%20-%20gumgum&displaymanagerver=8.52.0&lt=1772640367837&to=-60&aun=fuse-slot-fc-wde-tv-list-right_3-1&pubcid=7cf7349a-3058-4999-97f8-cf7bd749ca12&gpid=5180329%2FFotocasa%2FFotocasa-web_desktop%2Ffc-wde-tv-list-right_3%23single-1&t=ks0wrxem&pi=3&maxw=300&maxh=600&si=1366027&bf=300x600&schain=1.0%2C1!publift.com%2C01KC9P62JQF09XFJH2KAEM7RP3%2C1%2C%2C%2C&vw=1259&vh=1324&sw=2560&sh=1440&pu=https%3A%2F%2Fwww.fotocasa.es%2Fes%2Fcomprar%2Fviviendas%2Figualada%2Ftodas-las-zonas%2Fl%3FpropertyNotFound&ce=true&dpr=1&jcsi=%7B%22t%22%3A0%2C%22rq%22%3A8%2C%22pbv%22%3A%228.52.0%22%7D&ogu=null&ns=10240",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"ad\":{},\"pxs\":{\"scr\":[{\"u\":\"https://id5-sync.com/s/441/9.gif?puid=&gdpr=1&gdpr_consent=\",\"t\":\"i\",\"i\":false}]},\"dmppxs\":{\"qac\":\"p-00TsOkvHvnsZU\",\"quantcast\":true,\"labels\":\"Lifestyles.ks0wrxem.*_fotocasa_es\"},\"pag\":{\"t\":\"ks0wrxem\",\"pu\":\"https://www.fotocasa.es/es/comprar/viviendas/igualada/todas-las-zonas/l?propertyNotFound\",\"pvid\":\"830a29f0-c527-4f86-b352-9b07adf968e8\"},\"jcsi\":{\"t\":0,\"rq\":8},\"meta\":{},\"thms\":10000}\n"
+    },
+    {
+      "url": "https://htlb.casalemedia.com/openrtb/pbjs?s=1314072",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"id\":\"46cda07157475338\",\"ext\":{\"features\":{\"pbjs_allow_all_eids\":{\"activated\":true},\"pbjs_enable_multiformat\":{\"activated\":true}}}}"
+    },
+    {
+      "url": "https://mp.4dex.io/prebid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"data\":{\"vwSmplgNxt\":0.01,\"adagiojs\":{\"sampling\":{\"avw\":0.01}}}}\n"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://ads.servenobid.com/adreq?cb=8827",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"country\":\"ES\",\"device\":\"COMPUTER\",\"site\":208406,\"bids\":[],\"syncs\":[\"https://prebid.a-mo.net/cchain/0?gdpr=0&gdpr_consent=&us_privacy=&cb=https%3A%2F%2Fads.servenobid.com%2Fsync%3Fpid%3D327%26uid%3D\",\"https://jadserve.postrelease.com/suid/101952?ntv_r=https%3A%2F%2Fads.servenobid.com%2Fsync%3Fpid%3D322%26cbimg%3D6006%26uid%3DNTV_USER_ID\",\"https://ssp.disqus.com/redirectuser?r=https%3A%2F%2Fads.servenobid.com%2Fsync%3Fpid%3D346%26uid%3DBUYERUID\",\"https://ads.servenobid.com/getsync?redirect=chrome%3A%2F%2Fversion%2F\"],\"debug\":{}}"
+    },
+    {
+      "url": "https://prg.smartadserver.com/prebid/v1",
+      "status": 200,
+      "content_type": "application/json; charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"cpm\":0.0,\"currency\":\"USD\",\"width\":0,\"height\":0,\"ad\":null,\"adUrl\":null,\"dealId\":null,\"ttl\":0,\"isNetCpm\":true,\"creativeId\":0,\"cSyncUrl\":null,\"isNoAd\":true,\"dspPixels\":[\"https://match.deepintent.com/usersync/158\",\"https://ssc-cms.33across.com/ps/?ri=0013300001kQj2HAAS&ru=https%3A%2F%2Frtb-csync.smartadserver.com%2Fredir%2F%3Fissi%3D1%26partnerid%3D180%26partneruserid%3D33XUSERID33X&gdpr=1&gdpr_consent=\",\"https://sync-tm.everesttech.net/upi/pid/byN59NcB?redir=https%3A%2F%2Frtb-csync.smartadserver.com%2Fredir%2F%3Fissi%3D1%26partnerid%3D170%26partneruserid%3D%24%7BTM_USER_ID%7D&gdpr=1&gdpr_consent=\"],\"adomain\":null,\"dsa\":null}"
+    },
+    {
+      "url": "https://prg.smartadserver.com/prebid/v1",
+      "status": 200,
+      "content_type": "application/json; charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"cpm\":0.0,\"currency\":\"USD\",\"width\":0,\"height\":0,\"ad\":null,\"adUrl\":null,\"dealId\":null,\"ttl\":0,\"isNetCpm\":true,\"creativeId\":0,\"cSyncUrl\":null,\"isNoAd\":true,\"dspPixels\":[\"https://sync-tm.everesttech.net/upi/pid/byN59NcB?redir=https%3A%2F%2Frtb-csync.smartadserver.com%2Fredir%2F%3Fissi%3D1%26partnerid%3D170%26partneruserid%3D%24%7BTM_USER_ID%7D&gdpr=1&gdpr_consent=\",\"https://ssc-cms.33across.com/ps/?ri=0013300001kQj2HAAS&ru=https%3A%2F%2Frtb-csync.smartadserver.com%2Fredir%2F%3Fissi%3D1%26partnerid%3D180%26partneruserid%3D33XUSERID33X&gdpr=1&gdpr_consent=\",\"https://match.deepintent.com/usersync/158\"],\"adomain\":null,\"dsa\":null}"
+    },
+    {
+      "url": "https://direct.adsrvr.org/bid/bidder/publift",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": ""
+    },
+    {
+      "url": "https://shb.richaudience.com/hb/",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": ""
+    },
+    {
+      "url": "https://ib.adnxs.com/ut/v3/prebid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"version\":\"3.0.0\",\"tags\":[{\"uuid\":\"59e1ae00d777ddf8\",\"tag_id\":36958777,\"auction_id\":\"2633828931116446460\",\"nobid\":true,\"ad_profile_id\":1581966},{\"uuid\":\"603f903d419ccab8\",\"tag_id\":36958777,\"auction_id\":\"4426597643041048819\",\"nobid\":true,\"ad_profile_id\":0}]}"
+    },
+    {
+      "url": "https://ex.ingage.tech/v1/openrtb",
+      "status": 204,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": ""
+    },
+    {
+      "url": "https://search.gw.fotocasa.es/v2/suggest",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "[{\"id\":\"level-5-id-8102-lang-0\",\"hasChildren\":true,\"childrenLevelId\":7,\"type\":\"location\",\"groupCategory\":5,\"suggestTypeId\":0,\"localizationLevel5\":\"Igualada\",\"combinedLocationIds\":\"724,9,8,236,410,8102,0,0,0\",\"coordinates\":{\"longitude\":1.61951,\"latitude\":41.5801},\"text\":\"Igualada, Barcelona\",\"baseText\":\"Igualada\",\"poiCategory\":0,\"isPoi\":false,\"adsCount\":364},{\"id\":\"6005\",\"hasChildren\":false,\"childrenLevelId\":0,\"type\":\"geosearch\",\"groupCategory\":12,\"suggestTypeId\":3,\"localizationLevel5\":\"\",\"combinedLocationIds\":\"fgc-igualada-barcelona\",\"coordinates\":{\"longitude\":1.6298588,\"latitude\":41.5780914},\"text\":\"FGC Igualada, Barcelona\",\"baseText\":\"FGC Igualada\",\"poiCategory\":11,\"isPoi\":false,\"adsCount\":326},{\"id\":\"7137\",\"hasChildren\":false,\"childrenLevelId\":0,\"type\":\"geosearch\",\"groupCategory\":12,\"suggestTypeId\":3,\"localizationLevel5\":\"\",\"combinedLocationIds\":\"hospital-d-igualada-barcelona\",\"coordinates\":{\"longitude\":1.62038,\"latitude\":41.58785},\"text\":\"Hospital d'Igualada, Barcelona\",\"baseText\":\"Hospital d'Igualada\",\"poiCategory\":14,\"isPoi\":false,\"adsCount\":18},{\"id\":\"level-7-id-1219-lang-0\",\"hasChildren\":false,\"childrenLevelId\":0,\"type\":\"location\",\"groupCategory\":7,\"suggestTypeId\":0,\"localizationLevel5\":\"Igualada\",\"combinedLocationIds\":\"724,9,8,236,410,8102,0,1219,0\",\"coordinates\":{\"longitude\":1.6170420509020789,\"latitude\":41.57899170163951},\"text\":\"Centre, Igualada\",\"baseText\":\"Centre\",\"poiCategory\":0,\"isPoi\":false,\"adsCount\":126},{\"id\":\"level-7-id-1218-lang-0\",\"hasChildren\":false,\"childrenLevelId\":0,\"type\":\"location\",\"groupCategory\":7,\"suggestTypeId\":0,\"localizationLevel5\":\"Igualada\",\"combinedLocationIds\":\"724,9,8,236,410,8102,0,1218,0\",\"coordinates\":{\"longitude\":1.6201551897929007,\"latitude\":41.5840859289154},\"text\":\"El Poble Sec, Igualada\",\"baseText\":\"El Poble Sec\",\"poiCategory\":0,\"isPoi\":false,\"adsCount\":71},{\"id\":\"level-7-id-1216-lang-0\",\"hasChildren\":false,\"childrenLevelId\":0,\"type\":\"location\",\"groupCategory\":7,\"suggestTypeId\":0,\"localizationLevel5\":\"Igualada\",\"combin"
+    },
+    {
+      "url": "https://api.id5-sync.com/analytics/1189/id5-api-js",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"sampling\":20,\"ingestUrl\":\"https://api.id5-sync.com/analytics/event/id5-api-js/1189\",\"additionalCleanupRules\":{\"auctionEnd\":[{\"match\":[[\"adUnits\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"bids\"],[\"*\"],[\"params\",\"ortb2Imp\",\"mediaTypes\",\"sizes\",\"metrics\",\"rtd\",\"nativeParams\",\"nativeOrtbRequest\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"bids\"],[\"*\"],[\"ortb2\"],[\"!user\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"bids\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"!ext\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"bids\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"ext\"],[\"!eids\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"bids\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"ext\"],[\"eids\"],[\"*\"],[\"uids\"],[\"*\"],[\"id\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"refererInfo\",\"metrics\",\"gdprConsent\",\"adUnitsS2SCopy\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"ortb2\"],[\"!user\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"!ext\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"ext\"],[\"!eids\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"ext\"],[\"eids\"],[\"*\"],[\"uids\"],[\"*\"],[\"id\"]],\"apply\":\"erase\"},{\"match\":[[\"noBids\"],[\"*\"],[\"!bidId\"]],\"apply\":\"erase\"},{\"match\":[[\"metrics\"]],\"apply\":\"erase\"},{\"match\":[[\"bidsReceived\"],[\"*\"],[\"meta\",\"metrics\",\"adserverTargeting\"]],\"apply\":\"erase\"}],\"bidWon\":[{\"match\":[[\"meta\",\"metrics\",\"adserverTargeting\",\"pbsWurl\",\"params\"]],\"apply\":\"erase\"}]}}"
+    },
+    {
+      "url": "https://esp.rtbhouse.com/encrypt",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"status\":\"true\",\"message\":\"9nS8OLW9vnk7MrPqNTp60caJSbO2WeNo1w6camt6E5fNraVeNA9aL3XOV7lEHQKdUh/NMWHMZwfS+XjSkl+EJC9vpzhShXhUA++pIUKNrIXX/TS2Wz1vkLKV8jXV0/5rR9u20WD9RZbVtdy/QsX4dzt8o3M1yjqDNJq4pxMV7KpfTrC4qR6gZN1dZ5vYqCfzUYJaCNCL3Ed5/ijV//aViMrhymCYBCZ06TYrw/AE5Fg=\",\"segments\":\"1,2,3\"}"
+    },
+    {
+      "url": "https://lbs.eu-1-id5-sync.com/lbs/v1",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"lbs\":\"iHJpxWyT7/zwSVTXpd1cH3850hB+HY6gFpgPvIPFy46GpZNcRpFjfOOjQMPt5yBM\"}"
+    },
+    {
+      "url": "https://lb.eu-1-id5-sync.com/lb/v1",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"lb\":\"CC6cbihLP115US5JZOjx9Q==\",\"ttl\":28800}"
+    },
+    {
+      "url": "https://id5-sync.com/gm/v3",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"generic\":{\"signature\":\"ID5_AoEr9kZSHbDGzIemNzCVGT3gDhoCwhY80Wggjt7GBw4-dUjZVRAOGR9SiaqFXj95pGJ8zjdEiuBSYSn_5IM7z_7axIbrjYRWkvrgYTr1c0MlYcc-gLUtq1htRncJKTxcIGMLy-N0nesU_sCfcuW4_NRFzyvnC8R3OmmLiwOYBjl6AUF0Zl4\",\"created_at\":\"2026-02-06T18:58:21.576Z\",\"id5_consent\":true,\"original_uid\":\"ID5*Ij3TYw8fYYJNgAWpFQCA8OP4RtEjNCWMWOr-D_2J7R7__2moWHFaAAEBCmmGOc0AjnGz76FkWgvjUB1_NMgr-47CzW-1C2t3qmW6pWfk3HSOlmNu2EWhsvKNoQy5y20kkAde-raC4kQPnQUkyaSLfo7HTtTAi1ZSSI6VHjWreT2Qen360ckWcOGBbVpeWEwekA1uXPWqa-YLVbPc2ODMig\",\"universal_uid\":\"ID5*AMJKeARLdqdLzcFkW-PgfTGffpOEhTo53CgUwIjmtkb__2moWHFaAAEBCmmGOc0AjnGmxM147LgXqafOKoR9Ao7CjZq0lNAVmNZH25qD4jeOlogricLAtZgTGCpxmSX-kAcpH4KoXnkQMJrDkPLg7Y7HScVdtilcw87Zce1GXcWQejcyTxRYBgLfB7UYspz0kA3THN6R6Y-8kWz3ertFIg\",\"link_type\":2,\"cascade_needed\":true,\"privacy\":{\"jurisdiction\":\"gdpr\",\"id5_consent\":true},\"ext\":{\"linkType\":2,\"pba\":\"LDg197Z98fglncQ/xMJaW02A0QWUxwsQ5mwnVq6egJvEPBOX1X8+2w1Nq3QQLMRCgN0jHddEc9Xkg7XMZHxDlQ==\"},\"cache_control\":{\"max_age_sec\":7200},\"ids\":{\"id5id\":{\"eid\":{\"source\":\"id5-sync.com\",\"uids\":[{\"id\":\"ID5*AMJKeARLdqdLzcFkW-PgfTGffpOEhTo53CgUwIjmtkb__2moWHFaAAEBCmmGOc0AjnGmxM147LgXqafOKoR9Ao7CjZq0lNAVmNZH25qD4jeOlogricLAtZgTGCpxmSX-kAcpH4KoXnkQMJrDkPLg7Y7HScVdtilcw87Zce1GXcWQejcyTxRYBgLfB7UYspz0kA3THN6R6Y-8kWz3ertFIg\",\"atype\":1,\"ext\":{\"linkType\":2,\"pba\":\"LDg197Z98fglncQ/xMJaW02A0QWUxwsQ5mwnVq6egJvEPBOX1X8+2w1Nq3QQLMRCgN0jHddEc9Xkg7XMZHxDlQ==\"}}]}}},\"tags\":{\"id\":\"y\"}},\"responses\":{\"3ba11efc-bb28-4a5b-82dc-36e1c060f565\":{\"original_uid\":\"ID5*bs4vpUPsnUQBc_lvWfN8Nq8Luhdvx9lKFBkCybF6Edj__2moWHFaAAEBCmmGOc0AjnEkegYqrsHSyLblpOph7I7CI82blckIaFs3lwB4VHWOltMZmph8PSxlXMyIuimSkAdqgPCmd4we0iqfHMBG0I7HMrWQH5fW_DAJeV20NJqQehBJZhQ4ppaB_KinbiCKkA3ooGadLscaAHn6Af-quQ\",\"universal_uid\":\"ID5*N90dBDNUIdt80pYYbPy3AQaAKe-zmm1F6zdDvL_54Tr__2moWHFaAAEBCmmGOc0AjnE45lo9Wv8gtgIAruIoSI7CYaTN9SVhNtSG2FS6TVaOlpDNw4_gaYtykQGgv5UpkAfwCm23zOf9V13emXCI747HFEXmLXtTP6AcvxELUp2Qevo9P419ZLkcL0DW1tokkA2JNHCBEbNjW5jBwteIng\",\"link_type\":2,\"cascade_needed\":true,\"ext\":{\"linkType\":"
+    },
+    {
+      "url": "https://www.fotocasa.es/relibrary.js?d=www.fotocasa.es",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"token\":\"3:+ii+3XlaT4njmRGRkLJj6w==:BuyL7bC7/JZRt8qvxyKGE2c0fECXomBx8x+s/vjMZ6B1Wn/j8hyEMx3i5NZ39lFoNFOz2r1lYcWHWC8FTCSiqIvsa2ODLz3eP28zuqXG4PthGgWM1wYEBE+Om+uVCCiLO43vwMUxlNDezBtdEXQH29NqNxlw7cHznQsyLHajA7P5sGyoRj4KAvm3ey3+KdH45DlRrGMdMoppXDRYhh/LoBuA3P4X6BI4B4WEeOn018nkBgldiX51wBBTrNpNzX+uEctcWzWPw+10a5+dDAxIONXDZuUich2lutBdfrY+A1BGbleSsQAoNYlgpyKy6XsVJm04rNM2UX1BLbNnnWcHZsJU2YegxT9/BQDNDHoBOLx5AagtmUbRq1s3ONFj/YZA/WBck7moscBP9JuDQ1+gceB+KWFbBc6HbzfOtUHgDNaoF+bIapJ6SGhMIfJcdATLG1mtTwBPjoBGMBnq194JUCvhH4Me1VvbYDQDVa7temKsJYQcCxOUonMTyefRrpX33FX0k8jrVNiSVYHZcpVDKGhrqtBMoPNwK5hZuoBNUxI=:Js5YnxaA23TyL1P3NgNGlqOZL6MnXlMLiSxbfiCuhyc=\",\"renewInSec\":704,\"cookieDomain\":\".fotocasa.es\"}\n"
+    },
+    {
+      "url": "https://sdk.fra-01.braze.eu/api/v3/data/",
+      "status": 201,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"triggers\":[{\"data\":{\"prefetch_file_urls\":[\"https://cdn.braze.eu/appboy/communication/assets/code_assets/files/648a0fe93140424933a49957/original.css?1686769641\"],\"trigger_id\":\"NjQ5MDFiZTFkNGZmMTgwZjI2M2ZhYzA3XyRfbXY9NjdiNjAyNmQwZjI2ZjgwMDY1NzdjZGI4JnBpPWNtcA==\"},\"delay\":0,\"end_time\":null,\"id\":\"64901be1d4ff180f263fac07\",\"priority\":2000149000,\"re_eligibility\":1209600,\"start_time\":1687158000,\"trigger_condition\":[{\"data\":{\"event_name\":\"List Web Viewed\",\"property_filters\":[[{\"comparator\":1,\"property_key\":\"list_view\",\"property_type\":\"string\",\"property_value\":\"list_map\"}]]},\"type\":\"custom_event_property\"}],\"type\":\"templated_iam\"},{\"data\":{\"prefetch_file_urls\":[\"https://cdn.braze.eu/appboy/communication/assets/code_assets/files/65d307605d110f004e6101ee/original.css?1708328800\",\"https://cdn.braze.eu/appboy/communication/assets/svg_assets/files/65ca27935024ce0062705988/original.svg?1707747219\",\"https://cdn.braze.eu/appboy/communication/assets/code_assets/files/65cf4ee7da1a8e00551b0664/original.js?1708084967\"],\"trigger_id\":\"NjViYTQ1YzQwNzFhZjAwMDY5Y2NmOGIxXyRfbXY9NjViYTQ1YzQwNzFhZjAwMDY5Y2NmODk5JnBpPWNtcA==\"},\"delay\":3,\"end_time\":null,\"id\":\"65ba45c4071af00069ccf8b1\",\"priority\":2000174000,\"re_eligibility\":15552000,\"start_time\":1709211600,\"trigger_condition\":[{\"data\":{\"event_name\":\"Upselling Viewed\"},\"type\":\"custom_event\"}],\"type\":\"templated_iam\"},{\"data\":{\"prefetch_file_urls\":[\"https://cdn.braze.eu/appboy/communication/assets/code_assets/files/65f98037b2261b00634e819e/original.css?1710850103\",\"https://cdn.braze.eu/appboy/communication/assets/image_assets/images/65f444186045790062378005/original.png?1710507032\"],\"trigger_id\":\"NjVmMDdhOGVkZWUzYjkwYzk5MjE0Y2IwXyRfbXY9NjZhOWYyMTBlMDhiOTMwMDg4OTQ0Njg4JnBpPWNtcA==\"},\"delay\":20,\"end_time\":null,\"id\":\"65f07a8edee3b90c99214cb0\",\"priority\":2000186000,\"re_eligibility\":1209600,\"start_time\":1710860400,\"trigger_condition\":[{\"data\":{\"event_name\":\"Ad Replied Email\",\"property_filters\":[[{\"comparator\":1,\"property_key\":\"platform\",\"property_type\":"
+    },
+    {
+      "url": "https://sdk.fra-01.braze.eu/api/v3/content_cards/sync",
+      "status": 201,
+      "content_type": "application/json",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"cards\":[],\"last_full_sync_at\":1772640370,\"last_card_updated_at\":1772202252,\"full_sync\":true}"
+    },
+    {
+      "url": "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.fotocasa.es%2Fes%2Fcomprar%2Fviviendas%2Figualada%2Ftodas-las-zonas%2Fl%3FpropertyNotFound&buyer_pixel_id=14960&gdpr_applies=true&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&gtm_consent=true&didomi_consent=true",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"tracking_allowed\":true,\"first_party_cookie_allowed\":true,\"session_id\":\"9cdfe55a-7c42-430f-bb59-da58b57c9f9a\",\"domain\":\"fotocasa.es\",\"ccpa\":{\"apply\":false},\"gdpr\":{\"apply\":true,\"teads_consent\":1,\"api_version\":2,\"cmp_id\":7,\"is_service_specific\":true},\"outbrain_advertiser_ids\":[\"00408462328fd81e599a92110fb6e9f45a\"]}"
+    },
+    {
+      "url": "https://ams.creativecdn.com/tags/v2?type=json",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "[]"
+    },
+    {
+      "url": "https://id5-sync.com/api/config/prebid",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"fetchCall\":{\"url\":\"https://id5-sync.com/g/v2/1732.json\",\"overrides\":{\"pbExtensions\":{\"bounce\":{\"setCookie\":false}}}},\"extensionsCall\":{\"url\":\"https://lb.eu-1-id5-sync.com/lb/v1\",\"method\":\"GET\"}}"
+    },
+    {
+      "url": "https://id5-sync.com/gm/v3",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"generic\":{\"signature\":\"ID5_ArECXXxrs5H8x0omMn1p0TqP3IfLPXFo3t028W9zPEJ5c6aXOIkJ6l8UOHgg5inUp4Sf3yB-SI0kLnZWyHtfp4m8EDmEZ207j1-5FZ1TG7yfyrm3uUxEj551_8S0N_-TDaqMDCjOoOKIezDAkPYGPAFATvwVaIkqj0nx7pr7t290ghX_YEk\",\"created_at\":\"2026-02-06T18:58:21.576Z\",\"id5_consent\":true,\"original_uid\":\"ID5*kIIkib2glmj_P_JDp793GlFHsTuRi9Jm6lUJ5U82GvT__2moWHNaAAEBCmmGOc0AjnEqIsN-QrEA4lgIV6z0X47CEPwI5r9x87ZelhnPYhuOluheMs_npqViqe2iBwSskAduhxZ9rPP6XWrNpm6V647Hbn5JkrkV9xsQ1Im8jOCQetplFXsIwlRcdeM3yYPSkA06IgVbkXG1xCZiKR_q9w\",\"universal_uid\":\"ID5*3Qx_ctmFQ62WA_Ruhi3Vd-xRS5lZSw8zAeYhylUog0z__2moWHNaAAEBCmmGOc0AjnHOswP2VqIGqKuuj9ytk47CGhS2PCY-_9cGmV-VGmCOlnMryr4i6ioZ4M1xCeXxkAcZerFxzzPF8DvOi9MqzI7HVqvFZACN-Y_LAw6yyFKQeuo64K4lmcSJI_QM7Td3kA3oTUKG7FwlIcR3mPEu6Q\",\"link_type\":2,\"cascade_needed\":true,\"privacy\":{\"jurisdiction\":\"gdpr\",\"id5_consent\":true},\"ext\":{\"linkType\":2,\"pba\":\"LDg197Z98fglncQ/xMJaW9/k2mZ7RvOQwbXpk0J8XsFYoaHANravP7k/hFz6LRob322IfLK/u7Ky5OEKxbafcA==\"},\"ab_testing\":{\"result\":\"normal\"},\"cache_control\":{\"max_age_sec\":7200},\"ids\":{\"id5id\":{\"eid\":{\"source\":\"id5-sync.com\",\"uids\":[{\"id\":\"ID5*3Qx_ctmFQ62WA_Ruhi3Vd-xRS5lZSw8zAeYhylUog0z__2moWHNaAAEBCmmGOc0AjnHOswP2VqIGqKuuj9ytk47CGhS2PCY-_9cGmV-VGmCOlnMryr4i6ioZ4M1xCeXxkAcZerFxzzPF8DvOi9MqzI7HVqvFZACN-Y_LAw6yyFKQeuo64K4lmcSJI_QM7Td3kA3oTUKG7FwlIcR3mPEu6Q\",\"atype\":1,\"ext\":{\"linkType\":2,\"pba\":\"LDg197Z98fglncQ/xMJaW9/k2mZ7RvOQwbXpk0J8XsFYoaHANravP7k/hFz6LRob322IfLK/u7Ky5OEKxbafcA==\",\"abTestingControlGroup\":false}}]}}},\"tags\":{\"ab\":\"n\",\"id\":\"y\"}},\"responses\":{\"3ba11efc-bb28-4a5b-82dc-36e1c060f565\":{\"original_uid\":\"ID5*EIV5bj2ny49_OK-kJ7gq_dFA7NwRjI-BalJUAs8xRxP__2moWHNaAAEBCmmGOc0AjnH7iW1LLWIMBTg5obqEs47CyIIyYOQk_VzBtOMNNYCOlpnasmEhSvFIQ-db-bWLkAccZyAfUm-naivzukbuiY7HNQQOdTmLiGpqUZZ2b0mQen1AA9WR0rm3oDXRuKj4kA3GuAlJW4ZYYVL_LxFv9Q\",\"universal_uid\":\"ID5*Gdxq2h1VVgVS0-HGQv3A3yiBXjGdmxqbxTY0YpH4luT__2moWHNaAAEBCmmGOc0AjnEzD4DYW3pVGKQuMQWqlo7Cb6-xKQSMuXL3-AiKQzWOlgQXX5gKfm83w5axNNE-kAcSk7zGp8L7nX4nynFVe47HE0tv_RO3qtrbYxN2t1KQeo4uvtD8wdVUSQBogjV2kA3BTP"
+    },
+    {
+      "url": "https://api.id5-sync.com/analytics/1732/id5-api-js",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"sampling\":20,\"ingestUrl\":\"https://api.id5-sync.com/analytics/event/id5-api-js/1732\",\"additionalCleanupRules\":{\"auctionEnd\":[{\"match\":[[\"adUnits\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"bids\"],[\"*\"],[\"params\",\"ortb2Imp\",\"mediaTypes\",\"sizes\",\"metrics\",\"rtd\",\"nativeParams\",\"nativeOrtbRequest\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"bids\"],[\"*\"],[\"ortb2\"],[\"!user\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"bids\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"!ext\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"bids\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"ext\"],[\"!eids\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"bids\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"ext\"],[\"eids\"],[\"*\"],[\"uids\"],[\"*\"],[\"id\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"refererInfo\",\"metrics\",\"gdprConsent\",\"adUnitsS2SCopy\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"ortb2\"],[\"!user\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"!ext\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"ext\"],[\"!eids\"]],\"apply\":\"erase\"},{\"match\":[[\"bidderRequests\"],[\"*\"],[\"ortb2\"],[\"user\"],[\"ext\"],[\"eids\"],[\"*\"],[\"uids\"],[\"*\"],[\"id\"]],\"apply\":\"erase\"},{\"match\":[[\"noBids\"],[\"*\"],[\"!bidId\"]],\"apply\":\"erase\"},{\"match\":[[\"metrics\"]],\"apply\":\"erase\"},{\"match\":[[\"bidsReceived\"],[\"*\"],[\"meta\",\"metrics\",\"adserverTargeting\"]],\"apply\":\"erase\"}],\"bidWon\":[{\"match\":[[\"meta\",\"metrics\",\"adserverTargeting\",\"pbsWurl\",\"params\"]],\"apply\":\"erase\"}]}}"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://prebid.a-mo.net/a/c",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"x\":\"_e=TVAxpvkVZyC1HIAH5AUpSrX_Wvfapqfv8GqtCuzHFOrBKbjxQ0MTKiU1bAu1Sh-HsO6NY5aFIU2t_P99UHO1QsafEZF4NOuOHuZtrehWqeOpuC-g2P2RADjs7i2FWEp4mpCAceTxUOkahGuwdj1sydhsvWVolp3LOue4jqHyO_DKpku2r2cMXE_swIxyWUp4F1XFW4FR8LUjo7JTMI4_RNFHXByBJrjlBVvfy_f7g-8k4SRsFmsYNlpo9MDUQuAe48rAdF61XhSiqHxwI2dmYIYKmLWBl4yHa8tXca6vYi8nVsWgT5eIRyL3C9oFXW-yAu2YNM6mA4AnPd-2bsA9O4DcSAwIuFbHY1Bz31-IbWgcTwm6WztwiiMxs79ggb_GoSlDhRspBvhZAYesFVa-cQLHMI22mtnQIp1g0n3kWiWGcxzMUyDzgFhojBLpn7tavBdHoKxD9xStp3RevfbMgqSrSGS3MyYQtPKe0fdbfF-6U-LOE-aSczTjqgyRXcugigVaURtqU2n9qS_04tbVx0S_JVhbf4k6wHb2QyYyEbqeiNTSDFOUkGmmw5XYgwRXW2NJ751HVw\",\"p\":{\"hreq\":[\"https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAxpvkVZyC1HIAH5AUpSrX_Wvfapqfv8GqtCuzHFOrBKbjxQ0MTKiU1bAu1Sh-HsO6NY5aFIU2t_P99UHO1QsafEZF4NOuOHuZtrehWqeOpuC-g2P2RADjs7i2FWEp4mpCAceTxUOkahGuwdj1sydhsvWVolp3LOue4jqHyO_DKpku2r2cMXE_swIxyWUp4F1XFW4FR8LUjo7JTMI4_RNFHXByBJrjlBVvfy_f7g-8k4SRsFmsYNlpo9MDUQuAe48rAdF61XhSiqHxwI2dmYIYKmLWBl4yHa8tXca6vYi8nVsWgT5eIRyL3C9oFXW-yAu2YNM6mA4AnPd-2bsA9O4DcSAwIuFbHY1Bz31-IbWgcTwm6WztwiiMxs79ggb_GoSlDhRspBvhZAYesFVa-cQLHMI22mtnQIp1g0n3kWiWGcxzMUyDzgFhojBLpn7tavBdHoKxD9xStp3RevfbMgqSrSGS3MyYQtPKe0fdbfF-6U-LOE-aSczTjqgyRXcugigVaURtqU2n9qS_04tbVx0S_JVhbf4k6wHb2QyYyEbqeiNTSDFOUkGmmw5XYgwRXW2NJ751HVw\",\"https://image8.pubmatic.com/AdServer/ImgSync?p=158355&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk"
+    },
+    {
+      "url": "https://prebid.a-mo.net/a/c",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"x\":\"_e=TVAxQQNKESbZl3NawZXiswKxhlXnUzdiTHy0aLhjsNBxsBmKK-a31E1YycuN7vcNg-Rn5x7YkaSXS1Co8r7D3OLH3Y6QcstIG4o87PEylcH2Q0b0HOhRF1aGAlQH-W2VcQhQTlkQL1Dwi3MnIscp4LSz5IY6OCEiVw4zA8Et8vyCFrW4ERXLe4ix2G6z07kKBbbaYbojF8B3fcuNJY26SS3b7vt3ncLza54DcYC4sUgSDdDMdO3Hk7tQW5g5ixGXe7MvX7bGoYBKgOxcAeOddmg8l0DgeuiXAMqoMJ05n27U1fKEDzXLDsONMDUvhous5sImvRe9Tk0sX1FeQaA7Div5imSHfeDTmoa4iK4Ds9tBRRgyrQEeAQfeGOcQ4hxQGKlEIYkpnvt1RoQgw2KYvRVXkRzrFTlWPrltyCHoYTk1-ahvlXr8z_FliGJKvbeLaNUgWPLK4HbgSmnZ96RopzYX5I1ccqeBOZnoTNywsNX5dSLx22culpMzPQSpPrjoJgh6ekxPRilRDpZQgLThsngfpydsMSXaBO2L70hKRp4kqy1ws7q9cEAOTpMImRka0gcEmm_Pbg\",\"p\":{\"hreq\":[\"https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAxQQNKESbZl3NawZXiswKxhlXnUzdiTHy0aLhjsNBxsBmKK-a31E1YycuN7vcNg-Rn5x7YkaSXS1Co8r7D3OLH3Y6QcstIG4o87PEylcH2Q0b0HOhRF1aGAlQH-W2VcQhQTlkQL1Dwi3MnIscp4LSz5IY6OCEiVw4zA8Et8vyCFrW4ERXLe4ix2G6z07kKBbbaYbojF8B3fcuNJY26SS3b7vt3ncLza54DcYC4sUgSDdDMdO3Hk7tQW5g5ixGXe7MvX7bGoYBKgOxcAeOddmg8l0DgeuiXAMqoMJ05n27U1fKEDzXLDsONMDUvhous5sImvRe9Tk0sX1FeQaA7Div5imSHfeDTmoa4iK4Ds9tBRRgyrQEeAQfeGOcQ4hxQGKlEIYkpnvt1RoQgw2KYvRVXkRzrFTlWPrltyCHoYTk1-ahvlXr8z_FliGJKvbeLaNUgWPLK4HbgSmnZ96RopzYX5I1ccqeBOZnoTNywsNX5dSLx22culpMzPQSpPrjoJgh6ekxPRilRDpZQgLThsngfpydsMSXaBO2L70hKRp4kqy1ws7q9cEAOTpMImRka0gcEmm_Pbg\",\"https://image8.pubmatic.com/AdServer/ImgSync?p=158355&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk"
+    },
+    {
+      "url": "https://prebid.a-mo.net/a/c",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"x\":\"_e=TVAxfgYOlwtc8zNH58hoS6dm3JboDWEAl0HClo4FocCq5HQ3afDUCVVt0ApQY0QpnPBe4W7ga7rqmpw-aCCuOGRhPST-_BN7Egb7LZl6hkzCqBsosVnPW7LQ_GHaJ7QQjA4K5wCeT5xZHaRPA77tUVvRTpyq8T9yaz6G7UhAvSDw81UG3scO9KUhG0NOX0r9--9eu4UISEn8PKO7WWTWZ7qE75LpLWjRhQT656DAU4Ih_l1WnDYyYVn-aoCRUuQxXf4VamK_HHA8aeSBYJ2f7tmLHiF0Q-w8I9r6kMCRujXquYa2dMGFFIDpEtvvMuXRaFnNsP_sRPSwt9Lrmuybz52BkFMEOXCxz9yGAUiLwaUfobRLpZkTellwfpY8YPaIbUtHxQzpzy22c27MjH8kktTYQoU3G5oIBeC3vPexkiMH2IfakFvamNaa-BJauvxk9HGMIDqkq1wJAd7opDCEAHWsx1E1fYiu9H_6vOxgOt4Vn_Cau-4pVYjamOlamFS4FYklVcbVwcXQ_IWQe-wXUcPzDj1KpUE2DVgxjgboe-vbOSFgXx3c99d__hhDQ__ZrVd6D8EOrQ\",\"p\":{\"hreq\":[\"https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAxfgYOlwtc8zNH58hoS6dm3JboDWEAl0HClo4FocCq5HQ3afDUCVVt0ApQY0QpnPBe4W7ga7rqmpw-aCCuOGRhPST-_BN7Egb7LZl6hkzCqBsosVnPW7LQ_GHaJ7QQjA4K5wCeT5xZHaRPA77tUVvRTpyq8T9yaz6G7UhAvSDw81UG3scO9KUhG0NOX0r9--9eu4UISEn8PKO7WWTWZ7qE75LpLWjRhQT656DAU4Ih_l1WnDYyYVn-aoCRUuQxXf4VamK_HHA8aeSBYJ2f7tmLHiF0Q-w8I9r6kMCRujXquYa2dMGFFIDpEtvvMuXRaFnNsP_sRPSwt9Lrmuybz52BkFMEOXCxz9yGAUiLwaUfobRLpZkTellwfpY8YPaIbUtHxQzpzy22c27MjH8kktTYQoU3G5oIBeC3vPexkiMH2IfakFvamNaa-BJauvxk9HGMIDqkq1wJAd7opDCEAHWsx1E1fYiu9H_6vOxgOt4Vn_Cau-4pVYjamOlamFS4FYklVcbVwcXQ_IWQe-wXUcPzDj1KpUE2DVgxjgboe-vbOSFgXx3c99d__hhDQ__ZrVd6D8EOrQ\",\"https://image8.pubmatic.com/AdServer/ImgSync?p=158355&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk"
+    },
+    {
+      "url": "https://s.seedtag.com/c/hb/bid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"bids\":[]}"
+    },
+    {
+      "url": "https://s.seedtag.com/c/hb/bid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"bids\":[{\"bidId\":\"a2c7a529-0370-44e0-a643-0f47741b2fd6\",\"content\":\"<script>\\n      window.hbResponse = JSON.parse(decodeURIComponent(atob(\\\"JTdCJTIyYmlkUmVzcG9uc2VzJTIyJTNBJTVCJTdCJTIycHJvZHVjdFNob3J0Q29kZSUyMiUzQSUyMk9NMzAweDYwMCUyMiUyQyUyMnByb2R1Y3RUeXBlJTIyJTNBJTIyZGlzcGxheSUyMiUyQyUyMnByb2R1Y3RNYXJrZXQlMjIlM0ElMjJvcGVuJTIyJTJDJTIyd2lkdGglMjIlM0EzMDAlMkMlMjJoZWlnaHQlMjIlM0E2MDAlMkMlMjJjb250ZW50JTIyJTNBJTIyJTNDIS0tJTIwU292cm4lMjBDcmVhdGl2ZSUyMGNyZWF0aXZlSWQlM0ElNUMlMjI0Mzc3NDY5MDYyN2MtZTM3YS00N2FiLThhYzEtNWYwMDYyNjUzMWUwJTVDJTIyJTIwc2VhdElkJTNBJTVDJTIyNzclNUMlMjIlMjBkc3BJZCUzQSU1QyUyMjQzJTVDJTIyJTIwc2l0ZUlkJTNBJTVDJTIyZm90b2Nhc2EuZXNfMzk3NTQ2JTVDJTIyJTIwcHViSWQlM0ElNUMlMjIzOTc1NDYlNUMlMjIlMjByZWZlcnJlckRvbWFpbiUzQSU1QyUyMmZvdG9jYXNhLmVzJTVDJTIyJTIwZGVsaXZlcnlUeXBlJTNBJTVDJTIyZGlzcGxheSU1QyUyMiUyMC0tJTNFJTIwJTNDIURPQ1RZUEUlMjBodG1sJTNFJTNDc2NyaXB0JTIwdHlwZSUzRCU1QyUyMmFwcGxpY2F0aW9uJTJGamF2YXNjcmlwdCU1QyUyMiUzRSU1Q24lMjAlMjAoZnVuY3Rpb24oZCUyQ2UpJTdCdmFyJTIwcyUzRCU1QyUyMiUzQiUyMGRvbWFpbiUzRCU1QyUyMiUzQnZhciUyMGclM0QlNUMlMjIlM0IlMjBleHBpcmVzJTNEJTVDJTIyJTNCdmFyJTIwdiUzRCU1QyUyMl9kbHQlM0QlNUMlMjIlM0J2YXIlMjB0JTNEJTVCJTVDJTIyZG91YmxlY2xpY2submV0JTVDJTIyJTJDJTVDJTIyZ29vZ2xlLmNvbSU1QyUyMiUyQyU1QyUyMmdvb2dsZWFwaXMuY29tJTVDJTIyJTJDJTVDJTIyZ29vZ2xlc3luZGljYXRpb24uY29tJTVDJTIyJTJDJTVDJTIyZ29vZ2xldXNlcmNvbnRlbnQuY29tJTVDJTIyJTVEJTNCZnVuY3Rpb24lMjBmKGUpJTdCZm9yKHZhciUyMG8lM0QwJTNCbyUzQ3QubGVuZ3RoJTNCbyUyQiUyQiklN0J2YXIlMjByJTNEdCU1Qm8lNUQlM0JpZihlLnN1YnN0cihlLmxlbmd0aC1yLmxlbmd0aCklM0QlM0RyKSU3QnJldHVybiUyMHRydWUlN0QlN0RyZXR1cm4lMjBmYWxzZSU3RGZ1bmN0aW9uJTIwbShlJTJDbyklN0JpZighbyklN0JyZXR1cm4lMjB2b2lkJTIwMCU3RHZhciUyMHIlM0RuZXclMjBEYXRlKDApLnRvVVRDU3RyaW5nKCklM0J2YXIlMjB0JTNEbmV3JTIwRGF0ZShEYXRlLm5vdygpJTJCMjQqNjAqNjAqMWUzKjEpLnRvVVRDU3RyaW5nKCklM0J2YXIlMjBhJTNEby5zcGxpdCglNUMlMjIuJTVDJTIyKSUzQnZhciUyMG4lM0RvJTNCZm9yKHZhciUyMGklM0QyJTNCaSUzQyUzRGEubGVuZ3RoJTNCaSUyQiUyQiklN0JuJTNEYS5zbGljZSgtaSkuam9pbiglNUMlMjIuJTVDJTIyKSUzQnZhciUyMGMlM0R2JTJCJTVDJTIyMSUzQiUyMHBhdGglM0QlMkYlM0I"
+    },
+    {
+      "url": "https://prebid.a-mo.net/a/c",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"x\":\"_e=TVAxdYvXYAZwNfmfY_89hHIh4rF6DMwxLCQb8ya9lCn9vViJ5mMetVM0WlN8pDE7bIHXZlyoQPHazVVFJL29vQPKZDL9V7cZhhBUlxSICtgm0kUHhtQhYbdQXE-e_PJ2Gyynlqaam44ywSkNhphwB7k4-xzGZEbDD2jPTV6XP4wBI7R0qm6hYX6Hp7mhchGXC3ZJjLNqN5FbGCbV7yoODRHVDidz5aSSYQcMBMNFRArfOU2Q6IyFMA_sMdeDno6U0GoEkOGfz2XkkAzgPsLuv1kmOF7NFHvLpg4nJrjGco2Gga0EmL9QF8pc1D2f7fL4I04Ng9gxn9-_zVSr-S-RV7wqszwGClGjsXFoV3q3Ol1inNHPdEprTbTa-bn9r0e3J28DsfsyyfEHDzs4BABuQtEDOHzjwBSmW_REF4coJ3h5TcWY_lnFD5gE3PJPCNhTaJoPMTIThXZ9wJQLSf4JpNUJbNTsZ7tyOvmaNFoVSYmoJvwPOxD6XvG9McFkx2hKfjGCgnQGyrLULvwv4F41bcgzaXWJYVf5SSLtP-eO6axB1tfvso4Sew871pZNdJBsGarjAaGqvA\",\"p\":{\"hreq\":[\"https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAxdYvXYAZwNfmfY_89hHIh4rF6DMwxLCQb8ya9lCn9vViJ5mMetVM0WlN8pDE7bIHXZlyoQPHazVVFJL29vQPKZDL9V7cZhhBUlxSICtgm0kUHhtQhYbdQXE-e_PJ2Gyynlqaam44ywSkNhphwB7k4-xzGZEbDD2jPTV6XP4wBI7R0qm6hYX6Hp7mhchGXC3ZJjLNqN5FbGCbV7yoODRHVDidz5aSSYQcMBMNFRArfOU2Q6IyFMA_sMdeDno6U0GoEkOGfz2XkkAzgPsLuv1kmOF7NFHvLpg4nJrjGco2Gga0EmL9QF8pc1D2f7fL4I04Ng9gxn9-_zVSr-S-RV7wqszwGClGjsXFoV3q3Ol1inNHPdEprTbTa-bn9r0e3J28DsfsyyfEHDzs4BABuQtEDOHzjwBSmW_REF4coJ3h5TcWY_lnFD5gE3PJPCNhTaJoPMTIThXZ9wJQLSf4JpNUJbNTsZ7tyOvmaNFoVSYmoJvwPOxD6XvG9McFkx2hKfjGCgnQGyrLULvwv4F41bcgzaXWJYVf5SSLtP-eO6axB1tfvso4Sew871pZNdJBsGarjAaGqvA\",\"https://image8.pubmatic.com/AdServer/ImgSync?p=158355&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk"
+    },
+    {
+      "url": "https://s.seedtag.com/c/hb/bid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"bids\":[]}"
+    },
+    {
+      "url": "https://s.seedtag.com/c/hb/bid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"bids\":[]}"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://prebid.a-mo.net/a/c",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"x\":\"_e=TVAxBCfZ7QJXAjkKz11npHEZjAkUbFOuAPctJIws7L285U8L45giNgSCWIwHElbn8myZY92lmtg1NmeRBsLnnDH1FLv-sgJiy1qNsvPMuuJOe6YELPerNmkvcPc0WLKkW-DUe-Y7fymUMWJ2U2_9fdOqFJaDbPhAtce6fXsGMFWGRnVlcwaG03a12vunlzacyD7NscjI4iARXpbAGKq1gv07BXmrWhUf1t4qtHAvQ9mKHDRI9QCjAour8JFQJRNk9DFF-RCNB2P7JoufOXph4D6pwJbdQxqKAywaKYlIwKe7VqnKCRlKxWL0rS4FaCeoUwOb8v8BzBxfYhP6B-q3D4NRIq8OC4OVEocs2-mADJPB9mo1j3mRMPWyGHoVCTB1JIQNfjUbh9zrromcu5_bfDYpOp6ByRaV-Yknl1qBhXLV-Yxr42b8f1rpm-uIQfv7a2HQKAF6WYrkZFHMJzNVmr-4xc6uRs8vMeTIrqQpvw8GedGvP-qpCrgZUPCEghocbYzvmjTK5efuOSygZddWYITtfVOsZQvyB8xnRh__IKobAqOZ_WWyNA8woDxmp5uqaI_bcwmKew\",\"p\":{\"hreq\":[\"https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAxBCfZ7QJXAjkKz11npHEZjAkUbFOuAPctJIws7L285U8L45giNgSCWIwHElbn8myZY92lmtg1NmeRBsLnnDH1FLv-sgJiy1qNsvPMuuJOe6YELPerNmkvcPc0WLKkW-DUe-Y7fymUMWJ2U2_9fdOqFJaDbPhAtce6fXsGMFWGRnVlcwaG03a12vunlzacyD7NscjI4iARXpbAGKq1gv07BXmrWhUf1t4qtHAvQ9mKHDRI9QCjAour8JFQJRNk9DFF-RCNB2P7JoufOXph4D6pwJbdQxqKAywaKYlIwKe7VqnKCRlKxWL0rS4FaCeoUwOb8v8BzBxfYhP6B-q3D4NRIq8OC4OVEocs2-mADJPB9mo1j3mRMPWyGHoVCTB1JIQNfjUbh9zrromcu5_bfDYpOp6ByRaV-Yknl1qBhXLV-Yxr42b8f1rpm-uIQfv7a2HQKAF6WYrkZFHMJzNVmr-4xc6uRs8vMeTIrqQpvw8GedGvP-qpCrgZUPCEghocbYzvmjTK5efuOSygZddWYITtfVOsZQvyB8xnRh__IKobAqOZ_WWyNA8woDxmp5uqaI_bcwmKew\",\"https://image8.pubmatic.com/AdServer/ImgSync?p=158355&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk"
+    },
+    {
+      "url": "https://prebid.a-mo.net/a/c",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"x\":\"_e=TVAxgaDt7RGZiMHFMB5mR7vfo0GVbwgP5grqjracq7VkMsM3csWCwQn8Fwpsg_doKZMX6JvvR2F_oefFBAIFJaRQgs11LS-Q3sx8sQvmbCbFGNyMoSNf22UkBGJJf9xI_PgEknsBOSODAyWoWXypdS-sl_YzcEct0ldqA-QpeZNZjGnvMp6brz2YvCZscClbFTapmlsJqLJ6k17a7j_H4KE0FQsoWqbV46f6dRrz2k37QcUSIWjreXgBES2VjejfSt6CIF9t_OT_V5GXv3UPEt3jThC13ng6ppyZyCVpqSEQc2L-eddsac0il0kgUZMwo10Vwg3CHXaD5Y4ySLIsJFLKg7CjtUl9MVm7PrwM3YjsF5Omaq4cQHa5rUsLxk2ZdupQ5EIY9ow9pqCF5lZod8r_8Pb8vHHkhfLitqe1VOpTnfriuBThdgIYcX4UKX44kRFRCSlk73N3XnqeA51dUdoabbLTwaDHFjIkQAJBzRXrEkR1j5zvUNPjXJcGRsTIGWsjmGwGlL1S7BK7wvEP64jUPJs2AKFZ5WGxOjroLr2m1czHNtCnjXPeZklBz8swDfLci4I6gA\",\"p\":{\"hreq\":[\"https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAxgaDt7RGZiMHFMB5mR7vfo0GVbwgP5grqjracq7VkMsM3csWCwQn8Fwpsg_doKZMX6JvvR2F_oefFBAIFJaRQgs11LS-Q3sx8sQvmbCbFGNyMoSNf22UkBGJJf9xI_PgEknsBOSODAyWoWXypdS-sl_YzcEct0ldqA-QpeZNZjGnvMp6brz2YvCZscClbFTapmlsJqLJ6k17a7j_H4KE0FQsoWqbV46f6dRrz2k37QcUSIWjreXgBES2VjejfSt6CIF9t_OT_V5GXv3UPEt3jThC13ng6ppyZyCVpqSEQc2L-eddsac0il0kgUZMwo10Vwg3CHXaD5Y4ySLIsJFLKg7CjtUl9MVm7PrwM3YjsF5Omaq4cQHa5rUsLxk2ZdupQ5EIY9ow9pqCF5lZod8r_8Pb8vHHkhfLitqe1VOpTnfriuBThdgIYcX4UKX44kRFRCSlk73N3XnqeA51dUdoabbLTwaDHFjIkQAJBzRXrEkR1j5zvUNPjXJcGRsTIGWsjmGwGlL1S7BK7wvEP64jUPJs2AKFZ5WGxOjroLr2m1czHNtCnjXPeZklBz8swDfLci4I6gA\",\"https://image8.pubmatic.com/AdServer/ImgSync?p=158355&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk"
+    },
+    {
+      "url": "https://prebid.a-mo.net/a/c",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"x\":\"_e=TVAxRenxXEZp79PvSy3k8xqPXj8zOjKAKimoYetEF1whvzQxb3Im1gfiyalBNERYciWIErhlUjE0TwrJggEANrlM4usTCZI-PFQRAKJpCpasnWdx7f6Di6Q4rl7ANKRWsZgUo3nkfIJ72-dNSUl5gZDCMfEUhubWH-4rZmstCqLsmLu_dxdzPtq7dv8jRUXvweUNAgV1FbF4OHNvLOLr5rSwiEz_pM2VlXbH8jfKYxTSXOHDQNKU_YUbwDMKrKBFjgsFmWPbyilbeaBnSgYthlWqMAKWhZ-ysfYnDDN2K3kEN-u7LVPSWfMuKo0ho4Eu7X3rTiqzkXWxuc1LdB74TL0NKLlF_7SLRFcKg8LCo5aYdRVmqILKJJJNb2tXkSYNadpfDcGMdSH16OL0c_UvxTnbmBJvWP34YN9eHTb7DmxSdb4OSjvrLpIm0ntoQoqp-xpd0EoiYlRuNocLqEbxGc3qlOS2ACAjXT6U3oyWj35itKHrHS96KPfcpXuV7gJ5zFYd_lUA0To7DIxtK7Ds3YWdaKRwWkvKRb7Sl8DJcmn25cr6i0bm9OLoZHZXKqsl8oZVB8epKg\",\"p\":{\"hreq\":[\"https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAxRenxXEZp79PvSy3k8xqPXj8zOjKAKimoYetEF1whvzQxb3Im1gfiyalBNERYciWIErhlUjE0TwrJggEANrlM4usTCZI-PFQRAKJpCpasnWdx7f6Di6Q4rl7ANKRWsZgUo3nkfIJ72-dNSUl5gZDCMfEUhubWH-4rZmstCqLsmLu_dxdzPtq7dv8jRUXvweUNAgV1FbF4OHNvLOLr5rSwiEz_pM2VlXbH8jfKYxTSXOHDQNKU_YUbwDMKrKBFjgsFmWPbyilbeaBnSgYthlWqMAKWhZ-ysfYnDDN2K3kEN-u7LVPSWfMuKo0ho4Eu7X3rTiqzkXWxuc1LdB74TL0NKLlF_7SLRFcKg8LCo5aYdRVmqILKJJJNb2tXkSYNadpfDcGMdSH16OL0c_UvxTnbmBJvWP34YN9eHTb7DmxSdb4OSjvrLpIm0ntoQoqp-xpd0EoiYlRuNocLqEbxGc3qlOS2ACAjXT6U3oyWj35itKHrHS96KPfcpXuV7gJ5zFYd_lUA0To7DIxtK7Ds3YWdaKRwWkvKRb7Sl8DJcmn25cr6i0bm9OLoZHZXKqsl8oZVB8epKg\",\"https://image8.pubmatic.com/AdServer/ImgSync?p=158355&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk"
+    },
+    {
+      "url": "https://s.seedtag.com/c/hb/bid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"bids\":[]}"
+    },
+    {
+      "url": "https://s.seedtag.com/c/hb/bid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"bids\":[]}"
+    },
+    {
+      "url": "https://prebid.a-mo.net/a/c",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"x\":\"_e=TVAxoXVpqgJ0ABx-lCOhRBFV6ZB7nEslAf55uE6whMK4jTT8dhFQiitTfgLcsi9TUV4_5ESjUgbsMcJEScaaJIZGWRYbi_ktsnstSdCCvm20_yuPIAfpI4EbX2yp4AFyFcvVBuxE7MFw6GpFrIzaQs8yUWhbBg-0jUGF5IPUN0RwH9bWoJ3HVloFH9-Rp1ONdCUM6hrWRSuYmPUz4x1YucdkCKJWe8pmzKiX6en4Q4IfsDpF4uIZ_I5fmrTjM_uCK6z0fsYWsWUiJBpdJ972WMwWgMoodWQKfidE6655MOo6ylKIm_zU3zIu7OmVsSN-OapPA91IrbP66fumgeVL16mN-5ICi4YJG9n_XsIAfVAQ3d-bk5jrhbdjIvbw0w_Qv04iFbmcwbzTQ2CBSqPsH7GTMpk10aHhTfOUU7VI6zoc35-LE18_pRQBHm-79nsgnKkMJ2BQ6Y7R3H7BMZ08eOoja9xYKE_oYHWO42HbsMsSZX-0HW5ft3HgABcABHewT85vnr0RN716Qws7PGw-X4T61D3TC5kOoB7fkk-hdBO0OrHjz4jtRUCCQj3c1e9o5kGtsGh2kQ\",\"p\":{\"hreq\":[\"https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAxoXVpqgJ0ABx-lCOhRBFV6ZB7nEslAf55uE6whMK4jTT8dhFQiitTfgLcsi9TUV4_5ESjUgbsMcJEScaaJIZGWRYbi_ktsnstSdCCvm20_yuPIAfpI4EbX2yp4AFyFcvVBuxE7MFw6GpFrIzaQs8yUWhbBg-0jUGF5IPUN0RwH9bWoJ3HVloFH9-Rp1ONdCUM6hrWRSuYmPUz4x1YucdkCKJWe8pmzKiX6en4Q4IfsDpF4uIZ_I5fmrTjM_uCK6z0fsYWsWUiJBpdJ972WMwWgMoodWQKfidE6655MOo6ylKIm_zU3zIu7OmVsSN-OapPA91IrbP66fumgeVL16mN-5ICi4YJG9n_XsIAfVAQ3d-bk5jrhbdjIvbw0w_Qv04iFbmcwbzTQ2CBSqPsH7GTMpk10aHhTfOUU7VI6zoc35-LE18_pRQBHm-79nsgnKkMJ2BQ6Y7R3H7BMZ08eOoja9xYKE_oYHWO42HbsMsSZX-0HW5ft3HgABcABHewT85vnr0RN716Qws7PGw-X4T61D3TC5kOoB7fkk-hdBO0OrHjz4jtRUCCQj3c1e9o5kGtsGh2kQ\",\"https://image8.pubmatic.com/AdServer/ImgSync?p=158355&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk"
+    },
+    {
+      "url": "https://s.seedtag.com/c/hb/bid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"bids\":[]}"
+    },
+    {
+      "url": "https://s.seedtag.com/c/hb/bid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"bids\":[]}"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://onetag-sys.com/prebid-request",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"nobids\":true}"
+    },
+    {
+      "url": "https://s.seedtag.com/c/hb/bid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"bids\":[]}"
+    },
+    {
+      "url": "https://prebid.a-mo.net/a/c",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"x\":\"_e=TVAxI_UWe9BzieEnJevcOve9Y2FcbA1h7Z5y-AOOnhQmcpXwsGr16wtXrmD0awCWHrIg5NNJJTy4PZQBtebRGybEOvPYxLtFb0FAOjzn84EaXs027gCUaC-9l8dvktNP-Kyo_okwdGL5zQncx8ubUuqyVpa-SbvNhm5iMILhTI5gxTOcsISQAA5kQP0_Lw2MrIvfk6LoEGTreg2U_T8GxqzhpI8HceObCCAofoSraP5FMsOCCR2ui51gEyDQYqZh1RXxP_AJ3GkJ8DKaDuFt4L2BACkxgj-aW2IWO1GiprXETeL4C2Tb8fF_OpYlDavZh6bRzBajPYf-TLVUE-l0gdEvsd19nYXLbuuDpvvrpqXAI-0WaR1C9w4zxkElhbFpn9JatwSy0CjheqKK58UaBuoxyaQOX1zC-C4HsS4IE3GqUW8Tzncaufi4m0lGlab98jbKFgeuxVRfCoEoasyrVa8mvWLJ7ut938zMsl2bPGpelkcbPQjsKLouft9TvGN5iJIoXCMcarHBsyhjl8LX5tiO_RLYNTKCluPdkePHZ0EJ6Si9ianAXEoXKHN6d6z-sm-1I_kHQg\",\"p\":{\"hreq\":[\"https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAxI_UWe9BzieEnJevcOve9Y2FcbA1h7Z5y-AOOnhQmcpXwsGr16wtXrmD0awCWHrIg5NNJJTy4PZQBtebRGybEOvPYxLtFb0FAOjzn84EaXs027gCUaC-9l8dvktNP-Kyo_okwdGL5zQncx8ubUuqyVpa-SbvNhm5iMILhTI5gxTOcsISQAA5kQP0_Lw2MrIvfk6LoEGTreg2U_T8GxqzhpI8HceObCCAofoSraP5FMsOCCR2ui51gEyDQYqZh1RXxP_AJ3GkJ8DKaDuFt4L2BACkxgj-aW2IWO1GiprXETeL4C2Tb8fF_OpYlDavZh6bRzBajPYf-TLVUE-l0gdEvsd19nYXLbuuDpvvrpqXAI-0WaR1C9w4zxkElhbFpn9JatwSy0CjheqKK58UaBuoxyaQOX1zC-C4HsS4IE3GqUW8Tzncaufi4m0lGlab98jbKFgeuxVRfCoEoasyrVa8mvWLJ7ut938zMsl2bPGpelkcbPQjsKLouft9TvGN5iJIoXCMcarHBsyhjl8LX5tiO_RLYNTKCluPdkePHZ0EJ6Si9ianAXEoXKHN6d6z-sm-1I_kHQg\",\"https://image8.pubmatic.com/AdServer/ImgSync?p=158355&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk"
+    },
+    {
+      "url": "https://s.seedtag.com/c/hb/bid",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"bids\":[]}"
+    },
+    {
+      "url": "https://prebid.a-mo.net/a/c",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"x\":\"_e=TVAx2IXjSHFQ5vq-YKXrulZMt6495ssDIAnTYpSA8CNkssZ2Xc8_YhxvnfWFwxcGD71hR2yD9Z-nH03PFuwNt1mt0RwXzTl7EZaBjtx6mshg7dLApVjftjH1irFQ0d8ZpXF13u6pxZ7o8YPx48ki4IiiCWcuiGwxBPE5MaxYOgKBqcbCIvUWKy7AX0Nn_Vq00ZIsBdeUYqQhvUxAImwD5ztyjKBwEsgbCFAqqZa2UfDJ82dmnclZY0LQr8lsWaPJuc67KNZhe2lNiQGssa9yK9GuurOvWB-8iypb-CKvmR-P3P18fMefop0XDOqPbavq5owXmCbsuFFxCLCUvWWKkKKnyInLMIBb_qIblFCpuGAheE4stwW6pdNRpE4JAT8XI8aA2aXKJYCH3q8_57SlAKfHFQVtlyyCr5pv1lE6k3JDLuTYIx6zzfn9II2Cu-NUoz_y6Ed11cMCkJ3LISp2mgCqFKkLZMUZ4idI-YPTIG83eZCiuLxgbI3VXgc2wX_wgtSQdnJwaRpqP2qVrSysAAU0Fu4xQvIuGx9MaVqqQuJqbjXec5ZshxMY9eBZXXhQKulp2V18YQ\",\"p\":{\"hreq\":[\"https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAx2IXjSHFQ5vq-YKXrulZMt6495ssDIAnTYpSA8CNkssZ2Xc8_YhxvnfWFwxcGD71hR2yD9Z-nH03PFuwNt1mt0RwXzTl7EZaBjtx6mshg7dLApVjftjH1irFQ0d8ZpXF13u6pxZ7o8YPx48ki4IiiCWcuiGwxBPE5MaxYOgKBqcbCIvUWKy7AX0Nn_Vq00ZIsBdeUYqQhvUxAImwD5ztyjKBwEsgbCFAqqZa2UfDJ82dmnclZY0LQr8lsWaPJuc67KNZhe2lNiQGssa9yK9GuurOvWB-8iypb-CKvmR-P3P18fMefop0XDOqPbavq5owXmCbsuFFxCLCUvWWKkKKnyInLMIBb_qIblFCpuGAheE4stwW6pdNRpE4JAT8XI8aA2aXKJYCH3q8_57SlAKfHFQVtlyyCr5pv1lE6k3JDLuTYIx6zzfn9II2Cu-NUoz_y6Ed11cMCkJ3LISp2mgCqFKkLZMUZ4idI-YPTIG83eZCiuLxgbI3VXgc2wX_wgtSQdnJwaRpqP2qVrSysAAU0Fu4xQvIuGx9MaVqqQuJqbjXec5ZshxMY9eBZXXhQKulp2V18YQ\",\"https://image8.pubmatic.com/AdServer/ImgSync?p=158355&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk"
+    }
+  ],
+  "apis_html": [
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/igualada/calefaccion-terraza-ascensor-patio-amueblado/188765462/d",
+      "status": 302,
+      "content_type": "text/html; charset=utf-8",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/viviendas/igualada/todas-las-zonas/l?propertyNotFound",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://btloader.com/trustedIframe.html?o=5708166709903360&upapi=true",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://syndicatedsearch.goog/afs/ads/i/iframe.html",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://psb.taboola.com/topics_api",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": false
+    },
+    {
+      "url": "https://static.servg1.net/pframe.html",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://static.servg1.net/pframe.html",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://static.servg1.net/pframe.html",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://static.servg1.net/pframe.html",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://static.servg1.net/pframe.html",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://static.servg1.net/pframe.html",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=163370&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://onetag-sys.com/usync/?cb=1772640372288&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://euw2-sync.a-mo.net/isyn?__st=iframe&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=1---&_e=TVAxpvkVZyC1HIAH5AUpSrX_Wvfapqfv8GqtCuzHFOrBKbjxQ0MTKiU1bAu1Sh-HsO6NY5aFIU2t_P99UHO1QsafEZF4NOuOHuZtrehWqeOpuC-g2P2RADjs7i2FWEp4mpCAceTxUOkahGuwdj1sydhsvWVolp3LOue4jqHyO_DKpku2r2cMXE_swIxyWUp4F1XFW4FR8LUjo7JTMI4_RNFHXByBJrjlBVvfy_f7g-8k4SRsFmsYNlpo9MDUQuAe48rAdF61XhSiqHxwI2dmYIYKmLWBl4yHa8tXca6vYi8nVsWgT5eIRyL3C9oFXW-yAu2YNM6mA4AnPd-2bsA9O4DcSAwIuFbHY1Bz31-IbWgcTwm6WztwiiMxs79ggb_GoSlDhRspBvhZAYesFVa-cQLHMI22mtnQIp1g0n3kWiWGcxzMUyDzgFhojBLpn7tavBdHoKxD9xStp3RevfbMgqSrSGS3MyYQtPKe0fdbfF-6U-LOE-aSczTjqgyRXcugigVaURtqU2n9qS_04tbVx0S_JVhbf4k6wHb2QyYyEbqeiNTSDFOUkGmmw5XYgwRXW2NJ751HVw",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://csync.smilewanted.com/?gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://image8.pubmatic.com/AdServer/ImgSync?sec=1&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=",
+      "status": 302,
+      "content_type": "text/html; charset=utf-8",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://image8.pubmatic.com/AdServer/ImgSync?sec=1&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=",
+      "status": 302,
+      "content_type": "text/html; charset=utf-8",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://image8.pubmatic.com/AdServer/ImgSync?sec=1&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=",
+      "status": 302,
+      "content_type": "text/html; charset=utf-8",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://image8.pubmatic.com/AdServer/ImgSync?sec=1&gdpr=1&gdpr_consent=CQfM9YAQfM9YAAHABBENCQFsAP_gAEPgAAiQL8tR_G__bWlr-bb3aftkeYxP9_hr7sQxBgbJk24FzLvW7JwXx2E5NAzatqIKmRIAu3TBIQNlHJDURUCgKIgFryDMaEyU4TNKJ6BkiFMZI2tYCFxvm4tjWQCY4vr99lc1mB-t7dr82dzyy6hHn3a5_2S1UJCdIYetDfv8ZBKT-9IEd_x8v4v4_EbpE2-eS1n_pGvp4jd-YnM_dBmxt-Tyff7Pn__rl_e7X_vc_n3zv94XH77v_-__f_-7___2b_-__gvuACYaFRBGWRAgECgYQQIAFBWEAFAgCAABIGiAgBMGBDkDABdYTIAQAoABggBAACDAAEAAAkACEQAQAEAgBAgECgADAAgCAgAIGAAMAFiIBAACA6BimBBAIFgAkZlUGmBKAAkEBLZUIJQMCCuEIRZ4BBAiJgoAAASACgIAAHgsBCSQErEggC4gmgAAIAAAogRIEUhZgCCoM0WgLAk4DI0wDB8wTJKdBkgTBCQkmRCb0Jh4pCiBBDkBsUswB08QUAIAAAAA.f_wACHwAAAAA&us_privacy=",
+      "status": 302,
+      "content_type": "text/html; charset=utf-8",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://csync.smilewanted.com/drop_cookie_sw.php",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "resource_type": "document",
+      "is_json": false
+    }
+  ],
+  "total_json": 63,
+  "total_html": 20,
+  "__NEXT_DATA__": {
+    "found": false
+  },
+  "datos_pagina": {
+    "json_ld": [
+      {
+        "url": "https://www.fotocasa.es/es/comprar/viviendas/igualada/todas-las-zonas/l",
+        "name": "364 Viviendas y casas en venta en Igualada | fotocasa",
+        "description": "364 anuncios de Viviendas y casas en Venta en Igualada con fotos. Compara GRATIS los precios de particulares y agencias. ¡Encuentra tu casa ideal!",
+        "mainEntity": [
+          {
+            "name": "364 Viviendas y casas en venta en Igualada | fotocasa",
+            "description": "364 anuncios de Viviendas y casas en Venta en Igualada con fotos. Compara GRATIS los precios de particulares y agencias. ¡Encuentra tu casa ideal!",
+            "image": "https://static.fotocasa.es/images/ads/6893caba-3789-40b5-a20d-61fb30c1f2e2?rule=original",
+            "offers": {
+              "@type": "AggregateOffer",
+              "url": "https://www.fotocasa.es/es/comprar/viviendas/igualada/todas-las-zonas/l",
+              "lowPrice": 66000,
+              "highPrice": 690000,
+              "priceCurrency": "EUR",
+              "offerCount": "364"
+            },
+            "brand": {
+              "name": "https://www.fotocasa.es"
+            },
+            "sku": "https://www.fotocasa.es",
+            "mpn": "https://www.fotocasa.es",
+            "@type": "Product"
+          }
+        ],
+        "@context": "https://schema.org",
+        "@type": "RealEstateListing"
+      }
+    ],
+    "meta": {
+      "title": "364 Viviendas y casas en venta en Igualada | fotocasa",
+      "description": "364 anuncios de Viviendas y casas en Venta en Igualada con fotos. Compara GRATIS los precios de particulares y agencias. ¡Encuentra tu casa ideal!",
+      "canonical": "https://www.fotocasa.es/es/comprar/viviendas/igualada/todas-las-zonas/l"
+    }
+  },
+  "url_original": "https://www.fotocasa.es/es/comprar/vivienda/igualada/calefaccion-terraza-ascensor-patio-amueblado/188765462/d"
+}

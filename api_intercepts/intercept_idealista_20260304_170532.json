@@ -1,0 +1,154 @@
+{
+  "portal": "idealista",
+  "timestamp": "2026-03-04T17:05:32.211469",
+  "total_captured": 48,
+  "apis_json": [
+    {
+      "url": "https://www.idealista.com/es/ajax/listingController/adContactInfoForDetail.ajax?adId=110752095",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"message\":null,\"result\":\"OK\",\"errorCode\":null,\"data\":{\"adTypologyId\":1,\"isInvoiceAd\":false,\"isAdProfessional\":false,\"agencyIsABank\":null,\"showAdvertiserName\":true,\"showEmailContactMethod\":true,\"showPhoneContactMethod\":false,\"isLoggingAfterContactEnabled\":true,\"contactMessage\":null,\"contactDate\":null,\"phone2\":null,\"phoneRedirection\":null,\"formattedContactPhone1\":null,\"formattedContactPhoneWithPrefix\":null,\"showFormattedContactPhone2\":null,\"formattedContactPhone2\":null,\"adTypologyName\":\"piso\",\"newDevelopmentDirectory\":false,\"adId\":110752095,\"showProfessionalName\":true,\"firstName\":\"JUAN PEAL\",\"lastName\":null,\"commercialName\":\"\",\"commercialDataId\":null,\"referenceMessage\":\"110752095\",\"isMicrosite\":false,\"mustShowLogo\":null,\"micrositeCityName\":null,\"commercialNamePhraseBlock\":null,\"advertiserNameLink\":null,\"advertiserLogoUrl\":null,\"avatarUrl\":\"\",\"blockingStatusInfo\":{\"blockingStatus\":{\"blocking\":false,\"reason\":null,\"text\":null,\"date\":null,\"conversationId\":null,\"notBlocking\":true},\"adOutput\":null},\"adOperationId\":null,\"showAddRoomSeekerProfile\":null,\"showAddHousingSeekerProfile\":null,\"seekerProfile\":null,\"propertyTypeId\":1,\"mustBeContactedOnlyWithProfile\":false,\"defaultContactMessage\":null}}"
+    },
+    {
+      "url": "https://www.idealista.com/menu-api/links/nav-bar?language=es",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"menuItems\":[{\"data\":{\"text\":\"Propietarios\"},\"children\":[{\"data\":{\"text\":\"Vender\"},\"children\":[{\"data\":{\"text\":\"Publicar tu anuncio gratis\",\"url\":\"/info/publicar-anuncio\"}},{\"data\":{\"text\":\"Valorar tu casa\",\"url\":\"/valoracion-de-inmuebles/\"}},{\"data\":{\"text\":\"Guía para vender\",\"url\":\"/como-vender-tu-casa/\"}},{\"data\":{\"text\":\"Documentos necesarios para la venta\",\"url\":\"/propietarios/documentacion-legal-inmueble\"}},{\"data\":{\"text\":\"Buscar agencias para vender\",\"url\":\"/que-inmobiliaria-elegir/\"}}]},{\"data\":{\"text\":\"Poner en alquiler\"},\"children\":[{\"data\":{\"text\":\"Publicar tu anuncio gratis\",\"url\":\"/info/publicar-anuncio\"}},{\"data\":{\"text\":\"Seguro de impago de alquiler\",\"url\":\"/seguros/seguro-impago-alquiler/\"}},{\"data\":{\"text\":\"Consultar si un inquilino es moroso\",\"url\":\"/base-datos-inquilinos-morosos/como-saber-si-un-inquilino-es-moroso\"}},{\"data\":{\"text\":\"Crear contrato de alquiler\",\"url\":\"/contratos-de-alquiler/\"}}]},{\"data\":{\"text\":\"Para tu vivienda\"},\"children\":[{\"data\":{\"text\":\"Área del propietario\",\"url\":\"/propietarios/\"}},{\"data\":{\"text\":\"Subrogar hipoteca\",\"url\":\"/hipotecas/subrogar-hipoteca\"}},{\"data\":{\"text\":\"Calcular el coste de una reforma\",\"url\":\"/reformas/\"}},{\"data\":{\"text\":\"Seguro Anti Okupas\",\"url\":\"/seguros/seguro-antiokupas/\"}},{\"data\":{\"text\":\"Solicitar certificado energético\",\"url\":\"/certificadoenergetico/\"}}]}]},{\"data\":{\"text\":\"Buscas casa\"},\"children\":[{\"data\":{\"text\":\"Buscas para comprar\"},\"children\":[{\"data\":{\"text\":\"¿Qué casa te puedes permitir?\",\"url\":\"/hipotecas/que-casa-me-puedo-permitir/\"}},{\"data\":{\"text\":\"Tu hipoteca paso a paso\",\"url\":\"/hipotecas/guias/como-pedir-una-hipoteca/\"}},{\"data\":{\"text\":\"Explorar barrios y precios\",\"url\":\"/maps\"}},{\"data\":{\"text\":\"Valorar una casa\",\"url\":\"/valoracion-de-inmuebles/\"}}]},{\"data\":{\"text\":\"Buscas para alquilar\"},\"children\":[{\"data\":{\"text\":\"Certificado de inquilino no moroso\",\"url\":\"/base-datos-inquilinos-morosos/como-saber-si-soy-moroso-para-alquilar-casa\"}},{\"data\":{\"text\":\"Seguro Garantía de "
+    },
+    {
+      "url": "https://www.idealista.com/ajax/detail/contact-cookie",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"email\":null,\"phone\":null,\"phonePrefix\":null,\"name\":null,\"maxNumberContactsAllow\":10}"
+    },
+    {
+      "url": "https://www.idealista.com/ajax/detail/contact-cookie",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"email\":null,\"phone\":null,\"phonePrefix\":null,\"name\":null,\"maxNumberContactsAllow\":10}"
+    },
+    {
+      "url": "https://www.idealista.com/es/detail/pager?adId=110752095&referer=&isVacational=false",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"backLink\":{\"uri\":\"/venta-viviendas/igualada/ponent/\",\"anchorText\":{\"desktop\":\"Viviendas en Ponent\",\"mobile\":\"Listado\",\"shortedDesktop\":\"Viviendas en Ponent\"}},\"navigationLinks\":null,\"counter\":null}"
+    },
+    {
+      "url": "https://www.idealista.com/es/detail/110752095/configuration",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"rolConfiguration\":{\"rolSupportPhone\":null},\"mortgagesConfiguration\":{\"initialPrice\":295000,\"savedMoney\":\"88500.00\",\"defaultPercentSavings\":\"30\",\"yearsSupported\":30,\"maxYears\":40,\"taxRateFixed\":1.75,\"rateInit\":1.75,\"simulationWithExpenses\":true,\"expensesCalculationType\":\"MIN_FIXED_SAVINGS_CALCULATOR\",\"calculationType\":\"MAX_PERCENTAGE_SAVINGS_CALCULATOR\",\"taxRateFixedRanges\":[{\"min\":0,\"max\":10,\"rate\":1.75},{\"min\":11,\"max\":15,\"rate\":1.75},{\"min\":16,\"max\":20,\"rate\":1.75},{\"min\":21,\"max\":25,\"rate\":1.75},{\"min\":26,\"max\":40,\"rate\":1.75},{\"min\":0,\"max\":10,\"rate\":1.75},{\"min\":11,\"max\":15,\"rate\":1.75},{\"min\":16,\"max\":20,\"rate\":1.75},{\"min\":21,\"max\":25,\"rate\":1.75},{\"min\":26,\"max\":40,\"rate\":1.75},{\"min\":0,\"max\":10,\"rate\":1.75},{\"min\":11,\"max\":15,\"rate\":1.75},{\"min\":16,\"max\":20,\"rate\":1.75},{\"min\":21,\"max\":25,\"rate\":1.75},{\"min\":26,\"max\":40,\"rate\":1.75},{\"min\":0,\"max\":10,\"rate\":1.75},{\"min\":11,\"max\":15,\"rate\":1.75},{\"min\":16,\"max\":20,\"rate\":1.75},{\"min\":21,\"max\":25,\"rate\":1.75},{\"min\":26,\"max\":40,\"rate\":1.75},{\"min\":0,\"max\":10,\"rate\":1.75},{\"min\":11,\"max\":15,\"rate\":1.75},{\"min\":16,\"max\":20,\"rate\":1.75},{\"min\":21,\"max\":25,\"rate\":1.75},{\"min\":26,\"max\":40,\"rate\":1.75},{\"min\":0,\"max\":10,\"rate\":1.75},{\"min\":11,\"max\":15,\"rate\":1.75},{\"min\":16,\"max\":20,\"rate\":1.75},{\"min\":21,\"max\":25,\"rate\":1.75},{\"min\":26,\"max\":40,\"rate\":1.75},{\"min\":0,\"max\":10,\"rate\":1.75},{\"min\":11,\"max\":15,\"rate\":1.75},{\"min\":16,\"max\":20,\"rate\":1.75},{\"min\":21,\"max\":25,\"rate\":1.75},{\"min\":26,\"max\":40,\"rate\":1.75}],\"taxRateVariable\":2.58,\"isBrokerServiceActive\":true,\"showMortgageHeaderBlock\":true,\"isMortgagesContactLinkIsAllowed\":true,\"showMortgagesContactLink\":true,\"contactMortgagesUrl\":\"#\",\"mortgageFormType\":0,\"mortgageCalculatorUrl\":\"/hipotecas/simulador-hipotecas/?adId=110752095&aux_tracking=INT-8-[detalle_personalizar_hipoteca_consecutivo]\",\"showMortgageSimulatorButton\":true,\"mortgageGeneralsTermsUrl\":\"/hipotecas/condiciones-contratacion\",\"conditionsText\":\"Estos resultados son orientativos, calculados con lo"
+    },
+    {
+      "url": "https://dd.idealista.com/js/",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"status\":200,\"cookie\":\"datadome=3P4am64gJKLFGL28xbjUGnHJr0aO24V9Am1fBD7DCnwr6WNd~oZZLy71tRSUecfmZ6BweuTObpVSmTESbO~qYxv25wWyJ3e6_dNtZeB1gt3Mk5EUcaYlAFOK9131I8L4; Max-Age=31536000; Domain=.idealista.com; Path=/; Secure; SameSite=Lax\"}"
+    },
+    {
+      "url": "https://try.abtasty.com/ba99abce363c777e429f2eef6f87c927/manifest.json",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\n  \"1386426.1720550.json\": \"ba99abce363c777e429f2eef6f87c927/1386426.1720550.json?6e29a2dbbe9834fcce14da061c29297c\",\n  \"1386427.1720551.json\": \"ba99abce363c777e429f2eef6f87c927/1386427.1720551.json?f7526b05b0998b800bc63983acaea058\",\n  \"1417138.1760441.json\": \"ba99abce363c777e429f2eef6f87c927/1417138.1760441.json?686c7b5b301201d75fbde110fe348179\",\n  \"1417138.1760442.json\": \"ba99abce363c777e429f2eef6f87c927/1417138.1760442.json?686c7b5b301201d75fbde110fe348179\",\n  \"1521560.1896281.json\": \"ba99abce363c777e429f2eef6f87c927/1521560.1896281.json?dff296347cb76b469961401a52a3c3f7\",\n  \"1552789.1934951.json\": \"ba99abce363c777e429f2eef6f87c927/1552789.1934951.json?4b78ba3d449ab40b473f883cfa9cf787\",\n  \"1556641.1939733.json\": \"ba99abce363c777e429f2eef6f87c927/1556641.1939733.json?87e01fc789e48af73bd73345218216a5\",\n  \"1556641.1939735.json\": \"ba99abce363c777e429f2eef6f87c927/1556641.1939735.json?87e01fc789e48af73bd73345218216a5\",\n  \"1556647.1939740.json\": \"ba99abce363c777e429f2eef6f87c927/1556647.1939740.json?5614044363e2d0439205117e5505df00\",\n  \"1577243.1965998.json\": \"ba99abce363c777e429f2eef6f87c927/1577243.1965998.json?34dab086e3badd03d4e706db4a74dcaf\",\n  \"1581612.1971639.json\": \"ba99abce363c777e429f2eef6f87c927/1581612.1971639.json?0f0e3eac657cf18dff38a401a67c1f2b\",\n  \"manifest.json\": \"ba99abce363c777e429f2eef6f87c927/manifest.json\",\n  \"initiator.js\": \"ba99abce363c777e429f2eef6f87c927/initiator.js\",\n  \"index.js\": \"ba99abce363c777e429f2eef6f87c927.js\",\n  \"main.js\": \"ba99abce363c777e429f2eef6f87c927/main.5cbd9b0f6dadbb3931a6.js\",\n  \"analytics.js\": \"shared/analytics.a8414697a67b8d94b5f1.js\",\n  \"me.js\": \"shared/me.9cc1e665fc667ca6dfeb.js\",\n  \"variation-js-1760441-5670016-async-js.js\": \"ba99abce363c777e429f2eef6f87c927/variation-js-1760441-5670016-async-js.dccb55766bd6e9ebcf93.js\",\n  \"variation-js-1760442-5670017-async-js.js\": \"ba99abce363c777e429f2eef6f87c927/variation-js-1760442-5670017-async-js.4b22517cf5d3ba3a1fb0.js\",\n  \"variation-js-1896281-6038263-async-js.js\": \"ba99abce36"
+    },
+    {
+      "url": "https://www.idealista.com/detail/110752095/datalayer",
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\"responseStatusCode\":\"200\",\"settingCountry\":\"es\",\"settingLanguage\":\"es\",\"userStatus\":\"2\",\"adId\":\"110752095\",\"operation\":\"1\",\"typology\":\"1\",\"geoLocationId\":\"0-EU-ES-08-10-002-102-04\",\"adIsNewDevelopment\":\"0\",\"adOwnerType\":\"1\",\"adPrice\":\"295000.0\",\"adHasOnlineBooking\":\"0\",\"adHasRequiredProfile\":\"0\",\"adHasRequiredLogin\":\"1\",\"searchHL\":\"0\",\"recommenderPresent\":\"1\"}"
+    },
+    {
+      "url": "https://st4.idealista.com/datalayers/idealista/portal/adDetail/viewAdDetail.json",
+      "status": 200,
+      "content_type": "application/json",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "{\n    \"ad\": {\n        \"hasOnlineBooking\": \"${adHasOnlineBooking}\",\n        \"hasRequiredLogin\": \"${adHasRequiredLogin}\",\n        \"hasRequiredProfile\": \"${adHasRequiredProfile}\",\n        \"id\": \"${adId}\",\n        \"isNewDevelopment\": \"${adIsNewDevelopment}\",\n        \"owner\": {\n            \"type\": \"${adOwnerType}\"\n        },\n        \"price\": \"${adPrice}\"\n    },\n    \"agency\": {\n        \"name\": \"${agencyName}\"\n    },\n    \"device\": {\n        \"type\": \"${deviceType}\"\n    },\n    \"event\": {\n        \"class\": \"page\",\n        \"name\": \"viewAdDetail\",\n        \"type\": \"view\"\n    },\n    \"geo\": {\n        \"locationId\": \"${geoLocationId}\"\n    },\n    \"operation\": \"${operation}\",\n    \"page\": {\n        \"section\": \"portal\",\n        \"subSection\": \"adDetail\",\n        \"visibleContent\": \"${pageVisibleContent}\"\n    },\n    \"recommender\": {\n        \"id\": \"${recommenderId}\", \n        \"present\": \"${recommenderPresent}\"\n    },\n    \"response\": {\n        \"statusCode\": \"${responseStatusCode}\"\n    },\n    \"search\": {\n        \"HL\": \"${searchHL}\"\n    },\n    \"setting\": {\n        \"country\": \"${settingCountry}\",\n        \"language\": \"${settingLanguage}\"\n    },\n    \"tm\": {\n        \"datalayerVersion\": \"2.0\",\n        \"markup\": {\n            \"isTemporary\": \"0\",\n            \"owner\": \"FP\",\n            \"project\": \"TM-2918: AdDetail\"\n        }\n    },\n    \"typology\": \"${typology}\",\n    \"user\": {\n        \"hash\": \"${userHash}\",\n        \"profileId\": \"${userProfileId}\",\n        \"status\": \"${userStatus}\",    \n        \"toolsService\": {\n            \"geo\": \"${userToolsServiceGeo}\",\n            \"role\": \"${userToolsServiceRole}\",\n            \"software\": \"${userToolsServiceSoftware}\"\n        },\n        \"type\": \"${userType}\"\n    }  \n}"
+    },
+    {
+      "url": "https://ams.creativecdn.com/tags/v2?type=json",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "[]"
+    },
+    {
+      "url": "https://ams.creativecdn.com/tags/v2?type=json",
+      "status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": true,
+      "body_preview": "[]"
+    },
+    {
+      "url": "https://www8.smartadserver.com/687/call",
+      "status": 200,
+      "content_type": "application/json; charset=UTF-8",
+      "resource_type": "xhr",
+      "is_json": true,
+      "body_preview": "{\"sas_16025\":{\"ScriptType\":\"script\",\"ScriptSrc\":\"https://www8.smartadserver.com/h/nshow?siteid=33114&pgid=253244&fmtid=16025&tag=sas_16025&tmstp=7346084248&visit=S&acd=1772640320213&opid=b39eab15-4deb-4f93-80c4-fc7309e1325b&opdt=1772640320213&ckid=3005854200324747783&cappid=3005854200324747783&async=1&systgt=%24qc%3d0%3b%24ql%3dUnknown%3b%24qpc%3d08500%3b%24qpc%3d08*%3b%24qpc%3d085*%3b%24qpc%3d0850*%3b%24qpc%3d08500*%3b%24qt%3d228_3356_84828t%3b%24dma%3d0%3b%24qo%3d5%3b%24b%3d16999%3b%24o%3d99999%3b%24sw%3d1920%3b%24sh%3d1200&tgt=ope%3ds%3bauth%3df%3bgeop%3d0-EU-ES-08%3bgeoc%3d0-EU-ES-08-10%3bgeo%3d0-EU-ES-08-10-002-102-04-XX-XX-XX%3btyp%3dhs%3b%3b%24dt%3d1t&pgDomain=https%3a%2f%2fwww.idealista.com%2finmueble%2f110752095%2f&noadcbk=sas.noad&gdpr=1&gdpr_consent=CQfQQUAQfQQUAAHABBENCQFsAP_gAAAAAAAAHXwCAAIAAqABaAFsAUgBZgF5gOvAAAAKSgAwABBfkpABgACC_JCADAAEF-R0AGAAIL8hIAMAAQX5.f_wAAAAAAAAA&dmodel=unknown&dmake=unknown&reqid=e6017fcd-8d95-4166-b9fa-7f3c10ee8938&reqdt=1772640320214&oppid=b39eab15-4deb-4f93-80c4-fc7309e1325b&insid=11789355\",\"ScriptNoad\":\"https://euw1.smartadserver.com/h/aip?uii=8841208959030835865&tmstp=7346084248&ckid=3005854200324747783&systgt=%24qc%3d0%3b%24ql%3dUnknown%3b%24qpc%3d08500%3b%24qpc%3d08*%3b%24qpc%3d085*%3b%24qpc%3d0850*%3b%24qpc%3d08500*%3b%24qt%3d228_3356_84828t%3b%24dma%3d0%3b%24qo%3d5%3b%24b%3d16999%3b%24o%3d99999%3b%24sw%3d1920%3b%24sh%3d1200&acd=1772640320213&envtype=0&siteid=33114&tgt=ope%3ds%3bauth%3df%3bgeop%3d0-EU-ES-08%3bgeoc%3d0-EU-ES-08-10%3bgeo%3d0-EU-ES-08-10-002-102-04-XX-XX-XX%3btyp%3dhs%3b%3b%24dt%3d1t%3b%24hc&gdpr=1&gdpr_consent=CQfQQUAQfQQUAAHABBENCQFsAP_gAAAAAAAAHXwCAAIAAqABaAFsAUgBZgF5gOvAAAAKSgAwABBfkpABgACC_JCADAAEF-R0AGAAIL8hIAMAAQX5.f_wAAAAAAAAA&opid=b39eab15-4deb-4f93-80c4-fc7309e1325b&opdt=1772640320213&bldv=16824&srcfn=diff&pgid=253244&fmtid=16025&statid=7&visit=s\",\"FormatId\":16025}}"
+    }
+  ],
+  "apis_html": [
+    {
+      "url": "https://www.idealista.com/inmueble/110752095/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "resource_type": "document",
+      "is_json": false
+    },
+    {
+      "url": "https://amplify.outbrain.com/topics",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "fetch",
+      "is_json": false
+    },
+    {
+      "url": "https://psb.taboola.com/topics_api",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "resource_type": "fetch",
+      "is_json": false
+    },
+    {
+      "url": "https://csync.smartadserver.com/diff/rtb/csync/CookieSync.html?nwid=687&dcid=11&gdpr=1&gdprc=CQfQQUAQfQQUAAHABBENCQFsAP_gAAAAAAAAHXwCAAIAAqABaAFsAUgBZgF5gOvAAAAKSgAwABBfkpABgACC_JCADAAEF-R0AGAAIL8hIAMAAQX5.f_wAAAAAAAAA",
+      "status": 200,
+      "content_type": "text/html",
+      "resource_type": "document",
+      "is_json": false
+    }
+  ],
+  "total_json": 13,
+  "total_html": 4,
+  "__NEXT_DATA__": {
+    "found": false
+  },
+  "datos_pagina": {
+    "meta": {
+      "title": "Piso en venta en Calle de la Llacuna, 60, Ponent, Igualada — idealista",
+      "description": "piso de 90 m², Piso en venta en Calle de la Llacuna, 60, Ponent, Igualada, Ponent",
+      "canonical": "https://www.idealista.com/inmueble/110752095/"
+    }
+  },
+  "url_original": "https://www.idealista.com/inmueble/110752095/"
+}

@@ -293,13 +293,37 @@ def _asegurar_contexto_idealista(page, force: bool = False) -> None:
 _JS_FETCH_IDEALISTA = """
     async (url) => {
         try {
+            // Extraer el ID del inmueble de la URL
+            const match = url.match(/\\/inmueble\\/(\\d+)/);
+            if (!match) return 'NO_ID:';
+            const id = match[1];
+            
+            // === MÉTODO 1: API /adContactInfoForDetail.ajax (FIABLE) ===
+            // Anuncio activo → {"result":"OK","data":{...}}
+            // Anuncio descatalogado → {"result":"ERROR","data":null}
+            // NOTA: /detail/{id}/datalayer NO es fiable: devuelve adId incluso
+            //       para anuncios descatalogados.
+            try {
+                const contactResp = await fetch(
+                    'https://www.idealista.com/es/ajax/listingController/adContactInfoForDetail.ajax?adId=' + id,
+                    { method: 'GET', credentials: 'include' }
+                );
+                if (contactResp.ok) {
+                    const text = await contactResp.text();
+                    if (text.includes('"result":"ERROR"')) return 'NOTFOUND_API:';
+                    if (text.includes('"result":"OK"')) return 'OK_API:';
+                }
+            } catch(e) {
+                // Si falla, continuar con HTML
+            }
+            
+            // === MÉTODO 2: Fetch HTML (fallback si la API falla) ===
             const resp = await fetch(url, {
                 method: 'GET',
                 credentials: 'include',
                 redirect: 'follow'
             });
             if (!resp.ok && resp.status === 404) return 'NOTFOUND:';
-            // Lee primeros 8KB — suficiente para encontrar deactivated-detail
             const chunks = [];
             const reader = resp.body.getReader();
             let bytesRead = 0;
@@ -321,7 +345,6 @@ _JS_FETCH_IDEALISTA = """
                 html.includes('el anunciante lo dio de baja')) {
                 return 'DEACTIVATED:';
             }
-            // Bloqueo Cloudflare: challenge JS
             if (html.includes('please enable js') ||
                 html.includes('var dd=') ||
                 html.includes('_cf_chl')) {
@@ -338,6 +361,9 @@ _JS_FETCH_IDEALISTA = """
 def _verificar_idealista_playwright(url: str, page) -> bool:
     """Verifica URL de Idealista usando fetch() desde el contexto del navegador.
 
+    Usa primero la API /detail/{id}/datalayer (más rápida, solo JSON)
+    y hace fallback al HTML si la API falla.
+
     Retorna True si activa, False si descatalogada.
     """
     max_reintentos = 3
@@ -350,11 +376,18 @@ def _verificar_idealista_playwright(url: str, page) -> bool:
         if not result or result.startswith('FETCH_ERROR'):
             return True
 
-        if result == 'NOTFOUND:':
+        if result in ('NOTFOUND:', 'NOTFOUND_API:'):
             return False
 
         if result == 'DEACTIVATED:':
             return False
+
+        if result == 'OK_API:':
+            return True
+
+        if result == 'NO_ID:':
+            # No se pudo extraer el ID — verificar por HTML
+            return True
 
         if result == 'BLOCKED:':
             print(f"\n  🚫 Fetch bloqueado por Cloudflare en Idealista "
@@ -432,16 +465,21 @@ def _esperar_captcha_resuelto(cdp_port: int) -> None:
 _JS_FETCH_CHECK = """
     async (url) => {
         try {
+            // Extraer el propertyId de la URL de Fotocasa
+            // Formato: .../188765462/d → 188765462
+            const idMatch = url.match(/\\/(\\d{6,})\\/d/);
+            const propertyId = idMatch ? idMatch[1] : null;
+            
+            // === MÉTODO 1: API search.gw.fotocasa.es (HEAD check) ===
+            // La URL de detalle redirige a propertyNotFound si no existe.
+            // Usamos fetch con redirect:follow y comprobamos la URL final.
             const resp = await fetch(url, {
                 method: 'GET',
                 credentials: 'include',
                 redirect: 'follow'
             });
-            // Lee los primeros 2KB para detectar la pรกgina de bloqueo Reese84
-            // IMPORTANTE: 'relibrary' y 'Reese84' aparecen en TODAS las pรกginas
-            // de fotocasa (es el script anti-bot incluido siempre), NO son indicadores
-            // de bloqueo. Solo 'SENTIMOS' y 'onProtectionInitialized' son exclusivos
-            // de la pรกgina de bloqueo real.
+            
+            // Lee los primeros 2KB para detectar la página de bloqueo Reese84
             const chunks = [];
             const reader = resp.body.getReader();
             let bytesRead = 0;
