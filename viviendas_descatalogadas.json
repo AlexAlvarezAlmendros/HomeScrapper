@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-02-27T13:51:40.739547",
+  "total": 5,
+  "urls": [
+    "https://www.fotocasa.es/es/comprar/vivienda/mediona/parking-jardin-terraza-trastero-amueblado/188750593/d",
+    "https://www.fotocasa.es/es/comprar/vivienda/olerdola/aire-acondicionado-calefaccion-parking-jardin-terraza-patio-piscina-amueblado/188405522/d",
+    "https://www.fotocasa.es/es/comprar/vivienda/la-granada/calefaccion-terraza-trastero-patio-amueblado/188342587/d",
+    "https://www.fotocasa.es/es/comprar/vivienda/vilafranca-del-penedes/amueblado/188135999/d",
+    "https://www.fotocasa.es/es/comprar/vivienda/vilafranca-del-penedes/poligon-industrial-domenys/187918771/d"
+  ],
+  "detalle": [
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/mediona/parking-jardin-terraza-trastero-amueblado/188750593/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Casa o chaletcon terraza en Mediona"
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/olerdola/aire-acondicionado-calefaccion-parking-jardin-terraza-patio-piscina-amueblado/188405522/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Casa o chaleten Carrer de Wilson, 77, Olèrdola"
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/la-granada/calefaccion-terraza-trastero-patio-amueblado/188342587/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Pisoen Carrer de Pau Casals, 19, La Granada"
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/vilafranca-del-penedes/amueblado/188135999/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Estudioen Carrer de l'Empordà, 17, La Girada"
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/vilafranca-del-penedes/poligon-industrial-domenys/187918771/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Casa o chaletcon 1 baño en Polígon Industrial Domenys"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-03-04T11:45:25.677874",
+  "ubicacion": "Cerdanya(Lleida)",
+  "url": "https://www.idealista.com/venta-viviendas/lleida/cerdanya/?ordenado-por=fecha-publicacion-desc",
+  "total": 6,
+  "viviendas": [
+    {
+      "titulo": "Piso en Doctor, 5, Montellá i Martinet",
+      "precio": "230.000€",
+      "ubicacion": "5, Montellá i Martinet",
+      "habitaciones": "3 hab.",
+      "metros": "95 m²",
+      "url": "https://www.idealista.com/inmueble/102619094/",
+      "descripcion": "EN MARTINET DE CERDANYA.\n230.000\n103m2, Salón 25m, 3h dobles, 2baños. Uno con ducha y otro con Bañera.\nBalcon, trastero y Parking en la misma finca. Ventanas de aluminio, cocina moderna. Piso esquinero con doble orientación. Calefacción radiadores de Gas.\nAño construcción 2.001. En breve colocación de ascensor en",
+      "anunciante": "Particular",
+      "fecha_scraping": "2026-03-04T11:45:25.677648",
+      "portal": "Idealista",
+      "telefono": null
+    },
+    {
+      "titulo": "Chalet pareado en Calle Baridà, 12 -18, Bellver de Cerdanya",
+      "precio": "850.000€",
+      "ubicacion": "12 -18, Bellver de Cerdanya",
+      "habitaciones": "4 hab.",
+      "metros": "235 m²",
+      "url": "https://www.idealista.com/inmueble/110174317/",
+      "descripcion": "Nueva promoción en Bellver de Cerdanya. En el centro del pueblo, tocando al Parc Central. Promoción de 4 casas pareadas de 235 m2 construidos sobre terrenos privados de 350m2. Planta baja con salón comedor. Cocina abierta con gran isla completamente equipada, con electrodomésticos panelados. Baño completo. Chimenea con",
+      "anunciante": "Particular",
+      "fecha_scraping": "2026-02-15T12:01:34.353833",
+      "portal": "Idealista",
+      "telefono": "623 76 81 38"
+    },
+    {
+      "titulo": "Casa o chalet independiente en Urbanitzacio el Pla, 85, Prats i Sansor",
+      "precio": "525.000€",
+      "ubicacion": "85, Prats i Sansor",
+      "habitaciones": "4 hab.",
+      "metros": "250 m²",
+      "url": "https://www.idealista.com/inmueble/104999756/",
+      "descripcion": "Solar de 2000 m2 en el que construir una casa de obra nueva de una sola planta.",
+      "anunciante": "Particular",
+      "fecha_scraping": "2026-02-15T12:01:34.353855",
+      "portal": "Idealista",
+      "telefono": null
+    },
+    {
+      "titulo": "Masía en Cortas, 1, Bellver de Cerdanya",
+      "precio": "400.000€",
+      "ubicacion": "1, Bellver de Cerdanya",
+      "habitaciones": "4 hab.",
+      "metros": "854 m²",
+      "url": "https://www.idealista.com/inmueble/100177260/",
+      "descripcion": "Masia antigua a reformar en el pueblo de Cortàs (Bellver de Cerdanya). Es una casa de \"payés\" con dos eras ceretanas con entrada independiente, 3 pajares y cobertizos. El solar tiene 971 m2. La construcción 854 m2 de los cuales, sobre 180, corresponden a la casa. Grandes posibilidades al poderse rehabilitar o bien cons",
+      "anunciante": "Particular",
+      "fecha_scraping": "2026-02-15T12:01:34.353868",
+      "portal": "Idealista",
+      "telefono": "639 31 02 20"
+    },
+    {
+      "titulo": "Piso en Cinc, 29, Montellá i Martinet",
+      "precio": "227.000€",
+      "ubicacion": "29, Montellá i Martinet",
+      "habitaciones": "4 hab.",
+      "metros": "115 m²",
+      "url": "https://www.idealista.com/inmueble/94769671/",
+      "descripcion": "Amplio piso 120m2, 4habitaciones, 3 dobles una con 6 literas, otra con 3 literas, y dos camas dobles en la otras dos, todas con amplios armarios empotrados, 2 lavabos completos con bañera, Comedor 40m, con Chimenea, Gran Television de 70\", Billar y Ping Pong, 5 sofás, Calefacción de Gas individual, caldera nueva.\n1100",
+      "anunciante": "Particular",
+      "fecha_scraping": "2026-02-15T12:01:34.353878",
+      "portal": "Idealista",
+      "telefono": "650 39 41 50"
+    },
+    {
+      "titulo": "Casa o chalet independiente en Calle del Solà, 13, Prullans",
+      "precio": "1.000.000€",
+      "ubicacion": "13, Prullans",
+      "habitaciones": "4 hab.",
+      "metros": "255 m²",
+      "url": "https://www.idealista.com/inmueble/28751260/",
+      "descripcion": "",
+      "anunciante": "Particular",
+      "fecha_scraping": "2026-02-15T12:01:34.353888",
+      "portal": "Idealista",
+      "telefono": "670 32 75 34"
+    }
+  ]
+}
