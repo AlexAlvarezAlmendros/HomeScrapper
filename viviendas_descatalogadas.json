@@ -1,13 +1,597 @@
 {
-  "timestamp": "2026-03-04T17:46:49.305395",
-  "total": 5,
+  "timestamp": "2026-03-05T08:23:52.308543",
+  "total": 589,
   "nuevas_esta_ejecucion": 0,
   "urls": [
     "https://www.fotocasa.es/es/comprar/vivienda/mediona/parking-jardin-terraza-trastero-amueblado/188750593/d",
     "https://www.fotocasa.es/es/comprar/vivienda/olerdola/aire-acondicionado-calefaccion-parking-jardin-terraza-patio-piscina-amueblado/188405522/d",
     "https://www.fotocasa.es/es/comprar/vivienda/la-granada/calefaccion-terraza-trastero-patio-amueblado/188342587/d",
     "https://www.fotocasa.es/es/comprar/vivienda/vilafranca-del-penedes/amueblado/188135999/d",
-    "https://www.fotocasa.es/es/comprar/vivienda/vilafranca-del-penedes/poligon-industrial-domenys/187918771/d"
+    "https://www.fotocasa.es/es/comprar/vivienda/vilafranca-del-penedes/poligon-industrial-domenys/187918771/d",
+    "https://www.idealista.com/inmueble/110658832/",
+    "https://www.idealista.com/inmueble/105978030/",
+    "https://www.idealista.com/inmueble/110570823/",
+    "https://www.idealista.com/inmueble/110537406/",
+    "https://www.idealista.com/inmueble/110537127/",
+    "https://www.idealista.com/inmueble/110535781/",
+    "https://www.idealista.com/inmueble/110529368/",
+    "https://www.idealista.com/inmueble/110453009/",
+    "https://www.idealista.com/inmueble/87677436/",
+    "https://www.idealista.com/inmueble/86626148/",
+    "https://www.idealista.com/inmueble/109363420/",
+    "https://www.idealista.com/inmueble/108286911/",
+    "https://www.idealista.com/inmueble/102971556/",
+    "https://www.idealista.com/inmueble/110393981/",
+    "https://www.idealista.com/inmueble/110617344/",
+    "https://www.idealista.com/inmueble/110580260/",
+    "https://www.idealista.com/inmueble/109274120/",
+    "https://www.idealista.com/inmueble/110557055/",
+    "https://www.idealista.com/inmueble/110160265/",
+    "https://www.idealista.com/inmueble/110280721/",
+    "https://www.idealista.com/inmueble/102193015/",
+    "https://www.idealista.com/inmueble/110285725/",
+    "https://www.idealista.com/inmueble/110281649/",
+    "https://www.idealista.com/inmueble/110273059/",
+    "https://www.idealista.com/inmueble/107338522/",
+    "https://www.idealista.com/inmueble/110135610/",
+    "https://www.idealista.com/inmueble/110117016/",
+    "https://www.idealista.com/inmueble/109972527/",
+    "https://www.idealista.com/inmueble/110326548/",
+    "https://www.idealista.com/inmueble/110205315/",
+    "https://www.idealista.com/inmueble/109526496/",
+    "https://www.idealista.com/inmueble/109082539/",
+    "https://www.idealista.com/inmueble/110116122/",
+    "https://www.idealista.com/inmueble/110578463/",
+    "https://www.idealista.com/inmueble/109823391/",
+    "https://www.idealista.com/inmueble/110451232/",
+    "https://www.idealista.com/inmueble/93973675/",
+    "https://www.idealista.com/inmueble/109268905/",
+    "https://www.idealista.com/inmueble/107992608/",
+    "https://www.idealista.com/inmueble/107677608/",
+    "https://www.idealista.com/inmueble/96277949/",
+    "https://www.idealista.com/inmueble/110754363/",
+    "https://www.idealista.com/inmueble/110617788/",
+    "https://www.idealista.com/inmueble/110205104/",
+    "https://www.idealista.com/inmueble/110561377/",
+    "https://www.idealista.com/inmueble/110551646/",
+    "https://www.idealista.com/inmueble/110561305/",
+    "https://www.idealista.com/inmueble/110507025/",
+    "https://www.idealista.com/inmueble/110423419/",
+    "https://www.idealista.com/inmueble/110366931/",
+    "https://www.idealista.com/inmueble/110308827/",
+    "https://www.idealista.com/inmueble/110233657/",
+    "https://www.idealista.com/inmueble/108886656/",
+    "https://www.idealista.com/inmueble/109815116/",
+    "https://www.idealista.com/inmueble/109901268/",
+    "https://www.idealista.com/inmueble/109783461/",
+    "https://www.idealista.com/inmueble/109497417/",
+    "https://www.idealista.com/inmueble/108741451/",
+    "https://www.idealista.com/inmueble/109276342/",
+    "https://www.idealista.com/inmueble/103162515/",
+    "https://www.idealista.com/inmueble/110740961/",
+    "https://www.idealista.com/inmueble/110721441/",
+    "https://www.idealista.com/inmueble/110697703/",
+    "https://www.idealista.com/inmueble/110669003/",
+    "https://www.idealista.com/inmueble/110648613/",
+    "https://www.idealista.com/inmueble/110643495/",
+    "https://www.idealista.com/inmueble/110619419/",
+    "https://www.idealista.com/inmueble/110593812/",
+    "https://www.idealista.com/inmueble/110592809/",
+    "https://www.idealista.com/inmueble/110500416/",
+    "https://www.idealista.com/inmueble/110519031/",
+    "https://www.idealista.com/inmueble/110511114/",
+    "https://www.idealista.com/inmueble/110190849/",
+    "https://www.idealista.com/inmueble/110179895/",
+    "https://www.idealista.com/inmueble/110143037/",
+    "https://www.idealista.com/inmueble/110022255/",
+    "https://www.idealista.com/inmueble/109495041/",
+    "https://www.idealista.com/inmueble/109591187/",
+    "https://www.idealista.com/inmueble/108691264/",
+    "https://www.idealista.com/inmueble/108274688/",
+    "https://www.idealista.com/inmueble/27364086/",
+    "https://www.idealista.com/inmueble/107746818/",
+    "https://www.idealista.com/inmueble/102751119/",
+    "https://www.idealista.com/inmueble/110649884/",
+    "https://www.idealista.com/inmueble/110624435/",
+    "https://www.idealista.com/inmueble/110621639/",
+    "https://www.idealista.com/inmueble/110612293/",
+    "https://www.idealista.com/inmueble/110572327/",
+    "https://www.idealista.com/inmueble/110292893/",
+    "https://www.idealista.com/inmueble/110496224/",
+    "https://www.idealista.com/inmueble/28890797/",
+    "https://www.idealista.com/inmueble/25454282/",
+    "https://www.idealista.com/inmueble/110286732/",
+    "https://www.idealista.com/inmueble/110253548/",
+    "https://www.idealista.com/inmueble/110198626/",
+    "https://www.idealista.com/inmueble/110197408/",
+    "https://www.idealista.com/inmueble/109951087/",
+    "https://www.idealista.com/inmueble/109843206/",
+    "https://www.idealista.com/inmueble/95369086/",
+    "https://www.idealista.com/inmueble/109803513/",
+    "https://www.idealista.com/inmueble/109675426/",
+    "https://www.idealista.com/inmueble/110647856/",
+    "https://www.idealista.com/inmueble/95327626/",
+    "https://www.idealista.com/inmueble/109294607/",
+    "https://www.idealista.com/inmueble/109234368/",
+    "https://www.idealista.com/inmueble/110348260/",
+    "https://www.idealista.com/inmueble/109911160/",
+    "https://www.idealista.com/inmueble/109403118/",
+    "https://www.idealista.com/inmueble/108287825/",
+    "https://www.idealista.com/inmueble/107661733/",
+    "https://www.idealista.com/inmueble/106911812/",
+    "https://www.idealista.com/inmueble/105963737/",
+    "https://www.idealista.com/inmueble/104452789/",
+    "https://www.idealista.com/inmueble/104069703/",
+    "https://www.idealista.com/inmueble/102699216/",
+    "https://www.idealista.com/inmueble/99385913/",
+    "https://www.idealista.com/inmueble/94573780/",
+    "https://www.idealista.com/inmueble/110007055/",
+    "https://www.idealista.com/inmueble/110674520/",
+    "https://www.idealista.com/inmueble/110377845/",
+    "https://www.idealista.com/inmueble/110664937/",
+    "https://www.idealista.com/inmueble/109914988/",
+    "https://www.idealista.com/inmueble/110659456/",
+    "https://www.idealista.com/inmueble/93912219/",
+    "https://www.idealista.com/inmueble/108512055/",
+    "https://www.idealista.com/inmueble/110428979/",
+    "https://www.idealista.com/inmueble/110203997/",
+    "https://www.idealista.com/inmueble/105391730/",
+    "https://www.idealista.com/inmueble/109886547/",
+    "https://www.idealista.com/inmueble/109880943/",
+    "https://www.idealista.com/inmueble/109747009/",
+    "https://www.idealista.com/inmueble/107597597/",
+    "https://www.idealista.com/inmueble/110749000/",
+    "https://www.idealista.com/inmueble/110712617/",
+    "https://www.idealista.com/inmueble/108341455/",
+    "https://www.idealista.com/inmueble/30438834/",
+    "https://www.idealista.com/inmueble/109977966/",
+    "https://www.idealista.com/inmueble/110642596/",
+    "https://www.idealista.com/inmueble/110630207/",
+    "https://www.idealista.com/inmueble/110605476/",
+    "https://www.idealista.com/inmueble/110601889/",
+    "https://www.idealista.com/inmueble/110600287/",
+    "https://www.idealista.com/inmueble/110351004/",
+    "https://www.idealista.com/inmueble/110587637/",
+    "https://www.idealista.com/inmueble/110578673/",
+    "https://www.idealista.com/inmueble/110574475/",
+    "https://www.idealista.com/inmueble/110555306/",
+    "https://www.idealista.com/inmueble/110535681/",
+    "https://www.idealista.com/inmueble/109939457/",
+    "https://www.idealista.com/inmueble/110429300/",
+    "https://www.idealista.com/inmueble/110364411/",
+    "https://www.idealista.com/inmueble/110327364/",
+    "https://www.idealista.com/inmueble/110303474/",
+    "https://www.idealista.com/inmueble/110289694/",
+    "https://www.idealista.com/inmueble/110256630/",
+    "https://www.idealista.com/inmueble/110220747/",
+    "https://www.idealista.com/inmueble/110204971/",
+    "https://www.idealista.com/inmueble/110153023/",
+    "https://www.idealista.com/inmueble/110139124/",
+    "https://www.idealista.com/inmueble/110007511/",
+    "https://www.idealista.com/inmueble/109978223/",
+    "https://www.idealista.com/inmueble/109976669/",
+    "https://www.idealista.com/inmueble/110702642/",
+    "https://www.idealista.com/inmueble/83747996/",
+    "https://www.idealista.com/inmueble/110655139/",
+    "https://www.idealista.com/inmueble/108600688/",
+    "https://www.idealista.com/inmueble/110642496/",
+    "https://www.idealista.com/inmueble/110641183/",
+    "https://www.idealista.com/inmueble/110547338/",
+    "https://www.idealista.com/inmueble/110579281/",
+    "https://www.idealista.com/inmueble/110570539/",
+    "https://www.idealista.com/inmueble/110459137/",
+    "https://www.idealista.com/inmueble/110428449/",
+    "https://www.idealista.com/inmueble/110399636/",
+    "https://www.idealista.com/inmueble/104589526/",
+    "https://www.idealista.com/inmueble/110324734/",
+    "https://www.idealista.com/inmueble/110276292/",
+    "https://www.idealista.com/inmueble/108988217/",
+    "https://www.idealista.com/inmueble/109882981/",
+    "https://www.idealista.com/inmueble/109677535/",
+    "https://www.idealista.com/inmueble/98454477/",
+    "https://www.idealista.com/inmueble/110713366/",
+    "https://www.idealista.com/inmueble/110705211/",
+    "https://www.idealista.com/inmueble/110680014/",
+    "https://www.idealista.com/inmueble/83564424/",
+    "https://www.idealista.com/inmueble/104801636/",
+    "https://www.idealista.com/inmueble/110575824/",
+    "https://www.idealista.com/inmueble/110565458/",
+    "https://www.idealista.com/inmueble/29490992/",
+    "https://www.idealista.com/inmueble/110512132/",
+    "https://www.idealista.com/inmueble/110497791/",
+    "https://www.idealista.com/inmueble/107530518/",
+    "https://www.idealista.com/inmueble/110310589/",
+    "https://www.idealista.com/inmueble/100771402/",
+    "https://www.idealista.com/inmueble/109797490/",
+    "https://www.idealista.com/inmueble/109213219/",
+    "https://www.idealista.com/inmueble/109358678/",
+    "https://www.idealista.com/inmueble/104633752/",
+    "https://www.idealista.com/inmueble/103199526/",
+    "https://www.idealista.com/inmueble/109732046/",
+    "https://www.idealista.com/inmueble/109572581/",
+    "https://www.idealista.com/inmueble/108936539/",
+    "https://www.idealista.com/inmueble/107877810/",
+    "https://www.idealista.com/inmueble/107678691/",
+    "https://www.idealista.com/inmueble/107678490/",
+    "https://www.idealista.com/inmueble/107566308/",
+    "https://www.idealista.com/inmueble/107089735/",
+    "https://www.idealista.com/inmueble/110751436/",
+    "https://www.idealista.com/inmueble/110747678/",
+    "https://www.idealista.com/inmueble/107535077/",
+    "https://www.idealista.com/inmueble/110669487/",
+    "https://www.idealista.com/inmueble/110647826/",
+    "https://www.idealista.com/inmueble/85180127/",
+    "https://www.idealista.com/inmueble/110638365/",
+    "https://www.idealista.com/inmueble/110608499/",
+    "https://www.idealista.com/inmueble/110572985/",
+    "https://www.idealista.com/inmueble/110507703/",
+    "https://www.idealista.com/inmueble/110497598/",
+    "https://www.idealista.com/inmueble/110368160/",
+    "https://www.idealista.com/inmueble/110436517/",
+    "https://www.idealista.com/inmueble/110422261/",
+    "https://www.idealista.com/inmueble/109871830/",
+    "https://www.idealista.com/inmueble/109516777/",
+    "https://www.idealista.com/inmueble/110227599/",
+    "https://www.idealista.com/inmueble/29238379/",
+    "https://www.idealista.com/inmueble/109835957/",
+    "https://www.idealista.com/inmueble/107954391/",
+    "https://www.idealista.com/inmueble/109608768/",
+    "https://www.idealista.com/inmueble/109694530/",
+    "https://www.idealista.com/inmueble/104403644/",
+    "https://www.idealista.com/inmueble/109619958/",
+    "https://www.idealista.com/inmueble/109617517/",
+    "https://www.idealista.com/inmueble/109617638/",
+    "https://www.idealista.com/inmueble/110739610/",
+    "https://www.idealista.com/inmueble/110738690/",
+    "https://www.idealista.com/inmueble/110715359/",
+    "https://www.idealista.com/inmueble/110712148/",
+    "https://www.idealista.com/inmueble/109212367/",
+    "https://www.idealista.com/inmueble/110613588/",
+    "https://www.idealista.com/inmueble/110613487/",
+    "https://www.idealista.com/inmueble/110610300/",
+    "https://www.idealista.com/inmueble/110501466/",
+    "https://www.idealista.com/inmueble/110403301/",
+    "https://www.idealista.com/inmueble/110108025/",
+    "https://www.idealista.com/inmueble/109744536/",
+    "https://www.idealista.com/inmueble/109744578/",
+    "https://www.idealista.com/inmueble/109718174/",
+    "https://www.idealista.com/inmueble/109293559/",
+    "https://www.idealista.com/inmueble/108784462/",
+    "https://www.idealista.com/inmueble/110717344/",
+    "https://www.idealista.com/inmueble/86889432/",
+    "https://www.idealista.com/inmueble/110639812/",
+    "https://www.idealista.com/inmueble/110621953/",
+    "https://www.idealista.com/inmueble/110617112/",
+    "https://www.idealista.com/inmueble/110580199/",
+    "https://www.idealista.com/inmueble/110500276/",
+    "https://www.idealista.com/inmueble/110451661/",
+    "https://www.idealista.com/inmueble/110296895/",
+    "https://www.idealista.com/inmueble/110273929/",
+    "https://www.idealista.com/inmueble/110245993/",
+    "https://www.idealista.com/inmueble/110240068/",
+    "https://www.idealista.com/inmueble/110228801/",
+    "https://www.idealista.com/inmueble/109649691/",
+    "https://www.idealista.com/inmueble/104405950/",
+    "https://www.idealista.com/inmueble/110678063/",
+    "https://www.idealista.com/inmueble/110640975/",
+    "https://www.idealista.com/inmueble/110579701/",
+    "https://www.idealista.com/inmueble/110713576/",
+    "https://www.idealista.com/inmueble/110647064/",
+    "https://www.idealista.com/inmueble/110632521/",
+    "https://www.idealista.com/inmueble/110603102/",
+    "https://www.idealista.com/inmueble/109186486/",
+    "https://www.idealista.com/inmueble/110467718/",
+    "https://www.idealista.com/inmueble/110399474/",
+    "https://www.idealista.com/inmueble/110230898/",
+    "https://www.idealista.com/inmueble/109847052/",
+    "https://www.idealista.com/inmueble/107051669/",
+    "https://www.idealista.com/inmueble/99440192/",
+    "https://www.idealista.com/inmueble/110323945/",
+    "https://www.idealista.com/inmueble/103581576/",
+    "https://www.idealista.com/inmueble/110462323/",
+    "https://www.idealista.com/inmueble/110458665/",
+    "https://www.idealista.com/inmueble/110432867/",
+    "https://www.idealista.com/inmueble/108273715/",
+    "https://www.idealista.com/inmueble/109598901/",
+    "https://www.idealista.com/inmueble/107742195/",
+    "https://www.idealista.com/inmueble/110210550/",
+    "https://www.idealista.com/inmueble/110135650/",
+    "https://www.idealista.com/inmueble/110089731/",
+    "https://www.idealista.com/inmueble/110745164/",
+    "https://www.idealista.com/inmueble/109708811/",
+    "https://www.idealista.com/inmueble/110637284/",
+    "https://www.idealista.com/inmueble/110514290/",
+    "https://www.idealista.com/inmueble/110561577/",
+    "https://www.idealista.com/inmueble/110506592/",
+    "https://www.idealista.com/inmueble/110499049/",
+    "https://www.idealista.com/inmueble/110325296/",
+    "https://www.idealista.com/inmueble/110290386/",
+    "https://www.idealista.com/inmueble/110245369/",
+    "https://www.idealista.com/inmueble/110235843/",
+    "https://www.idealista.com/inmueble/108344181/",
+    "https://www.idealista.com/inmueble/110196212/",
+    "https://www.idealista.com/inmueble/109952571/",
+    "https://www.idealista.com/inmueble/109543946/",
+    "https://www.idealista.com/inmueble/109415288/",
+    "https://www.idealista.com/inmueble/109410668/",
+    "https://www.idealista.com/inmueble/108603423/",
+    "https://www.idealista.com/inmueble/110750433/",
+    "https://www.idealista.com/inmueble/110730676/",
+    "https://www.idealista.com/inmueble/110679645/",
+    "https://www.idealista.com/inmueble/110627356/",
+    "https://www.idealista.com/inmueble/110589863/",
+    "https://www.idealista.com/inmueble/110569136/",
+    "https://www.idealista.com/inmueble/110560677/",
+    "https://www.idealista.com/inmueble/110562570/",
+    "https://www.idealista.com/inmueble/110561267/",
+    "https://www.idealista.com/inmueble/106942429/",
+    "https://www.idealista.com/inmueble/110005164/",
+    "https://www.idealista.com/inmueble/110005140/",
+    "https://www.idealista.com/inmueble/110003197/",
+    "https://www.idealista.com/inmueble/107684540/",
+    "https://www.idealista.com/inmueble/109630943/",
+    "https://www.idealista.com/inmueble/109624854/",
+    "https://www.idealista.com/inmueble/108673920/",
+    "https://www.idealista.com/inmueble/110726894/",
+    "https://www.idealista.com/inmueble/110677583/",
+    "https://www.idealista.com/inmueble/110625337/",
+    "https://www.idealista.com/inmueble/110611033/",
+    "https://www.idealista.com/inmueble/110582724/",
+    "https://www.idealista.com/inmueble/106943791/",
+    "https://www.idealista.com/inmueble/110414813/",
+    "https://www.idealista.com/inmueble/110033613/",
+    "https://www.idealista.com/inmueble/29168538/",
+    "https://www.idealista.com/inmueble/106587244/",
+    "https://www.idealista.com/inmueble/110749000/",
+    "https://www.idealista.com/inmueble/110738030/",
+    "https://www.idealista.com/inmueble/110674663/",
+    "https://www.idealista.com/inmueble/110605476/",
+    "https://www.idealista.com/inmueble/110566273/",
+    "https://www.idealista.com/inmueble/110598410/",
+    "https://www.idealista.com/inmueble/110576966/",
+    "https://www.idealista.com/inmueble/110568911/",
+    "https://www.idealista.com/inmueble/109749809/",
+    "https://www.idealista.com/inmueble/110555146/",
+    "https://www.idealista.com/inmueble/110551487/",
+    "https://www.idealista.com/inmueble/110529542/",
+    "https://www.idealista.com/inmueble/110538290/",
+    "https://www.idealista.com/inmueble/110525892/",
+    "https://www.idealista.com/inmueble/110521432/",
+    "https://www.idealista.com/inmueble/110518130/",
+    "https://www.idealista.com/inmueble/109939457/",
+    "https://www.idealista.com/inmueble/110418905/",
+    "https://www.idealista.com/inmueble/110377285/",
+    "https://www.idealista.com/inmueble/110366505/",
+    "https://www.idealista.com/inmueble/110352233/",
+    "https://www.idealista.com/inmueble/110635145/",
+    "https://www.idealista.com/inmueble/109047474/",
+    "https://www.idealista.com/inmueble/92316974/",
+    "https://www.idealista.com/inmueble/110366505/",
+    "https://www.idealista.com/inmueble/109917952/",
+    "https://www.idealista.com/inmueble/109547851/",
+    "https://www.idealista.com/inmueble/110706194/",
+    "https://www.idealista.com/inmueble/110699814/",
+    "https://www.idealista.com/inmueble/102485243/",
+    "https://www.idealista.com/inmueble/110657346/",
+    "https://www.idealista.com/inmueble/110642868/",
+    "https://www.idealista.com/inmueble/110640169/",
+    "https://www.idealista.com/inmueble/104407181/",
+    "https://www.idealista.com/inmueble/110588262/",
+    "https://www.idealista.com/inmueble/110571414/",
+    "https://www.idealista.com/inmueble/110503019/",
+    "https://www.idealista.com/inmueble/110503052/",
+    "https://www.idealista.com/inmueble/110493555/",
+    "https://www.idealista.com/inmueble/110177521/",
+    "https://www.idealista.com/inmueble/110232631/",
+    "https://www.idealista.com/inmueble/110147799/",
+    "https://www.idealista.com/inmueble/109603700/",
+    "https://www.idealista.com/inmueble/107462424/",
+    "https://www.idealista.com/inmueble/110778147/",
+    "https://www.idealista.com/inmueble/110542835/",
+    "https://www.idealista.com/inmueble/110132639/",
+    "https://www.idealista.com/inmueble/109580768/",
+    "https://www.idealista.com/inmueble/108453207/",
+    "https://www.idealista.com/inmueble/110635934/",
+    "https://www.idealista.com/inmueble/110633251/",
+    "https://www.idealista.com/inmueble/105732147/",
+    "https://www.idealista.com/inmueble/110383627/",
+    "https://www.idealista.com/inmueble/110294572/",
+    "https://www.idealista.com/inmueble/110188810/",
+    "https://www.idealista.com/inmueble/110098463/",
+    "https://www.idealista.com/inmueble/109945293/",
+    "https://www.idealista.com/inmueble/109935906/",
+    "https://www.idealista.com/inmueble/96912349/",
+    "https://www.idealista.com/inmueble/29192073/",
+    "https://www.idealista.com/inmueble/102336693/",
+    "https://www.idealista.com/inmueble/110712998/",
+    "https://www.idealista.com/inmueble/110711422/",
+    "https://www.idealista.com/inmueble/110705667/",
+    "https://www.idealista.com/inmueble/25228847/",
+    "https://www.idealista.com/inmueble/110692019/",
+    "https://www.idealista.com/inmueble/110672221/",
+    "https://www.idealista.com/inmueble/110665457/",
+    "https://www.idealista.com/inmueble/110652216/",
+    "https://www.idealista.com/inmueble/86303308/",
+    "https://www.idealista.com/inmueble/110645514/",
+    "https://www.idealista.com/inmueble/110644366/",
+    "https://www.idealista.com/inmueble/110642462/",
+    "https://www.idealista.com/inmueble/110580069/",
+    "https://www.idealista.com/inmueble/110573982/",
+    "https://www.idealista.com/inmueble/110572055/",
+    "https://www.idealista.com/inmueble/110483519/",
+    "https://www.idealista.com/inmueble/110514601/",
+    "https://www.idealista.com/inmueble/105695059/",
+    "https://www.idealista.com/inmueble/110401581/",
+    "https://www.idealista.com/inmueble/102372136/",
+    "https://www.idealista.com/inmueble/109917449/",
+    "https://www.idealista.com/inmueble/110372527/",
+    "https://www.idealista.com/inmueble/110209911/",
+    "https://www.idealista.com/inmueble/110091981/",
+    "https://www.idealista.com/inmueble/109941655/",
+    "https://www.idealista.com/inmueble/109857233/",
+    "https://www.idealista.com/inmueble/109726200/",
+    "https://www.idealista.com/inmueble/108332406/",
+    "https://www.idealista.com/inmueble/98283564/",
+    "https://www.idealista.com/inmueble/94570696/",
+    "https://www.idealista.com/inmueble/110742928/",
+    "https://www.idealista.com/inmueble/110638411/",
+    "https://www.idealista.com/inmueble/110625354/",
+    "https://www.idealista.com/inmueble/110600845/",
+    "https://www.idealista.com/inmueble/110590338/",
+    "https://www.idealista.com/inmueble/110572257/",
+    "https://www.idealista.com/inmueble/110502591/",
+    "https://www.idealista.com/inmueble/110500415/",
+    "https://www.idealista.com/inmueble/110460458/",
+    "https://www.idealista.com/inmueble/110428414/",
+    "https://www.idealista.com/inmueble/101551487/",
+    "https://www.idealista.com/inmueble/110283771/",
+    "https://www.idealista.com/inmueble/110281423/",
+    "https://www.idealista.com/inmueble/109987679/",
+    "https://www.idealista.com/inmueble/109985567/",
+    "https://www.idealista.com/inmueble/82480112/",
+    "https://www.idealista.com/inmueble/109727368/",
+    "https://www.idealista.com/inmueble/109691882/",
+    "https://www.idealista.com/inmueble/108456444/",
+    "https://www.idealista.com/inmueble/35019612/",
+    "https://www.idealista.com/inmueble/103745207/",
+    "https://www.idealista.com/inmueble/110735848/",
+    "https://www.idealista.com/inmueble/110710844/",
+    "https://www.idealista.com/inmueble/110677018/",
+    "https://www.idealista.com/inmueble/110671970/",
+    "https://www.idealista.com/inmueble/110426081/",
+    "https://www.idealista.com/inmueble/110648319/",
+    "https://www.idealista.com/inmueble/104476142/",
+    "https://www.idealista.com/inmueble/110637694/",
+    "https://www.idealista.com/inmueble/110623238/",
+    "https://www.idealista.com/inmueble/110223405/",
+    "https://www.idealista.com/inmueble/110615586/",
+    "https://www.idealista.com/inmueble/110615102/",
+    "https://www.idealista.com/inmueble/110611156/",
+    "https://www.idealista.com/inmueble/357139/",
+    "https://www.idealista.com/inmueble/25496819/",
+    "https://www.idealista.com/inmueble/109373813/",
+    "https://www.idealista.com/inmueble/110574909/",
+    "https://www.idealista.com/inmueble/109923752/",
+    "https://www.idealista.com/inmueble/109942695/",
+    "https://www.idealista.com/inmueble/110189463/",
+    "https://www.idealista.com/inmueble/110503077/",
+    "https://www.idealista.com/inmueble/110428108/",
+    "https://www.idealista.com/inmueble/110399637/",
+    "https://www.idealista.com/inmueble/108399294/",
+    "https://www.idealista.com/inmueble/110345335/",
+    "https://www.idealista.com/inmueble/110204807/",
+    "https://www.idealista.com/inmueble/109794299/",
+    "https://www.idealista.com/inmueble/110279617/",
+    "https://www.idealista.com/inmueble/110259018/",
+    "https://www.idealista.com/inmueble/110207563/",
+    "https://www.idealista.com/inmueble/108227381/",
+    "https://www.idealista.com/inmueble/110751306/",
+    "https://www.idealista.com/inmueble/99465218/",
+    "https://www.idealista.com/inmueble/110705366/",
+    "https://www.idealista.com/inmueble/105436355/",
+    "https://www.idealista.com/inmueble/105655031/",
+    "https://www.idealista.com/inmueble/109675004/",
+    "https://www.idealista.com/inmueble/109522005/",
+    "https://www.idealista.com/inmueble/107836922/",
+    "https://www.idealista.com/inmueble/107520713/",
+    "https://www.idealista.com/inmueble/107132148/",
+    "https://www.idealista.com/inmueble/31087821/",
+    "https://www.idealista.com/inmueble/105757456/",
+    "https://www.idealista.com/inmueble/31095741/",
+    "https://www.idealista.com/inmueble/95714091/",
+    "https://www.idealista.com/inmueble/110471067/",
+    "https://www.idealista.com/inmueble/109812328/",
+    "https://www.idealista.com/inmueble/108321536/",
+    "https://www.idealista.com/inmueble/1912564/",
+    "https://www.idealista.com/inmueble/110735671/",
+    "https://www.idealista.com/inmueble/110706476/",
+    "https://www.idealista.com/inmueble/110674356/",
+    "https://www.idealista.com/inmueble/110534034/",
+    "https://www.idealista.com/inmueble/110461018/",
+    "https://www.idealista.com/inmueble/107954005/",
+    "https://www.idealista.com/inmueble/110282932/",
+    "https://www.idealista.com/inmueble/110244152/",
+    "https://www.idealista.com/inmueble/110124192/",
+    "https://www.idealista.com/inmueble/109716922/",
+    "https://www.idealista.com/inmueble/108127350/",
+    "https://www.idealista.com/inmueble/106681335/",
+    "https://www.idealista.com/inmueble/110641624/",
+    "https://www.idealista.com/inmueble/109453236/",
+    "https://www.idealista.com/inmueble/103424731/",
+    "https://www.idealista.com/inmueble/25084156/",
+    "https://www.idealista.com/inmueble/107709420/",
+    "https://www.idealista.com/inmueble/107571105/",
+    "https://www.idealista.com/inmueble/110655241/",
+    "https://www.idealista.com/inmueble/110528364/",
+    "https://www.idealista.com/inmueble/110060669/",
+    "https://www.idealista.com/inmueble/109880221/",
+    "https://www.idealista.com/inmueble/109031332/",
+    "https://www.idealista.com/inmueble/32480181/",
+    "https://www.idealista.com/inmueble/110709036/",
+    "https://www.idealista.com/inmueble/110641300/",
+    "https://www.idealista.com/inmueble/110417670/",
+    "https://www.idealista.com/inmueble/109263249/",
+    "https://www.idealista.com/inmueble/110717848/",
+    "https://www.idealista.com/inmueble/110229541/",
+    "https://www.idealista.com/inmueble/110371151/",
+    "https://www.idealista.com/inmueble/110274239/",
+    "https://www.idealista.com/inmueble/110269376/",
+    "https://www.idealista.com/inmueble/109982301/",
+    "https://www.idealista.com/inmueble/109973542/",
+    "https://www.idealista.com/inmueble/109973649/",
+    "https://www.idealista.com/inmueble/109644456/",
+    "https://www.idealista.com/inmueble/109547126/",
+    "https://www.idealista.com/inmueble/110782689/",
+    "https://www.idealista.com/inmueble/110486186/",
+    "https://www.idealista.com/inmueble/110492495/",
+    "https://www.idealista.com/inmueble/110600269/",
+    "https://www.idealista.com/inmueble/110561296/",
+    "https://www.idealista.com/inmueble/110481791/",
+    "https://www.idealista.com/inmueble/110348846/",
+    "https://www.idealista.com/inmueble/110276351/",
+    "https://www.idealista.com/inmueble/109419441/",
+    "https://www.idealista.com/inmueble/109843565/",
+    "https://www.idealista.com/inmueble/109797813/",
+    "https://www.idealista.com/inmueble/109604992/",
+    "https://www.idealista.com/inmueble/109452097/",
+    "https://www.idealista.com/inmueble/29350463/",
+    "https://www.idealista.com/inmueble/108382785/",
+    "https://www.idealista.com/inmueble/107694743/",
+    "https://www.idealista.com/inmueble/107419912/",
+    "https://www.idealista.com/inmueble/106243717/",
+    "https://www.idealista.com/inmueble/106003864/",
+    "https://www.idealista.com/inmueble/110718531/",
+    "https://www.idealista.com/inmueble/110718613/",
+    "https://www.idealista.com/inmueble/110706778/",
+    "https://www.idealista.com/inmueble/110705379/",
+    "https://www.idealista.com/inmueble/110664659/",
+    "https://www.idealista.com/inmueble/110653273/",
+    "https://www.idealista.com/inmueble/110644323/",
+    "https://www.idealista.com/inmueble/110642160/",
+    "https://www.idealista.com/inmueble/110642137/",
+    "https://www.idealista.com/inmueble/110620089/",
+    "https://www.idealista.com/inmueble/110618371/",
+    "https://www.idealista.com/inmueble/110594181/",
+    "https://www.idealista.com/inmueble/110588825/",
+    "https://www.idealista.com/inmueble/110587402/",
+    "https://www.idealista.com/inmueble/110430016/",
+    "https://www.idealista.com/inmueble/110462035/",
+    "https://www.idealista.com/inmueble/110505792/",
+    "https://www.idealista.com/inmueble/110501952/",
+    "https://www.idealista.com/inmueble/110493558/",
+    "https://www.idealista.com/inmueble/110473019/",
+    "https://www.idealista.com/inmueble/101707612/",
+    "https://www.idealista.com/inmueble/108728352/",
+    "https://www.idealista.com/inmueble/36953758/",
+    "https://www.idealista.com/inmueble/110272577/",
+    "https://www.idealista.com/inmueble/110426300/",
+    "https://www.idealista.com/inmueble/110425194/",
+    "https://www.idealista.com/inmueble/110421367/",
+    "https://www.idealista.com/inmueble/108499383/",
+    "https://www.idealista.com/inmueble/109758427/",
+    "https://www.idealista.com/inmueble/100389819/",
+    "https://www.idealista.com/inmueble/110135368/",
+    "https://www.idealista.com/inmueble/104858816/"
   ],
   "detalle": [
     {
@@ -39,6 +623,3510 @@
       "ubicacion": "AltPenedès",
       "portal": "fotocasa",
       "titulo": "Casa o chaletcon 1 baño en Polígon Industrial Domenys"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110658832/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Piso en Ronda de Mar, 77, La Girada, Vilafranca del Penedès"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/105978030/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Molí Nou, 24, Gelida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110570823/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle les Roques, 18, Avinyonet del Penedès"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110537406/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de la Pau, 7, Castellví de la Marca"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110537127/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de la Pau, 38, Castellví de la Marca"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110535781/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en C 17, 276, Mediona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110529368/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle del Mediterrani, 34, Castellví de la Marca"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110453009/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle de Sant Antoni, 34, Sant Cugat Sesgarrigues"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/87677436/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Ático en Calle del Mossèn Jaume Via, 25, Gelida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/86626148/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Finca rústica en Can Paixano, 4, Mediona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109363420/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en 9, 7, Mediona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108286911/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Calle Doctor Escayola, 10, Sant Sadurní d'Anoia"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/102971556/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Pacs del Penedès"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110393981/",
+      "ubicacion": "Alt Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Avenir, 40, Valls"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110617344/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Ático en Calle de les Creus, 49, Cadaqués"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110580260/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Ático en Calle d'en Mairó, 16, Centre, Roses"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109274120/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida de la Bocana, 9 11, Santa Margarida, Roses"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110557055/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Pep Ventura, 25, Centre, Roses"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110160265/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Tirso de Molina, 49, Els Grecs - Mas Oliva, Roses"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110280721/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Dúplex en Nucli Antic, L'Escala"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/102193015/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle Muga-B, 10, Muga - Gran Reserva - Badia, Empuriabrava"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110285725/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sant Elm, 2, Centre, Roses"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110281649/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle Pau Vila, 11, Port Esportiu - Puig Rom - Canyelles, Roses"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110273059/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle del Sud, 14, Creu de la Ma - Rally sur, Figueres"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107338522/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Sant Josep, 4, Centre, Figueres"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110135610/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Montgrí, 62, Montgrí, Empuriabrava"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110117016/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida Riells, 25, Eixample Residencial, L'Escala"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109972527/",
+      "ubicacion": "Alt Empordà",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Alberes, 208 a, Alberes, Empuriabrava"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110326548/",
+      "ubicacion": "Alt Urgell",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle del Forn dels Càntirs, 15, Tárrega"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110205315/",
+      "ubicacion": "Alt Urgell",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Camino de les Roques, 1, Agramunt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109526496/",
+      "ubicacion": "Alt Urgell",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Ciutat de Mataró, 2, Tárrega"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109082539/",
+      "ubicacion": "Alt Urgell",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle la Creu, 3, Bellpuig"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110116122/",
+      "ubicacion": "Anoia",
+      "portal": "idealista",
+      "titulo": "Piso en Plaza d'Alcàntara, 6, Llevant, Igualada"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110578463/",
+      "ubicacion": "Anoia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Foradada, 15, Vilanova del Camí"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109823391/",
+      "ubicacion": "Anoia",
+      "portal": "idealista",
+      "titulo": "Dúplex en Avenida d Andorra, 5, Pla de Sant Magi, Igualada"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110451232/",
+      "ubicacion": "Anoia",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle del Bisbe Perelló, 34, Llevant, Igualada"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/93973675/",
+      "ubicacion": "Anoia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Josep Vidal, 50, Piera"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109268905/",
+      "ubicacion": "Anoia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle President Companys, 49, Vilanova del Camí"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107992608/",
+      "ubicacion": "Anoia",
+      "portal": "idealista",
+      "titulo": "Dúplex en de vilanova, 8, Llevant, Igualada"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107677608/",
+      "ubicacion": "Anoia",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de les Guixeres, 70, Les Comes, Igualada"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/96277949/",
+      "ubicacion": "Anoia",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle mediodia, s/n, Vilanova del Camí"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110754363/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de Pau Piferrer, 87, La Salut, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110617788/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Bufalà, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110205104/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Passatge Riu Ter, 2, Lloreda, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110561377/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Calderón de la Barca, 75, La Salut, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110551646/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en industria, 200, Progrés-Pep Ventura, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110561305/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Pau Piferrer, 114, La Salut, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110507025/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Pallaresa, 20, Sant Crist, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110423419/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Cáceres, 30, Sant Roc, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110366931/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Jerez de la Frontera, 13, Sant Roc, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110308827/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Casagemes, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110233657/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Orió, 29 31, Llefià, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108886656/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Coll i Pujol, 181, Sant Crist, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109815116/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Natzaret, 8, Llefià, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109901268/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Bufalà, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109783461/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Pi i Margall, 11, Port, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109497417/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Centre, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108741451/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Indústria, 310, Port, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109276342/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del General Weyler, 152, Progrés-Pep Ventura, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/103162515/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Piso en Ausiàs marc, 113, Progrés-Pep Ventura, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110740961/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Creueta, 1, Navàs"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110721441/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Cós, 70, Sallent"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110697703/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sant Cristòfol, 18, Sagrada Familia, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110669003/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Santiago Rusinol, 8, Navarcles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110648613/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Carretera de Vic, 117, Ctra. Vic - Remei, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110643495/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Sant Salvador, 80, Sant Salvador de Guardiola"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110619419/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Angel Guimerà, 30, Balsareny"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110593812/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Flor de Lis, 10, Poble Nou, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110592809/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Flor de Lis, 10, Poble Nou, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110500416/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Pep Ventura, 8, Ctra. Santpedor - Bases de Manresa, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110519031/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Sant Joan, 1, Sant Salvador de Guardiola"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110511114/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle de Sant Fruitós, 25, Plaça Catalunya, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110190849/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Dúplex en Congost - Santa Caterina, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110179895/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Plaza de la Reforma, 1, Antic, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110143037/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de Circumval·lació, 73, Centre - Passeig i Rodalies, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110022255/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Casa terrera en Calle Sol i Aire, 27, Congost - Santa Caterina, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109495041/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Francesc Moragas, 72, Valldaura - Ctra. de Cardona, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109591187/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle del Montseny, 33, Sant Joan de Vilatorrada"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108691264/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de les Agulles, 34, Castellbell i el Vilar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108274688/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Calle Sant Pere, 2, Santpedor"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/27364086/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Bruc, 24, Sant Joan de Vilatorrada"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107746818/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Reial, 1, Navarcles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/102751119/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Plaza del Bisbe Torras i Bages, 4, Sant Feliu Saserra"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110649884/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Doctor Paul Wiringuer, 12, Vilafortuny platja, Cambrils"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110624435/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de París, 1, L'Hospitalet de l'Infant"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110621639/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Regueral - Prat d'En Foré, Cambrils"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110612293/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Deessa Isis, 37, Casalot, Mont-Roig del Camp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110572327/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Doctor Robert, 31, Centre, Reus"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110292893/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Finca rústica en Poligono 24, s/n, Mont-Roig, Mont-Roig del Camp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110496224/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Cristòfor Colom, 26, Port, Cambrils"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/28890797/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Ático en Calle Castell de Tona, 23, Els Tallats - Mas Olivé, Cambrils"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/25454282/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle Montroig de Sio, 25, Casalot, Mont-Roig del Camp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110286732/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Colon, 10, Mont-Roig, Mont-Roig del Camp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110253548/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Camino de Les Valls, s/n, Les Borges del Camp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110198626/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Lluís Domènech I Montaner, 4, La Dorada, Cambrils"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110197408/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida de Barcelona, 2, Centro, Mont-Roig del Camp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109951087/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Neptú, 35, Tarraco, Cambrils"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109843206/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'O'Donnell, 13, Centre, Reus"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/95369086/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Avenida Verge de Montserrat, 6, Centro, Mont-Roig del Camp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109803513/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Finca rústica en T-310, 11, Montbrio del Camp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109675426/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo del Mediterrani, 52, Olivers-Paseo Marítimo, Mont-Roig del Camp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110647856/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Camino de Canivell, 74, Urbanizaciones, Tortosa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/95327626/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Piso en Puerto, s/n, L'Ametlla de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109294607/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Dúplex en Ctra. Vic - Remei, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109234368/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Piso en La cava, 36, Deltebre"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110348260/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Sant Miquel, 154, Deltebre"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109911160/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle del Flamenc, 9, Deltebre"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109403118/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Deltebre"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108287825/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Pla de les Illes, s/n, Aldover"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107661733/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Camino del Galatxo, 17, Roquetes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/106911812/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Mar, 150, Les Tres Cales, L'Ametlla de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/105963737/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Masía en partida de Bernabé, s/n, Jesús - Els Reguers, Tortosa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104452789/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Finca rústica en Camino de vinallop, 2, Vinallop, Tortosa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104069703/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Pau Casals, 1, L'Ampolla"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/102699216/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Calle Major, 48, Xerta"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/99385913/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en C. Major, 46, Xerta"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/94573780/",
+      "ubicacion": "Baix Ebre",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en c/Unio, 102, Deltebre"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110007055/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Cabanyes-Mas Ambrós-Mas Pallí, Calonge"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110674520/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle dels Forcats, 3, Calella, Palafrugell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110377845/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo Marítim, 166, Platja Llarga, Castell-Platja d'Aro"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110664937/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle de Lluís Companys, 6, Molí de Vent-La Sauleda-Santa Margarida, Palafrugell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109914988/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Jordi Verrié Faget, 3, Santa Cristina Poble, Santa Cristina d'Aro"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110659456/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Ronda de l'Arquitecte Guitart, 41, Vilartagues i Tueda de Dalt, Sant Feliu de Guíxols"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/93912219/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Miramar, 27, Platja Llarga, Castell-Platja d'Aro"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108512055/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Ático en Calle del Sol, 18, L'Eixample, Sant Feliu de Guíxols"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110428979/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo del Mar, 2, Platja Gran, Palamós"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110203997/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle Pinsà, 155, El Mas Pinell, Torroella de Montgrí"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/105391730/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Ático en Calle d\\'Alfons XII, s/n, Piverd-La Roella-Bruguerol, Palafrugell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109886547/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Masía en Plaza de la torre, 9, Cruílles, Monells i Sant Sadurni de l'Heura"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109880943/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Sant Antoni, Calonge"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109747009/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Ático en Calle Església, 2, Fenals, Castell-Platja d'Aro"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107597597/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Estudio en Cerdeña, 32, Marianao, Sant Boi de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110749000/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de les Flors, 8, Sant esteve Sesrovires"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110712617/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del General Palafox, 2 -20, El Castell-Poble Vell, Castelldefels"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108341455/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Plaza de Rosa Sensat, 14, Torrent Ballester, Viladecans"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/30438834/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Dúplex en Avenida de l'Eramprunyà, 27, Bobiles - Diagonal - Les Colomeres, Gavà"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109977966/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida de Pau Casals, 9, Torrent Ballester, Viladecans"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110642596/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Corbera de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110630207/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Ático en Calle Sant Isidre, 98, Pallejà"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110605476/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle del Gerani, 35, Mas d'en Gall, Esparreguera"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110601889/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Passatge de Xaloc, 22, Campreciós - Torre Roja, Viladecans"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110600287/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle la Vinyala, 7, Sant Vicenç Dels Horts"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110351004/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida de Llorenç Puig, 50, Campreciós - Torre Roja, Viladecans"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110587637/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Plaza de l'Església, 5, Centre, Castelldefels"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110578673/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Vallirana"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110574475/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Paseo de Can Solé, 13, Bellamar, Castelldefels"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110555306/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle del Bon Punt, 30, Sant Vicenç Dels Horts"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110535681/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida Santa Coloma, 82, Santa Coloma de Cervelló"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109939457/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Corbera de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110429300/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida de Ballester, 7, Torrent Ballester, Viladecans"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110364411/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Pau Claris, 35, Plaça Catalunya - Vinyets, Sant Boi de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110327364/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Corbera de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110303474/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida Mas Sellarès, 5, Centre, Gavà"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110289694/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Baixada Torrent Mal, 3, Nucli Urbà, Esparreguera"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110256630/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Castelldefels, 8, Centre, Gavà"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110220747/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Avenida del Mas Picó, 41, Sant Vicenç Dels Horts"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110204971/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Montserrat, 2, Nucli Urbà, Esparreguera"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110153023/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Ronda de Sant Ramon, 82, Marianao, Sant Boi de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110139124/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Ático en Avenida de Castelldefels, 71, La Pineda, Castelldefels"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110007511/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Nucli Urbà, Esparreguera"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109978223/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Camps Blancs, 136, Camps Blancs - Els Canons, Sant Boi de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109976669/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Camps Blancs, 110, Camps Blancs - Els Canons, Sant Boi de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110702642/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Jacint Verdaguer, 14, Platja Calafell, Calafell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/83747996/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Ático en Paseo Marítim de Sant Joan de Déu, 181, Platja Calafell, Calafell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110655139/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Indústria, 31, Centre, El Vendrell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108600688/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Galeno, 4, Bonavista, El Vendrell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110642496/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Doctor Trueta, 112, Nucli Urbà, Calafell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110641183/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Montpeo, 3, Bellvei"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110547338/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle suiza, 64 f, El Montmell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110579281/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de l'Atlàntìda, 10, Els Masos, El Vendrell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110570539/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Tulipa, 10, Costa Cunit - Els Jardins - Els  Rosers, Cunit"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110459137/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Piso en Nucli Urbà, Calafell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110428449/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de l'Ebre, 5, Segur Platja, Calafell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110399636/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Clotes, 18, Els Masos, El Vendrell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104589526/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Gegants Pere i Carme, 13, Calafell Residencial, Calafell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110324734/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Ático en Avenida Masia Blanca, 19, Coma-Ruga, El Vendrell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110276292/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle Mèxic, 30, Nucli Urbà, Calafell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108988217/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida Mossèn Jaume Soler, 97 -98, Platja Calafell, Calafell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109882981/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Av. Illes Filipines, 26, Nucli Urbà, Calafell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109677535/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo Marítim de Masia Blanca, 9, Coma-Ruga, El Vendrell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/98454477/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle trelawny, 4, La Barceloneta, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110713366/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle dels Ocells, 2, Sant Pere - Santa Caterina i la Ribera, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110705211/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Sant Pere - Santa Caterina i la Ribera, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110680014/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle dels Sombrerers, 1, Sant Pere - Santa Caterina i la Ribera, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/83564424/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Ático en Calle de l'Aurora, 20, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104801636/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'En Botella, 2, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110575824/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en El Gòtic, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110565458/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sòria, 24, La Barceloneta, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/29490992/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Cera, 33, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110512132/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Estruc, 14, El Gòtic, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110497791/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Josep Anselm Clavé, 9, El Gòtic, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107530518/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'en Gignàs, 7, El Gòtic, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110310589/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle d'En Robador, 8, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/100771402/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Miquel Pedrola I Alegre, 9, La Barceloneta, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109797490/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle d'En Robador, 2, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109213219/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Passatge Madoz, 2 -4, El Gòtic, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109358678/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle dels Salvador, 5, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104633752/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de l'Atlàntida, 22, La Barceloneta, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/103199526/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Miquel Pedrola y Alegre, 9, La Barceloneta, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109732046/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Comerç, 32, Sant Pere - Santa Caterina i la Ribera, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109572581/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Pacià, 17, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108936539/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Plaza del Pes de la Palla, 4, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107877810/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Doctor Giné i Partagàs, 66, La Barceloneta, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107678691/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Ático en Plaza del Pedró, 8, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107678490/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Ático en Plaza del Pedró, 8, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107566308/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en reina Amalia, 40, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107089735/",
+      "ubicacion": "Barcelona - Ciutat Vella",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Junta de Comerç, 1 -30, El Raval, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110751436/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en L'Antiga Esquerra de l'Eixample, 40, L'Antiga Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110747678/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Ático en Calle de Villarroel, 183, L'Antiga Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107535077/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de los Castillejos, 212, La Sagrada Família, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110669487/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de València, 121, L'Antiga Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110647826/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Gran Via de les Corts Catalanes, 674, La Dreta de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/85180127/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Aragó, 201, L'Antiga Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110638365/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Passatge d'En Sagristà, 17, La Nova Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110608499/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en industria, 80, La Dreta de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110572985/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Provença, 216, L'Antiga Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110507703/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Diputació, 356, La Dreta de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110497598/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en La Dreta de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110368160/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Aribau, 32, L'Antiga Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110436517/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Trafalgar, 23, La Dreta de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110422261/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en La Nova Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109871830/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Consell de Cent, 180, La Nova Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109516777/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Casanova, 27, Sant Antoni, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110227599/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Provenza, 160, L'Antiga Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/29238379/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Consell de Cent, 78, La Nova Esquerra de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109835957/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle napols, 88, El Fort Pienc, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107954391/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida del Paral·lel, 87, Sant Antoni, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109608768/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Aragó, 365, La Dreta de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109694530/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Gran via Corts Catalanes, 806, El Fort Pienc, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104403644/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Cartagena, 253, La Sagrada Família, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109619958/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Villarroel, 3, Sant Antoni, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109617517/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Diputació, 278, La Dreta de l'Eixample, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109617638/",
+      "ubicacion": "Barcelona - Eixample",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sepúlveda, 21 /30, Sant Antoni, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110739610/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sant Pere Màrtir, 20, Vila de Gràcia, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110738690/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sant Antoni Maria Claret, 31, El Camp d'En Grassot i Gràcia Nova, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110715359/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Gomis, 52, Vallcarca i els Penitents, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110712148/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo de Gràcia, 111, Vila de Gràcia, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109212367/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en El Coll, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110613588/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Ramón y Cajal, 87, Vila de Gràcia, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110613487/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Ramón y Cajal, 87, Vila de Gràcia, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110610300/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Estudio en Vila de Gràcia, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110501466/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Martí, 137, El Camp d'En Grassot i Gràcia Nova, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110403301/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en El Coll, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110108025/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de Rubens, 38, El Coll, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109744536/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle Bolivar, 53, Vallcarca i els Penitents, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109744578/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle Bolivar, 53, Vallcarca i els Penitents, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109718174/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en Passatge d'Alió, 29, El Camp d'En Grassot i Gràcia Nova, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109293559/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Bonavista, 27, Vila de Gràcia, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108784462/",
+      "ubicacion": "Barcelona - Gracia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sardenya, 359, El Camp d'En Grassot i Gràcia Nova, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110717344/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de l'Harmonia, 33, Sant Genís Dels Agudells - Montbau, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/86889432/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Passatge de l'Arc de Sant Martí, 81, La Font d'En Fargues, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110639812/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Argimon, 10, El Carmel, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110621953/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Lepant, 418, El Baix Guinardó, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110617112/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de l'Art, 60, El Guinardó, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110580199/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Canigó, 120, Horta, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110500276/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Fastenrath, 89, La Teixonera, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110451661/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Murtra, 181, El Carmel, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110296895/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Dante Alighieri, 99, El Carmel, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110273929/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Thous, 6, El Baix Guinardó, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110245993/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Ático en Rambla De La Muntanya, 92, El Guinardó, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110240068/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en El Baix Guinardó, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110228801/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de l'Harmonia, 6, Sant Genís Dels Agudells - Montbau, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109649691/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de les Camèlies, 50, El Baix Guinardó, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104405950/",
+      "ubicacion": "Barcelona - Horta - Guinardó",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de Brussel-las, 42, El Guinardó, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110678063/",
+      "ubicacion": "Barcelona - Les Corts",
+      "portal": "idealista",
+      "titulo": "Ático en Les Corts, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110640975/",
+      "ubicacion": "Barcelona - Les Corts",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Dolors Masferrer, 12, Les Corts, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110579701/",
+      "ubicacion": "Barcelona - Les Corts",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Caravel·la la Niña, 8, Les Corts, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110713576/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Selva, 9, Porta, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110647064/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Piso en Nou Barris, s/n, Canyelles, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110632521/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Aiguablava, 35, La Trinitat Nova, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110603102/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de Góngora, 27, Verdun, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109186486/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Piso en Via Júlia, 77, Verdun, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110467718/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Malgrat, 50, Vilapicina i la Torre Llobeta, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110399474/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Ático en Paseo Maragall, 316, Vilapicina i la Torre Llobeta, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110230898/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Pare Rodés, 36, Verdun, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109847052/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Travau, 30, Can Peguera - El Turó de la Peira, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107051669/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle del Conveni, 7, La Prosperitat, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/99440192/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Alcamo, 7, El Besòs, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110323945/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Finca rústica en Calle de la Indústria, 256, El Camp de l'Arpa del Clot, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/103581576/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Piso en El Poblenou, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110462323/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de Guipúscoa, 172, La Verneda i la Pau, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110458665/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Taulat, 35, El Poblenou, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110432867/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Fluvià, 288, Sant Martí de Provençals, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108273715/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Piso en La Verneda i la Pau, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109598901/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Mallorca, 633, El Clot, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107742195/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Pallars, 315, El Poblenou, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110210550/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Piso en Rambla de Prim, 76, El Besòs, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110135650/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Piso en Rambla del Poblenou, 93, El Poblenou, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110089731/",
+      "ubicacion": "Barcelona - Sant Martí",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sardenya, 81, El Parc i la Llacuna del Poblenou, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110745164/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Ático en Rambla de Badal, 127, Sants, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109708811/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Miracle, 39, Sants, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110637284/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Font Florida, 82, La Font de la Guatlla, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110514290/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en venta en Calle d'Olzinelles, 10"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110561577/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en venta en Gran Via de les Corts Catalanes, 286"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110506592/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en venta en Calle de Rossend Arús, 42"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110499049/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en venta en Calle dels Alts Forns, 29"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110325296/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Ático en venta en Plaza de Sants, 80"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110290386/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en venta en Calle Nou de la Rambla, 124"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110245369/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Dúplex en venta en Calle del Callao, 8"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110235843/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Ático en venta en Sants"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108344181/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Ático en venta en Lafont, 22"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110196212/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en venta en Calle minería, 24"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109952571/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Ático en venta en Calle Nou de la Rambla, 140"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109543946/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en venta en Sants - Badal"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109415288/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en venta en Sants"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109410668/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Ático en venta en Calle de Salvà, 39"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108603423/",
+      "ubicacion": "Barcelona - Sants-Montjuïc",
+      "portal": "idealista",
+      "titulo": "Piso en venta en Calle de la Mare de Déu de Port, 403"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110750433/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Piso en Passatge de Marimon, 4, Sant Gervasi - Galvany, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110730676/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Ático en Calle de Ganduxer, 82, Sant Gervasi - Galvany, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110679645/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Piso en Sant Gervasi - La Bonanova, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110627356/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de Ganduxer, 143, Les Tres Torres, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110589863/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo de la Bonanova, 28, Les Tres Torres, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110569136/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Ático en Calle de Santaló, 1, Sant Gervasi - Galvany, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110560677/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida Diagonal, 594, Sant Gervasi - Galvany, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110562570/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Piso en Sant Gervasi - Galvany, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110561267/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Piso en El Putxet i el Farró, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/106942429/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle de Bertran, 4, El Putxet i el Farró, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110005164/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle de la Nena Casas, 60, Les Tres Torres, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110005140/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle de la Nena Casas, 60, Les Tres Torres, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110003197/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Balmes, 317, Sant Gervasi - Galvany, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107684540/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Piso en Sant Gervasi - Galvany, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109630943/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de l'Avenir, 37, Sant Gervasi - Galvany, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109624854/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle de Vallirana, 43, El Putxet i el Farró, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108673920/",
+      "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
+      "portal": "idealista",
+      "titulo": "Piso en Calle jorda, 11, Sarrià, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110726894/",
+      "ubicacion": "Berguedà",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Calle del Regatell, 21, La Pobla de Lillet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110677583/",
+      "ubicacion": "Berguedà",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle de M. Buxadé, 34, Berga"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110625337/",
+      "ubicacion": "Berguedà",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida Reina Elisenda, 13, Bagà"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110611033/",
+      "ubicacion": "Berguedà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Verdaguer, 10, Berga"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110582724/",
+      "ubicacion": "Berguedà",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en C-16, 86, Gironella"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/106943791/",
+      "ubicacion": "Berguedà",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Carretera de Casserres, 13, Gironella"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110414813/",
+      "ubicacion": "Berguedà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Orient, 5, Puig-Reig"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110033613/",
+      "ubicacion": "Berguedà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Santa Eulàlia, 37, Berga"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/29168538/",
+      "ubicacion": "Berguedà",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Viladomiu Vell, s/n, Gironella"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/106587244/",
+      "ubicacion": "Berguedà",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Cal Nen Pere, 1, Sant Julià de Cerdanyola"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110749000/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de les Flors, 8, Sant esteve Sesrovires"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110738030/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Marconi, 42, Ca n'Aurell, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110674663/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sicília, 8, Roc Blanc, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110605476/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle del Gerani, 35, Mas d'en Gall, Esparreguera"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110566273/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Puigvert, 10, Eixample - Can Bogunya, Castellar del Vallès"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110598410/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de l'Estatut, 35, Can Roca, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110576966/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Carretera de Matadepera, 38, Sant Pere, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110568911/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida de Joaquim de Sagrera, 132, La Cogullada, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109749809/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de Prat de la Riba, 40, Eixample - Can Bogunya, Castellar del Vallès"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110555146/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle de Marconi, 8, Ca n'Aurell, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110551487/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de les Violetes, 22, Vacarisses"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110529542/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de Roger de Llúria, 132, Segle XX, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110538290/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Tortosa, 119, La Grípia, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110525892/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Franc Comtat, 251, La Maurina, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110521432/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Salvador Busquets, 14, Vallparadís, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110518130/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Girasols, 29, Rellinars"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109939457/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Corbera de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110418905/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Espai Tolra - Els Pedrissos - Can Carner, Castellar del Vallès"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110377285/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Mallol, 4, Can Boada, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110366505/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Casa rural en Calle Rosina i Francesc, 10, Rocafort de Queralt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110352233/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Orenetes, 39, Viladecavalls"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110635145/",
+      "ubicacion": "Cerdanya(Girona)",
+      "portal": "idealista",
+      "titulo": "Piso en Camino d'Age, 23, Puigcerdà"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109047474/",
+      "ubicacion": "Cerdanya(Girona)",
+      "portal": "idealista",
+      "titulo": "Ático en Calle del Raval, 32, Llívia"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/92316974/",
+      "ubicacion": "Cerdanya(Girona)",
+      "portal": "idealista",
+      "titulo": "Estudio en Avenida Supermolina, 25, Alp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110366505/",
+      "ubicacion": "Conca de Barberà",
+      "portal": "idealista",
+      "titulo": "Casa rural en Calle Rosina i Francesc, 10, Rocafort de Queralt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109917952/",
+      "ubicacion": "Conca de Barberà",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Raval de la Creu, 3, Senan"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109547851/",
+      "ubicacion": "Conca de Barberà",
+      "portal": "idealista",
+      "titulo": "Dúplex en Muralla de Santa Tecla, 8, Montblanc"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110706194/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle la Sajolida, 21, Mas Alba-Can Lloses, Sant Pere de Ribes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110699814/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Estudio en Paseo Pujades, 1, Vallpineda-Rocamar, Sant Pere de Ribes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/102485243/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Ático en Centro Pueblo, Sant Pere de Ribes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110657346/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo Marítim, 70, Vinyet-Terramar-Can Pei-Can Girona, Sitges"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110642868/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Lluís Companys, 64, Centro Pueblo, Sant Pere de Ribes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110640169/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Avenida d'Artur Carbonell, 25, Centre, Sitges"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104407181/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Dúplex en Paseo de Vilanova, 54, Santa Maria-Eixample-Sud Sumella, Cubelles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110588262/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Joaquim Mir, 14, Centre Vila - La Geltrú, Vilanova i la Geltrú"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110571414/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Ático en Calle Jacint Verdaguer, 5, El Castell de Cubelles, Cubelles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110503019/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Ramon Figueras, 8, Vallpineda-Santa Bárbara, Sitges"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110503052/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Ramon Figueras, 8, Vallpineda-Santa Bárbara, Sitges"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110493555/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Piso en Mas d'En Serra-Els Cards, Sant Pere de Ribes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110177521/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Almogavers, 4, Pla de Sant Pere-Les Salines, Cubelles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110232631/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Pouet, 19, Mas Alba-Can Lloses, Sant Pere de Ribes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110147799/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Lope de Vega, 11 -13, Els Molins-Observatorio-Pins Vens, Sitges"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109603700/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Pau Claris, s/n, Pla de Sant Pere-Les Salines, Cubelles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107462424/",
+      "ubicacion": "Garraf",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Sant Vicenç, 13, Mas Trader-Corral D’En Tort-Corral D’En Cona, Cubelles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110778147/",
+      "ubicacion": "Garrotxa",
+      "portal": "idealista",
+      "titulo": "Masía en Via Sense Nom, s/n, Sant Ferriol"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110542835/",
+      "ubicacion": "Garrotxa",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Bonaire, 16, Olot"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110132639/",
+      "ubicacion": "Garrotxa",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Castell d'Hostoles, 26, Les Planes d'Hostoles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109580768/",
+      "ubicacion": "Garrotxa",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle Pintor Josep Colomer, 17, Sant Feliu de Pallerols"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108453207/",
+      "ubicacion": "Garrotxa",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Clivillers, 8, Olot"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110635934/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Piso en Carme-Vistalegre, Girona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110633251/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle Julià de Chia, 51, Carme-Vistalegre, Girona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/105732147/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Major, 3, Veinat, Salt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110383627/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Bonastruc de Porta, 33, Eixample, Girona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110294572/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de les Agudes, 50, Santa Eugenia, Girona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110188810/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Dúplex en Plaza Empuries, 2 a, Sant Narcís, Girona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110098463/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Portlligat, 8, Pont Major-Pedret, Girona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109945293/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de la Rutlla, 13, Eixample, Girona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109935906/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Piso en Carretera de Taialà, 50, Talaia - Germans Sabat, Girona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/96912349/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sant Joan Baptista la Salle, 20, Eixample, Girona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/29192073/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Pau Casals, 6, Sant Julià de Ramis"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/102336693/",
+      "ubicacion": "Girones",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo de Sant Joan Bosco, 38, Pont Major-Pedret, Girona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110712998/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida del Bosc, 25, Pubilla Cases, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110711422/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Ático en Calle de Rodés, 27, Sant Josep, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110705667/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Rafael Campalans, 138, La Torrasa, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/25228847/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Barcelona, 21, Centre, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110692019/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Ático en Parc dels cirerers, 10 X, Sanfeliu, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110672221/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en La Florida, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110665457/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Ático en Emigrante, 13, Sanfeliu, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110652216/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Plaza de la Pubilla Cases, 1, Pubilla Cases, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/86303308/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Ronda de la Torrassa, 22, La Torrasa, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110645514/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Martí Codolar, 46, Santa Eulàlia, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110644366/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de Graner, 39, Collblanc, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110642462/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Rosselló, 55, La Torrasa, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110580069/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de París, 30, Collblanc, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110573982/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Sant Josep, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110572055/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de l'Aprestadora, 10 -20, Santa Eulàlia, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110483519/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Montseny, 55, La Torrasa, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110514601/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Passatge de Llunàs, 2, Sanfeliu, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/105695059/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Mare de Deu de Nuria, 43, La Florida, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110401581/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en La Torrasa, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/102372136/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Bellavista, 27, Centre, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109917449/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Príncep de Bergara, 25, Centre, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110372527/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del General Prim, 10, Santa Eulàlia, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110209911/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Riera Blanca, 178, Santa Eulàlia, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110091981/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Rambla de la Marina, 2025, Bellvitge, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109941655/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Mare de Déu dels Desemparats, 46, La Torrasa, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109857233/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle Progrés, 51, Collblanc, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109726200/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Plaza Blocs Florida, 4, Les Planes, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108332406/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Subur, 30, Les Planes, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/98283564/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Simancas, 70, Pubilla Cases, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/94570696/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Federico García Lorca, 5, La Plantera, Blanes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110742928/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Josep Ximeno, 5, Sant Hilari Sacalm"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110638411/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle del Roure, 19, Sils"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110625354/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle Jesús Costa, 23, Sils"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110600845/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Passatge Mas Torrents, 6  a, Els Pavos, Blanes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110590338/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Estudio en Urbanització Cala Llevadó, 11 z, Santa María de Llorell, Tossa de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110572257/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Calle dels Pirineus, 28, Anglès"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110502591/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Ignasi Iglesias, 2, Els Pins, Blanes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110500415/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Barri de la Pau, s/n, Centro, Vidreres"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110460458/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Menorca, 10, Els Pins, Blanes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110428414/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sant Pere Màrtir, 14, Centre, Blanes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/101551487/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Estudio en Plaza Núria, 7, Els Pavos, Blanes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110283771/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle València, 60, Els Pinars, Lloret de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110281423/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida Mar Menuda, 6, Tossa de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109987679/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Joan Carles 1, 148, Mont Ferrant - Sant Joan, Blanes"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109985567/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Orevetas, 19, Fenals, Lloret de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/82480112/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Vidreres, 31, Maçanet de la Selva poble, Maçanet de la Selva"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109727368/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de les Agudes, s/n, Caldes de Malavella"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109691882/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Francesc Mas i Ros, 10, Tossa de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108456444/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Costa de Carbonell, 71, Fenals, Lloret de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/35019612/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Munt, 20, Centro, Sant Andreu de Llavaneres"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/103745207/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo Marítim, 40, Malgrat de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110735848/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en colon, 11, Calella"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110710844/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Pau Picasso, 34, Alella Parc, Alella"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110677018/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Premià de Dalt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110671970/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Torre en Calle Camp de Mar, 21, Can Pou - Camp de Mar, Premiá de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110426081/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Dipòsit, 10, Cirera, Mataró"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110648319/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida doctor Mariá Serra, 7, Canet de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104476142/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle Roger de Llúria, 6 -8 , Centre, Pineda de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110637694/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Vilassar de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110623238/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Carretera de Vilassar de Dalt, 68, Can Farrerons, Premiá de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110223405/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Passatge de Vallvidrera, 7, Arenys de Munt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110615586/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Premià de Dalt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110615102/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Plaça, 16, Centre, Premiá de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110611156/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Finca rústica en Paseo del Port Esportiu, 42, Centre, El Masnou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/357139/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida Mediterráni, 82, Poblenou, Pineda de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/25496819/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Dosrius"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109373813/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Avenida Catalunya, 20, Fogars de la Selva"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110574909/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Premià de Dalt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109923752/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Sant Jaume, 131, Calella"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109942695/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Ático en Calella"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110189463/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Club Caravaning Sant Genís, s/n, Palafolls"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110503077/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Centre, Pineda de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110428108/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Torrent Lloveras, 44554, Vilassar de Dalt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110399637/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Doctor, 10, Centro, Sant Andreu de Llavaneres"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108399294/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Vilassar de Dalt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110345335/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Platja del Cavaió, 10, Urbanitzacions, Arenys de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110204807/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Pizarro, 125, Eixample, Mataró"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109794299/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de les Teixidores, 7, Premià de Dalt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110279617/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Sant Pol de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110259018/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Vilassar de Dalt"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110207563/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Ático en Calle Tribala, 50, Centre, Pineda de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108227381/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Avenida de doctor María Serra, 7, Canet de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110751306/",
+      "ubicacion": "Moianes",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Calle Moià, 22, Calders"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/99465218/",
+      "ubicacion": "Moianes",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Plaza pinyons, 8, Sant Quirze Safaja"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110705366/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Piso en Platjas, Sant Carles de la Rápita"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/105436355/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de F. Vicent Montejano, 16, Sant Jaume d'Enveja"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/105655031/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Des Poligono, 15, Freginals"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109675004/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Casa rural en Diseminado, s/n, La Galera"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109522005/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Finca rústica en Callejón polígono 14 parcela 286, 14, Centro, Alcanar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107836922/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Entença, 49, Ulldecona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107520713/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Cervantes, 10, Zona Hospital, Amposta"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107132148/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de l'Alguer, 27, Les Cases d'Alcanar, Alcanar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/31087821/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle mas del cec, 20, Montsià de Mar, Alcanar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/105757456/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Sant Miquel, 29, Nord, Sant Carles de la Rápita"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/31095741/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de trafalgar, 2, Les Cases d'Alcanar, Alcanar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/95714091/",
+      "ubicacion": "Montsia",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Calle del Cardenal Cisneros, 25, La Sénia"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110471067/",
+      "ubicacion": "Noguera",
+      "portal": "idealista",
+      "titulo": "Dúplex en Paseo Sant Jordi, 3 b, Vallfogona de Balaguer"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109812328/",
+      "ubicacion": "Noguera",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle la costa, 26, Algerri"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108321536/",
+      "ubicacion": "Noguera",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle del Calvari, 17, Artesa de Segre"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/1912564/",
+      "ubicacion": "Noguera",
+      "portal": "idealista",
+      "titulo": "Piso en Soldevila, 1, Les Avellanes i Santa Linya"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110735671/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle Jaume Balmes, 13, Torelló"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110706476/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle 11 de Setembre, 5, Folgueroles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110674356/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Nou, 130, Torelló"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110534034/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Barcelona, 1, Sant Vicenç de Torelló"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110461018/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de les Cadenes, 5, Sant Martí de Centelles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107954005/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Avenida Goitallops, 1, Taradell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110282932/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Avenida de Sant Bernat Calbó, 8, Santa Clara-Caputxins-Hospital, Vic"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110244152/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Ronda de la Demunt, s/n, Folgueroles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110124192/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Enric Delaris, 12, Manlleu"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109716922/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Ático en Calle dels Argenters, 7, Casc Antic, Vic"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108127350/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Piso en Carretera d'Arbúcies, 7, Santa Eugènia de Berga"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/106681335/",
+      "ubicacion": "Osona",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle Nou, 35, Sant Martí de Centelles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110641624/",
+      "ubicacion": "Pla d'Urgell",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Calle Zulueta, 17, Torregrossa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109453236/",
+      "ubicacion": "Pla d'Urgell",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de Ferran Puig, 10, Mollerussa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/103424731/",
+      "ubicacion": "Pla d'Urgell",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Urgell, 4, Mollerussa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/25084156/",
+      "ubicacion": "Pla d'Urgell",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle Montsec, 10, Mollerussa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107709420/",
+      "ubicacion": "Pla de l'Estany",
+      "portal": "idealista",
+      "titulo": "Finca rústica en Carretera de sant esteve de guialbes, 1, Vilademuls"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107571105/",
+      "ubicacion": "Pla de l'Estany",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de mata, 60, Banyoles"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110655241/",
+      "ubicacion": "Ribera d'Ebre",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle Joan Segú, 12, Mora d'Ebre"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110528364/",
+      "ubicacion": "Ribera d'Ebre",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle Ribera d'Ebre, 15, Mora la Nova"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110060669/",
+      "ubicacion": "Ripollès",
+      "portal": "idealista",
+      "titulo": "Piso en Plaza de la Vila, 8 n, Camprodon"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109880221/",
+      "ubicacion": "Ripollès",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle d'Ignasi Casabó, 6, Camprodon"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109031332/",
+      "ubicacion": "Ripollès",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle de l'Empriu, 6, Vilallonga de Ter"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/32480181/",
+      "ubicacion": "Ripollès",
+      "portal": "idealista",
+      "titulo": "Ático en Calle de ntra. sra. de gràcia, 28, Ribes de Freser"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110709036/",
+      "ubicacion": "Sant Adrià de Besòs",
+      "portal": "idealista",
+      "titulo": "Piso en Calle d'Antoni Puigvert, 4, La Catalana, Sant Adriá de Besós"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110641300/",
+      "ubicacion": "Sant Adrià de Besòs",
+      "portal": "idealista",
+      "titulo": "Piso en Plaza d'Andreu Molins, 1, Sant Adriá Nord, Sant Adriá de Besós"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110417670/",
+      "ubicacion": "Sant Adrià de Besòs",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida de les Corts Catalanes, 6, El Besós, Sant Adriá de Besós"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109263249/",
+      "ubicacion": "Sant Adrià de Besòs",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle de la Torrassa, 6, Sant Joan Baptista, Sant Adriá de Besós"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110717848/",
+      "ubicacion": "Santa Coloma de Gramenet",
+      "portal": "idealista",
+      "titulo": "Ático en Fondo, Santa Coloma de Gramenet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110229541/",
+      "ubicacion": "Santa Coloma de Gramenet",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Dr. Torras i Bages, 5, Santa Rosa - Can Mariner, Santa Coloma de Gramenet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110371151/",
+      "ubicacion": "Santa Coloma de Gramenet",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sicília, 35, Riera Alta - Llatí, Santa Coloma de Gramenet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110274239/",
+      "ubicacion": "Santa Coloma de Gramenet",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sant Joaquim, 87, Riu, Santa Coloma de Gramenet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110269376/",
+      "ubicacion": "Santa Coloma de Gramenet",
+      "portal": "idealista",
+      "titulo": "Piso en El Raval, Santa Coloma de Gramenet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109982301/",
+      "ubicacion": "Santa Coloma de Gramenet",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle d'Espriu, 21, El Raval, Santa Coloma de Gramenet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109973542/",
+      "ubicacion": "Santa Coloma de Gramenet",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sant Ernest, 6 -8, El Raval, Santa Coloma de Gramenet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109973649/",
+      "ubicacion": "Santa Coloma de Gramenet",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Sant Ernest, 6 -8, El Raval, Santa Coloma de Gramenet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109644456/",
+      "ubicacion": "Santa Coloma de Gramenet",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Dr. Torras i Bages, 44, Santa Rosa - Can Mariner, Santa Coloma de Gramenet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109547126/",
+      "ubicacion": "Santa Coloma de Gramenet",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Francesc Moragas, 34, Riu, Santa Coloma de Gramenet"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110782689/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Doctor Combelles, 24, Universitat, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110486186/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida President Josep Tarradellas, 59, Cappont, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110492495/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Torre en partida lleida mariola, s/n, Mariola, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110600269/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Joan Miró, 3, Universitat, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110561296/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Segrià, 23, Joc de Bola, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110481791/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Ático en Calle Humbert Torres, 29, Princep de Viana-Clot, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110348846/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle Comerç, 5, Alcarrás"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110276351/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Manuel del Palacio, 16, Instituts, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109419441/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Mossèn Reig, 24, Princep de Viana-Clot, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109843565/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle Lladonosa Pujol, 49, Alguaire"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109797813/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Dúplex en Calle Maials, 16, La Bordeta, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109604992/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo de l'Onze de Setembre, 129, Mariola, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109452097/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Partida Canet, 31, Gualda"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/29350463/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Tallada, 31, Centre Històric, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108382785/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Enric Farreny, 61, Ciutat Jardí, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107694743/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Piso en Trullets, 32, Almenar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107419912/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Sant Hilari, 12, Camp d'Esports, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/106243717/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Alandir, 21, Balafia, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/106003864/",
+      "ubicacion": "Segrià",
+      "portal": "idealista",
+      "titulo": "Ático en Avenida Alcalde Porqueres, 91, Balafia, Lleida"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110718531/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Avenida del Parlament, 2, Pallaresos (Els)"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110718613/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Avenida del Parlament, 2, Pallaresos (Els)"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110706778/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida Marquès de Montoliu, 1, Nou Eixample Nord, Tarragona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110705379/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Plaza de Venus, 2, Barri de la Salut, Salou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110664659/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Llorenç Villalonga, 17 b, Urbanitzacions de Llevant, Tarragona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110653273/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Mossèn Lluís Batlle, 1, Vila-Seca"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110644323/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle k, 1, Sant Pere i Sant Pau, Tarragona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110642160/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Vendrell, 18, Eixample, Salou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110642137/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Sant Plàcid, 7, El Morell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110620089/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle Pirineus, 5, Vilallonga del Camp"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110618371/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Nou de Sant Pau, 1, Barris Maritims, Tarragona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110594181/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Carles Buïgas, 40, Eixample, Salou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110588825/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Logronyo, 8, Eixample, Salou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110587402/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Plaza General Domènech Batet i Mestres, 6, Barris Maritims, Tarragona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110430016/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Carretera del far, 12, Cap Salou, Salou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110462035/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Carretera de la Costa, 61, Cap Salou, Salou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110505792/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Paseo de les moreres, 66, El Catllar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110501952/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Deltebre, 33, Torreforta, Tarragona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110493558/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Clarà, Torredembarra"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110473019/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Tres, 61, Bonavista"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/101707612/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de Carles Buïgas, 32, Eixample, Salou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108728352/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo Miramar, 60, Barri de la Salut, Salou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/36953758/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Camino de L'Hort de Pau, 62, Altafulla"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110272577/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Dúplex en Nou Eixample Sud, Tarragona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110426300/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle de Plácido Domingo, 2, La Pineda"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110425194/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Verge de Misericòrdia, 24, Barris Maritims, Tarragona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110421367/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Ático en Plaza del Castell, 1, La Canonja"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108499383/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Prades, 14, Torreforta, Tarragona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109758427/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Montseny, 14, Els Munts, Torredembarra"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/100389819/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Urbanitzacions de Llevant, Tarragona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110135368/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida de Ramon d'Olzina, 13, Vila-Seca"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104858816/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle de Josep Carner, 18, Salou de Llevant, Salou"
     }
   ]
 }

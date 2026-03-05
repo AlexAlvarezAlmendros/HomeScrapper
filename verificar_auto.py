@@ -12,8 +12,8 @@ Uso:
     # Solo idealista, con envío a API
     ./verificar_auto.py --portal idealista --send-api
 
-    # Solo fotocasa, delay más alto, sin eliminar de JSONs
-    ./verificar_auto.py --portal fotocasa --delay 3.0 --no-clean
+    # Solo fotocasa, delay más alto
+    ./verificar_auto.py --portal fotocasa --delay 3.0
 
     # Ejecutar con log
     ./verificar_auto.py 2>&1 | tee -a /var/log/homescraper_verify.log
@@ -28,6 +28,7 @@ import sys
 import json
 import glob
 import time
+import shutil
 import random
 import signal
 import logging
@@ -57,13 +58,184 @@ CHROMIUM_PATH = os.path.expanduser(
     '~/.cache/ms-playwright/chromium-1091/chrome-linux/chrome'
 )
 
-# Delays entre peticiones (segundos). Idealista API es rápida, Fotocasa necesita más.
-DELAY_IDEALISTA = (0.3, 0.8)    # API interna, muy rápida
-DELAY_FOTOCASA  = (2.0, 4.0)    # Reese84 anti-bot, necesita calma
-DELAY_ENTRE_ARCHIVOS = (3, 6)   # Pausa entre archivos JSON
+# Delays entre peticiones (segundos).
+# Cloudflare detecta ráfagas rápidas; necesitamos simular navegación humana.
+DELAY_IDEALISTA = (1.5, 3.5)    # API interna — parece rápida pero Cloudflare vigila
+DELAY_FOTOCASA  = (2.5, 5.0)    # Reese84 anti-bot, necesita calma
+DELAY_ENTRE_ARCHIVOS = (5, 12)  # Pausa entre archivos JSON
+
+# Pausa larga cada N peticiones para simular "descanso humano"
+BATCH_SIZE = 25                  # cada 25 peticiones
+BATCH_PAUSE = (15, 30)           # pausa de 15-30s
 
 # Máximo de reintentos ante bloqueo
 MAX_REINTENTOS = 3
+
+# Refrescar la página cada N evaluate() para evitar heap growth de Playwright
+# (Playwright GC-colecta el page object tras miles de evaluate() acumulados)
+REFRESH_PAGE_EVERY = 150
+
+# Guardar resultados intermedios cada N archivos procesados
+SAVE_EVERY_N_FILES = 5
+
+# Espera máxima para que se resuelva el captcha Cloudflare (segundos)
+CLOUDFLARE_WAIT_MAX = 300        # 5 minutos
+# VPN: peticiones con VPN activa / sin VPN (ciclo)
+VPN_ON_REQUESTS  = 30            # hacer N peticiones con VPN conectada
+VPN_OFF_REQUESTS = 20            # hacer N peticiones sin VPN (IP real)
+VPN_COUNTRIES = ['ES', 'FR', 'DE', 'IT', 'NL', 'PT', 'BE', 'CH', 'SE', 'PL', 'CZ', 'RO']
+
+
+# ─── Rotación ProtonVPN ───────────────────────────────────────────────────────────────
+
+class ProtonVPNRotator:
+    """Cicla ProtonVPN: ON durante N peticiones, OFF durante M, repite.
+
+    Cada vez que se conecta, elige un país aleatorio diferente al anterior.
+    Solo se usa para Idealista (Cloudflare). Fotocasa usa el Chrome real
+    con cookies que no necesitan VPN.
+    """
+
+    def __init__(self, on_requests: int = VPN_ON_REQUESTS,
+                 off_requests: int = VPN_OFF_REQUESTS):
+        self.on_requests = on_requests
+        self.off_requests = off_requests
+        self._contador = 0                # peticiones desde último cambio
+        self._vpn_activa = False
+        self._ultimo_pais = None
+        self._enabled = self._detectar_protonvpn()
+        if not self._enabled:
+            log.warning('ProtonVPN CLI no detectado — rotación VPN desactivada.')
+
+    @property
+    def enabled(self) -> bool:
+        return self._enabled
+
+    @property
+    def vpn_activa(self) -> bool:
+        return self._vpn_activa
+
+    @staticmethod
+    def _detectar_protonvpn() -> bool:
+        return shutil.which('protonvpn') is not None
+
+    def obtener_ip(self) -> str:
+        """IP pública actual."""
+        try:
+            if requests:
+                r = requests.get('https://api.ipify.org', timeout=10)
+                return r.text.strip()
+            with urllib.request.urlopen('https://api.ipify.org', timeout=10) as r:
+                return r.read().decode().strip()
+        except Exception:
+            return 'desconocida'
+
+    def conectar(self) -> bool:
+        """Conecta VPN. Con plan de pago elige país aleatorio, con free usa lo disponible."""
+        if not self._enabled:
+            return False
+
+        log.info('VPN: Conectando...')
+        try:
+            # Desconectar primero si estaba conectada
+            if self._vpn_activa:
+                subprocess.run(['protonvpn', 'disconnect'],
+                               capture_output=True, timeout=30)
+                time.sleep(2)
+
+            # Intentar con país aleatorio (plan de pago)
+            paises_disponibles = [p for p in VPN_COUNTRIES if p != self._ultimo_pais]
+            pais = random.choice(paises_disponibles) if paises_disponibles else random.choice(VPN_COUNTRIES)
+
+            result = subprocess.run(
+                ['protonvpn', 'connect', '--country', pais],
+                capture_output=True, text=True, timeout=60
+            )
+            if result.returncode == 0:
+                self._vpn_activa = True
+                self._ultimo_pais = pais
+                self._contador = 0
+                time.sleep(3)
+                ip = self.obtener_ip()
+                log.info('VPN: Conectado a %s — IP: %s', pais, ip)
+                return True
+
+            # Fallback: plan gratuito (sin country ni random)
+            log.debug('VPN: --country no disponible, conectando con servidor free...')
+            result = subprocess.run(
+                ['protonvpn', 'connect'],
+                capture_output=True, text=True, timeout=60
+            )
+            if result.returncode == 0:
+                self._vpn_activa = True
+                self._ultimo_pais = 'FREE'
+                self._contador = 0
+                time.sleep(3)
+                ip = self.obtener_ip()
+                log.info('VPN: Conectado (free) — IP: %s', ip)
+                return True
+
+            log.error('VPN: No se pudo conectar: %s', result.stderr[:200])
+            return False
+
+        except subprocess.TimeoutExpired:
+            log.error('VPN: Timeout al conectar')
+            return False
+        except Exception as e:
+            log.error('VPN: Error: %s', e)
+            return False
+
+    def desconectar(self) -> bool:
+        """Desconecta VPN."""
+        if not self._enabled or not self._vpn_activa:
+            return True
+
+        log.info('VPN: Desconectando...')
+        try:
+            subprocess.run(['protonvpn', 'disconnect'],
+                           capture_output=True, timeout=30)
+            self._vpn_activa = False
+            self._contador = 0
+            time.sleep(2)
+            ip = self.obtener_ip()
+            log.info('VPN: Desconectado — IP real: %s', ip)
+            return True
+        except Exception as e:
+            log.error('VPN: Error al desconectar: %s', e)
+            return False
+
+    def tick(self) -> None:
+        """Llamar después de cada petición. Gestiona el ciclo ON/OFF automáticamente."""
+        if not self._enabled:
+            return
+
+        self._contador += 1
+
+        if self._vpn_activa:
+            # Estamos en fase VPN ON — ¿toca apagar?
+            if self._contador >= self.on_requests:
+                log.info('VPN: Ciclo ON completado (%d peticiones) — desconectando...',
+                         self._contador)
+                self.desconectar()
+                # Pausa al cambiar de IP para no levantar sospechas
+                pausa = random.uniform(5, 12)
+                log.info('VPN: Pausa de %.0fs tras cambio de IP...', pausa)
+                time.sleep(pausa)
+        else:
+            # Estamos en fase VPN OFF — ¿toca encender?
+            if self._contador >= self.off_requests:
+                log.info('VPN: Ciclo OFF completado (%d peticiones) — conectando...',
+                         self._contador)
+                self.conectar()
+                # Pausa al cambiar de IP
+                pausa = random.uniform(5, 12)
+                log.info('VPN: Pausa de %.0fs tras cambio de IP...', pausa)
+                time.sleep(pausa)
+
+    def cleanup(self) -> None:
+        """Desconectar VPN al terminar el script."""
+        if self._vpn_activa:
+            self.desconectar()
 
 # ─── Logging ──────────────────────────────────────────────────────────────────
 
@@ -183,6 +355,7 @@ class CDPSession:
         self.page = None
         self._port_used = None
         self._current_portal = None  # 'idealista' | 'fotocasa'
+        self._eval_count = 0          # contador de evaluate() para refresh periódico
 
     def __enter__(self):
         if _sync_playwright is None:
@@ -286,6 +459,45 @@ class CDPSession:
             self._navegar_idealista(force)
         self._current_portal = portal
 
+    def _esta_bloqueado_cloudflare(self) -> bool:
+        """Detecta si la pestaña muestra un challenge de Cloudflare."""
+        try:
+            html = self.page.content()[:3000].lower()
+            return ('var dd=' in html or '_cf_chl' in html or
+                    'please enable js' in html or 'just a moment' in html or
+                    'challenge-platform' in html)
+        except Exception:
+            return False
+
+    def esperar_desbloqueo_cloudflare(self, portal: str = 'idealista') -> bool:
+        """Espera a que Cloudflare se desbloquee (el usuario resuelve el captcha
+        en el navegador, o Cloudflare lo auto-resuelve tras el JS challenge).
+
+        Retorna True si se desbloquea, False si timeout.
+        """
+        if not self._esta_bloqueado_cloudflare():
+            return True
+
+        log.warning('Cloudflare challenge detectado. Esperando resolución '
+                    '(max %ds)...', CLOUDFLARE_WAIT_MAX)
+        log.warning('Si ves un captcha en el navegador Chrome, resuélvelo manualmente.')
+
+        inicio = time.time()
+        while time.time() - inicio < CLOUDFLARE_WAIT_MAX:
+            time.sleep(5)
+            if not self._esta_bloqueado_cloudflare():
+                log.info('Cloudflare desbloqueado tras %.0fs.',
+                         time.time() - inicio)
+                # Dar tiempo extra para que las cookies se establezcan
+                time.sleep(3)
+                return True
+            elapsed = int(time.time() - inicio)
+            if elapsed % 30 == 0:
+                log.info('  Esperando desbloqueo... (%ds/%ds)', elapsed, CLOUDFLARE_WAIT_MAX)
+
+        log.error('Timeout esperando desbloqueo Cloudflare (%ds).', CLOUDFLARE_WAIT_MAX)
+        return False
+
     def _navegar_fotocasa(self, force: bool = False) -> None:
         try:
             current = self.page.url
@@ -310,9 +522,148 @@ class CDPSession:
                                    wait_until='domcontentloaded')
                 except Exception:
                     pass
+                # Comprobar si Cloudflare nos bloquea al entrar
+                if self._esta_bloqueado_cloudflare():
+                    self.esperar_desbloqueo_cloudflare('idealista')
                 log.info('Contexto idealista.com listo.')
         except Exception:
             pass
+
+    # ── Gestión de heap / page refresh ──────────────────────────────
+
+    def refresh_page(self) -> None:
+        """Navega a about:blank para liberar contextos JS acumulados.
+
+        Cada page.evaluate() crea un execution context en V8 que Playwright
+        rastrea internamente. Tras cientos de llamadas, el heap crece hasta
+        que Playwright GC-colecta el object → crash.
+        Navegar a about:blank destruye todos esos contextos de golpe.
+        """
+        log.info('Refrescando pagina para liberar memoria JS '
+                 '(eval_count=%d)...', self._eval_count)
+        try:
+            self.page.goto('about:blank', timeout=10000, wait_until='load')
+            time.sleep(1)
+        except Exception as e:
+            log.debug('Error navegando a about:blank: %s', e)
+        self._eval_count = 0
+        self._current_portal = None  # forzar re-navegación al portal
+
+    def maybe_refresh(self) -> None:
+        """Refresca la página si hemos superado el umbral de evaluate()."""
+        if self._eval_count >= REFRESH_PAGE_EVERY:
+            self.refresh_page()
+
+    def _recover_page(self) -> bool:
+        """Intenta recuperar una página funcional tras GC de Playwright.
+
+        Obtiene una nueva referencia a página del contexto del navegador.
+        Si falla, intenta reconectar al navegador vía CDP.
+        """
+        log.warning('Intentando recuperar pagina tras error de heap...')
+        try:
+            contexts = self._browser.contexts
+            if contexts:
+                ctx = contexts[0]
+            else:
+                ctx = self._browser.new_context(
+                    viewport={'width': 1366, 'height': 768},
+                    locale='es-ES',
+                    timezone_id='Europe/Madrid',
+                )
+            pages = ctx.pages
+            # Crear nueva pestaña (la vieja puede estar corrupta)
+            self.page = ctx.new_page()
+            self.page.add_init_script(
+                "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+            )
+            self._eval_count = 0
+            self._current_portal = None
+            log.info('Pagina recuperada correctamente (nueva pestaña).')
+            # Cerrar pestañas viejas para liberar memoria
+            for p in pages:
+                try:
+                    p.close()
+                except Exception:
+                    pass
+            return True
+        except Exception as e:
+            log.error('Fallo al recuperar pagina desde contexto: %s', e)
+
+        # Último recurso: reconectar al navegador
+        log.warning('Reintentando reconexion CDP completa...')
+        try:
+            port = self._port_used or CHROME_DEBUG_PORT
+            self._browser = self._playwright.chromium.connect_over_cdp(
+                f'http://localhost:{port}'
+            )
+            contexts = self._browser.contexts
+            ctx = contexts[0] if contexts else self._browser.new_context(
+                viewport={'width': 1366, 'height': 768},
+                locale='es-ES',
+                timezone_id='Europe/Madrid',
+            )
+            self.page = ctx.new_page()
+            self.page.add_init_script(
+                "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+            )
+            self._eval_count = 0
+            self._current_portal = None
+            log.info('Reconexion CDP exitosa.')
+            return True
+        except Exception as e2:
+            log.error('Reconexion CDP fallida: %s', e2)
+            return False
+
+    def safe_evaluate(self, js_code: str, arg=None):
+        """page.evaluate() con refresh preventivo y recuperación ante GC.
+
+        Args:
+            js_code: código JavaScript a evaluar
+            arg: argumento a pasar al JS (opcional)
+
+        Returns:
+            Resultado de la evaluación, o None si falla irrecuperablemente.
+
+        Raises:
+            RuntimeError: si no se puede recuperar la página.
+        """
+        # Refresh preventivo
+        self.maybe_refresh()
+
+        for intento in range(3):
+            try:
+                if arg is not None:
+                    result = self.page.evaluate(js_code, arg)
+                else:
+                    result = self.page.evaluate(js_code)
+                self._eval_count += 1
+                return result
+            except Exception as e:
+                err_msg = str(e).lower()
+                is_gc_error = (
+                    'has been collected' in err_msg or
+                    'unbounded heap growth' in err_msg or
+                    'has no attribute' in err_msg and '_object' in err_msg or
+                    'target page, context or browser has been closed' in err_msg
+                )
+                if is_gc_error:
+                    log.warning('Error de heap en evaluate (intento %d/3): %s',
+                                intento + 1, str(e)[:120])
+                    if self._recover_page():
+                        # Re-navegar al portal antes de reintentar
+                        self._current_portal = None
+                        time.sleep(2)
+                        continue
+                    else:
+                        raise RuntimeError(
+                            'No se pudo recuperar la pagina tras error de heap'
+                        ) from e
+                else:
+                    # Error no relacionado con GC — propagar
+                    raise
+
+        raise RuntimeError('safe_evaluate: 3 intentos fallidos')
 
 
 # ─── JavaScript para verificación ─────────────────────────────────────────────
@@ -412,11 +763,18 @@ _JS_FETCH_FOTOCASA = """
 
 # ─── Funciones de verificación ─────────────────────────────────────────────────
 
-def verificar_idealista(url: str, page) -> bool:
+def verificar_idealista(url: str, page, cdp_session=None) -> bool:
     """Verifica URL de Idealista via API. Retorna True=activa, False=descatalogada."""
     for intento in range(MAX_REINTENTOS):
         try:
-            result = page.evaluate(_JS_FETCH_IDEALISTA, url)
+            if cdp_session:
+                cdp_session.asegurar_contexto('idealista')
+                result = cdp_session.safe_evaluate(_JS_FETCH_IDEALISTA, url)
+            else:
+                result = page.evaluate(_JS_FETCH_IDEALISTA, url)
+        except RuntimeError as e:
+            log.error('Error irrecuperable evaluando JS para %s: %s', url, e)
+            raise  # propagar para que el bucle principal maneje
         except Exception as e:
             log.debug('Error evaluando JS para %s: %s', url, e)
             return True  # conservador
@@ -434,17 +792,25 @@ def verificar_idealista(url: str, page) -> bool:
             return True
 
         if result == 'BLOCKED:':
-            log.warning('Bloqueado por Cloudflare (intento %d/%d) — esperando...',
+            log.warning('Bloqueado por Cloudflare (intento %d/%d)',
                         intento + 1, MAX_REINTENTOS)
-            # En modo automático no podemos resolver captcha manualmente;
-            # esperamos un tiempo y reintentamos, esperando que se desbloquee.
+            # Navegar a la home para exponer el challenge al usuario
             try:
                 page.goto('https://www.idealista.com/', timeout=25000,
                           wait_until='domcontentloaded')
             except Exception:
                 pass
-            time.sleep(random.uniform(15, 30))
-            continue
+            # Esperar a que Cloudflare se resuelva (manual o auto JS challenge)
+            if cdp_session and cdp_session.esperar_desbloqueo_cloudflare('idealista'):
+                log.info('Cloudflare resuelto, reintentando...')
+                time.sleep(random.uniform(3, 6))
+                continue
+            else:
+                # Sin cdp_session o timeout: backoff exponencial
+                wait = random.uniform(30, 60) * (intento + 1)
+                log.warning('Esperando %.0fs antes de reintentar...', wait)
+                time.sleep(wait)
+                continue
 
         return True  # respuesta inesperada → conservador
 
@@ -452,11 +818,18 @@ def verificar_idealista(url: str, page) -> bool:
     return True
 
 
-def verificar_fotocasa(url: str, page) -> bool:
+def verificar_fotocasa(url: str, page, cdp_session=None) -> bool:
     """Verifica URL de Fotocasa via redirect check. Retorna True=activa, False=descatalogada."""
     for intento in range(MAX_REINTENTOS):
         try:
-            result = page.evaluate(_JS_FETCH_FOTOCASA, url)
+            if cdp_session:
+                cdp_session.asegurar_contexto('fotocasa')
+                result = cdp_session.safe_evaluate(_JS_FETCH_FOTOCASA, url)
+            else:
+                result = page.evaluate(_JS_FETCH_FOTOCASA, url)
+        except RuntimeError as e:
+            log.error('Error irrecuperable evaluando JS para %s: %s', url, e)
+            raise
         except Exception as e:
             log.debug('Error evaluando JS para %s: %s', url, e)
             return True
@@ -547,48 +920,83 @@ def enviar_descatalogadas(urls_por_ubicacion: dict) -> bool:
 
 # ─── Limpieza de JSONs (eliminar descatalogadas de los fuentes) ───────────────
 
-def limpiar_descatalogadas_de_json(datos: list, descatalogadas_por_archivo: dict) -> int:
-    """Elimina las viviendas descatalogadas de los JSON originales.
+def limpiar_archivo_json(archivo: str, urls_descatalogadas: set) -> int:
+    """Elimina viviendas descatalogadas de UN archivo JSON fuente.
+
+    Se llama inmediatamente después de procesar cada archivo, para que
+    las descatalogadas se borren al momento (no al final del script).
 
     Args:
-        datos: lista de datos cargados con cargar_todos_los_json()
-        descatalogadas_por_archivo: {ruta_archivo: set(urls_descatalogadas)}
+        archivo: ruta al archivo JSON fuente
+        urls_descatalogadas: set de URLs a eliminar
 
     Returns:
-        Número total de viviendas eliminadas.
+        Número de viviendas eliminadas.
     """
-    total_eliminadas = 0
+    if not urls_descatalogadas:
+        return 0
 
-    for datos_json in datos:
-        archivo = datos_json['archivo']
-        urls_desc = descatalogadas_por_archivo.get(archivo, set())
-        if not urls_desc:
-            continue
+    try:
+        with open(archivo, 'r', encoding='utf-8') as f:
+            data = json.load(f)
 
+        antes = len(data.get('viviendas', []))
+        data['viviendas'] = [
+            v for v in data.get('viviendas', [])
+            if v.get('url', '') not in urls_descatalogadas
+        ]
+        despues = len(data['viviendas'])
+        eliminadas = antes - despues
+
+        if eliminadas > 0:
+            data['total'] = despues
+            with open(archivo, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            log.info('  Limpiado %s: %d viviendas eliminadas (%d restantes)',
+                     os.path.basename(archivo), eliminadas, despues)
+
+        return eliminadas
+
+    except Exception as e:
+        log.error('  Error limpiando %s: %s', archivo, e)
+        return 0
+
+
+def guardar_progreso_intermedio(output_file: str, todas_descatalogadas: list,
+                                no_merge: bool = False) -> None:
+    """Guarda resultados intermedios a disco para no perder progreso ante crash.
+
+    Se llama periódicamente durante la ejecución (cada SAVE_EVERY_N_FILES archivos).
+    Fusiona con descatalogadas previas igual que el guardado final.
+    """
+    descatalogadas_previas = []
+    if not no_merge and os.path.isfile(output_file):
         try:
-            with open(archivo, 'r', encoding='utf-8') as f:
-                data = json.load(f)
+            with open(output_file, 'r', encoding='utf-8') as f:
+                prev = json.load(f)
+            descatalogadas_previas = prev.get('detalle', [])
+        except Exception:
+            pass
 
-            antes = len(data.get('viviendas', []))
-            data['viviendas'] = [
-                v for v in data.get('viviendas', [])
-                if v.get('url', '') not in urls_desc
-            ]
-            despues = len(data['viviendas'])
-            eliminadas = antes - despues
+    urls_existentes = {d['url'] for d in descatalogadas_previas}
+    nuevas = [d for d in todas_descatalogadas if d['url'] not in urls_existentes]
+    todas_merged = descatalogadas_previas + nuevas
 
-            if eliminadas > 0:
-                data['total'] = despues
-                with open(archivo, 'w', encoding='utf-8') as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
-                log.info('  Limpiado %s: %d viviendas eliminadas (%d restantes)',
-                         os.path.basename(archivo), eliminadas, despues)
-                total_eliminadas += eliminadas
+    output_data = {
+        'timestamp': datetime.now().isoformat(),
+        'total': len(todas_merged),
+        'nuevas_esta_ejecucion': len(nuevas),
+        'parcial': True,  # marca de que es guardado intermedio
+        'urls': [d['url'] for d in todas_merged],
+        'detalle': todas_merged,
+    }
 
-        except Exception as e:
-            log.error('  Error limpiando %s: %s', archivo, e)
+    os.makedirs(os.path.dirname(output_file) or '.', exist_ok=True)
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(output_data, f, ensure_ascii=False, indent=2)
 
-    return total_eliminadas
+    log.info('Progreso intermedio guardado: %s (%d total, %d nuevas)',
+             output_file, len(todas_merged), len(nuevas))
 
 
 # ─── Bucle principal ──────────────────────────────────────────────────────────
@@ -638,6 +1046,23 @@ def ejecutar_verificacion(args) -> int:
         'errores': 0,
     }
 
+    # Inicializar VPN si se ha pedido
+    vpn = None
+    if args.vpn:
+        vpn = ProtonVPNRotator(
+            on_requests=args.vpn_on,
+            off_requests=args.vpn_off,
+        )
+        if vpn.enabled:
+            ip_actual = vpn.obtener_ip()
+            log.info('VPN: Rotación activada — ciclo ON=%d / OFF=%d peticiones',
+                     args.vpn_on, args.vpn_off)
+            log.info('VPN: IP actual: %s', ip_actual)
+            # Conectar VPN desde el inicio
+            vpn.conectar()
+        else:
+            vpn = None
+
     # Conectar al navegador
     log.info('Conectando al navegador via CDP...')
     cdp = CDPSession()
@@ -667,20 +1092,46 @@ def ejecutar_verificacion(args) -> int:
             )
 
             desc_archivo = []
+            peticiones_archivo = 0
 
             for j, vivienda in enumerate(viviendas, 1):
                 url = vivienda.get('url', '')
                 if not url:
                     continue
 
+                # Pausa larga cada BATCH_SIZE peticiones (simular humano)
+                peticiones_archivo += 1
+                if peticiones_archivo > 1 and peticiones_archivo % BATCH_SIZE == 0:
+                    pausa_batch = random.uniform(*BATCH_PAUSE)
+                    log.info('  Pausa anti-deteccion de %.0fs tras %d peticiones...',
+                             pausa_batch, peticiones_archivo)
+                    time.sleep(pausa_batch)
+                    # Re-verificar que no nos han bloqueado durante la pausa
+                    if cdp._esta_bloqueado_cloudflare():
+                        cdp.esperar_desbloqueo_cloudflare(portal)
+
                 titulo = vivienda.get('titulo', 'Sin título')[:60]
-                activo = verificar_fn(url, cdp.page)
+
+                try:
+                    activo = verificar_fn(url, cdp.page, cdp_session=cdp)
+                except RuntimeError as e:
+                    # Error irrecuperable de heap — abortar vivienda pero seguir
+                    log.error('  [%d/%d] ERROR heap irrecuperable: %s — saltando vivienda',
+                              j, n_viviendas, e)
+                    stats['errores'] += 1
+                    continue
+
                 stats['verificadas'] += 1
 
                 if activo:
                     stats['activas'] += 1
                     if args.verbose:
                         log.debug('  [%d/%d] OK: %s', j, n_viviendas, titulo)
+                    else:
+                        # Mostrar progreso cada 10 viviendas activas
+                        if j % 10 == 0:
+                            log.info('  [%d/%d] progreso... (%d desc hasta ahora)',
+                                     j, n_viviendas, len(desc_archivo))
                 else:
                     stats['descatalogadas'] += 1
                     log.info('  [%d/%d] DESCATALOGADA: %s', j, n_viviendas, titulo)
@@ -692,15 +1143,35 @@ def ejecutar_verificacion(args) -> int:
                         'titulo': vivienda.get('titulo', ''),
                     })
 
-                # Delay entre peticiones
-                time.sleep(random.uniform(*delay_range))
+                # Rotación VPN (solo Idealista)
+                if vpn and portal == 'idealista':
+                    vpn.tick()
+                    # Tras cambio de IP, re-establecer contexto del portal
+                    # porque Cloudflare puede requerir nuevo handshake
+                    if vpn._contador == 0:  # acaba de cambiar
+                        cdp.asegurar_contexto('idealista', force=True)
+
+                # Delay entre peticiones (con jitter humano)
+                base_delay = random.uniform(*delay_range)
+                # Añadir jitter extra aleatorio (a veces más lento, como un humano)
+                if random.random() < 0.15:  # 15% de las veces, pausa extra
+                    base_delay += random.uniform(2, 5)
+                time.sleep(base_delay)
 
             if desc_archivo:
                 urls_por_ubicacion.setdefault(ubicacion, []).extend(desc_archivo)
                 descatalogadas_por_archivo[archivo] = set(desc_archivo)
                 log.info('  >> %d descatalogadas en %s', len(desc_archivo), ubicacion)
+                # Eliminar descatalogadas del JSON fuente inmediatamente
+                limpiar_archivo_json(archivo, set(desc_archivo))
             else:
                 log.info('  >> Todas activas en %s', ubicacion)
+
+            # Guardado intermedio cada SAVE_EVERY_N_FILES archivos
+            if i % SAVE_EVERY_N_FILES == 0 and todas_descatalogadas:
+                output_file_tmp = os.path.join(args.output_dir, 'viviendas_descatalogadas.json')
+                guardar_progreso_intermedio(output_file_tmp, todas_descatalogadas,
+                                            no_merge=args.no_merge)
 
             # Pausa entre archivos
             if i < total_archivos:
@@ -710,11 +1181,26 @@ def ejecutar_verificacion(args) -> int:
 
     except KeyboardInterrupt:
         log.warning('Verificacion interrumpida por el usuario (SIGINT)')
+        # Guardar progreso antes de salir
+        if todas_descatalogadas:
+            output_file_tmp = os.path.join(args.output_dir, 'viviendas_descatalogadas.json')
+            log.info('Guardando progreso antes de salir...')
+            guardar_progreso_intermedio(output_file_tmp, todas_descatalogadas,
+                                        no_merge=args.no_merge)
     except Exception as e:
         log.error('Error inesperado durante la verificacion: %s', e, exc_info=True)
         stats['errores'] += 1
+        # Guardar progreso ante crash
+        if todas_descatalogadas:
+            output_file_tmp = os.path.join(args.output_dir, 'viviendas_descatalogadas.json')
+            log.info('Guardando progreso tras error...')
+            guardar_progreso_intermedio(output_file_tmp, todas_descatalogadas,
+                                        no_merge=args.no_merge)
     finally:
         cdp.__exit__(None, None, None)
+        # Desconectar VPN al terminar
+        if vpn:
+            vpn.cleanup()
 
     # ─── Resumen ──────────────────────────────────────────────────────
     log.info('=' * 60)
@@ -760,12 +1246,6 @@ def ejecutar_verificacion(args) -> int:
     log.info('Guardado: %s (%d total, %d nuevas)',
              output_file, len(todas_merged), len(nuevas))
 
-    # ─── Limpiar viviendas descatalogadas de los JSONs fuente ─────────
-    if args.clean and todas_descatalogadas:
-        log.info('Limpiando viviendas descatalogadas de los JSON fuente...')
-        eliminadas = limpiar_descatalogadas_de_json(datos, descatalogadas_por_archivo)
-        log.info('Total eliminadas de JSONs fuente: %d', eliminadas)
-
     # ─── Enviar a API ─────────────────────────────────────────────────
     if args.send_api and urls_por_ubicacion:
         enviar_descatalogadas(urls_por_ubicacion)
@@ -789,7 +1269,9 @@ def parse_args():
 Ejemplos:
   %(prog)s                           # Verificar todo
   %(prog)s --portal idealista        # Solo Idealista
-  %(prog)s --send-api --clean        # Enviar a API y limpiar JSONs
+  %(prog)s --portal idealista --vpn  # Idealista con rotación VPN
+  %(prog)s --vpn --vpn-on 25 --vpn-off 15  # VPN: 25 con, 15 sin, repite
+  %(prog)s --send-api                # Enviar a API (limpieza automática)
   %(prog)s --verbose                 # Modo debug
   %(prog)s --dry-run                 # Solo mostrar qué se haría
 
@@ -809,10 +1291,6 @@ Códigos de salida:
         help='Enviar descatalogadas a la API de InmoCapt',
     )
     parser.add_argument(
-        '--clean', action='store_true',
-        help='Eliminar viviendas descatalogadas de los JSON fuente',
-    )
-    parser.add_argument(
         '--no-merge', action='store_true',
         help='No fusionar con descatalogadas previas (sobreescribir)',
     )
@@ -822,11 +1300,11 @@ Códigos de salida:
     )
     parser.add_argument(
         '--delay-idealista', type=float, default=None,
-        help='Delay medio entre peticiones Idealista en segundos (default: 0.5)',
+        help='Delay medio entre peticiones Idealista en segundos (default: 2.5)',
     )
     parser.add_argument(
         '--delay-fotocasa', type=float, default=None,
-        help='Delay medio entre peticiones Fotocasa en segundos (default: 3.0)',
+        help='Delay medio entre peticiones Fotocasa en segundos (default: 3.7)',
     )
     parser.add_argument(
         '-v', '--verbose', action='store_true',
@@ -835,6 +1313,21 @@ Códigos de salida:
     parser.add_argument(
         '--dry-run', action='store_true',
         help='Solo mostrar qué se haría, sin verificar',
+    )
+
+    # ── VPN ──
+    vpn_group = parser.add_argument_group('VPN (ProtonVPN)', 'Rotación de IP via ProtonVPN para Idealista')
+    vpn_group.add_argument(
+        '--vpn', action='store_true',
+        help='Activar rotación de VPN (ProtonVPN CLI) para Idealista',
+    )
+    vpn_group.add_argument(
+        '--vpn-on', type=int, default=VPN_ON_REQUESTS,
+        help=f'Peticiones con VPN conectada antes de desconectar (default: {VPN_ON_REQUESTS})',
+    )
+    vpn_group.add_argument(
+        '--vpn-off', type=int, default=VPN_OFF_REQUESTS,
+        help=f'Peticiones sin VPN antes de reconectar (default: {VPN_OFF_REQUESTS})',
     )
 
     args = parser.parse_args()
