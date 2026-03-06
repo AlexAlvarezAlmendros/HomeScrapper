@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:55:19.186167",
   "ubicacion": "Baix Ebre",
   "url": "https://www.idealista.com/venta-viviendas/tarragona/baix-ebre/?ordenado-por=fecha-publicacion-desc",
-  "total": 162,
+  "total": 147,
   "viviendas": [
     {
       "titulo": "Chalet pareado en Calle Number 18, 19, L'Aldea",
@@ -96,19 +96,6 @@
       "telefono": "604 27 29 71"
     },
     {
-      "titulo": "Piso en La cava, 36, Deltebre",
-      "precio": "100.000€",
-      "ubicacion": "36, Deltebre",
-      "habitaciones": "3 hab.",
-      "metros": "114 m²",
-      "url": "https://www.idealista.com/inmueble/109234368/",
-      "descripcion": "Se vende piso en la mejor zona de deltebre. Tiene tres habitaciones dos dobles y una individual, tiene una terraza y un lavadero, la cocina tiene una despensa. El piso actualmente está alquilado con inquilino serio. El bloque tiene 3 plantas y 4 vecinos por planta, tiene ascensor y es muy buena comunidad.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-03-04T11:55:19.185002",
-      "portal": "Idealista",
-      "telefono": "603 75 24 29"
-    },
-    {
       "titulo": "Finca rústica en Partida Serramoca, 85, L'Ametlla de Mar",
       "precio": "265.000€",
       "ubicacion": "85, L'Ametlla de Mar",
@@ -161,19 +148,6 @@
       "telefono": "611 54 58 88"
     },
     {
-      "titulo": "Casa o chalet independiente en Camino de Canivell, 74, Urbanizaciones, Tortosa",
-      "precio": "199.000€",
-      "ubicacion": "74, Urbanizaciones, Tortosa",
-      "habitaciones": "2 hab.",
-      "metros": "85 m²",
-      "url": "https://www.idealista.com/inmueble/110647856/",
-      "descripcion": "Encantadora casita, completamente reformada, en una parcela adosada, situada en las colinas de Tortosa. Ofrece proximidad a la ciudad e independencia. Una ubicación tranquila y apacible.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.878419",
-      "portal": "Idealista",
-      "telefono": "638 03 69 82"
-    },
-    {
       "titulo": "Piso en Avenida de Remolins, 9 -11, Remolins - St Jaume, Tortosa",
       "precio": "180.000€",
       "ubicacion": "9 -11, Remolins - St Jaume, Tortosa",
@@ -224,19 +198,6 @@
       "fecha_scraping": "2026-02-16T17:17:16.878473",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Puerto, s/n, L'Ametlla de Mar",
-      "precio": "450.000€",
-      "ubicacion": "s/n, L'Ametlla de Mar",
-      "habitaciones": "9 hab.",
-      "metros": "560 m²",
-      "url": "https://www.idealista.com/inmueble/95327626/",
-      "descripcion": "La primera planta tiene 1 dormitorio tipo suite, 2 habitaciones comedor y dos cuarto de baños y balcón,\nLa segunda planta tiene un dormitorio tipo suite con su cuarto de baño, un comedor grande, con chimenea, y terraza vista al puerto con barbacoa.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.878482",
-      "portal": "Idealista",
-      "telefono": "608 73 11 54"
     },
     {
       "titulo": "Chalet pareado en Calle Mistral, 411 a, Les Tres Cales, L'Ametlla de Mar",
@@ -380,19 +341,6 @@
       "fecha_scraping": "2026-02-16T17:17:16.878594",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Sant Miquel, 154, Deltebre",
-      "precio": "79.000€",
-      "ubicacion": "154, Deltebre",
-      "habitaciones": "2 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/110348260/",
-      "descripcion": "¡OPORTUNIDAD EN EL CENTRO DE Deltebre!\nPiso acogedor y muy bien situado, ideal tanto como primera residencia como para inversión. Situado en primera planta con ascensor, dentro de una comunidad de propietarios tranquila y muy bien cuidada.\nSu ubicación es inmejorable: pleno centro del pueblo, con todos los servicios",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.878604",
-      "portal": "Idealista",
-      "telefono": "619 77 93 01"
     },
     {
       "titulo": "Casa o chalet independiente en Camino de Vinaixarop, s/n, L'Aldea",
@@ -707,19 +655,6 @@
       "telefono": "606 41 26 21"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle del Flamenc, 9, Deltebre",
-      "precio": "245.000€",
-      "ubicacion": "9, Deltebre",
-      "habitaciones": "3 hab.",
-      "metros": "125 m²",
-      "url": "https://www.idealista.com/inmueble/109911160/",
-      "descripcion": "Bonita casa en Riumar. 3 habitaciones, 2 baños completos con bañera, salón, porche, piscina, barbacoa.\nSe situa en la céntrica calle Flamenc de Riumar a tan solo 5 minutos a pié de la playa.\nTotalmente vallada, con parquing y garage, y una fantástica piscina. La zona del porche es amplia con la barbacoa al lado, para",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.878849",
-      "portal": "Idealista",
-      "telefono": "644 62 98 01"
-    },
-    {
       "titulo": "Piso en Avenida Maritima Ramon Pous, 24, L'Ampolla",
       "precio": "299.000€",
       "ubicacion": "24, L'Ampolla",
@@ -887,19 +822,6 @@
       "fecha_scraping": "2026-02-16T17:17:16.878977",
       "portal": "Idealista",
       "telefono": "618 96 51 86"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Deltebre",
-      "precio": "189.000€",
-      "ubicacion": "",
-      "habitaciones": "3 hab.",
-      "metros": "179 m²",
-      "url": "https://www.idealista.com/inmueble/109403118/",
-      "descripcion": "CASA INDEPENDIENTE DE 179 M² CON PARCELA DE 462 M², HABITABLE, DELTEBRE CENTRO\nSe vende casa unifamiliar aislada con amplio jardín, ubicada en una zona tranquila y céntrica, ideal para quienes buscan comodidad y calidad de vida en pleno corazón del Delta del Ebro.\nLa propiedad se asienta sobre una parcela de 462 m² y",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.878987",
-      "portal": "Idealista",
-      "telefono": "676 04 98 32"
     },
     {
       "titulo": "Piso en Avenida Robert Graupera, 135, Deltebre",
@@ -1162,19 +1084,6 @@
       "telefono": "620 86 26 28"
     },
     {
-      "titulo": "Casa o chalet independiente en Pla de les Illes, s/n, Aldover",
-      "precio": "240.000€",
-      "ubicacion": "s/n, Aldover",
-      "habitaciones": "3 hab.",
-      "metros": "110 m²",
-      "url": "https://www.idealista.com/inmueble/108287825/",
-      "descripcion": "Vendo chalet en zona Aldover, Tarragona ubicado en una finca con un total del 2644m2. Tiene 3 habitaciones, un baño y cocina- comedor con una gran isla, tiene nevera, lavadora y lavaplatos integrados en la misma, luego horno y microondas. Aire acondicionado, radiador de luz en cada habitación y chimenea en el comedor.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.879199",
-      "portal": "Idealista",
-      "telefono": "620 13 84 22"
-    },
-    {
       "titulo": "Piso en Calle de l'Adena, 2, Deltebre",
       "precio": "155.000€",
       "ubicacion": "2, Deltebre",
@@ -1331,19 +1240,6 @@
       "telefono": "629 46 41 76"
     },
     {
-      "titulo": "Casa o chalet independiente en Camino del Galatxo, 17, Roquetes",
-      "precio": "220.000€",
-      "ubicacion": "17, Roquetes",
-      "habitaciones": "4 hab.",
-      "metros": "160 m²",
-      "url": "https://www.idealista.com/inmueble/107661733/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.879326",
-      "portal": "Idealista",
-      "telefono": "616 67 97 20"
-    },
-    {
       "titulo": "Casa o chalet independiente en T-301, 84, Bítem, Tortosa",
       "precio": "360.000€",
       "ubicacion": "84, Bítem, Tortosa",
@@ -1407,19 +1303,6 @@
       "fecha_scraping": "2026-02-16T17:17:16.879379",
       "portal": "Idealista",
       "telefono": "615 84 17 92"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Mar, 150, Les Tres Cales, L'Ametlla de Mar",
-      "precio": "350.000€",
-      "ubicacion": "150, Les Tres Cales, L'Ametlla de Mar",
-      "habitaciones": "4 hab.",
-      "metros": "140 m²",
-      "url": "https://www.idealista.com/inmueble/106911812/",
-      "descripcion": "Preciosa villa tradicional con interior moderno, jardín maduro con 3 olivos de más de 300 años y piscina de 6mx4m. Detalles: 140m2 en total: Sala de estar con estufa de leña, 3 habitaciones dobles más 4º dormitorio con acceso a la terraza a través de escaleras exteriores. Cocina / comedor de planta abierta. 1 baño. Amp",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.879389",
-      "portal": "Idealista",
-      "telefono": "681 98 89 27"
     },
     {
       "titulo": "Chalet adosado en Calle Pau Casals, 28, L'Ampolla",
@@ -1487,19 +1370,6 @@
       "telefono": "687 39 18 19"
     },
     {
-      "titulo": "Masía en partida de Bernabé, s/n, Jesús - Els Reguers, Tortosa",
-      "precio": "260.000€",
-      "ubicacion": "s/n, Jesús - Els Reguers, Tortosa",
-      "habitaciones": "4 hab.",
-      "metros": "180 m²",
-      "url": "https://www.idealista.com/inmueble/105963737/",
-      "descripcion": "Finca rústica de 40 Jornales en Tortosa (al lado de Jesús). A primera línea de la C-12 y de la Vía Verde. Dispone de una casa de piedra totalmente legalizada con su IBI urbano (la casa tiene aprox. unos 150 metros cuadrados más un almacén de unos 30 metros cuadrados). La casa tiene muchas posibilidades para hacer una \"",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.879460",
-      "portal": "Idealista",
-      "telefono": "607 69 25 24"
-    },
-    {
       "titulo": "Chalet adosado en princep, 10, Deltebre",
       "precio": "175.000€",
       "ubicacion": "10, Deltebre",
@@ -1565,19 +1435,6 @@
       "telefono": "608 56 78 46"
     },
     {
-      "titulo": "Finca rústica en Camino de vinallop, 2, Vinallop, Tortosa",
-      "precio": "39.000€",
-      "ubicacion": "2, Vinallop, Tortosa",
-      "habitaciones": "1 hab.",
-      "metros": "40 m²",
-      "url": "https://www.idealista.com/inmueble/104452789/",
-      "descripcion": "Finca rústica en tortosa de 7.000metros de terreno de mandarinos y frutales.\nCon buen acesso, tiene una casa de 40metros dispone de agua y luz.\nEstupenda para vivir.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.879525",
-      "portal": "Idealista",
-      "telefono": "642 06 61 50"
-    },
-    {
       "titulo": "Masía en Paseo de l'Aurora, 120, Sant Jordi d'Alfama, L'Ametlla de Mar",
       "precio": "495.000€",
       "ubicacion": "120, Sant Jordi d'Alfama, L'Ametlla de Mar",
@@ -1589,19 +1446,6 @@
       "fecha_scraping": "2026-02-16T17:17:16.879537",
       "portal": "Idealista",
       "telefono": "656 19 23 19"
-    },
-    {
-      "titulo": "Piso en Calle Pau Casals, 1, L'Ampolla",
-      "precio": "128.000€",
-      "ubicacion": "1, L'Ampolla",
-      "habitaciones": "2 hab.",
-      "metros": "67 m²",
-      "url": "https://www.idealista.com/inmueble/104069703/",
-      "descripcion": "negociable.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.879548",
-      "portal": "Idealista",
-      "telefono": "637 17 67 14"
     },
     {
       "titulo": "Chalet adosado en barri santa rosa, 12, Bítem, Tortosa",
@@ -1641,19 +1485,6 @@
       "fecha_scraping": "2026-02-16T17:17:16.879579",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Casa de pueblo en Calle Major, 48, Xerta",
-      "precio": "85.000€",
-      "ubicacion": "48, Xerta",
-      "habitaciones": "5 hab.",
-      "metros": "160 m²",
-      "url": "https://www.idealista.com/inmueble/102699216/",
-      "descripcion": "Casa ben situada. Té un terrat amb bones vistes i unes àmplies habitacions. L'entrada es pot fer servir de garatge.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.879589",
-      "portal": "Idealista",
-      "telefono": "669 30 97 93"
     },
     {
       "titulo": "Finca rústica en Partida Burgà, s/n, El Perello",
@@ -1773,19 +1604,6 @@
       "telefono": "696 94 61 34"
     },
     {
-      "titulo": "Casa de pueblo en C. Major, 46, Xerta",
-      "precio": "28.000€",
-      "ubicacion": "46, Xerta",
-      "habitaciones": "2 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/99385913/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.879699",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Casa rural en Zn Diseminats, 224, El Perello",
       "precio": "125.000€",
       "ubicacion": "224, El Perello",
@@ -1901,19 +1719,6 @@
       "fecha_scraping": "2026-02-16T17:17:16.879790",
       "portal": "Idealista",
       "telefono": "654 93 85 80"
-    },
-    {
-      "titulo": "Casa o chalet independiente en c/Unio, 102, Deltebre",
-      "precio": "230.000€",
-      "ubicacion": "102, Deltebre",
-      "habitaciones": "5 hab.",
-      "metros": "300 m²",
-      "url": "https://www.idealista.com/inmueble/94573780/",
-      "descripcion": "Chalet en venta, situado en zona residencial, con tres viviendas independientes que pueden alquilarse independientemente. También pueden unificarse sin problema. cuenta con tres cocinas grandes, cuatro baños completos y 5 habitaciones dobles con una suite incluida. Además posee grandes terrazas, patios, almacenes y jar",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:17:16.879801",
-      "portal": "Idealista",
-      "telefono": "631 64 59 26"
     },
     {
       "titulo": "Chalet pareado en Calle de la Capadella, 73  C, Deltebre",

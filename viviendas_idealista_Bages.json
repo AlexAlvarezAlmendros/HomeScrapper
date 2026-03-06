@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:15:35.198496",
   "ubicacion": "Bages",
   "url": "https://www.idealista.com/venta-viviendas/barcelona/bages/?ordenado-por=fecha-publicacion-desc",
-  "total": 121,
+  "total": 95,
   "viviendas": [
     {
       "titulo": "Piso en Calle Mossèn Josep Carreras, 1 -7, Santpedor",
@@ -44,19 +44,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle de la Creueta, 1, Navàs",
-      "precio": "190.000€",
-      "ubicacion": "1, Navàs",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/110740961/",
-      "descripcion": "Pis primer amb ascensor, de tres habitacions, dos banys (un amb plat de dutxa i l'altre amb banyera). Menjador i cuina. Possibilitat de garatge a la mateixa finca.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:17:29.909352",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Ctra. Santpedor - Bases de Manresa, Manresa",
       "precio": "230.000€",
       "ubicacion": "Manresa",
@@ -68,19 +55,6 @@
       "fecha_scraping": "2026-02-26T16:17:29.909362",
       "portal": "Idealista",
       "telefono": "623 47 37 99"
-    },
-    {
-      "titulo": "Piso en Calle del Cós, 70, Sallent",
-      "precio": "53.000€",
-      "ubicacion": "70, Sallent",
-      "habitaciones": "3 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110721441/",
-      "descripcion": "Se vende piso de 70 metros construidos, ubicado en calle peatonal céntrica, ideal para quienes buscan comodidad y buena ubicación\nSalón, cocina independiente, 1 baño reformado con moderno plato de ducha.\n3 habitaciones, dos de ellas interiores (perfectas como dormitorio juvenil, despacho o vestidor)\nUna excelente opor",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:17:29.909373",
-      "portal": "Idealista",
-      "telefono": "617 32 21 48"
     },
     {
       "titulo": "Piso en Calle del Cap del Rec, 20, Antic, Manresa",
@@ -96,19 +70,6 @@
       "telefono": "931 56 17 87"
     },
     {
-      "titulo": "Piso en Sagrada Familia, Manresa",
-      "precio": "135.000€",
-      "ubicacion": "Manresa",
-      "habitaciones": "4 hab.",
-      "metros": "92 m²",
-      "url": "https://www.idealista.com/inmueble/110690238/",
-      "descripcion": "Amplio y luminoso piso de 4 habitaciones en finca con ascensor y trastero incluido. Orientación Sud, con vistas a Montserrat.\nSe ofrece magnífica vivienda distribuida en 4 habitaciones (2 dobles y 2 individuales), ideal para familias o para quienes necesiten espacio extra para despacho o zona de estudio.\nDispone de un",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:08:02.573351",
-      "portal": "Idealista",
-      "telefono": "666 21 74 71"
-    },
-    {
       "titulo": "Casa o chalet independiente en Raval dels Torrents, 17, Castellgalí",
       "precio": "600.000€",
       "ubicacion": "17, Castellgalí",
@@ -120,19 +81,6 @@
       "fecha_scraping": "2026-02-23T16:08:02.573376",
       "portal": "Idealista",
       "telefono": "613 06 40 80"
-    },
-    {
-      "titulo": "Piso en Calle de Sant Cristòfol, 18, Sagrada Familia, Manresa",
-      "precio": "168.000€",
-      "ubicacion": "18, Sagrada Familia, Manresa",
-      "habitaciones": "3 hab.",
-      "metros": "85 m²",
-      "url": "https://www.idealista.com/inmueble/110697703/",
-      "descripcion": "Pis en venta a la zona Sagrada Familia de Manresa. Pis 100% reformat per entrar a viure, sense tenir de fer cap inversió en reforma. El pis té 3 habitacions, dues de les quals son dobles una amb vestidor i una individual. Cuina independent molt funcional, menjador gran amb sortida a balcó i un quarto de bany amb plat d",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:08:02.573388",
-      "portal": "Idealista",
-      "telefono": "608 44 78 01"
     },
     {
       "titulo": "Casa o chalet independiente en Sant Salvador de Guardiola",
@@ -174,19 +122,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle Santiago Rusinol, 8, Navarcles",
-      "precio": "154.000€",
-      "ubicacion": "8, Navarcles",
-      "habitaciones": "3 hab.",
-      "metros": "84 m²",
-      "url": "https://www.idealista.com/inmueble/110669003/",
-      "descripcion": "Pis en venda a Navarcles – 154.000€\nEs ven magnífic pis de 84 m² construïts, molt lluminós i amb doble terrassa, situat en finca del 2008.\n Distribució:\n•3 habitacions:\n•1 habitació doble tipus suite amb bany complet i banyera\n•2 habitacions individuals\n•2 banys complets (un amb banyera i un amb plat de dutxa)\n•Rebe",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:01:39.425933",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Antic, Manresa",
       "precio": "100.000€",
       "ubicacion": "Manresa",
@@ -200,32 +135,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Carretera de Vic, 117, Ctra. Vic - Remei, Manresa",
-      "precio": "125.000€",
-      "ubicacion": "117, Ctra. Vic - Remei, Manresa",
-      "habitaciones": "4 hab.",
-      "metros": "79 m²",
-      "url": "https://www.idealista.com/inmueble/110648613/",
-      "descripcion": "Piso muy bien ubicado, con ascensor y 4 habitaciones. (Se puede quitar una para hacer mas grande el comedor. )\nDispone de 1 baño y lavadero. Caldera nueva.\nCocina equipada.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:34:47.812951",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Sant Salvador, 80, Sant Salvador de Guardiola",
-      "precio": "329.000€",
-      "ubicacion": "80, Sant Salvador de Guardiola",
-      "habitaciones": "4 hab.",
-      "metros": "261 m²",
-      "url": "https://www.idealista.com/inmueble/110643495/",
-      "descripcion": "CASA/CHALET DE 3 PLANTAS LISTA PARA ENTRAR A VIVIR EN LA URB. EL CALVET\nDESCRIPCIÓN:\nVivienda unifamiliar independiente, reformada en 2004 y en perfecto estado de conservación. Ubicación privilegiada con vistas a los Pirineos.\nDISTRIBUCIÓN INTERIOR:\n* 4 Habitaciones exteriores.\n* 1 Gran Estudio en planta superior (posi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:34:47.812995",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle del Poeta Mistral, 17, Poble Nou, Manresa",
       "precio": "289.000€",
       "ubicacion": "17, Poble Nou, Manresa",
@@ -235,19 +144,6 @@
       "descripcion": "En el centro de Manresa y a 2 min del centro neurálgico de la ciudad disfruta de un jardín de 200 metros cuadrados y de un piso amplio y muy luminoso.",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-16T16:34:47.813006",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Ático en Calle Doctor Fleming, 2, Súria",
-      "precio": "139.000€",
-      "ubicacion": "2, Súria",
-      "habitaciones": "3 hab.",
-      "metros": "98 m²",
-      "url": "https://www.idealista.com/inmueble/110634959/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:01:29.985501",
       "portal": "Idealista",
       "telefono": null
     },
@@ -278,19 +174,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle d'Angel Guimerà, 30, Balsareny",
-      "precio": "110.000€",
-      "ubicacion": "30, Balsareny",
-      "habitaciones": "2 hab.",
-      "metros": "68 m²",
-      "url": "https://www.idealista.com/inmueble/110619419/",
-      "descripcion": "PISO RECIÉN REFORMADO Y LISTO PARA ENTRAR A VIVIR\nMagnífica propiedad de dos dormitorios recién reformada en finca recién rehabilitada en el centro de Balsareny\nEl piso se encuentra en una 2ª planta real en una finca SIN ASCENSOR\nLa propiedad ha sido recientemente reformada con materiales neutros y modernos, siguien",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.869995",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle de la Font dels Capellans, 3, Fonts dels Capellans - Viladordis, Manresa",
       "precio": "134.000€",
       "ubicacion": "3, Fonts dels Capellans - Viladordis, Manresa",
@@ -302,45 +185,6 @@
       "fecha_scraping": "2026-02-12T19:56:55.870018",
       "portal": "Idealista",
       "telefono": "694 26 95 90"
-    },
-    {
-      "titulo": "Piso en Calle del Flor de Lis, 10, Poble Nou, Manresa",
-      "precio": "90.000€",
-      "ubicacion": "10, Poble Nou, Manresa",
-      "habitaciones": "2 hab.",
-      "metros": "62 m²",
-      "url": "https://www.idealista.com/inmueble/110593812/",
-      "descripcion": "Piso céntrico, al lado del Centro Hospitalario y de la universidad. Transporte público, colegios, guarderías y supermercados a 250 metros. Piso de dos habitaciones con terraza de 17 metros cuadrados ideal para barbacoas y cenas al fresco.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870030",
-      "portal": "Idealista",
-      "telefono": "649 73 37 60"
-    },
-    {
-      "titulo": "Piso en Calle del Flor de Lis, 10, Poble Nou, Manresa",
-      "precio": "90.000€",
-      "ubicacion": "10, Poble Nou, Manresa",
-      "habitaciones": "2 hab.",
-      "metros": "62 m²",
-      "url": "https://www.idealista.com/inmueble/110592809/",
-      "descripcion": "Piso de dos habitaciones cerca de Avenida universitaria con transporte público cercano, universidad, guarderías, supermercados todo a 250 m de la vivienda. Con terraza de 17 metros cuadrados ideal para barbacoas y cenas a la fresca en verano.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870048",
-      "portal": "Idealista",
-      "telefono": "649 73 37 60"
-    },
-    {
-      "titulo": "Piso en Calle de Pep Ventura, 8, Ctra. Santpedor - Bases de Manresa, Manresa",
-      "precio": "249.000€",
-      "ubicacion": "8, Ctra. Santpedor - Bases de Manresa, Manresa",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/110500416/",
-      "descripcion": "Luminoso piso de 3 habitaciones con piscina comunitaria, balcón y garaje\nSe vende magnífico piso de 3 habitaciones, ideal para familias o para quienes buscan amplitud, comodidad y mucha luz natural.\nLa vivienda destaca por su excelente luminosidad durante todo el día, ya que todas las habitaciones son exteriores. Dis",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870057",
-      "portal": "Idealista",
-      "telefono": "619 14 50 45"
     },
     {
       "titulo": "Chalet adosado en Navarcles",
@@ -367,32 +211,6 @@
       "fecha_scraping": "2026-02-12T19:56:55.870077",
       "portal": "Idealista",
       "telefono": "692 27 14 26"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Sant Joan, 1, Sant Salvador de Guardiola",
-      "precio": "340.000€",
-      "ubicacion": "1, Sant Salvador de Guardiola",
-      "habitaciones": "3 hab.",
-      "metros": "240 m²",
-      "url": "https://www.idealista.com/inmueble/110519031/",
-      "descripcion": "Chalet de 240 m² construidos sobre una parcela total de 3.000 m². La propiedad ha sido reformada íntegramente y se encuentra en estado óptimo para entrar a vivir.\nDistribución e interior:\n• Dormitorios: 3 habitaciones dobles, amplias y con iluminación natural.\n• Climatización: Sistema de calefacción mediante chimenea t",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870086",
-      "portal": "Idealista",
-      "telefono": "685 69 57 25"
-    },
-    {
-      "titulo": "Chalet adosado en Calle de Sant Fruitós, 25, Plaça Catalunya, Manresa",
-      "precio": "550.000€",
-      "ubicacion": "25, Plaça Catalunya, Manresa",
-      "habitaciones": "4 hab.",
-      "metros": "193 m²",
-      "url": "https://www.idealista.com/inmueble/110511114/",
-      "descripcion": "Casa unifamiliar en el centro de Manresa, a solo 150 m de la calle Guimerà\nTe presentamos esta magnífica casa unifamiliar ubicada en pleno centro comercial de Manresa, ideal para quienes buscan espacio, comodidad y una ubicación inmejorable.\nLa vivienda se distribuye en cuatro plantas, perfectamente diferenciadas:",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870095",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Calle del carme, 6, Antic, Manresa",
@@ -551,45 +369,6 @@
       "telefono": "667 94 01 54"
     },
     {
-      "titulo": "Dúplex en Congost - Santa Caterina, Manresa",
-      "precio": "128.000€",
-      "ubicacion": "Manresa",
-      "habitaciones": "2 hab.",
-      "metros": "103 m²",
-      "url": "https://www.idealista.com/inmueble/110190849/",
-      "descripcion": "Oportunidad única en pleno centro de Manresa!\nSe vende precioso dúplex situado en una tercera planta con entresuelo, en una finca con ascensor, ideal para quienes buscan comodidad, amplitud y una ubicación inmejorable.\nLa vivienda destaca por su distribución funcional y por su enorme potencial para crear un espacio mo",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870212",
-      "portal": "Idealista",
-      "telefono": "600 02 18 76"
-    },
-    {
-      "titulo": "Piso en Plaza de la Reforma, 1, Antic, Manresa",
-      "precio": "114.000€",
-      "ubicacion": "1, Antic, Manresa",
-      "habitaciones": "4 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110179895/",
-      "descripcion": "Piso 80 m2 4 habitaciones y 1 baño con ascensor\nPlaza de la Reforma distancias a.\n RENFE 400 m\n CAP 300 m\n Hospital 400 m\n Mercado 150 m\n Centro total. Todo a pie. Vida cómoda.\n Abstenerse inmobiliarias e intermediarios.\nSe vende piso de 80 m², sexto con ascensor,\nCocina y baño reformados en 2024, listo para",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870221",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Dúplex en Calle de Circumval·lació, 73, Centre - Passeig i Rodalies, Manresa",
-      "precio": "186.500€",
-      "ubicacion": "73, Centre - Passeig i Rodalies, Manresa",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110143037/",
-      "descripcion": "DÚPLEX CON TERRAZA, BALCONES Y UBICACIÓN INMEJORABLE EN MANRESA\nJunto al Paseo | 80 m² | Terraza grande con vistas a Montserrat | Balcones | Excelente comunicación\nUna vivienda con espacios exteriores en pleno centro, algo poco habitual en la zona.\nVivir en el centro y, al mismo tiempo, disfrutar de espacios exterio",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870230",
-      "portal": "Idealista",
-      "telefono": "656 79 70 08"
-    },
-    {
       "titulo": "Dúplex en Carretera de sallent, 73 -75, Artés",
       "precio": "225.000€",
       "ubicacion": "73 -75, Artés",
@@ -627,19 +406,6 @@
       "fecha_scraping": "2026-02-12T19:56:55.870256",
       "portal": "Idealista",
       "telefono": "686 60 85 09"
-    },
-    {
-      "titulo": "Casa terrera en Calle Sol i Aire, 27, Congost - Santa Caterina, Manresa",
-      "precio": "100.000€",
-      "ubicacion": "27, Congost - Santa Caterina, Manresa",
-      "habitaciones": "2 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110022255/",
-      "descripcion": "Vistas privilegiadas a Montserrat\nA reformar al gusto.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870264",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Carretera de Santpedor, 89, Ctra. Santpedor - Bases de Manresa, Manresa",
@@ -707,19 +473,6 @@
       "telefono": "686 48 38 80"
     },
     {
-      "titulo": "Piso en Calle de Francesc Moragas, 72, Valldaura - Ctra. de Cardona, Manresa",
-      "precio": "150.000€",
-      "ubicacion": "72, Valldaura - Ctra. de Cardona, Manresa",
-      "habitaciones": "2 hab.",
-      "metros": "77 m²",
-      "url": "https://www.idealista.com/inmueble/109495041/",
-      "descripcion": "¿Estás cansado de pagar alquiler? ¿Quieres tener una vivienda que sea tu casa para siempre? Piso de 2 habitaciones, . En un edificio de 2009. En perfecto estado. Comedor con amplio ventanal y mucha luz, salida a balcon cocina con salida a Lavadero 1 habitación de matrimonio con baño completo (bañera) y hab. individual.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870317",
-      "portal": "Idealista",
-      "telefono": "614 02 32 25"
-    },
-    {
       "titulo": "Piso en Calle Viladelleva, 13, Callús",
       "precio": "170.000€",
       "ubicacion": "13, Callús",
@@ -755,19 +508,6 @@
       "descripcion": "Ubicado en Manresa, no está en la ciudad de Barcelona. Piso de 100m2, de los cuales 90m2 habitables y 10m2 pertenecen al trastero. Finca con ascensor en edificio con pocos vecinos. Piso distribuido en 4 habitaciones (dos dobles y dos individuales), un baño completo y un aseo. Cocina con lavadero y salón amplio.\nPiso mu",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-12T19:56:55.870343",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Chalet adosado en Calle del Montseny, 33, Sant Joan de Vilatorrada",
-      "precio": "300.000€",
-      "ubicacion": "33, Sant Joan de Vilatorrada",
-      "habitaciones": "4 hab.",
-      "metros": "200 m²",
-      "url": "https://www.idealista.com/inmueble/109591187/",
-      "descripcion": "Se vende amplia casa con garaje, patio y cuatro dormitorios.\nVivienda luminosa y bien distribuida, ideal para familias que buscan espacio, comodidad y el encanto de una casa acogedora.\nEn la planta baja se encuentra un garaje privado con capacidad para varios vehículos y acceso a un patio, perfecto como zona de ocio",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870352",
       "portal": "Idealista",
       "telefono": null
     },
@@ -811,19 +551,6 @@
       "telefono": "644 40 82 25"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle de les Agulles, 34, Castellbell i el Vilar",
-      "precio": "145.000€",
-      "ubicacion": "34, Castellbell i el Vilar",
-      "habitaciones": "3 hab.",
-      "metros": "49 m²",
-      "url": "https://www.idealista.com/inmueble/108691264/",
-      "descripcion": "Casa ubicada en la urbanización de Can Prat, muy bien ubicada a la entrada del parque natural de Montserrat y del pueblo de Sant Cristofol. Dispone de 3 habitaciones, cocina comedor, barbacoa, trastero, zona de ocio, perimetral vallado, cemento impreso, muy cómoda y perfecta para disfrutar de la naturaleza. La casa tie",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870389",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle del Pirineu, 119 , 1 piso, Mion - Puigberenguer, Manresa",
       "precio": "190.000€",
       "ubicacion": "119 , 1 piso, Mion - Puigberenguer, Manresa",
@@ -835,19 +562,6 @@
       "fecha_scraping": "2026-02-12T19:56:55.870397",
       "portal": "Idealista",
       "telefono": "615 07 34 89"
-    },
-    {
-      "titulo": "Dúplex en Ctra. Vic - Remei, Manresa",
-      "precio": "265.000€",
-      "ubicacion": "Manresa",
-      "habitaciones": "3 hab.",
-      "metros": "125 m²",
-      "url": "https://www.idealista.com/inmueble/109294607/",
-      "descripcion": "Dúplex con dos terrazas y balcón, que incluye una plaza de parking y trastero. Reformado en 2014, se abrió la cocina al salón-comedor y se actualizaron los dos baños. En la primera planta se encuentra la zona de living además de un baño con ducha, dos habitaciones y un balcón con tendedero y zona de lavandería. En la s",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870406",
-      "portal": "Idealista",
-      "telefono": "669 04 65 80"
     },
     {
       "titulo": "Piso en Calle de Salvador Vancell, 21  3er, Súria",
@@ -1045,19 +759,6 @@
       "telefono": null
     },
     {
-      "titulo": "Casa de pueblo en Calle Sant Pere, 2, Santpedor",
-      "precio": "90.000€",
-      "ubicacion": "2, Santpedor",
-      "habitaciones": "4 hab.",
-      "metros": "286 m²",
-      "url": "https://www.idealista.com/inmueble/108274688/",
-      "descripcion": "Se vende casa con encanto para reformar, ubicada en el casco antiguo del pueblo. Zona muy tranquila frente a una plaza. Sin tráfico, a pocos pasos de todos los servicios básicos. Ideal para vivir o como inversión.\nFachada de piedra centenaria protegida como patrimonio histórico local.\nTres plantas + terraza con vista",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870543",
-      "portal": "Idealista",
-      "telefono": "656 38 27 26"
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle Josep Pesarrodona, 51, Sant Salvador de Guardiola",
       "precio": "195.000€",
       "ubicacion": "51, Sant Salvador de Guardiola",
@@ -1121,32 +822,6 @@
       "fecha_scraping": "2026-02-12T19:56:55.870586",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Bruc, 24, Sant Joan de Vilatorrada",
-      "precio": "100.000€",
-      "ubicacion": "24, Sant Joan de Vilatorrada",
-      "habitaciones": "2 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/27364086/",
-      "descripcion": "Piso de dos habitaciones, anteriormente 3, reformado y en buen estado.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870595",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Reial, 1, Navarcles",
-      "precio": "120.000€",
-      "ubicacion": "1, Navarcles",
-      "habitaciones": "2 hab.",
-      "metros": "87 m²",
-      "url": "https://www.idealista.com/inmueble/107746818/",
-      "descripcion": "Piso de 81m2 actualmente alquilado. Se vende con el inquilino con 2 años de contrato.\nSe trata de una planta baja, muy bien situada. Se encuentra muy cerca del centro y de Sant Benet.\nSe distribuye en un salón comedor grande, con cocina independiente. Habitación de matrimonio en suite con baño con ducha y otro baño",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870604",
-      "portal": "Idealista",
-      "telefono": "676 37 33 87"
     },
     {
       "titulo": "Chalet adosado en Calle Barcelona, 41, Súria",
@@ -1303,19 +978,6 @@
       "fecha_scraping": "2026-02-12T19:56:55.870709",
       "portal": "Idealista",
       "telefono": "628 79 64 76"
-    },
-    {
-      "titulo": "Casa de pueblo en Plaza del Bisbe Torras i Bages, 4, Sant Feliu Saserra",
-      "precio": "190.000€",
-      "ubicacion": "4, Sant Feliu Saserra",
-      "habitaciones": "3 hab.",
-      "metros": "267 m²",
-      "url": "https://www.idealista.com/inmueble/102751119/",
-      "descripcion": "Casa rústica en Sant Feliu Sasserra\nCasa de pueblo independiente, situada en el casco antiguo y con excelente ubicación.\nEstá distribuida en 3 plantas, en la planta baja encontramos amplia entrada y estancias destinadas para trastero, espacio para guardar la leña, etc. En la primera planta encontramos cocina y salón c",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:56:55.870718",
-      "portal": "Idealista",
-      "telefono": "676 22 02 87"
     },
     {
       "titulo": "Finca rústica en Calle Castellfullit del Boix, s/n, Castellfollit del Boix",

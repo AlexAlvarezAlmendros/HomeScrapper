@@ -2,21 +2,8 @@
   "timestamp": "2026-03-04T11:43:15.245789",
   "ubicacion": "Pla de l'Estany",
   "url": "https://www.idealista.com/venta-viviendas/girona/pla-de-l-estany/?ordenado-por=fecha-publicacion-desc",
-  "total": 10,
+  "total": 7,
   "viviendas": [
-    {
-      "titulo": "Piso en Calle Sant Antoni, 2, Cornellá del Terri",
-      "precio": "245.000€",
-      "ubicacion": "2, Cornellá del Terri",
-      "habitaciones": "3 hab.",
-      "metros": "84 m²",
-      "url": "https://www.idealista.com/inmueble/110777875/",
-      "descripcion": "Piso de 3 habitaciones muy luminoso y soleado, ideal para familias o como inversión. Dispone de 2 baños completos, cocina independiente totalmente funcional y dos amplias terrazas perfectas para disfrutar del exterior durante todo el año.\nIncluye plaza de parking y dos trasteros, aportando un extra de comodidad y espa",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-03-04T11:43:15.245512",
-      "portal": "Idealista",
-      "telefono": null
-    },
     {
       "titulo": "Finca rústica en Calle Can Prat de la Mitjavila, 2, Camos",
       "precio": "500.000€",
@@ -68,32 +55,6 @@
       "fecha_scraping": "2026-02-15T11:52:02.949755",
       "portal": "Idealista",
       "telefono": "635 43 22 67"
-    },
-    {
-      "titulo": "Finca rústica en Carretera de sant esteve de guialbes, 1, Vilademuls",
-      "precio": "999.999€",
-      "ubicacion": "1, Vilademuls",
-      "habitaciones": "2 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/107709420/",
-      "descripcion": "Casa a 4 vientos de 120 m2, aislada, con gran potencial. Ubicado en finca rural de 3 hectáreas de bosque en el Pla de l’Estany.\nZona de dia separada de la zona de noche (cocina/comedor).\nCamino de acceso privado.\nA 15 min de Banyoles y a 30 de Girona.\nIdeal para inversores.\nDetalles por privado, abstenerse curiosos.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:52:02.949764",
-      "portal": "Idealista",
-      "telefono": "633 09 46 48"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle de mata, 60, Banyoles",
-      "precio": "395.000€",
-      "ubicacion": "60, Banyoles",
-      "habitaciones": "4 hab.",
-      "metros": "110 m²",
-      "url": "https://www.idealista.com/inmueble/107571105/",
-      "descripcion": "Casa unifamiliar, de dos Plantes. A Baix tenim una habitació doble bany complet i cuina. primera planta 3 habitacións dobles, un bany complet terraza i balcó. garatge amb Cuina i bany.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:52:02.949775",
-      "portal": "Idealista",
-      "telefono": "660 60 24 04"
     },
     {
       "titulo": "Castillo en Calle Matamors, s/n, Camos",

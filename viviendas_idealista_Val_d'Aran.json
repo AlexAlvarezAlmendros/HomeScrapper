@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:49:50.675165",
   "ubicacion": "Val d'Aran",
   "url": "https://www.idealista.com/venta-viviendas/lleida/val-d-aran/?ordenado-por=fecha-publicacion-desc",
-  "total": 33,
+  "total": 32,
   "viviendas": [
     {
       "titulo": "Piso en Carretera Betren, 46, Vielha",
@@ -107,19 +107,6 @@
       "fecha_scraping": "2026-02-15T12:33:43.034609",
       "portal": "Idealista",
       "telefono": "609 53 75 91"
-    },
-    {
-      "titulo": "Piso en Calle Av de Betren, urb privilege, 1, Vielha",
-      "precio": "295.000€",
-      "ubicacion": "urb privilege, 1, Vielha",
-      "habitaciones": "2 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/110344670/",
-      "descripcion": "Acogedor y práctico apartamento en betren. Recién reformado. Interesados llamar al.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:33:43.034618",
-      "portal": "Idealista",
-      "telefono": "626 97 77 75"
     },
     {
       "titulo": "Piso en Plaza Pas d'Arró, 2, Vielha e Mijaran",

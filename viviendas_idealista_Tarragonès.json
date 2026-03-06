@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T12:03:33.095028",
   "ubicacion": "Tarragonès",
   "url": "https://www.idealista.com/venta-viviendas/tarragona/tarragones/?ordenado-por=fecha-publicacion-desc",
-  "total": 147,
+  "total": 117,
   "viviendas": [
     {
       "titulo": "Piso en Via Aurèlia, 21, Barenys, Salou",
@@ -70,32 +70,6 @@
       "telefono": "617 73 89 89"
     },
     {
-      "titulo": "Chalet pareado en Avenida del Parlament, 2, Pallaresos (Els)",
-      "precio": "480.000€",
-      "ubicacion": "2, Pallaresos (Els)",
-      "habitaciones": "5 hab.",
-      "metros": "220 m²",
-      "url": "https://www.idealista.com/inmueble/110718531/",
-      "descripcion": "Cada pareada en Jardins Imperi totalmente reformada.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:50:32.247145",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Chalet pareado en Avenida del Parlament, 2, Pallaresos (Els)",
-      "precio": "480.000€",
-      "ubicacion": "2, Pallaresos (Els)",
-      "habitaciones": "5 hab.",
-      "metros": "220 m²",
-      "url": "https://www.idealista.com/inmueble/110718613/",
-      "descripcion": "Casa pareada en Jardins Imperi completamente reformada.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:50:32.247168",
-      "portal": "Idealista",
-      "telefono": "679 03 99 20"
-    },
-    {
       "titulo": "Piso en Calle de Saint Vincent, 1, Creixell",
       "precio": "235.000€",
       "ubicacion": "1, Creixell",
@@ -107,32 +81,6 @@
       "fecha_scraping": "2026-02-23T16:50:32.247180",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Avenida Marquès de Montoliu, 1, Nou Eixample Nord, Tarragona",
-      "precio": "395.000€",
-      "ubicacion": "1, Nou Eixample Nord, Tarragona",
-      "habitaciones": "4 hab.",
-      "metros": "140 m²",
-      "url": "https://www.idealista.com/inmueble/110706778/",
-      "descripcion": "ESPECTACULAR PISO ALTO, TODO EXTERIOR Y MUY LUMINOSO – 130 m²\nSe vende magnífico piso de 140 metros cuadrados, amplio y con excelente distribución, ideal para familias que buscan comodidad, luz natural y espacio.\nLa vivienda dispone de:\n 4 habitaciones dobles con armario empotrado, una de ellas en suite con baño pr",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:50:32.247191",
-      "portal": "Idealista",
-      "telefono": "659 73 10 11"
-    },
-    {
-      "titulo": "Piso en Plaza de Venus, 2, Barri de la Salut, Salou",
-      "precio": "242.000€",
-      "ubicacion": "2, Barri de la Salut, Salou",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110705379/",
-      "descripcion": "APARTAMENTO FRENTE AL MAR, a 50m de la playa.\nTotalmente reformado en el 2024, dispone de salón comedor con gran terraza frente al mar, cocina, dos habitaciones dobles, una habitación individual y un cuarto de baño y un aseo.\ncon ascensor, aire acondicionado todo el apartamento.\nSin Licencia Turística.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:50:32.247201",
-      "portal": "Idealista",
-      "telefono": "653 78 67 83"
     },
     {
       "titulo": "Piso en Calle del Vaporet, 3, La Pineda",
@@ -200,19 +148,6 @@
       "telefono": "698 72 31 91"
     },
     {
-      "titulo": "Piso en Calle Llorenç Villalonga, 17 b, Urbanitzacions de Llevant, Tarragona",
-      "precio": "375.000€",
-      "ubicacion": "17 b, Urbanitzacions de Llevant, Tarragona",
-      "habitaciones": "3 hab.",
-      "metros": "85 m²",
-      "url": "https://www.idealista.com/inmueble/110664659/",
-      "descripcion": "Piso en venta de 3 habitaciones, todas exteriores y 2 baños completos.\nCuarta planta. Salón con terraza. Cocina con salida a balcón interior.\nCalefacción de gas con caldera propia\nTrastero grande de 12 m2\nPlaza de parking incluida.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:34:46.103752",
-      "portal": "Idealista",
-      "telefono": "647 66 68 29"
-    },
-    {
       "titulo": "Piso en Cap Salou, Salou",
       "precio": "195.000€",
       "ubicacion": "Salou",
@@ -265,19 +200,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle de Mossèn Lluís Batlle, 1, Vila-Seca",
-      "precio": "215.000€",
-      "ubicacion": "1, Vila-Seca",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110653273/",
-      "descripcion": "Se vende piso de 80 m² en zona Miramar (Vila-seca), totalmente reformado hace 2 años y listo para entrar a vivir, sin necesidad de hacer ninguna obra.\nLa vivienda se encuentra en finca del año 2005 y destaca por su buena distribución y luminosidad. Ideal tanto para familias como para quien busque una inversión en una",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:34:46.103804",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle Joana Jugan, 3, Nou Eixample Nord, Tarragona",
       "precio": "129.900€",
       "ubicacion": "3, Nou Eixample Nord, Tarragona",
@@ -289,19 +211,6 @@
       "fecha_scraping": "2026-02-16T18:21:47.491557",
       "portal": "Idealista",
       "telefono": "650 53 30 66"
-    },
-    {
-      "titulo": "Piso en Calle k, 1, Sant Pere i Sant Pau, Tarragona",
-      "precio": "130.000€",
-      "ubicacion": "1, Sant Pere i Sant Pau, Tarragona",
-      "habitaciones": "4 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110644323/",
-      "descripcion": "Se vende piso directamente con propietario actualmente con 4 inquilinos lo que garantiza ingresos desde el primer día y un excelente oportunidad para inversores que busquen rentabilidad en una zona consolidada y de alta demanda. Ubicado en el barrio de San Pedro y San Pablo ( Tarragona) a tan solo 7 minutos de la playa",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491579",
-      "portal": "Idealista",
-      "telefono": "688 34 23 14"
     },
     {
       "titulo": "Piso en Calle Dhorta Gran, 1 C, Torreforta, Tarragona",
@@ -328,32 +237,6 @@
       "fecha_scraping": "2026-02-16T18:21:47.491604",
       "portal": "Idealista",
       "telefono": "620 40 03 72"
-    },
-    {
-      "titulo": "Piso en Calle del Vendrell, 18, Eixample, Salou",
-      "precio": "128.000€",
-      "ubicacion": "18, Eixample, Salou",
-      "habitaciones": "2 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/110642160/",
-      "descripcion": "Con licencia Turística en vigor, excelente apartamento totalmente reformado, oportunidad de inversión en el corazon de la zona turística de Salou, el apartamento totalmente equipado y amueblado, cuenta con dos habitaciones, una de ellas tipo camarote y el complejo cuenta con piscinas, parque infantil, pista de balonces",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491614",
-      "portal": "Idealista",
-      "telefono": "653 78 67 83"
-    },
-    {
-      "titulo": "Piso en Calle Sant Plàcid, 7, El Morell",
-      "precio": "149.000€",
-      "ubicacion": "7, El Morell",
-      "habitaciones": "2 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110642137/",
-      "descripcion": "PRECIOSO piso en el centro del Morell, todo NUEVO recién reformado integral, instalaciones, tuberías, todo como de obra nueva. El piso consta de 2 habitaciones una doble y una individual, un amplio espacio de cocina - comedor. La cocina es totalmente nueva a estrenar, totalmente equipads. El baño recien reformado integ",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491624",
-      "portal": "Idealista",
-      "telefono": "663 04 42 76"
     },
     {
       "titulo": "Piso en Calle del Gasòmetre, 21, Nou Eixample Sud, Tarragona",
@@ -395,32 +278,6 @@
       "telefono": "601 60 30 40"
     },
     {
-      "titulo": "Estudio en Calle Pirineus, 5, Vilallonga del Camp",
-      "precio": "107.000€",
-      "ubicacion": "5, Vilallonga del Camp",
-      "habitaciones": null,
-      "metros": "134 m²",
-      "url": "https://www.idealista.com/inmueble/110620089/",
-      "descripcion": "En venta espectacular local tipo LOFT con \"permiso aprobado de cambio de uso a vivienda\". Espacio abierto con multiples posibilidades de distribución. Crea tu espacio cocina salon-comedor abierto.\nIdeal amantes estilo industrial, minimalista o urbano. Invierte, reforma, estrema vivienda a tu gusto. Gran oportunidad en",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491663",
-      "portal": "Idealista",
-      "telefono": "643 35 73 98"
-    },
-    {
-      "titulo": "Piso en Calle Nou de Sant Pau, 1, Barris Maritims, Tarragona",
-      "precio": "154.000€",
-      "ubicacion": "1, Barris Maritims, Tarragona",
-      "habitaciones": "3 hab.",
-      "metros": "73 m²",
-      "url": "https://www.idealista.com/inmueble/110618371/",
-      "descripcion": "Piso registrado para alquiler temporal. Actualmente ocupado por estudiantes hasta Junio´26.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491673",
-      "portal": "Idealista",
-      "telefono": "695 29 37 56"
-    },
-    {
       "titulo": "Piso en carrera de terol, 3, Eixample, Salou",
       "precio": "111.000€",
       "ubicacion": "3, Eixample, Salou",
@@ -458,45 +315,6 @@
       "fecha_scraping": "2026-02-16T18:21:47.491700",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle de Carles Buïgas, 40, Eixample, Salou",
-      "precio": "139.000€",
-      "ubicacion": "40, Eixample, Salou",
-      "habitaciones": "2 hab.",
-      "metros": "50 m²",
-      "url": "https://www.idealista.com/inmueble/110594181/",
-      "descripcion": "Piso amoblado y renovado de 1 dormitorio. Para entrar y disfrutar.\n1 cama doble, 2 camas plegables empotradas en el living, lavadora, TV, cocina, etc. (vea las fotos).",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491710",
-      "portal": "Idealista",
-      "telefono": "695 29 37 56"
-    },
-    {
-      "titulo": "Piso en Calle de Logronyo, 8, Eixample, Salou",
-      "precio": "173.000€",
-      "ubicacion": "8, Eixample, Salou",
-      "habitaciones": "2 hab.",
-      "metros": "65 m²",
-      "url": "https://www.idealista.com/inmueble/110588825/",
-      "descripcion": "Somos los propietarios, no una inmobiliaria!\nPiso situado en un complejo residencial con gran jardín, zona de juegos infantil, garage para bicicletas y piscina con baños. Ubicado a 5 minutos de la playa y 15 minutos de PortAventura.\nCaracterísticas:\n- Cuarta planta con ascensor.\n- Totalmente amueblado, para entrar a",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491720",
-      "portal": "Idealista",
-      "telefono": "649 62 20 55"
-    },
-    {
-      "titulo": "Piso en Plaza General Domènech Batet i Mestres, 6, Barris Maritims, Tarragona",
-      "precio": "179.000€",
-      "ubicacion": "6, Barris Maritims, Tarragona",
-      "habitaciones": "2 hab.",
-      "metros": "51 m²",
-      "url": "https://www.idealista.com/inmueble/110587402/",
-      "descripcion": "Acogedor piso de dos habitaciones, salón, cocina y baño. Amueblado, suelo de parqué, calefacción, aire acondicionado, terraza grande. Zona próxima al barrio marítimo.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491730",
-      "portal": "Idealista",
-      "telefono": "647 33 11 30"
     },
     {
       "titulo": "Piso en Calle de Josep Carner, 16, Salou de Llevant, Salou",
@@ -733,58 +551,6 @@
       "telefono": "627 88 88 88"
     },
     {
-      "titulo": "Piso en Carretera de la Costa, 61, Cap Salou, Salou",
-      "precio": "275.000€",
-      "ubicacion": "61, Cap Salou, Salou",
-      "habitaciones": "2 hab.",
-      "metros": "110 m²",
-      "url": "https://www.idealista.com/inmueble/110462035/",
-      "descripcion": "¡OBRA NUEVA! Planta baja en Cap Salou, en un entorno residencial tranquilo. La vivienda se encuentra a solo 10 minutos a pie de las principales playas y calas de la Costa Dorada. Vivienda de 80 m2 + 30 m2 terraza y parking incluido. Equipada con aire acondicionado por conductos, cocina con vitro, horno y campana extrac",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491917",
-      "portal": "Idealista",
-      "telefono": "628 87 57 99"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Paseo de les moreres, 66, El Catllar",
-      "precio": "290.000€",
-      "ubicacion": "66, El Catllar",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/110505792/",
-      "descripcion": "Casa con terreno, con 3 habitaciones 2 de las cuales son dobles y una de ellas con aseo. 1 baño completo con gran bañera esquinera. Cocina amplia y comedor grande. Tiene caseta para la lavadora y una gran zona de almacenamiento.\nSituada en una urbanización muy tranquila, calles asfaltadas y alumbrado público. A 2 minut",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491926",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Deltebre, 33, Torreforta, Tarragona",
-      "precio": "150.000€",
-      "ubicacion": "33, Torreforta, Tarragona",
-      "habitaciones": "2 hab.",
-      "metros": "72 m²",
-      "url": "https://www.idealista.com/inmueble/110501952/",
-      "descripcion": "Piso de 72m2\nConsta de dos habitaciones, una doble y otra individual\nLavabo con ducha\nGran cocina con galería exterior\nSalón amplio con aire acondicionado y salida al balcón\nVistas despejadas (no hay edificios delante)\nCerca de todos los servicios (colegio, institutos, centro comercial, CAP, transporte público…)\nMuy so",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491936",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Chalet pareado en Clarà, Torredembarra",
-      "precio": "319.000€",
-      "ubicacion": "Torredembarra",
-      "habitaciones": "3 hab.",
-      "metros": "174 m²",
-      "url": "https://www.idealista.com/inmueble/110493558/",
-      "descripcion": "Vivienda pareada con vistas al mar, amplio jardín privado y piscina comunitaria\nPreciosa vivienda pareada en la tranquila zona de Clarà, Torredembarra, a menos de 10 minutos a pie de la playa y rodeada de rutas de senderismo y naturaleza. Al mismo tiempo, supermercados, restaurantes, bares, el centro, colegios y trans",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491946",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle del Trull, 6, El Morell",
       "precio": "166.000€",
       "ubicacion": "6, El Morell",
@@ -807,71 +573,6 @@
       "descripcion": "Te presento tu futura vivienda, dónde vivirás tranquilamente disfrutando de su proximidad a todos los servicios, cap, supermercados y centro ciudad. Ubicado en San Pedro y San Pablo (Tarragona). Dispone de ascensor, aire acondicionado, calefacción por radiadores. Contiene 2 habitaciones, 1 baño, cocina integrada en com",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-16T18:21:47.491966",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Tres, 61, Bonavista",
-      "precio": "175.000€",
-      "ubicacion": "61, Bonavista",
-      "habitaciones": "4 hab.",
-      "metros": "135 m²",
-      "url": "https://www.idealista.com/inmueble/110473019/",
-      "descripcion": "- Calle Tres, 61, Bonavista, 43100 Tarragona, España.\n- Salón comedor.\n- 4 habitación de las cuales son 2 de matrimonio y 2 individuales.\n- gran cocina.\n- 2 baños completos.\n- galería cerrada con aluminio.\n- 2 balcones.\n- todo exterior.\n- 3ra planta (última altura) con ascensor.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491976",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle de Carles Buïgas, 32, Eixample, Salou",
-      "precio": "169.900€",
-      "ubicacion": "32, Eixample, Salou",
-      "habitaciones": "1 hab.",
-      "metros": "37 m²",
-      "url": "https://www.idealista.com/inmueble/101707612/",
-      "descripcion": "LICENCIA TURISTICA.\nPrecioso apartamento en venta. Se vende amueblado, con materiales de alta calidad, aire acondicionado frio calor, electrodomésticos, etc. dispone de licencia turística. Gastos anuales muy bajos. Alta rentabilidad.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491985",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Paseo Miramar, 60, Barri de la Salut, Salou",
-      "precio": "345.000€",
-      "ubicacion": "60, Barri de la Salut, Salou",
-      "habitaciones": "2 hab.",
-      "metros": "64 m²",
-      "url": "https://www.idealista.com/inmueble/108728352/",
-      "descripcion": "Se vende apartamento en 1° linea de playa frontal al mar. Dispone de 2 dormitorios, uno de ellos tipo suitte con baño incorporado con bañera tipo jacuzzi. Salón comedor con cocina americana, cuarto de la lavadora y secadora, otro baño con plato de ducha, terraza con preciosas vistas al mar y la Playa de Poniente. Dispo",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.491995",
-      "portal": "Idealista",
-      "telefono": "636 06 79 50"
-    },
-    {
-      "titulo": "Piso en Camino de L'Hort de Pau, 62, Altafulla",
-      "precio": "230.000€",
-      "ubicacion": "62, Altafulla",
-      "habitaciones": "4 hab.",
-      "metros": "100 m²",
-      "url": "https://www.idealista.com/inmueble/36953758/",
-      "descripcion": "piso en altafulla exterior, soleado, 4 habitaciones, dos lavabos, cocina independiente con lavadero, terraza cerrada con aluminio- aire acondicionado, calefacción, todo reformado. a 5 minutos de la playa andando.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.492005",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Dúplex en Nou Eixample Sud, Tarragona",
-      "precio": "264.000€",
-      "ubicacion": "Tarragona",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/110272577/",
-      "descripcion": "Piso tríplex de 90m2 en la Calle Pere Martell, en una de las zonas mejores ubicadas de Tarragona, muy cerca del Serrallo, del centro y de la estación de tren.\nLa vivienda, construida en 1997, se distribuye en tres plantas y dispone de:\n- 3 habitaciones\n- 2 baños completos\n- Terraza privada en la tercera planta\n- Edif",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.492014",
       "portal": "Idealista",
       "telefono": null
     },
@@ -967,19 +668,6 @@
       "telefono": "654 46 30 87"
     },
     {
-      "titulo": "Ático en Plaza del Castell, 1, La Canonja",
-      "precio": "75.000€",
-      "ubicacion": "1, La Canonja",
-      "habitaciones": null,
-      "metros": "50 m²",
-      "url": "https://www.idealista.com/inmueble/110421367/",
-      "descripcion": "EN LA CANONJA CERCA DEL CASTILLO MAS RICART, URGENTE vendo ATICO en la canonja Tarragona, escriturado tiene 50 metros con 2 terrazas con entradas independientes Y USO EXCLUSIVO DEL ÁTICO(No comunitaria) una tiene 80 metros con barbacoa de obra y ducha de hidromasaje y la otra tiene 30 metros, con pergola de madera y ha",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.492100",
-      "portal": "Idealista",
-      "telefono": "627 76 26 83"
-    },
-    {
       "titulo": "Piso en ViaAugusta, 3, Urbanitzacions de Llevant, Tarragona",
       "precio": "195.000€",
       "ubicacion": "3, Urbanitzacions de Llevant, Tarragona",
@@ -1069,19 +757,6 @@
       "fecha_scraping": "2026-02-16T18:21:47.492167",
       "portal": "Idealista",
       "telefono": "653 10 81 02"
-    },
-    {
-      "titulo": "Piso en Calle Prades, 14, Torreforta, Tarragona",
-      "precio": "145.000€",
-      "ubicacion": "14, Torreforta, Tarragona",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/108499383/",
-      "descripcion": "Amplio piso en el corazón de Torreforta, en una calle tranquila y bien comunicada nos encontramos con este bonito piso de 90 m² muy luminoso, ubicado en una de las mejores zonas de Torreforta, cerca del Mercado Central. En las proximidades encontramos colegios, comercios, transporte público, ambulatorio, farmacia y dem",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.492176",
-      "portal": "Idealista",
-      "telefono": "606 33 98 67"
     },
     {
       "titulo": "Piso en Calle d'Amadeu Vives, 39, La Pineda",
@@ -1396,19 +1071,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Urbanitzacions de Llevant, Tarragona",
-      "precio": "265.000€",
-      "ubicacion": "Tarragona",
-      "habitaciones": "2 hab.",
-      "metros": "91 m²",
-      "url": "https://www.idealista.com/inmueble/100389819/",
-      "descripcion": "Acogedor piso en perfecto estado, para entrar a vivir en una de las mejores zonas de Tarragona, en la Vall de L'arrabassada a 2 minutos de la playa y 5 minutos del centro.\nMuy bien comunicado con transporte público, supermercados, centro de salud, colegio y todo tipo de servicios.\nEdificio construido en Noviembre del",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.492416",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Estudio en Calle d'Alfons V el Magnànim, 21, Eixample, Salou",
       "precio": "115.000€",
       "ubicacion": "21, Eixample, Salou",
@@ -1459,32 +1121,6 @@
       "fecha_scraping": "2026-02-16T18:21:47.492455",
       "portal": "Idealista",
       "telefono": "660 67 47 74"
-    },
-    {
-      "titulo": "Piso en Avenida de Ramon d'Olzina, 13, Vila-Seca",
-      "precio": "228.000€",
-      "ubicacion": "13, Vila-Seca",
-      "habitaciones": "5 hab.",
-      "metros": "110 m²",
-      "url": "https://www.idealista.com/inmueble/110135368/",
-      "descripcion": "Piso actualmente alquilado por habitaciones\nCon alta rentabilidad( para mas informacion consultar sin compromiso )\nConsta de 5 dormitorios, 1 baño, recibidor\nCocina espaciosa y zona de lavanderia a parte.\nDos de las habitaciones tienen salida a terraza\nDe 10m2 cada una\nPiso con infinidad de posibilidades tanto para",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.492464",
-      "portal": "Idealista",
-      "telefono": "687 45 07 68"
-    },
-    {
-      "titulo": "Estudio en Calle de Josep Carner, 18, Salou de Llevant, Salou",
-      "precio": "116.000€",
-      "ubicacion": "18, Salou de Llevant, Salou",
-      "habitaciones": null,
-      "metros": "55 m²",
-      "url": "https://www.idealista.com/inmueble/104858816/",
-      "descripcion": "Oportunidad!\nPrecioso Estudio a 200m de la playa con todos los servicios\n¿Busca un lugar de ensueño para sus vacaciones?\nEste estudio es el destino perfecto.\nDispone de todo lo necesario para disfrutar de unos días de descanso, o incluso para vivir todo el año en un entorno tranquilo e inmejorable, cerca del paseo Ja",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.492473",
-      "portal": "Idealista",
-      "telefono": "640 81 73 21"
     },
     {
       "titulo": "Chalet pareado en Clarà, Torredembarra",
@@ -1799,19 +1435,6 @@
       "telefono": "653 99 90 05"
     },
     {
-      "titulo": "Chalet adosado en Calle de Pablo Picasso, 20, Plaça Europa i Covamar, Salou",
-      "precio": "495.000€",
-      "ubicacion": "20, Plaça Europa i Covamar, Salou",
-      "habitaciones": "5 hab.",
-      "metros": "166 m²",
-      "url": "https://www.idealista.com/inmueble/92750208/",
-      "descripcion": "Magnifico chalet adosado, situado en la tranquilidad de Covamar, una de las mejores zonas de Salou, a 10 minutos andando de la playa de Llevant y a 5 minutos en coche de Port Aventura y de los campos de golf.\nLa vivienda reformada en 2020 dispone de dos plantas, cinco dormitorios dobles y tres baños, con una distribuci",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.492719",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Chalet adosado en Calle Masferrer, 15, Creixell",
       "precio": "215.000€",
       "ubicacion": "15, Creixell",
@@ -1875,19 +1498,6 @@
       "fecha_scraping": "2026-02-16T18:21:47.492766",
       "portal": "Idealista",
       "telefono": "632 71 72 77"
-    },
-    {
-      "titulo": "Estudio en Calle d'Enric Morera, 285, La Pineda",
-      "precio": "85.000€",
-      "ubicacion": "285, La Pineda",
-      "habitaciones": null,
-      "metros": "30 m²",
-      "url": "https://www.idealista.com/inmueble/109212851/",
-      "descripcion": "Apartamento en el edificio Promar dirección Passeig Pau Casals numero 117.\nTodos los electrodomésticos recién cambiados con garantía.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:21:47.492775",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Eixample, Salou",

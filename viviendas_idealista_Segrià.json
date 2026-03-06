@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:48:31.061048",
   "ubicacion": "Segrià",
   "url": "https://www.idealista.com/venta-viviendas/lleida/segria/?ordenado-por=fecha-publicacion-desc",
-  "total": 157,
+  "total": 138,
   "viviendas": [
     {
       "titulo": "Casa o chalet independiente en Calle Major, 3, Rossello",
@@ -42,19 +42,6 @@
       "fecha_scraping": "2026-03-04T11:48:31.059604",
       "portal": "Idealista",
       "telefono": "611 61 92 39"
-    },
-    {
-      "titulo": "Piso en Calle Doctor Combelles, 24, Universitat, Lleida",
-      "precio": "135.000€",
-      "ubicacion": "24, Universitat, Lleida",
-      "habitaciones": "4 hab.",
-      "metros": "97 m²",
-      "url": "https://www.idealista.com/inmueble/110782689/",
-      "descripcion": "*Oportunidad única en Zona Universitat* perfecta para familias o inversores.\n*Se vende piso de 97 m² en C/ Doctor Combelles (Lleida)*, en la demandada Zona Universitat.\nLa vivienda se distribuye en:\n*4 habitaciones*, todas con ventilación natural, una de ellas con salida a balcón.\n*Salón-comedor luminoso* con acceso",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-03-04T11:48:31.059616",
-      "portal": "Idealista",
-      "telefono": "644 43 92 02"
     },
     {
       "titulo": "Piso en Calle de l'Anselm Clavé, 16, Princep de Viana-Clot, Lleida",
@@ -239,19 +226,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Avenida President Josep Tarradellas, 59, Cappont, Lleida",
-      "precio": "195.000€",
-      "ubicacion": "59, Cappont, Lleida",
-      "habitaciones": "2 hab.",
-      "metros": "85 m²",
-      "url": "https://www.idealista.com/inmueble/110486186/",
-      "descripcion": "Se vende piso seminuevo de 85 m², muy luminoso y ubicado en una finca moderna con una amplia zona comunitaria con piscina. Una vivienda cómoda, funcional y lista para entrar a vivir.\nLa distribución es práctica y acogedora: amplio comedor, cocina con salida directa al balcón y lavadero.\nDispone de 2 habitaciones, una",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:24:43.642821",
-      "portal": "Idealista",
-      "telefono": "606 56 88 93"
-    },
-    {
       "titulo": "Piso en Calle de la Llum, 5, Rossello",
       "precio": "165.000€",
       "ubicacion": "5, Rossello",
@@ -278,19 +252,6 @@
       "telefono": "686 45 20 78"
     },
     {
-      "titulo": "Torre en partida lleida mariola, s/n, Mariola, Lleida",
-      "precio": "225.000€",
-      "ubicacion": "s/n, Mariola, Lleida",
-      "habitaciones": null,
-      "metros": "100 m²",
-      "url": "https://www.idealista.com/inmueble/110492495/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988352",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle Laureà Figuerola, 10, Balafia, Lleida",
       "precio": "155.000€",
       "ubicacion": "10, Balafia, Lleida",
@@ -302,19 +263,6 @@
       "fecha_scraping": "2026-02-15T12:25:44.988364",
       "portal": "Idealista",
       "telefono": "629 50 31 61"
-    },
-    {
-      "titulo": "Piso en Calle Joan Miró, 3, Universitat, Lleida",
-      "precio": "243.000€",
-      "ubicacion": "3, Universitat, Lleida",
-      "habitaciones": "3 hab.",
-      "metros": "108 m²",
-      "url": "https://www.idealista.com/inmueble/110600269/",
-      "descripcion": "Vivienda de 90m2 con espectacular terraza privada de 90m2, ideal para disfrutar del aire libre, reuniones con amigos o crear tu propio oasis urbano. Ademas cuenta con un balcón exterior con vistas al amplio patio del colegio Episcopal. El piso cuenta con 3 habitaciones dobles, una de ellas en suit y 2 baños completos o",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988376",
-      "portal": "Idealista",
-      "telefono": "649 00 95 75"
     },
     {
       "titulo": "Piso en Calle Joan Miró, 1, Universitat, Lleida",
@@ -408,19 +356,6 @@
       "telefono": "684 74 45 20"
     },
     {
-      "titulo": "Piso en Calle Segrià, 23, Joc de Bola, Lleida",
-      "precio": "242.000€",
-      "ubicacion": "23, Joc de Bola, Lleida",
-      "habitaciones": "4 hab.",
-      "metros": "111 m²",
-      "url": "https://www.idealista.com/inmueble/110561296/",
-      "descripcion": ". R E S E R V A D O. De momento No llaméis, no os atenderemos. Gracias\nGran ocasión¡ piso zona alta, todo exterior, reformado, 4 habitaciones, 2 baños, 1 balcón con acceso desde el salón comedor, 1 galería con acceso desde la cocina en la que encontramos la zona de lavandería, la cocina completamente equipada con mob",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988458",
-      "portal": "Idealista",
-      "telefono": "629 71 06 66"
-    },
-    {
       "titulo": "Piso en Calle Farraginals, 14, Alpicat",
       "precio": "195.000€",
       "ubicacion": "14, Alpicat",
@@ -495,19 +430,6 @@
       "descripcion": "EXCLUSIVA Casa adosada independiente en Ciutat Jardí. Construcción estilo nórdico, passive house. La primera planta dispone de gran comedor con salida a zona de porche y acceso directo al jardín. Cocina totalmente equipada con acceso a zona de lavandería y almacenaje y salida directa al jardín y garaje. También dispone",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-15T12:25:44.988517",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Ático en Calle Humbert Torres, 29, Princep de Viana-Clot, Lleida",
-      "precio": "140.000€",
-      "ubicacion": "29, Princep de Viana-Clot, Lleida",
-      "habitaciones": "2 hab.",
-      "metros": "87 m²",
-      "url": "https://www.idealista.com/inmueble/110481791/",
-      "descripcion": "Ático luminoso con vistas a la Seu Vella – Lleida \nSe vende precioso ático en Lleida, muy luminoso y con espectaculares vistas a la Seu Vella, ideal tanto como vivienda habitual como inversión.\nLa vivienda cuenta con:\n 2 habitaciones. Una habitación de matrimonio con vestidor y una segunda habitación exterior p",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988528",
       "portal": "Idealista",
       "telefono": null
     },
@@ -616,19 +538,6 @@
       "telefono": null
     },
     {
-      "titulo": "Dúplex en Calle Comerç, 5, Alcarrás",
-      "precio": "197.000€",
-      "ubicacion": "5, Alcarrás",
-      "habitaciones": "4 hab.",
-      "metros": "121 m²",
-      "url": "https://www.idealista.com/inmueble/110348846/",
-      "descripcion": "Ático dúplex en Alcarràs. Garaje y trastero incluido\n197000 €\n4 hab. 121m2 Planta 2a exterior con ascensor\nLuminoso dúplex de 121 m2 construidos, en un edificio construido el año 2006. Con dos terrazas de 25m2 con barbacoa de obra y 37m2.\nEn la planta principal se encuentra un gran salón comedor con salida a la te",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988619",
-      "portal": "Idealista",
-      "telefono": "686 81 00 35"
-    },
-    {
       "titulo": "Chalet adosado en Calle Borges Blanques, 50, Puigverd de Lleida",
       "precio": "219.900€",
       "ubicacion": "50, Puigverd de Lleida",
@@ -679,19 +588,6 @@
       "fecha_scraping": "2026-02-15T12:25:44.988658",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Manuel del Palacio, 16, Instituts, Lleida",
-      "precio": "229.000€",
-      "ubicacion": "16, Instituts, Lleida",
-      "habitaciones": "4 hab.",
-      "metros": "149 m²",
-      "url": "https://www.idealista.com/inmueble/110276351/",
-      "descripcion": "PARTICULAR VENDE.\nMagnífica vivienda de 97 m² útiles (149m2 construidos), exterior y con luz natural (sol de mañana y tarde). Situada en una primera planta con ascensor, destaca por su reforma integral realizada en 2019, y sus mejoras continuas hasta hoy.\nDISTRIBUCIÓN FUNCIONAL: La vivienda se ha diseñado para maximi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988667",
-      "portal": "Idealista",
-      "telefono": "693 30 20 30"
     },
     {
       "titulo": "Dúplex en Plaza Major, 1, Benavent de Segriá",
@@ -824,32 +720,6 @@
       "telefono": "605 98 22 28"
     },
     {
-      "titulo": "Piso en Calle Mossèn Reig, 24, Princep de Viana-Clot, Lleida",
-      "precio": "125.000€",
-      "ubicacion": "24, Princep de Viana-Clot, Lleida",
-      "habitaciones": "3 hab.",
-      "metros": "100 m²",
-      "url": "https://www.idealista.com/inmueble/109419441/",
-      "descripcion": "Vistas del comedor a la plaza \"Clot de les Granotes\". El gasto en el consumo de agua va incluido en la cuota mensual de la comunidad de vecinos. Vivienda V. P. O. hasta 2030.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988777",
-      "portal": "Idealista",
-      "telefono": "670 64 76 61"
-    },
-    {
-      "titulo": "Chalet adosado en Calle Lladonosa Pujol, 49, Alguaire",
-      "precio": "240.000€",
-      "ubicacion": "49, Alguaire",
-      "habitaciones": "4 hab.",
-      "metros": "300 m²",
-      "url": "https://www.idealista.com/inmueble/109843565/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988787",
-      "portal": "Idealista",
-      "telefono": "696 64 97 64"
-    },
-    {
       "titulo": "Piso en Calle Folch i Torres, 1, Princep de Viana-Clot, Lleida",
       "precio": "159.000€",
       "ubicacion": "1, Princep de Viana-Clot, Lleida",
@@ -861,19 +731,6 @@
       "fecha_scraping": "2026-02-15T12:25:44.988797",
       "portal": "Idealista",
       "telefono": "665 68 79 69"
-    },
-    {
-      "titulo": "Dúplex en Calle Maials, 16, La Bordeta, Lleida",
-      "precio": "206.000€",
-      "ubicacion": "16, La Bordeta, Lleida",
-      "habitaciones": "3 hab.",
-      "metros": "101 m²",
-      "url": "https://www.idealista.com/inmueble/109797813/",
-      "descripcion": "Precioso ático dúplex completamente equipado, con una amplia terraza y vistas impresionantes.\nSituado en una tranquila zona residencial junto al Parc de l’Aigua, este ático ofrece un ambiente luminoso, cómodo y lleno de encanto, listo para entrar a vivir.\nEn la planta principal encontramos una cocina independiente, una",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988807",
-      "portal": "Idealista",
-      "telefono": "605 88 33 11"
     },
     {
       "titulo": "Finca rústica en llitera, 1, Aitona",
@@ -939,19 +796,6 @@
       "fecha_scraping": "2026-02-15T12:25:44.988855",
       "portal": "Idealista",
       "telefono": "670 43 40 44"
-    },
-    {
-      "titulo": "Piso en Paseo de l'Onze de Setembre, 129, Mariola, Lleida",
-      "precio": "41.000€",
-      "ubicacion": "129, Mariola, Lleida",
-      "habitaciones": "3 hab.",
-      "metros": "140 m²",
-      "url": "https://www.idealista.com/inmueble/109604992/",
-      "descripcion": "Torre de 3 habitaciones con terreno a 10 minutos del centro de Lleida. La vivienda está bien conservada y tiene terreno alrededor para disfrutar de la naturaleza con tranquilidad y en un enclave muy bien comunicado. La calefacción es eléctrica. Ofrece muchas posibilidades de futuro para el próximo propietario.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988864",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Calle Príncep de Viana, 30, Princep de Viana-Clot, Lleida",
@@ -1043,19 +887,6 @@
       "fecha_scraping": "2026-02-15T12:25:44.988934",
       "portal": "Idealista",
       "telefono": "614 00 81 58"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Partida Canet, 31, Gualda",
-      "precio": "395.000€",
-      "ubicacion": "31, Gualda",
-      "habitaciones": "5 hab.",
-      "metros": "339 m²",
-      "url": "https://www.idealista.com/inmueble/109452097/",
-      "descripcion": "Casa con piscina y terreno a 5 min de Lleida – 5 habitaciones, 3 baños y gran parking\nSe vende casa en una tranquila partida rural a tan solo 5 minutos del centro de Lleida. Ideal para quienes buscan espacio, naturaleza y comodidad cerca de la ciudad.\nCaracterísticas principales:\n5 habitaciones amplias y luminosas",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.988944",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Avenida de Catalunya, 49, Alfarrás",
@@ -1188,19 +1019,6 @@
       "telefono": "640 79 73 49"
     },
     {
-      "titulo": "Piso en Calle Tallada, 31, Centre Històric, Lleida",
-      "precio": "125.000€",
-      "ubicacion": "31, Centre Històric, Lleida",
-      "habitaciones": "2 hab.",
-      "metros": "62 m²",
-      "url": "https://www.idealista.com/inmueble/29350463/",
-      "descripcion": "Se vende bonito apartamento en el centro de la ciudad de 2 habitaciones, a 100 metros del rectorado y a 10 min del campus. Totalmente equidado de muebles y electrodomesticos, lavadora, lavaplatos, microondas, horno, TV LCD en comedor y TV en habitacion, Aire acondicionado, cocina independiente y baño equipado, suelo de",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.989062",
-      "portal": "Idealista",
-      "telefono": "626 96 73 58"
-    },
-    {
       "titulo": "Dúplex en Calle Príncep de Viana, 73, Princep de Viana-Clot, Lleida",
       "precio": "182.000€",
       "ubicacion": "73, Princep de Viana-Clot, Lleida",
@@ -1331,19 +1149,6 @@
       "telefono": "646 91 62 61"
     },
     {
-      "titulo": "Piso en Calle Enric Farreny, 61, Ciutat Jardí, Lleida",
-      "precio": "377.000€",
-      "ubicacion": "61, Ciutat Jardí, Lleida",
-      "habitaciones": "2 hab.",
-      "metros": "99 m²",
-      "url": "https://www.idealista.com/inmueble/108382785/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.989170",
-      "portal": "Idealista",
-      "telefono": "602 57 69 77"
-    },
-    {
       "titulo": "Piso en Calle Príncep de Viana, 5, Princep de Viana-Clot, Lleida",
       "precio": "120.000€",
       "ubicacion": "5, Princep de Viana-Clot, Lleida",
@@ -1394,32 +1199,6 @@
       "fecha_scraping": "2026-02-15T12:25:44.989209",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Trullets, 32, Almenar",
-      "precio": "90.000€",
-      "ubicacion": "32, Almenar",
-      "habitaciones": "3 hab.",
-      "metros": "79 m²",
-      "url": "https://www.idealista.com/inmueble/107694743/",
-      "descripcion": "Mucha luminosidad, da el sol por la mañana en el frontal y por la tarde en la terraza. En invierno no hace falta mucho la calefacción y en verano corre el aire, hay corriente. Vecinos muy tranquilos. Está nuevo. Está con muebles los que queden en el momento de la venta de los puede quedar el cliente o los puede deshech",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.989218",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Sant Hilari, 12, Camp d'Esports, Lleida",
-      "precio": "525.000€",
-      "ubicacion": "12, Camp d'Esports, Lleida",
-      "habitaciones": "8 hab.",
-      "metros": "300 m²",
-      "url": "https://www.idealista.com/inmueble/107419912/",
-      "descripcion": "Casa Unifamiliar Amueblada de 2 plantas de viviendas, Locales, Parquing y una Terraza Superior + Trasteros reformada para entrar a vivir compuesta por:\n1 Piso de 100m2\n2 Apartamentos de 50m2 cada uno\n2 Locales de 50m2 cada uno\n1 Almacen de 25m2\n1 Terraza Superior abierta de 50m2\n3 Trasteros superiores de 50m2\n1 Parqui",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.989228",
-      "portal": "Idealista",
-      "telefono": "659 99 53 85"
     },
     {
       "titulo": "Piso en Calle Mossèn Ferran, 5, Serós",
@@ -1474,19 +1253,6 @@
       "telefono": "603 42 50 55"
     },
     {
-      "titulo": "Chalet pareado en Alandir, 21, Balafia, Lleida",
-      "precio": "110.000€",
-      "ubicacion": "21, Balafia, Lleida",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/106243717/",
-      "descripcion": "posibilidad de comprar solar anexo de\n276 m2, libre de construcción, del mismo propietario.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.989277",
-      "portal": "Idealista",
-      "telefono": "619 04 24 10"
-    },
-    {
       "titulo": "Piso en Avenida de Lleida, 131, Torrefarrera",
       "precio": "126.000€",
       "ubicacion": "131, Torrefarrera",
@@ -1524,19 +1290,6 @@
       "fecha_scraping": "2026-02-15T12:25:44.989307",
       "portal": "Idealista",
       "telefono": "630 03 26 03"
-    },
-    {
-      "titulo": "Ático en Avenida Alcalde Porqueres, 91, Balafia, Lleida",
-      "precio": "189.000€",
-      "ubicacion": "91, Balafia, Lleida",
-      "habitaciones": "3 hab.",
-      "metros": "185 m²",
-      "url": "https://www.idealista.com/inmueble/106003864/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:25:44.989316",
-      "portal": "Idealista",
-      "telefono": "667 49 29 31"
     },
     {
       "titulo": "Dúplex en Calle Joan Culleré, 3, Pardinyes, Lleida",

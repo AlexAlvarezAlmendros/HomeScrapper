@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T12:04:14.094041",
   "ubicacion": "Terra Alta",
   "url": "https://www.idealista.com/venta-viviendas/tarragona/terra-alta/?ordenado-por=fecha-publicacion-desc",
-  "total": 36,
+  "total": 32,
   "viviendas": [
     {
       "titulo": "Finca rústica en Calle Villalba dels arcs, s/n, Vilalba Dels Arcs",
@@ -109,19 +109,6 @@
       "telefono": null
     },
     {
-      "titulo": "Casa de pueblo en Calle de Bot, 34, Prat de Comte",
-      "precio": "45.000€",
-      "ubicacion": "34, Prat de Comte",
-      "habitaciones": "2 hab.",
-      "metros": "100 m²",
-      "url": "https://www.idealista.com/inmueble/110163211/",
-      "descripcion": "Particular vende Casa carrer Bot 36 de Prat de Comte, superficie 112m2, suministros de alta, cedula y certf energetico actualizados, casa de 3 plantas con garage pequeño, entrada a salon-comedor y cocina, 2ª planta con habitacion doble y baño completo, 3ª planta habitacion y aseo. (Si interesa se oferta la venta conjun",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:24:29.596724",
-      "portal": "Idealista",
-      "telefono": "611 21 53 30"
-    },
-    {
       "titulo": "Masía en Camino Batea, s/n, Batea",
       "precio": "42.000€",
       "ubicacion": "s/n, Batea",
@@ -213,19 +200,6 @@
       "telefono": null
     },
     {
-      "titulo": "Casa de pueblo en Calle de Colomer, 39, La Pobla de Massaluca",
-      "precio": "90.000€",
-      "ubicacion": "39, La Pobla de Massaluca",
-      "habitaciones": "3 hab.",
-      "metros": "248 m²",
-      "url": "https://www.idealista.com/inmueble/108022940/",
-      "descripcion": "Casa reformada todo cambiado instalaciones eléctricas, agua, desagües. parquet, calefacción en toda casa, cocina Nueba, baños nuevos puertas, pintura, ventanas, puerta calle, amueblada y equipada. tiene 3 habitaciones reformadas. posibilidad de hacer alguna más tiene altillo de 50 metros a reformar y bodega de 50 metro",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:24:29.596804",
-      "portal": "Idealista",
-      "telefono": "655 65 51 85"
-    },
-    {
       "titulo": "Casa de pueblo en Calle la Pau, 10, La Fatarella",
       "precio": "85.000€",
       "ubicacion": "10, La Fatarella",
@@ -265,19 +239,6 @@
       "telefono": "609 50 56 27"
     },
     {
-      "titulo": "Casa de pueblo en Plaza ď Espanya, 14, Batea",
-      "precio": "80.000€",
-      "ubicacion": "14, Batea",
-      "habitaciones": "5 hab.",
-      "metros": "500 m²",
-      "url": "https://www.idealista.com/inmueble/107576826/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:24:29.596844",
-      "portal": "Idealista",
-      "telefono": "626 31 49 49"
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle del Torrelló, 17, Batea",
       "precio": "75.000€",
       "ubicacion": "17, Batea",
@@ -289,19 +250,6 @@
       "fecha_scraping": "2026-02-16T18:24:29.596854",
       "portal": "Idealista",
       "telefono": "678 33 21 78"
-    },
-    {
-      "titulo": "Piso en Major, 28, Corbera d'Ebre",
-      "precio": "79.000€",
-      "ubicacion": "28, Corbera d'Ebre",
-      "habitaciones": "3 hab.",
-      "metros": "113 m²",
-      "url": "https://www.idealista.com/inmueble/106828617/",
-      "descripcion": "Vivienda en edificio singular, de 113 metros cuadrados más patio.\nTiene un amplio vestíbulo, espaciosa cocina y gran sala comedor, 3 habitaciones con armarios empotrados de gran capacidad, lavadero y 2 cuartos de baño. Ventanas de aluminio de doble acristalamiento.\nTodo exterior, con buenas vistas y mucha claridad.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:24:29.596864",
-      "portal": "Idealista",
-      "telefono": "687 34 19 64"
     },
     {
       "titulo": "Finca rústica en n-420, s/n, Gandesa",

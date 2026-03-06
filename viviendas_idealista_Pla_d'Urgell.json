@@ -2,21 +2,8 @@
   "timestamp": "2026-03-04T11:46:29.396578",
   "ubicacion": "Pla d'Urgell",
   "url": "https://www.idealista.com/venta-viviendas/lleida/pla-d-urgell/?ordenado-por=fecha-publicacion-desc",
-  "total": 30,
+  "total": 25,
   "viviendas": [
-    {
-      "titulo": "Piso en Calle Marius Torres, 12, El Palau d'Anglesola",
-      "precio": "120.000€",
-      "ubicacion": "12, El Palau d'Anglesola",
-      "habitaciones": "3 hab.",
-      "metros": "114 m²",
-      "url": "https://www.idealista.com/inmueble/110803926/",
-      "descripcion": "Nueva promoción de 41 pisos ecosostenibles en El Palau D´Anglesola, a menos de 1 minuto de la autovía a2. De momento tenemos 5 vendidos. Los podéis configurar a la carta.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-03-04T11:46:29.396198",
-      "portal": "Idealista",
-      "telefono": null
-    },
     {
       "titulo": "Piso en Avenida de la Pau, 1, Mollerussa",
       "precio": "169.000€",
@@ -27,19 +14,6 @@
       "descripcion": "",
       "anunciante": "Particular",
       "fecha_scraping": "2026-03-04T11:46:29.396221",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa de pueblo en Calle Zulueta, 17, Torregrossa",
-      "precio": "35.000€",
-      "ubicacion": "17, Torregrossa",
-      "habitaciones": "5 hab.",
-      "metros": "200 m²",
-      "url": "https://www.idealista.com/inmueble/110641624/",
-      "descripcion": "OPORTUNIDAD EN TORREGROSSA – CASA CON GRAN POTENCIAL\nSe vende casa para reformar en Torregrossa, ubicada en una zona tranquila y con buena accesibilidad.\nLa vivienda dispone de aproximadamente 200 m² de terreno y cuenta con una característica muy atractiva:\n Entrada por dos calles, lo que ofrece múltiples posibili",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:54:00.948346",
       "portal": "Idealista",
       "telefono": null
     },
@@ -107,19 +81,6 @@
       "fecha_scraping": "2026-02-15T12:09:53.162023",
       "portal": "Idealista",
       "telefono": "696 09 20 22"
-    },
-    {
-      "titulo": "Dúplex en Calle de Ferran Puig, 10, Mollerussa",
-      "precio": "180.000€",
-      "ubicacion": "10, Mollerussa",
-      "habitaciones": "3 hab.",
-      "metros": "164 m²",
-      "url": "https://www.idealista.com/inmueble/109453236/",
-      "descripcion": "**Dúplex en Venta en Mollerussa - ¡Tu nuevo hogar te espera! **\nDescubre este impresionante dúplex de 164 m² construidos, situado en la tercera planta de un edificio con ascensor, en una de las zonas más deseadas de Mollerussa. Este hogar destaca por su luminoso salón comedor, perfecto para disfrutar de momentos en fa",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:09:53.162039",
-      "portal": "Idealista",
-      "telefono": "691 50 88 05"
     },
     {
       "titulo": "Casa o chalet independiente en Calle de Golmés, 3, Mollerussa",
@@ -291,19 +252,6 @@
       "telefono": "662 65 37 20"
     },
     {
-      "titulo": "Piso en Calle Urgell, 4, Mollerussa",
-      "precio": "90.000€",
-      "ubicacion": "4, Mollerussa",
-      "habitaciones": "3 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/103424731/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:09:53.162179",
-      "portal": "Idealista",
-      "telefono": "682 87 53 10"
-    },
-    {
       "titulo": "Chalet pareado en Carretera de Mollerussa, 1, Torregrossa",
       "precio": "140.000€",
       "ubicacion": "1, Torregrossa",
@@ -380,19 +328,6 @@
       "fecha_scraping": "2026-02-15T12:09:53.162236",
       "portal": "Idealista",
       "telefono": "607 60 67 48"
-    },
-    {
-      "titulo": "Dúplex en Calle Montsec, 10, Mollerussa",
-      "precio": "75.000€",
-      "ubicacion": "10, Mollerussa",
-      "habitaciones": "2 hab.",
-      "metros": "77 m²",
-      "url": "https://www.idealista.com/inmueble/25084156/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:09:53.162246",
-      "portal": "Idealista",
-      "telefono": "605 94 88 59"
     }
   ]
 }

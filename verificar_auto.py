@@ -35,6 +35,7 @@ import logging
 import argparse
 import subprocess
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeout
 from datetime import datetime
 
 try:
@@ -73,7 +74,7 @@ MAX_REINTENTOS = 3
 
 # Refrescar la página cada N evaluate() para evitar heap growth de Playwright
 # (Playwright GC-colecta el page object tras miles de evaluate() acumulados)
-REFRESH_PAGE_EVERY = 150
+REFRESH_PAGE_EVERY = 50
 
 # Guardar resultados intermedios cada N archivos procesados
 SAVE_EVERY_N_FILES = 5
@@ -233,9 +234,19 @@ class ProtonVPNRotator:
                 time.sleep(pausa)
 
     def cleanup(self) -> None:
-        """Desconectar VPN al terminar el script."""
+        """Desconectar VPN al terminar el script (resistente a Ctrl+C)."""
         if self._vpn_activa:
-            self.desconectar()
+            try:
+                self.desconectar()
+            except (KeyboardInterrupt, SystemExit):
+                # Forzar desconexión aunque el usuario pulse Ctrl+C
+                try:
+                    subprocess.run(['protonvpn', 'disconnect'],
+                                   capture_output=True, timeout=10)
+                except Exception:
+                    pass
+            except Exception:
+                pass
 
 # ─── Logging ──────────────────────────────────────────────────────────────────
 
@@ -534,18 +545,29 @@ class CDPSession:
     def refresh_page(self) -> None:
         """Navega a about:blank para liberar contextos JS acumulados.
 
-        Cada page.evaluate() crea un execution context en V8 que Playwright
-        rastrea internamente. Tras cientos de llamadas, el heap crece hasta
-        que Playwright GC-colecta el object → crash.
+        Cada page.evaluate()/page.goto() crea un execution context en V8 que
+        Playwright rastrea internamente. Tras decenas de llamadas, el heap crece
+        hasta que Playwright GC-colecta el object → crash o bloqueo.
         Navegar a about:blank destruye todos esos contextos de golpe.
         """
         log.info('Refrescando pagina para liberar memoria JS '
                  '(eval_count=%d)...', self._eval_count)
-        try:
+
+        def _do_blank():
             self.page.goto('about:blank', timeout=10000, wait_until='load')
+
+        try:
+            with ThreadPoolExecutor(max_workers=1) as pool:
+                future = pool.submit(_do_blank)
+                future.result(timeout=15)  # timeout externo de seguridad
             time.sleep(1)
+        except FuturesTimeout:
+            log.warning('refresh_page: timeout — la pagina ya esta bloqueada, '
+                        'intentando recuperar...')
+            self._recover_page()
+            return
         except Exception as e:
-            log.debug('Error navegando a about:blank: %s', e)
+            log.debug('Error en refresh_page: %s', e)
         self._eval_count = 0
         self._current_portal = None  # forzar re-navegación al portal
 
@@ -555,65 +577,121 @@ class CDPSession:
             self.refresh_page()
 
     def _recover_page(self) -> bool:
-        """Intenta recuperar una página funcional tras GC de Playwright.
+        """Recupera la conexión tras GC/crash de Playwright.
 
-        Obtiene una nueva referencia a página del contexto del navegador.
-        Si falla, intenta reconectar al navegador vía CDP.
+        Cuando Playwright GC-colecta el page object, toda la conexión interna
+        queda corrupta: ctx.new_page() se cuelga indefinidamente.
+        La ÚNICA solución fiable es destruir la instancia de Playwright
+        completa y reconectar desde cero vía CDP.
         """
-        log.warning('Intentando recuperar pagina tras error de heap...')
+        log.warning('Intentando recuperar conexion completa (playwright restart)...')
+
+        # 1. Cerrar la conexión Playwright actual (sin tocar Chrome)
         try:
-            contexts = self._browser.contexts
-            if contexts:
-                ctx = contexts[0]
-            else:
-                ctx = self._browser.new_context(
+            if self._browser:
+                self._browser.close()
+        except Exception:
+            pass
+        try:
+            if self._playwright:
+                self._playwright.stop()
+        except Exception:
+            pass
+        self._browser = None
+        self._playwright = None
+        self.page = None
+        time.sleep(2)
+
+        # 2. Crear nueva instancia de Playwright y reconectar CDP
+        #    Usamos un thread con timeout para evitar cuelgues
+        port = self._port_used or CHROME_DEBUG_PORT
+
+        def _reconnect():
+            pw = _sync_playwright().start()
+            browser = pw.chromium.connect_over_cdp(
+                f'http://localhost:{port}'
+            )
+            contexts = browser.contexts
+            ctx = (
+                contexts[0] if contexts
+                else browser.new_context(
                     viewport={'width': 1366, 'height': 768},
                     locale='es-ES',
                     timezone_id='Europe/Madrid',
                 )
+            )
             pages = ctx.pages
-            # Crear nueva pestaña (la vieja puede estar corrupta)
-            self.page = ctx.new_page()
-            self.page.add_init_script(
-                "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+            page = pages[0] if pages else ctx.new_page()
+            page.add_init_script(
+                "Object.defineProperty(navigator, 'webdriver', "
+                "{get: () => undefined})"
             )
-            self._eval_count = 0
-            self._current_portal = None
-            log.info('Pagina recuperada correctamente (nueva pestaña).')
-            # Cerrar pestañas viejas para liberar memoria
-            for p in pages:
-                try:
-                    p.close()
-                except Exception:
-                    pass
-            return True
-        except Exception as e:
-            log.error('Fallo al recuperar pagina desde contexto: %s', e)
+            return pw, browser, page
 
-        # Último recurso: reconectar al navegador
-        log.warning('Reintentando reconexion CDP completa...')
         try:
-            port = self._port_used or CHROME_DEBUG_PORT
-            self._browser = self._playwright.chromium.connect_over_cdp(
-                f'http://localhost:{port}'
-            )
-            contexts = self._browser.contexts
-            ctx = contexts[0] if contexts else self._browser.new_context(
-                viewport={'width': 1366, 'height': 768},
-                locale='es-ES',
-                timezone_id='Europe/Madrid',
-            )
-            self.page = ctx.new_page()
-            self.page.add_init_script(
-                "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-            )
+            with ThreadPoolExecutor(max_workers=1) as pool:
+                future = pool.submit(_reconnect)
+                pw, browser, page = future.result(timeout=30)
+
+            self._playwright = pw
+            self._browser = browser
+            self.page = page
             self._eval_count = 0
             self._current_portal = None
-            log.info('Reconexion CDP exitosa.')
+            log.info('Reconexion CDP completa exitosa.')
             return True
-        except Exception as e2:
-            log.error('Reconexion CDP fallida: %s', e2)
+
+        except FuturesTimeout:
+            log.error('Reconexion CDP: timeout de 30s — Chrome no responde.')
             return False
+        except Exception as e:
+            log.error('Reconexion CDP fallida: %s', e)
+            return False
+
+    def safe_goto(self, url: str, timeout_ms: int = 30000,
+                  wait_until: str = 'domcontentloaded'):
+        """page.goto() con timeout externo para evitar bloqueos por heap GC.
+
+        Cuando Playwright GC-colecta el page object, page.goto() NO lanza
+        excepción — simplemente se bloquea para siempre esperando una respuesta
+        que nunca llega. Este wrapper ejecuta goto() en un thread con timeout
+        de Python, de forma que si tarda más de (timeout_ms + 5s) se aborta.
+
+        Raises:
+            RuntimeError si se detecta heap GC o timeout externo.
+            Exception para otros errores de navegación.
+        """
+        self.maybe_refresh()
+
+        outer_timeout = (timeout_ms / 1000) + 8  # segundos
+
+        def _do_goto():
+            return self.page.goto(url, timeout=timeout_ms, wait_until=wait_until)
+
+        try:
+            with ThreadPoolExecutor(max_workers=1) as pool:
+                future = pool.submit(_do_goto)
+                result = future.result(timeout=outer_timeout)
+            self._eval_count += 5  # goto = ~5 contextos JS
+            return result
+        except FuturesTimeout:
+            raise RuntimeError(
+                f'safe_goto: timeout externo ({outer_timeout:.0f}s) — '
+                'possible heap GC'
+            )
+        except Exception as e:
+            err_msg = str(e).lower()
+            is_heap = (
+                'has been collected' in err_msg or
+                'unbounded heap growth' in err_msg or
+                ('has no attribute' in err_msg and '_object' in err_msg) or
+                'cannot switch to a different thread' in err_msg
+            )
+            if is_heap:
+                raise RuntimeError(
+                    f'safe_goto: heap GC detectado: {str(e)[:100]}'
+                ) from e
+            raise  # otros errores (timeout playwright, red, etc.) → propagar
 
     def safe_evaluate(self, js_code: str, arg=None):
         """page.evaluate() con refresh preventivo y recuperación ante GC.
@@ -644,11 +722,15 @@ class CDPSession:
                 is_gc_error = (
                     'has been collected' in err_msg or
                     'unbounded heap growth' in err_msg or
-                    'has no attribute' in err_msg and '_object' in err_msg or
+                    ('has no attribute' in err_msg and '_object' in err_msg) or
                     'target page, context or browser has been closed' in err_msg
                 )
-                if is_gc_error:
-                    log.warning('Error de heap en evaluate (intento %d/3): %s',
+                is_thread_error = (
+                    'cannot switch to a different thread' in err_msg or
+                    'which happens to have exited' in err_msg
+                )
+                if is_gc_error or is_thread_error:
+                    log.warning('Error de conexion en evaluate (intento %d/3): %s',
                                 intento + 1, str(e)[:120])
                     if self._recover_page():
                         # Re-navegar al portal antes de reintentar
@@ -657,7 +739,7 @@ class CDPSession:
                         continue
                     else:
                         raise RuntimeError(
-                            'No se pudo recuperar la pagina tras error de heap'
+                            'No se pudo recuperar la pagina tras error de heap/thread'
                         ) from e
                 else:
                     # Error no relacionado con GC — propagar
@@ -727,38 +809,8 @@ _JS_FETCH_IDEALISTA = """
     }
 """
 
-# Fotocasa: fetch con redirect:follow y comprobar URL final
-_JS_FETCH_FOTOCASA = """
-    async (url) => {
-        try {
-            const resp = await fetch(url, {
-                method: 'GET', credentials: 'include', redirect: 'follow'
-            });
-            const chunks = [];
-            const reader = resp.body.getReader();
-            let bytes = 0;
-            while (bytes < 2048) {
-                const { done, value } = await reader.read();
-                if (done) break;
-                chunks.push(value);
-                bytes += value.length;
-            }
-            reader.cancel();
-            const combined = new Uint8Array(bytes);
-            let off = 0;
-            for (const c of chunks) {
-                combined.set(c.slice(0, Math.min(c.length, bytes - off)), off);
-                off += c.length;
-            }
-            const start = new TextDecoder().decode(combined);
-            const blocked = start.includes('SENTIMOS') ||
-                            start.includes('onProtectionInitialized');
-            return (blocked ? 'BLOCKED:' : 'OK:') + resp.url;
-        } catch(e) {
-            return 'FETCH_ERROR:' + e.toString();
-        }
-    }
-"""
+# Fotocasa: ya no usa fetch JS — usa page.goto() directa (ver verificar_fotocasa)
+# Reese84 bloquea fetch() pero la navegación real del browser pasa siempre.
 
 
 # ─── Funciones de verificación ─────────────────────────────────────────────────
@@ -773,8 +825,30 @@ def verificar_idealista(url: str, page, cdp_session=None) -> bool:
             else:
                 result = page.evaluate(_JS_FETCH_IDEALISTA, url)
         except RuntimeError as e:
-            log.error('Error irrecuperable evaluando JS para %s: %s', url, e)
-            raise  # propagar para que el bucle principal maneje
+            # Error irrecuperable (heap/thread) — pausar para captcha manual
+            log.error('Error de conexion irrecuperable: %s', e)
+            log.warning('=' * 60)
+            log.warning('ATENCION: La conexion con el navegador se ha roto.')
+            log.warning('Posible captcha de Cloudflare pendiente.')
+            log.warning('1. Revisa el navegador Chrome y resuelve el captcha')
+            log.warning('2. Pulsa ENTER aqui para continuar')
+            log.warning('=' * 60)
+            try:
+                input('>>> Pulsa ENTER cuando hayas resuelto el captcha... ')
+            except EOFError:
+                # Si estamos en un entorno sin stdin (cron), esperar y reintentar
+                log.warning('Sin terminal interactivo — esperando %ds...', CLOUDFLARE_WAIT_MAX)
+                time.sleep(CLOUDFLARE_WAIT_MAX)
+            # Reconectar tras la pausa
+            if cdp_session and cdp_session._recover_page():
+                log.info('Conexion recuperada tras pausa manual.')
+                cdp_session._current_portal = None
+                cdp_session.asegurar_contexto('idealista', force=True)
+                time.sleep(3)
+                continue  # reintentar esta URL
+            else:
+                log.error('No se pudo reconectar — marcando como activa (conservador).')
+                return True
         except Exception as e:
             log.debug('Error evaluando JS para %s: %s', url, e)
             return True  # conservador
@@ -818,49 +892,135 @@ def verificar_idealista(url: str, page, cdp_session=None) -> bool:
     return True
 
 
+def _fotocasa_esta_bloqueada(page) -> bool:
+    """Comprueba si la página actual muestra un challenge Reese84."""
+    try:
+        html = page.content()[:4000]
+    except Exception:
+        return False
+    return ('LO SENTIMOS' in html or
+            'SENTIMOS' in html or
+            'onProtectionInitialized' in html or
+            'challenge-platform' in html.lower())
+
+
+def _fotocasa_esperar_challenge(page, max_wait: int = 20) -> bool:
+    """Espera a que el challenge Reese84 se resuelva solo.
+
+    Fotocasa usa un JS challenge que normalmente se auto-resuelve en 3-10s.
+    Retorna True si se desbloqueó, False si sigue bloqueado tras max_wait.
+    """
+    inicio = time.time()
+    while time.time() - inicio < max_wait:
+        time.sleep(3)
+        if not _fotocasa_esta_bloqueada(page):
+            return True
+    return False
+
+
 def verificar_fotocasa(url: str, page, cdp_session=None) -> bool:
-    """Verifica URL de Fotocasa via redirect check. Retorna True=activa, False=descatalogada."""
+    """Verifica URL de Fotocasa via navegación directa (page.goto).
+
+    Reese84 bloquea las peticiones fetch() programáticas, pero la navegación
+    real del browser pasa el anti-bot casi siempre. Si aparece el challenge
+    JS, esperamos a que se auto-resuelva (normalmente 3-10s).
+
+    Retorna True=activa, False=descatalogada.
+    """
     for intento in range(MAX_REINTENTOS):
+        # Refresh preventivo para evitar heap growth (igual que safe_evaluate)
+        if cdp_session:
+            cdp_session.maybe_refresh()
+
         try:
             if cdp_session:
-                cdp_session.asegurar_contexto('fotocasa')
-                result = cdp_session.safe_evaluate(_JS_FETCH_FOTOCASA, url)
+                cdp_session.safe_goto(url)
             else:
-                result = page.evaluate(_JS_FETCH_FOTOCASA, url)
+                page.goto(url, timeout=30000, wait_until='domcontentloaded')
         except RuntimeError as e:
-            log.error('Error irrecuperable evaluando JS para %s: %s', url, e)
-            raise
-        except Exception as e:
-            log.debug('Error evaluando JS para %s: %s', url, e)
-            return True
-
-        if not result or result.startswith('FETCH_ERROR'):
-            log.debug('Fetch error para %s: %s', url, result)
-            return True
-
-        if result.startswith('BLOCKED:'):
-            log.warning('Bloqueado por Reese84 (intento %d/%d) — esperando...',
-                        intento + 1, MAX_REINTENTOS)
+            # Heap GC o timeout externo — intentar recuperación automática
+            log.warning('Error de heap en goto (intento %d/%d): %s',
+                        intento + 1, MAX_REINTENTOS, str(e)[:100])
+            if cdp_session and cdp_session._recover_page():
+                log.info('Conexion recuperada automaticamente.')
+                cdp_session._current_portal = None
+                page = cdp_session.page
+                time.sleep(2)
+                continue
+            # Recuperación automática falló — pedir intervención manual
+            log.warning('=' * 60)
+            log.warning('ATENCION: La conexion con el navegador se ha roto.')
+            log.warning('1. Revisa el navegador Chrome')
+            log.warning('2. Pulsa ENTER aqui para continuar')
+            log.warning('=' * 60)
             try:
-                page.goto('https://www.fotocasa.es/es/', timeout=25000,
-                          wait_until='domcontentloaded')
-            except Exception:
-                pass
-            time.sleep(random.uniform(15, 30))
-            continue
+                input('>>> Pulsa ENTER para continuar... ')
+            except EOFError:
+                time.sleep(60)
+            if cdp_session and cdp_session._recover_page():
+                cdp_session._current_portal = None
+                page = cdp_session.page
+                time.sleep(3)
+                continue
+            return True
+        except Exception as e:
+            log.debug('Error goto para %s: %s', url, e)
+            return True
 
-        # result = 'OK:{final_url}'
-        final_url = result[3:]
-        final_url_lower = final_url.lower()
+        # Breve espera para que la página cargue (NO networkidle, puede colgar)
+        time.sleep(2)
 
-        if 'propertynotfound' in final_url_lower:
+        # Si hay challenge Reese84, darle tiempo para resolver automáticamente
+        if _fotocasa_esta_bloqueada(page):
+            log.debug('Challenge Reese84 detectado, esperando auto-resolución...')
+            if _fotocasa_esperar_challenge(page, max_wait=25):
+                log.debug('Challenge Reese84 resuelto automáticamente.')
+            else:
+                log.warning('Bloqueado por Reese84 (intento %d/%d) — '
+                            'refrescando tokens...', intento + 1, MAX_REINTENTOS)
+                try:
+                    if cdp_session:
+                        cdp_session.safe_goto('https://www.fotocasa.es/es/',
+                                              timeout_ms=20000)
+                    else:
+                        page.goto('https://www.fotocasa.es/es/', timeout=20000,
+                                  wait_until='domcontentloaded')
+                except Exception:
+                    pass
+                time.sleep(5)
+                if _fotocasa_esta_bloqueada(page):
+                    _fotocasa_esperar_challenge(page, max_wait=25)
+                time.sleep(random.uniform(3, 6))
+                continue
+
+        # Comprobar URL final tras redirects + posible resolución de challenge
+        try:
+            final_url = page.url.lower()
+        except Exception:
+            return True
+
+        # Descatalogada: redirige a /propertynotfound o a listado genérico
+        if 'propertynotfound' in final_url:
             return False
-        if '/vivienda/' in url.lower() and '/viviendas/' in final_url_lower:
+        if '/vivienda/' in url.lower() and '/viviendas/' in final_url:
             return False
+
+        # Si la URL final contiene el ID original → activa
         id_match = re.search(r'/([0-9]{6,})/d', url)
         if id_match and id_match.group(1) in final_url:
             return True
-        return False
+
+        # Chequear contenido HTML como fallback
+        try:
+            html_check = page.content()[:5000].lower()
+        except Exception:
+            return True
+
+        if 'propertynotfound' in html_check or 'no encontrado' in html_check:
+            return False
+
+        # Llegamos aquí = probablemente activa
+        return True
 
     log.warning('Reintentos agotados para %s — marcando como activa.', url)
     return True
@@ -1115,11 +1275,11 @@ def ejecutar_verificacion(args) -> int:
                 try:
                     activo = verificar_fn(url, cdp.page, cdp_session=cdp)
                 except RuntimeError as e:
-                    # Error irrecuperable de heap — abortar vivienda pero seguir
-                    log.error('  [%d/%d] ERROR heap irrecuperable: %s — saltando vivienda',
-                              j, n_viviendas, e)
+                    # Ultimo recurso: la reconexion fallo incluso tras pausa manual
+                    log.error('  [%d/%d] ERROR irrecuperable: %s', j, n_viviendas, e)
+                    log.warning('Marcando vivienda como activa (conservador) y continuando.')
                     stats['errores'] += 1
-                    continue
+                    activo = True
 
                 stats['verificadas'] += 1
 

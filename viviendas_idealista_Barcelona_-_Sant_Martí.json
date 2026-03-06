@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:11:26.166609",
   "ubicacion": "Barcelona - Sant Martí",
   "url": "https://www.idealista.com/venta-viviendas/barcelona/sant-marti/?ordenado-por=fecha-publicacion-desc",
-  "total": 66,
+  "total": 54,
   "viviendas": [
     {
       "titulo": "Piso en Calle de Conca, 44, El Camp de l'Arpa del Clot, Barcelona",
@@ -135,19 +135,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle d'Alcamo, 7, El Besòs, Barcelona",
-      "precio": "210.000€",
-      "ubicacion": "7, El Besòs, Barcelona",
-      "habitaciones": "2 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/99440192/",
-      "descripcion": "Se vende piso de dos habitaciones y un baño. Salón amplio, con calefacción y aire acondicionado.\nBarrio tranquilo cerca del mar, muy bien localizado frente a metro línea 4-Besos Mar, tranvía y autobuses. Todos los servicios cercanos: gimnasio, supermercados, CAP, centro cívico Besos Mar, centro comercial Diagonal Mar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T10:58:16.874148",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle de Pujades, 10, El Parc i la Llacuna del Poblenou, Barcelona",
       "precio": "515.000€",
       "ubicacion": "10, El Parc i la Llacuna del Poblenou, Barcelona",
@@ -159,19 +146,6 @@
       "fecha_scraping": "2026-02-16T16:32:21.797858",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Finca rústica en Calle de la Indústria, 256, El Camp de l'Arpa del Clot, Barcelona",
-      "precio": "240.000€",
-      "ubicacion": "256, El Camp de l'Arpa del Clot, Barcelona",
-      "habitaciones": "1 hab.",
-      "metros": "45 m²",
-      "url": "https://www.idealista.com/inmueble/110323945/",
-      "descripcion": "CASA INDEPENDIENTE EN LA SAGRADA FAMILIA.\nDIRECTO DEL PROPIETARIO, SIN COMISIONES\n¡Abstenerse Agencias!\nwapshap o llamar gracias\nCasa de 2 plantas con terraza a reformar de 45m2. ideal para reformar a tu gusto en una de las mejores zonas de la sagrada familia, a 2 minutos del hospital de San Pau.\nplanta baja con ent",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027265",
-      "portal": "Idealista",
-      "telefono": "697 87 43 95"
     },
     {
       "titulo": "Piso en Calle de la Marina, 87, El Parc i la Llacuna del Poblenou, Barcelona",
@@ -239,71 +213,6 @@
       "telefono": "669 95 50 93"
     },
     {
-      "titulo": "Piso en El Poblenou, Barcelona",
-      "precio": "1.075.000€",
-      "ubicacion": "Barcelona",
-      "habitaciones": "4 hab.",
-      "metros": "220 m²",
-      "url": "https://www.idealista.com/inmueble/103581576/",
-      "descripcion": "ÚLTIMA VIVIENDA, exclusiva propiedad en planta baja con piscina independiente\nNOTA: solo para personas que realmente quieran adquirir una propiedad singular en el poblenou, ya que las realiza la misma persona que la vende, y se realizan con su equipo de siempre a todo detalle de cuidados\na tan solo 300 metros de la p",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027345",
-      "portal": "Idealista",
-      "telefono": "615 64 67 80"
-    },
-    {
-      "titulo": "Dúplex en Calle de Guipúscoa, 172, La Verneda i la Pau, Barcelona",
-      "precio": "425.000€",
-      "ubicacion": "172, La Verneda i la Pau, Barcelona",
-      "habitaciones": "4 hab.",
-      "metros": "145 m²",
-      "url": "https://www.idealista.com/inmueble/110462323/",
-      "descripcion": "Vivienda duplex distribuida en primera planta recibidor, aseo, cocina amplia, comedor amplio, terraza y trastero, en segunda planta 4 habitaciones (3dobles y una normal con balcón) lavabo, trastero y altillo, las dos plantas con parket. Detector de humos en ambas plantas. Por favor abstenerse inmobiliarias, gracias.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027355",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle del Taulat, 35, El Poblenou, Barcelona",
-      "precio": "415.000€",
-      "ubicacion": "35, El Poblenou, Barcelona",
-      "habitaciones": "2 hab.",
-      "metros": "49 m²",
-      "url": "https://www.idealista.com/inmueble/110458665/",
-      "descripcion": "**DIRECTO PROPIETARIO**ABSTENERSE AGENCIAS INMOBILIARIAS**\nFANTÁSTICO piso de 45 m2 en VILA OLIMPICA BARCELONA, POBLENOU. Piso muy bien distribuido y aprovechado, piso exterior, luz todo el día. Sin edificios delante.\nA 100 metros de la playa. MUY LUMINOSO. Planta principal sin ascensor.\nConsta de 2 DORMITORIOS, uno",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027364",
-      "portal": "Idealista",
-      "telefono": "627 11 82 51"
-    },
-    {
-      "titulo": "Piso en Calle de Fluvià, 288, Sant Martí de Provençals, Barcelona",
-      "precio": "695.000€",
-      "ubicacion": "288, Sant Martí de Provençals, Barcelona",
-      "habitaciones": "1 hab.",
-      "metros": "143 m²",
-      "url": "https://www.idealista.com/inmueble/110432867/",
-      "descripcion": "Exclusivo dúplex moderno en venta en Carrer de Fluvià (Sant Martí), ubicado en una zona en plena expansión y con gran potencial de revalorización gracias a la futura estación del AVE en desarrollo.\nUna vivienda única por diseño, amplitud y espacio exterior privado, ideal tanto para vivir como para invertir.\n Distribu",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027374",
-      "portal": "Idealista",
-      "telefono": "613 46 01 59"
-    },
-    {
-      "titulo": "Piso en La Verneda i la Pau, Barcelona",
-      "precio": "359.000€",
-      "ubicacion": "Barcelona",
-      "habitaciones": "3 hab.",
-      "metros": "93 m²",
-      "url": "https://www.idealista.com/inmueble/108273715/",
-      "descripcion": "ABSTENERSE AGENCIAS, TRATO DIRECTO CON LA PROPIEDAD. Piso alto, amplio, muy luminoso, con vistas despejadas y muy bien conservado. Dispone de 3 habitaciones (2 dobles y 1 individual - antes 4, se amplió el comedor), 1 baño completo. Calefacción de gas. Aire acondicionado en el salón. Buen vecindario.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027384",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Ático en Rambla de prim, 32, El Besòs, Barcelona",
       "precio": "309.500€",
       "ubicacion": "32, El Besòs, Barcelona",
@@ -356,19 +265,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle Mallorca, 633, El Clot, Barcelona",
-      "precio": "450.000€",
-      "ubicacion": "633, El Clot, Barcelona",
-      "habitaciones": "2 hab.",
-      "metros": "55 m²",
-      "url": "https://www.idealista.com/inmueble/109598901/",
-      "descripcion": "Piso reformado de dos habitaciones.\ncuenta con balcón y terraza arriba.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027432",
-      "portal": "Idealista",
-      "telefono": "634 32 54 34"
-    },
-    {
       "titulo": "Piso en Calle de Llull, 350, Diagonal Mar i el Front Marítim del Poblenou, Barcelona",
       "precio": "950.000€",
       "ubicacion": "350, Diagonal Mar i el Front Marítim del Poblenou, Barcelona",
@@ -406,19 +302,6 @@
       "fecha_scraping": "2026-02-12T19:08:20.027462",
       "portal": "Idealista",
       "telefono": "623 10 17 79"
-    },
-    {
-      "titulo": "Piso en Calle de Pallars, 315, El Poblenou, Barcelona",
-      "precio": "359.000€",
-      "ubicacion": "315, El Poblenou, Barcelona",
-      "habitaciones": "2 hab.",
-      "metros": "50 m²",
-      "url": "https://www.idealista.com/inmueble/107742195/",
-      "descripcion": "Piso muy luminoso, recién reformado y amueblado, listo para entrar a vivir.\nWe speak English | Compra directamente al propietario (abstenerse de contactar las agencias) | No pagarás comisiones de agencia | Todas las fotos son reales, no son renders. | La vivienda está disponible para entrar a vivir ya.\n> Acabados Pre",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027472",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Gran Via de les Corts Catalanes, 851, El Clot, Barcelona",
@@ -460,19 +343,6 @@
       "telefono": "640 15 53 84"
     },
     {
-      "titulo": "Piso en Rambla de Prim, 76, El Besòs, Barcelona",
-      "precio": "327.000€",
-      "ubicacion": "76, El Besòs, Barcelona",
-      "habitaciones": "3 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/110210550/",
-      "descripcion": "VENTA DIRECTA.\nUn piso totalmente reformado de 60 metros cuadrados con vistas al mar y montaña.\nMuy soleado.\nSe entrega con cocina equipada y electrodomésticos.\nEstá cerca de todos los servicios (metro, comercios, cap, universidades, etc)\nPara más información, contacta.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027511",
-      "portal": "Idealista",
-      "telefono": "667 19 07 73"
-    },
-    {
       "titulo": "Piso en El Poblenou, Barcelona",
       "precio": "449.000€",
       "ubicacion": "Barcelona",
@@ -510,32 +380,6 @@
       "fecha_scraping": "2026-02-12T19:08:20.027539",
       "portal": "Idealista",
       "telefono": "610 26 53 84"
-    },
-    {
-      "titulo": "Piso en Rambla del Poblenou, 93, El Poblenou, Barcelona",
-      "precio": "650.000€",
-      "ubicacion": "93, El Poblenou, Barcelona",
-      "habitaciones": "3 hab.",
-      "metros": "143 m²",
-      "url": "https://www.idealista.com/inmueble/110135650/",
-      "descripcion": "Descripción de la propiedad y de la ubicación\nEste edificio residencial está ubicado en plena Rambla con la mejor ubicación. Situado en una zona privilegiada de Barcelona, tiene fácil acceso a zonas verdes y la playa de la Mar Bella, así como a centros comerciales.\nLa vivienda, situada en el 7º piso, cuenta con 128m2",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027549",
-      "portal": "Idealista",
-      "telefono": "676 68 06 73"
-    },
-    {
-      "titulo": "Piso en Calle de Sardenya, 81, El Parc i la Llacuna del Poblenou, Barcelona",
-      "precio": "530.000€",
-      "ubicacion": "81, El Parc i la Llacuna del Poblenou, Barcelona",
-      "habitaciones": "4 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/110089731/",
-      "descripcion": "Piso exterior en planta 4 de 4 habitaciones + 2 WC y plaza amplia de parking en el mismo edificio.\nAire acondicionado.\nSe vende vacío o amueblado, con o sin electrodomésticos, a convenir.\nVenta urgente.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:08:20.027559",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Avenida Diagonal, 32, Diagonal Mar i el Front Marítim del Poblenou, Barcelona",

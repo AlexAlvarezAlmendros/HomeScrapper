@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:29:48.136079",
   "ubicacion": "Osona",
   "url": "https://www.idealista.com/venta-viviendas/barcelona/osona/?ordenado-por=fecha-publicacion-desc",
-  "total": 73,
+  "total": 61,
   "viviendas": [
     {
       "titulo": "Chalet adosado en Calle Barcelona, 3, Sant Pere de Torelló",
@@ -14,45 +14,6 @@
       "descripcion": "Se vende amplia casa adosada de 180 m² en tres plantas edificada sobre parcela de 120 m2 en Sant Pere de Torelló, (Norte de Osona)\nConstruida en 1992 y reformada en 2021, está lista para entrar a vivir, sin necesidad de reformas.\nDistribución:\n-4 habitaciones (2 dobles y 2 individuales)\n-2 baños completos, uno con p",
       "anunciante": "Particular",
       "fecha_scraping": "2026-03-04T11:29:48.135447",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Dúplex en Calle Jaume Balmes, 13, Torelló",
-      "precio": "295.000€",
-      "ubicacion": "13, Torelló",
-      "habitaciones": "2 hab.",
-      "metros": "136 m²",
-      "url": "https://www.idealista.com/inmueble/110735671/",
-      "descripcion": "•Pisos de nova construcció\nNova promoció de pisos de nova construcció en un edifici modern amb 4 habitatges, 2 dels quals són Dúplex amb terrat exterior\nEspais lluminosos, acabats de primera qualitat i eficiència energètica A. Venda directa de constructor.\nNo deixis escapar l’oportunitat de viure en un pis modern,",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:28:18.795472",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle 11 de Setembre, 5, Folgueroles",
-      "precio": "300.000€",
-      "ubicacion": "5, Folgueroles",
-      "habitaciones": "3 hab.",
-      "metros": "95 m²",
-      "url": "https://www.idealista.com/inmueble/110706476/",
-      "descripcion": "Piso en venta en el centro de Folgueroles\nPiso de 95 m², muy céntrico, con ascensor y todos los servicios a pie.\nDispone de:\n 3 habitaciones\n 2 baños\n Cuarto de lavado\n Terraza\n Placas solares\n Garaje privado de 46 m²\nVivienda luminosa, bien distribuida y con alta eficiencia energética. Ideal para fami",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:20:02.518749",
-      "portal": "Idealista",
-      "telefono": "646 55 16 28"
-    },
-    {
-      "titulo": "Piso en Calle Nou, 130, Torelló",
-      "precio": "159.000€",
-      "ubicacion": "130, Torelló",
-      "habitaciones": "1 hab.",
-      "metros": "100 m²",
-      "url": "https://www.idealista.com/inmueble/110674356/",
-      "descripcion": "Piso ubicado en planta primera junto con garaje en planta baja. Dispone de un impresionante patio trasero de 45 m2 con porche y barbacoa.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T20:21:19.030590",
       "portal": "Idealista",
       "telefono": null
     },
@@ -107,45 +68,6 @@
       "fecha_scraping": "2026-02-13T12:03:53.336790",
       "portal": "Idealista",
       "telefono": "651 59 35 88"
-    },
-    {
-      "titulo": "Piso en Calle Barcelona, 1, Sant Vicenç de Torelló",
-      "precio": "159.000€",
-      "ubicacion": "1, Sant Vicenç de Torelló",
-      "habitaciones": "3 hab.",
-      "metros": "89 m²",
-      "url": "https://www.idealista.com/inmueble/110534034/",
-      "descripcion": "Descubra esta joya totalmente reformada situada en la tranquila y emblemática zona de Borgonya. Esta planta baja no es solo una vivienda, es un espacio donde el diseño contemporáneo se une a la esencia rústica para crear un hogar acogedor, funcional y lleno de carácter.\nEl espacio de día\nNos recibe un amplio salón-com",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:03:53.336801",
-      "portal": "Idealista",
-      "telefono": "694 25 07 37"
-    },
-    {
-      "titulo": "Piso en Calle de les Cadenes, 5, Sant Martí de Centelles",
-      "precio": "185.000€",
-      "ubicacion": "5, Sant Martí de Centelles",
-      "habitaciones": "2 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110461018/",
-      "descripcion": "Venta de piso particular (sin agencias, sin gastos de intermediarios) pero modelo de contrato de arras contratado en asesoría especializada. Se puede pactar precio a 190.000 haciendo inventario del mobiliario/electrodomésticos/enseres que se necesiten. Caldera, baño y suelo son nuevos. Recién pintado. Los gastos de imp",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:03:53.336812",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Avenida Goitallops, 1, Taradell",
-      "precio": "575.000€",
-      "ubicacion": "1, Taradell",
-      "habitaciones": "4 hab.",
-      "metros": "260 m²",
-      "url": "https://www.idealista.com/inmueble/107954005/",
-      "descripcion": "La propiedad en detalle:\n- Superficie construida de 260 m²\n- Parcela de 1.055 m²\n- 4 amplias habitaciones con luz natural\n- 2 baños completos\n- Gran salón con ventanales y vistas\n- Cocina espaciosa y luminosa\n- Piscina con clorador salino\n- Garaje con capacidad para dos coches\n- Espacios exteriores ideales para disfru",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:03:53.336823",
-      "portal": "Idealista",
-      "telefono": "610 77 67 92"
     },
     {
       "titulo": "Piso en Avenida del Montseny, 16, Taradell",
@@ -226,19 +148,6 @@
       "telefono": null
     },
     {
-      "titulo": "Chalet adosado en Avenida de Sant Bernat Calbó, 8, Santa Clara-Caputxins-Hospital, Vic",
-      "precio": "300.000€",
-      "ubicacion": "8, Santa Clara-Caputxins-Hospital, Vic",
-      "habitaciones": "3 hab.",
-      "metros": "116 m²",
-      "url": "https://www.idealista.com/inmueble/110282932/",
-      "descripcion": "Casa adosada con jardín privado situada en la zona de Capuchinos (Vic), una de las áreas más tranquilas y valoradas de la ciudad.\nLa vivienda dispone de 116 m² construidos, distribuidos en 2 plantas, con estancias amplias, mucha luz natural y una distribución muy funcional. Ideal tanto para familias como para quien bu",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:03:53.336887",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Ático en Camino de l'Escorial, 37, Santa Clara-Caputxins-Hospital, Vic",
       "precio": "249.000€",
       "ubicacion": "37, Santa Clara-Caputxins-Hospital, Vic",
@@ -250,32 +159,6 @@
       "fecha_scraping": "2026-02-13T12:03:53.336896",
       "portal": "Idealista",
       "telefono": "611 09 47 49"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Ronda de la Demunt, s/n, Folgueroles",
-      "precio": "535.000€",
-      "ubicacion": "s/n, Folgueroles",
-      "habitaciones": "6 hab.",
-      "metros": "378 m²",
-      "url": "https://www.idealista.com/inmueble/110244152/",
-      "descripcion": "Habitatge situat en una parcel·la de 1200 m², distribuït en diverses plantes.\nDisposa d’una planta baixa de 148 m², destinat a garatge.\nLa primera planta baixa, destinada a habitatge, té una superfície de 121,80 m², consta de 3 habitacions, 2 banys i una cuina-menjador àmpli.\nA la planta alta amb una superfície de 109,",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:03:53.336907",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle d'Enric Delaris, 12, Manlleu",
-      "precio": "185.000€",
-      "ubicacion": "12, Manlleu",
-      "habitaciones": "3 hab.",
-      "metros": "166 m²",
-      "url": "https://www.idealista.com/inmueble/110124192/",
-      "descripcion": "¡Oportunidad única en el centro de Manlleu! Piso amplio, luminoso y con posibilidad de ampliación\nSe vende un piso espectacular situado en una calle céntrica y tranquila de Manlleu, paralela a la Plaça Fra Bernadí. Una ubicación ideal: todos los servicios, comercios y escuelas del centro están a pocos metros, pero con",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:03:53.336917",
-      "portal": "Idealista",
-      "telefono": "644 24 76 33"
     },
     {
       "titulo": "Piso en Paseo d'En Pep Ventura, 8, El Sucre-Universitat, Vic",
@@ -367,19 +250,6 @@
       "fecha_scraping": "2026-02-13T12:03:53.336987",
       "portal": "Idealista",
       "telefono": "610 65 90 16"
-    },
-    {
-      "titulo": "Ático en Calle dels Argenters, 7, Casc Antic, Vic",
-      "precio": "340.000€",
-      "ubicacion": "7, Casc Antic, Vic",
-      "habitaciones": "2 hab.",
-      "metros": "88 m²",
-      "url": "https://www.idealista.com/inmueble/109716922/",
-      "descripcion": "Piso ático nuevo a estrenar, con mucha luz y orientación sur. Consta de dos habitaciones dobles con armarios empotrados, un baño con plato de ducha, zona de lavado independiente, cocina totalmente equipada y salón-comedor con salida directamente a la terraza. Esta amplia terraza independiente, ideal para disfrutar del",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:03:53.336996",
-      "portal": "Idealista",
-      "telefono": "696 48 69 48"
     },
     {
       "titulo": "Piso en c/Remei, 11, Remei-Montseny-La Guixa, Vic",
@@ -642,19 +512,6 @@
       "telefono": "697 47 03 52"
     },
     {
-      "titulo": "Piso en Carretera d'Arbúcies, 7, Santa Eugènia de Berga",
-      "precio": "220.000€",
-      "ubicacion": "7, Santa Eugènia de Berga",
-      "habitaciones": "4 hab.",
-      "metros": "160 m²",
-      "url": "https://www.idealista.com/inmueble/108127350/",
-      "descripcion": "PRECIO NEGOCIABLE. Piso de 120m². Segunda planta. Consta de un piso con cocina completa, comedor muy amplio y luminoso, cuatro habitaciones (tres de ellas dobles), dos wc y dos terrazas. También consta de un espacio de 50m² + un pequeño trastero.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:03:53.337210",
-      "portal": "Idealista",
-      "telefono": "608 53 36 18"
-    },
-    {
       "titulo": "Piso en Les Masies de Voltregà",
       "precio": "159.000€",
       "ubicacion": "",
@@ -796,19 +653,6 @@
       "fecha_scraping": "2026-02-13T12:03:53.337317",
       "portal": "Idealista",
       "telefono": "606 05 99 54"
-    },
-    {
-      "titulo": "Dúplex en Calle Nou, 35, Sant Martí de Centelles",
-      "precio": "215.000€",
-      "ubicacion": "35, Sant Martí de Centelles",
-      "habitaciones": "3 hab.",
-      "metros": "150 m²",
-      "url": "https://www.idealista.com/inmueble/106681335/",
-      "descripcion": "Dúplex con pocos vecinos en zona tranquila.\nRecibidor, cocina amplia con lavadero, comedor de 30m2 con balcón, aseo y baño con plato de ducha, 2 habitaciones dobles y una individual. Planta superior con dos terrazas de 15m2 con grandes vistas. Calefacción de gas natural, suelos de gres y parquet, ventanas de aluminio c",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:03:53.337327",
-      "portal": "Idealista",
-      "telefono": "669 18 42 03"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Fontordera, 9, Tona",

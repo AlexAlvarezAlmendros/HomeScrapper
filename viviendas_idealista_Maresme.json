@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:28:00.134027",
   "ubicacion": "Maresme",
   "url": "https://www.idealista.com/venta-viviendas/barcelona/maresme/?ordenado-por=fecha-publicacion-desc",
-  "total": 117,
+  "total": 82,
   "viviendas": [
     {
       "titulo": "Casa o chalet independiente en Calle d'Arenys de Mar, 27, Niàgara Parc - Ágora Parc - Roca Rossa, Tordera",
@@ -174,19 +174,6 @@
       "telefono": "646 21 72 41"
     },
     {
-      "titulo": "Masía en Ds Afores 3899901, 3899901, Centre, Pineda de Mar",
-      "precio": "690.000€",
-      "ubicacion": "3899901, Centre, Pineda de Mar",
-      "habitaciones": "5 hab.",
-      "metros": "477 m²",
-      "url": "https://www.idealista.com/inmueble/110762835/",
-      "descripcion": "Esta vivienda en Pineda de Mar ofrece una oportunidad única para disfrutar de la vida costera en el Maresme, a solo 40 minutos de Barcelona. Rodeada de todos los servicios necesarios, se presenta como un refugio tranquilo donde se respira calidad de vida, con el mar Mediterráneo a pocos pasos. Ideal para quienes buscan",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-03-04T11:28:00.133113",
-      "portal": "Idealista",
-      "telefono": "679 96 29 81"
-    },
-    {
       "titulo": "Piso en Calle Munt, 22, Centro, Sant Andreu de Llavaneres",
       "precio": "245.000€",
       "ubicacion": "22, Centro, Sant Andreu de Llavaneres",
@@ -239,19 +226,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle Munt, 20, Centro, Sant Andreu de Llavaneres",
-      "precio": "245.000€",
-      "ubicacion": "20, Centro, Sant Andreu de Llavaneres",
-      "habitaciones": "2 hab.",
-      "metros": "50 m²",
-      "url": "https://www.idealista.com/inmueble/35019612/",
-      "descripcion": "(ABSTENERSE AGENCIAS) c/ Munt (frente Picarol): Piso 50 m2, 2 hab. , 1 baño (bañera), todo exterior a parte trasera del edificio, persiana eléctrica, cocina equipada, armario empotrado madera, 2o piso con ascensor. Finca del 2001.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:26:56.131547",
-      "portal": "Idealista",
-      "telefono": "667 43 72 27"
-    },
-    {
       "titulo": "Chalet pareado en Calle Fisterra, s/n, Playa, Sant Andreu de Llavaneres",
       "precio": "670.000€",
       "ubicacion": "s/n, Playa, Sant Andreu de Llavaneres",
@@ -289,32 +263,6 @@
       "fecha_scraping": "2026-02-26T16:26:56.131574",
       "portal": "Idealista",
       "telefono": "654 40 40 43"
-    },
-    {
-      "titulo": "Piso en Paseo Marítim, 40, Malgrat de Mar",
-      "precio": "19.900€",
-      "ubicacion": "40, Malgrat de Mar",
-      "habitaciones": "1 hab.",
-      "metros": "1.440 m²",
-      "url": "https://www.idealista.com/inmueble/103745207/",
-      "descripcion": "Terreno en venta en Calle Salas, 1, Cacabelos. PROVINCIA DE LEON\nParcela rústica 1.439 m² en entorno residencial, con acceso excelente y agua todo el año (Quilos–Cacabelos).\nOportunidad para inversor o recreo; ubicación muy cómoda por cercanía a Cacabelos/Camino de Santiago y Ponferrada.\nConstrucción: sujeto a normativ",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:26:56.131584",
-      "portal": "Idealista",
-      "telefono": "679 33 78 35"
-    },
-    {
-      "titulo": "Piso en colon, 11, Calella",
-      "precio": "265.000€",
-      "ubicacion": "11, Calella",
-      "habitaciones": "4 hab.",
-      "metros": "115 m²",
-      "url": "https://www.idealista.com/inmueble/110735848/",
-      "descripcion": "Vivienda luminosa con vistas al mar y lista para entrar a vivir. Piso todo exterior y luminoso de 4 amplias habitaciones, 1 baño completo, 1 aseo, 2 balcones, aire acondicionado y trastero incluido y cocina totalmente equipada.\nGracias a su orientación y distribución totalmente exterior, todas las estancias reciben abu",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:26:56.131593",
-      "portal": "Idealista",
-      "telefono": "620 19 98 78"
     },
     {
       "titulo": "Piso en Calle Queralbs, 16, Cerdanyola nord, Mataró",
@@ -382,19 +330,6 @@
       "telefono": "633 44 79 89"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle Pau Picasso, 34, Alella Parc, Alella",
-      "precio": "895.000€",
-      "ubicacion": "34, Alella Parc, Alella",
-      "habitaciones": "7 hab.",
-      "metros": "338 m²",
-      "url": "https://www.idealista.com/inmueble/110710844/",
-      "descripcion": "Casa unifamiliar independiente con vistas al mar y a la montaña en Alella Parc.\nMagnífica casa unifamiliar de 338m2 construidos, totalmente reformada hace solamente tres años, con abundante luz natural e impresionantes vistas abiertas al mar y a la montaña.\nSituada en la prestigiosa urbanización de Alella Parc, a tan",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:18:34.762621",
-      "portal": "Idealista",
-      "telefono": "636 32 72 99"
-    },
-    {
       "titulo": "Chalet adosado en Avenida de Fibracolor, 31, Tordera",
       "precio": "450.000€",
       "ubicacion": "31, Tordera",
@@ -460,45 +395,6 @@
       "telefono": "629 58 18 96"
     },
     {
-      "titulo": "Casa o chalet independiente en Premià de Dalt",
-      "precio": "849.000€",
-      "ubicacion": "",
-      "habitaciones": "6 hab.",
-      "metros": "273 m²",
-      "url": "https://www.idealista.com/inmueble/110677018/",
-      "descripcion": "Casa o chalet en venta en Premià de Dalt\nPremià de Dalt\nExclusiva casa con vistas panorámicas al mar en una de las mejores zonas de Premià de Dalt.\nUbicada en una de las zonas residenciales más cotizadas de Premià de Dalt, esta vivienda destaca por sus vistas abiertas al mar, su extraordinaria luminosidad y una distr",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T20:19:57.528023",
-      "portal": "Idealista",
-      "telefono": "637 64 23 33"
-    },
-    {
-      "titulo": "Torre en Calle Camp de Mar, 21, Can Pou - Camp de Mar, Premiá de Mar",
-      "precio": "620.000€",
-      "ubicacion": "21, Can Pou - Camp de Mar, Premiá de Mar",
-      "habitaciones": "4 hab.",
-      "metros": "208 m²",
-      "url": "https://www.idealista.com/inmueble/110671970/",
-      "descripcion": "Chalet adosado, ubicado en primera línea de mar, en una de las zonas más tranquilas de\nPremiá de Mar\nLa vivienda consta de 208m² construidos.\nDistribuida en tres plantas, 4 dormitorios(3 dobles), 2 baños completos,\nDespacho y Zona de Lavanderia y un aseo en planta baja.\nGaraje de 30 m2\nAl acceder a la propiedad nos enc",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T20:19:57.528042",
-      "portal": "Idealista",
-      "telefono": "660 19 02 12"
-    },
-    {
-      "titulo": "Piso en Calle Dipòsit, 10, Cirera, Mataró",
-      "precio": "89.000€",
-      "ubicacion": "10, Cirera, Mataró",
-      "habitaciones": "2 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/110426081/",
-      "descripcion": "Se vende planta baja a reformar en el barrio de cirera para hacer completamente a tu gusto.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:09:23.325000",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle Mayor n°54, 54, Sant Iscle de Vallalta",
       "precio": "350.000€",
       "ubicacion": "54, Sant Iscle de Vallalta",
@@ -508,19 +404,6 @@
       "descripcion": "Casa Chalet ubicada en Calle Mayor n°54 en Urbanización Font Montnegre\nEsta propiedad dispone de todas las comodidades, con un gran terreno donde hay 2 pozos, 2 huertos con cerezos, Kaki, rosales y con mucho espacio para plantar lo que se desee\nLa casa en su primera planta cuenta con un recibidor, un guardarropas,",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-18T11:09:23.325026",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Avenida doctor Mariá Serra, 7, Canet de Mar",
-      "precio": "258.000€",
-      "ubicacion": "7, Canet de Mar",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110648319/",
-      "descripcion": "Vivienda en planta baja ideal para familias con niños, mascotas y personas con poca movilidad. Parquet, comedor con chimenea y abierto a la cocina. Patio con barbacoa y toldo eléctrico.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:09:23.325046",
       "portal": "Idealista",
       "telefono": null
     },
@@ -551,32 +434,6 @@
       "telefono": "609 26 15 83"
     },
     {
-      "titulo": "Chalet adosado en Calle Roger de Llúria, 6 -8 , Centre, Pineda de Mar",
-      "precio": "375.000€",
-      "ubicacion": "6 -8 , Centre, Pineda de Mar",
-      "habitaciones": "4 hab.",
-      "metros": "150 m²",
-      "url": "https://www.idealista.com/inmueble/104476142/",
-      "descripcion": "Oportunidad Unica - Sin comisiones - Venta privada - visitas han comenzado.\nLuminoso y acogedor adosado con GARAJE situado a pocos metros de la playa con vistas al mar desde las habitaciones. Este hogar esta perfectamente distribuido contando con 4 habitaciones ideal para familias o para quien deseen un espacio extra",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:42:34.126945",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Vilassar de Mar",
-      "precio": "440.000€",
-      "ubicacion": "",
-      "habitaciones": "3 hab.",
-      "metros": "117 m²",
-      "url": "https://www.idealista.com/inmueble/110637694/",
-      "descripcion": "Magnífico piso con parking y trastero situado en el centro de Vilassar y ubicado en una finca con piscina comunitaria y jardín, cerca de todos los servicios y de la playa.\nLa vivienda de 117 metros cuadrados construidos, 91 útiles, incluidos 7 metros cuadrados de terraza, dispone de 3 habitaciones, una suite con baño i",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:10:49.500704",
-      "portal": "Idealista",
-      "telefono": "610 29 03 97"
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle Lloret, 105, Montessol-Can Carreras, Pineda de Mar",
       "precio": "160.000€",
       "ubicacion": "105, Montessol-Can Carreras, Pineda de Mar",
@@ -590,32 +447,6 @@
       "telefono": "617 86 61 73"
     },
     {
-      "titulo": "Chalet pareado en Carretera de Vilassar de Dalt, 68, Can Farrerons, Premiá de Mar",
-      "precio": "470.000€",
-      "ubicacion": "68, Can Farrerons, Premiá de Mar",
-      "habitaciones": "3 hab.",
-      "metros": "144 m²",
-      "url": "https://www.idealista.com/inmueble/110623238/",
-      "descripcion": "Exclusivo tríplex totalmente reformado con garaje en buena zona de Premià de Mar\nPonemos a la venta este fantástico tríplex de 144m² construidos (112 m² útiles), ubicado en una finca de 1990, dentro de una comunidad tranquila, sin acceso directo desde la calle, lo que aporta un plus de privacidad y seguridad.\nLa vivi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409644",
-      "portal": "Idealista",
-      "telefono": "685 32 11 94"
-    },
-    {
-      "titulo": "Piso en Camino Pla de la Torreta, 2, Playa, Sant Andreu de Llavaneres",
-      "precio": "545.000€",
-      "ubicacion": "2, Playa, Sant Andreu de Llavaneres",
-      "habitaciones": "3 hab.",
-      "metros": "150 m²",
-      "url": "https://www.idealista.com/inmueble/108641950/",
-      "descripcion": "Piso amplio con vistas al mar, totalmente reformado. Gran zona comunitaria con 3 piscinas, zona verde, campo de futbol y parque infantil. Piso bajo con altura a la calle como si fuera un segundo piso, acceso muy cómodo a las dos plazas de parking que dispone. Acceso directo a la zona comunitaria por la parte trasera de",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409655",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Passatge Pare Claret, 106, Montgat",
       "precio": "329.000€",
       "ubicacion": "106, Montgat",
@@ -625,19 +456,6 @@
       "descripcion": "¡Oportunidad única en Montgat, Barcelona!\nSe vende espectacular piso muy luminoso en el encantador Pasaje del Padre Claret, a solo 500 metros del mar. Este inmueble se encuentra en la tercera planta real, lo que garantiza vistas impresionantes y una excelente entrada de luz natural.\nEl piso cuenta con un amplio balcó",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-13T11:49:51.409666",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Passatge de Vallvidrera, 7, Arenys de Munt",
-      "precio": "110.000€",
-      "ubicacion": "7, Arenys de Munt",
-      "habitaciones": "2 hab.",
-      "metros": "130 m²",
-      "url": "https://www.idealista.com/inmueble/110223405/",
-      "descripcion": "Se venden 9 viviendas:\n- Venta del lote 9 completo o posibilidad de entrada como inversor por participaciones (condominio o grupos de inversores). ideales para inversores, para vivir o para alquilar por 900 €. Oportunidad saldría cada piso desde 110.000 € pisos. Venta contra más pisos compres más descuentos!\nVenta al c",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409676",
       "portal": "Idealista",
       "telefono": null
     },
@@ -655,19 +473,6 @@
       "telefono": null
     },
     {
-      "titulo": "Casa o chalet independiente en Premià de Dalt",
-      "precio": "849.000€",
-      "ubicacion": "",
-      "habitaciones": "5 hab.",
-      "metros": "273 m²",
-      "url": "https://www.idealista.com/inmueble/110615586/",
-      "descripcion": "Exclusiva casa con vistas panorámicas al mar en una de las mejores zonas de Premià de Dalt\nUbicada en una de las zonas residenciales más cotizadas de Premià de Dalt, esta vivienda destaca por sus vistas abiertas al mar, su extraordinaria luminosidad y una distribución pensada para disfrutar tanto del día a día como de",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409697",
-      "portal": "Idealista",
-      "telefono": "637 64 23 33"
-    },
-    {
       "titulo": "Masía en Veinat Rimbles, 13, Dosrius",
       "precio": "1.250.000€",
       "ubicacion": "13, Dosrius",
@@ -681,19 +486,6 @@
       "telefono": "699 24 30 61"
     },
     {
-      "titulo": "Piso en Calle de la Plaça, 16, Centre, Premiá de Mar",
-      "precio": "265.000€",
-      "ubicacion": "16, Centre, Premiá de Mar",
-      "habitaciones": "1 hab.",
-      "metros": "83 m²",
-      "url": "https://www.idealista.com/inmueble/110615102/",
-      "descripcion": "Planta baja exterior CON CÉDULA DE HABITABILIDAD en el centro de Premià, a 1 minuto de la playa y de la estación. 83m2\n- Salón de 45m2 con ventana grande al exterior\n- Cocina americana\n- Habitación de 25m2 con ventana grande al exterior\n- Aire acondicionado calor/frío y ventiladores en techo\n- Altillo/trastero de 6m2\n-",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409718",
-      "portal": "Idealista",
-      "telefono": "671 20 07 23"
-    },
-    {
       "titulo": "Chalet pareado en Calle Jaume Safont, s/n, Arenys de Munt",
       "precio": "450.000€",
       "ubicacion": "s/n, Arenys de Munt",
@@ -705,32 +497,6 @@
       "fecha_scraping": "2026-02-13T11:49:51.409729",
       "portal": "Idealista",
       "telefono": "678 74 08 49"
-    },
-    {
-      "titulo": "Finca rústica en Paseo del Port Esportiu, 42, Centre, El Masnou",
-      "precio": "47.000€",
-      "ubicacion": "42, Centre, El Masnou",
-      "habitaciones": "2 hab.",
-      "metros": "48 m²",
-      "url": "https://www.idealista.com/inmueble/110611156/",
-      "descripcion": "impresionante.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409740",
-      "portal": "Idealista",
-      "telefono": "622 77 67 40"
-    },
-    {
-      "titulo": "Piso en Avenida Mediterráni, 82, Poblenou, Pineda de Mar",
-      "precio": "215.000€",
-      "ubicacion": "82, Poblenou, Pineda de Mar",
-      "habitaciones": "3 hab.",
-      "metros": "100 m²",
-      "url": "https://www.idealista.com/inmueble/357139/",
-      "descripcion": "distribución:\n1 suites",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409750",
-      "portal": "Idealista",
-      "telefono": "695 17 29 76"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Avet, 12, Mas Coll - Can Comulada, Alella",
@@ -798,19 +564,6 @@
       "telefono": "722 67 39 94"
     },
     {
-      "titulo": "Casa o chalet independiente en Dosrius",
-      "precio": "795.000€",
-      "ubicacion": "",
-      "habitaciones": "4 hab.",
-      "metros": "366 m²",
-      "url": "https://www.idealista.com/inmueble/25496819/",
-      "descripcion": "DIRECTO DE PARTICULAR (abstenerse intermediarios) en Urbanización de Alto Standing en el mismo pueblo. Materiales y acabados de diseño y gran calidad. Consta de magnífico salón-comedor con chimenea-hogar, amplia cocina-office, espléndida suite con chimenea, baño incorporado y vestidor independiente con luz cenital, ant",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409811",
-      "portal": "Idealista",
-      "telefono": "609 17 18 97"
-    },
-    {
       "titulo": "Piso en Malgrat de Mar",
       "precio": "250.000€",
       "ubicacion": "",
@@ -822,32 +575,6 @@
       "fecha_scraping": "2026-02-13T11:49:51.409821",
       "portal": "Idealista",
       "telefono": "665 84 08 75"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Avenida Catalunya, 20, Fogars de la Selva",
-      "precio": "389.000€",
-      "ubicacion": "20, Fogars de la Selva",
-      "habitaciones": "3 hab.",
-      "metros": "275 m²",
-      "url": "https://www.idealista.com/inmueble/109373813/",
-      "descripcion": "Preciosa casa moderna en el centro del pueblo. Terreno totalmente llano.\nConsta de 3 dormitorios ( Dormitorio principal con vestidor ), 2 baños y 1 aseo. Salón - Comedor y Cocina abierta en un mismo espacio. Tanto el Salón como la Cocina tienen salida directa al jardín y terraza exterior.\nSafareig - Lavadero (habitació",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409831",
-      "portal": "Idealista",
-      "telefono": "639 06 83 90"
-    },
-    {
-      "titulo": "Chalet adosado en Premià de Dalt",
-      "precio": "590.000€",
-      "ubicacion": "",
-      "habitaciones": "3 hab.",
-      "metros": "172 m²",
-      "url": "https://www.idealista.com/inmueble/110574909/",
-      "descripcion": "Descubre esta preciosa casa adosada en Premià de Dalt, ubicada en una zona tranquila y familiar del Maresme, con espectaculares vistas al mar y a la montaña.\nLa vivienda forma parte de una cuidada comunidad con piscina comunitaria y destaca por su amplitud, luminosidad y distribución funcional en 4 plantas.\n Distrib",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409841",
-      "portal": "Idealista",
-      "telefono": "661 70 11 16"
     },
     {
       "titulo": "Casa o chalet independiente en Calle de Villar del Grau, 7, Sant Pol de Mar",
@@ -913,32 +640,6 @@
       "fecha_scraping": "2026-02-13T11:49:51.409892",
       "portal": "Idealista",
       "telefono": "692 23 55 28"
-    },
-    {
-      "titulo": "Piso en Sant Jaume, 131, Calella",
-      "precio": "210.000€",
-      "ubicacion": "131, Calella",
-      "habitaciones": "2 hab.",
-      "metros": "74 m²",
-      "url": "https://www.idealista.com/inmueble/109923752/",
-      "descripcion": "El apartamento fue completamente renovado en 2024; la piscina comunitaria estará en construcción hasta el próximo año. Por favor, no me contacten a través de agencias inmobiliarias.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409901",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Ático en Calella",
-      "precio": "109.000€",
-      "ubicacion": "",
-      "habitaciones": "1 hab.",
-      "metros": "33 m²",
-      "url": "https://www.idealista.com/inmueble/109942695/",
-      "descripcion": "Pequeño ático en Calella de Mar, listo para entrar a vivir o como para invertir, totalmente equipado y reformado, ldispone de licencia turística vigente, altura 4º real, sin ascensor, superficie construida 33 m2, con luz natural durante el día, bloque tranquilo con pocos vecinos, puerta blindada doble cerradura y alarm",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409911",
-      "portal": "Idealista",
-      "telefono": "665 02 71 79"
     },
     {
       "titulo": "Casa o chalet independiente en Tiana",
@@ -1019,32 +720,6 @@
       "telefono": "661 91 04 62"
     },
     {
-      "titulo": "Casa o chalet independiente en Club Caravaning Sant Genís, s/n, Palafolls",
-      "precio": "65.000€",
-      "ubicacion": "s/n, Palafolls",
-      "habitaciones": "1 hab.",
-      "metros": "32 m²",
-      "url": "https://www.idealista.com/inmueble/110189463/",
-      "descripcion": "Se vende bungalow con terreno en propiedad ubicado en el Club Caravaning Sant Genís, ideal tanto como residencia habitual como segunda residencia.\nLa vivienda cuenta con 32 m² construidos, distribuidos en:\n1 habitación amplia con vestidor\n1 baño completo\nZona de estar con salón y cocina integrada, luminosa y funcio",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409981",
-      "portal": "Idealista",
-      "telefono": "633 24 87 80"
-    },
-    {
-      "titulo": "Chalet adosado en Centre, Pineda de Mar",
-      "precio": "474.000€",
-      "ubicacion": "Pineda de Mar",
-      "habitaciones": "8 hab.",
-      "metros": "270 m²",
-      "url": "https://www.idealista.com/inmueble/110503077/",
-      "descripcion": "Casa familiar con niveles independientes\nVivienda de 270 m², con tres plantas independientes y escalera exterior, totalmente renovada en 2018. Diseñada para distintos usos: vivienda habitual de familia grande, trabajo desde casa y uso parcial en alquiler con privacidad. Durante la reforma se sustituyeron todas las inst",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.409990",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Dúplex en Plaza Sant Pere, 1, Sant Pere, Tordera",
       "precio": "219.000€",
       "ubicacion": "1, Sant Pere, Tordera",
@@ -1123,19 +798,6 @@
       "telefono": "667 18 25 23"
     },
     {
-      "titulo": "Piso en Torrent Lloveras, 44554, Vilassar de Dalt",
-      "precio": "385.000€",
-      "ubicacion": "44554, Vilassar de Dalt",
-      "habitaciones": "3 hab.",
-      "metros": "102 m²",
-      "url": "https://www.idealista.com/inmueble/110428108/",
-      "descripcion": "Piso reformado y muy luminoso con balcón y vistas a la montaña en Vilassar de Dalt\nSe vende piso de 104 m² en Vilassar de Dalt, ubicado en una 2ª planta real sin ascensor, en un bloque recién reformado y con la ITE pasada (2026).\nLa vivienda dispone de 3 habitaciones, una de ellas suite con baño privado, y un total d",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.410070",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Urbanizaciones, Mataró",
       "precio": "198.000€",
       "ubicacion": "Mataró",
@@ -1186,19 +848,6 @@
       "fecha_scraping": "2026-02-13T11:49:51.410110",
       "portal": "Idealista",
       "telefono": "626 89 19 92"
-    },
-    {
-      "titulo": "Piso en Doctor, 10, Centro, Sant Andreu de Llavaneres",
-      "precio": "220.000€",
-      "ubicacion": "10, Centro, Sant Andreu de Llavaneres",
-      "habitaciones": "2 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/110399637/",
-      "descripcion": "¡Atención inversores! Piso alquilado en el corazón de Sant Andreu de Llavaneres!\nDirección aproximada\nEste encantador piso de 75 m² en la primera planta de un edificio con solo tres vecinos es el lugar ideal para disfrutar de la vida en comunidad sin renunciar a la privacidad. Con un luminoso salón comedor que se int",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.410120",
-      "portal": "Idealista",
-      "telefono": "684 35 37 70"
     },
     {
       "titulo": "Finca rústica en Calle dels Llimoners, 30 b, Canet de Mar",
@@ -1292,32 +941,6 @@
       "telefono": "639 81 33 85"
     },
     {
-      "titulo": "Chalet pareado en Vilassar de Dalt",
-      "precio": "675.000€",
-      "ubicacion": "",
-      "habitaciones": "5 hab.",
-      "metros": "304 m²",
-      "url": "https://www.idealista.com/inmueble/108399294/",
-      "descripcion": "Casa de 304m2 construidos + jardín con jacuzzi y zona de barbacoa ideal para compartir con la familia.\nVivienda muy cómoda y bien ubicada, con buena distribución en tres plantas. Muy soleada.\nLa vivienda dispone de dos plantas + sótano, garaje con acceso directo a la casa\nTiene un amplio salón-comedor muy luminoso con",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.410198",
-      "portal": "Idealista",
-      "telefono": "670 40 18 41"
-    },
-    {
-      "titulo": "Piso en Platja del Cavaió, 10, Urbanitzacions, Arenys de Mar",
-      "precio": "255.000€",
-      "ubicacion": "10, Urbanitzacions, Arenys de Mar",
-      "habitaciones": "3 hab.",
-      "metros": "69 m²",
-      "url": "https://www.idealista.com/inmueble/110345335/",
-      "descripcion": "Terraza con vistas al mar. Salón/comedor de 16m2 muy luminoso con salida a terraza. Parque nuevo. Electrodomésticos con 6 meses de uso, lavadora, lavaplatos, encimera, nevera combi. Salida a la playa directa desde la urbanización privada. Piscina comunitaria, zona verde, pista polideportiva. Aparcamiento.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.410208",
-      "portal": "Idealista",
-      "telefono": "608 99 92 97"
-    },
-    {
       "titulo": "Chalet pareado en Sant Iscle de Vallalta",
       "precio": "410.000€",
       "ubicacion": "",
@@ -1329,32 +952,6 @@
       "fecha_scraping": "2026-02-13T11:49:51.410218",
       "portal": "Idealista",
       "telefono": "620 97 21 94"
-    },
-    {
-      "titulo": "Piso en Calle Pizarro, 125, Eixample, Mataró",
-      "precio": "289.500€",
-      "ubicacion": "125, Eixample, Mataró",
-      "habitaciones": "3 hab.",
-      "metros": "83 m²",
-      "url": "https://www.idealista.com/inmueble/110204807/",
-      "descripcion": "ESTRENA TU NUEVA VIDA! Piso recién reformado, lleno de sol y ubicación privilegiada.\n¿Buscas un hogar donde solo tengas que traer las maletas o una inversión con rentabilidad inmediata? Este piso es la combinación perfecta de diseño moderno y ubicación estratégica.\nAcaba de ser reformado íntegramente, ofreciendo un esp",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.410227",
-      "portal": "Idealista",
-      "telefono": "640 83 98 46"
-    },
-    {
-      "titulo": "Piso en Calle de les Teixidores, 7, Premià de Dalt",
-      "precio": "350.000€",
-      "ubicacion": "7, Premià de Dalt",
-      "habitaciones": "2 hab.",
-      "metros": "72 m²",
-      "url": "https://www.idealista.com/inmueble/109794299/",
-      "descripcion": "Oportunidad única en Premia de Dalt - Piso en zona La Fàbrica negociado directamente con propietarios, sin intermediarios.\nEste encantador piso de 72m’ se encuentra en el exclusivo conjunto residencial Centre de la\nVila (La Fabrica), ideal para aquellos que buscan vivir cerca de todos los servicios esenciales: ayuntam",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.410237",
-      "portal": "Idealista",
-      "telefono": "689 60 74 15"
     },
     {
       "titulo": "Chalet adosado en Pasaje Cabrils, 1, Cabrils",
@@ -1370,19 +967,6 @@
       "telefono": "644 86 01 15"
     },
     {
-      "titulo": "Piso en Sant Pol de Mar",
-      "precio": "295.000€",
-      "ubicacion": "",
-      "habitaciones": "3 hab.",
-      "metros": "123 m²",
-      "url": "https://www.idealista.com/inmueble/110279617/",
-      "descripcion": "¡Gran oportunidad en pleno centro de Sant Pol de Mar! Fantástico piso de 123m² según catastro, a una calle de la playa.\nEl inmueble dispone de un amplio y luminoso salón-comedor con aire acondicionado y bomba de calor, que da acceso a la gran y soleada terraza principal, con toldo instalado recientemente; tres habitac",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.410256",
-      "portal": "Idealista",
-      "telefono": "677 17 57 91"
-    },
-    {
       "titulo": "Chalet pareado en Riera de Targa, 39, Vilassar de Dalt",
       "precio": "295.000€",
       "ubicacion": "39, Vilassar de Dalt",
@@ -1394,19 +978,6 @@
       "fecha_scraping": "2026-02-13T11:49:51.410265",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Vilassar de Dalt",
-      "precio": "649.000€",
-      "ubicacion": "",
-      "habitaciones": "4 hab.",
-      "metros": "277 m²",
-      "url": "https://www.idealista.com/inmueble/110259018/",
-      "descripcion": "Casa independiente a cuatro vientos con gran jardín en Vilassar de Dalt\nSe vende casa independiente a cuatro vientos, lista para entrar a vivir, situada en el barrio de Santa María, a solo 5 minutos a pie del centro del pueblo, en Vilassar de Dalt (Barcelona).\nLa vivienda se asienta sobre una parcela de 770 m² y cuen",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.410275",
-      "portal": "Idealista",
-      "telefono": "608 56 07 58"
     },
     {
       "titulo": "Piso en Avenida Pau Costa, 23, Centre, Arenys de Mar",
@@ -1496,32 +1067,6 @@
       "descripcion": "Imagina vivir cada día en una casa que irradia luz, bienestar y armonía, en pleno corazón del Maresme, a 40 minutos de Barcelona. La ubicación de la casa es privilegiada, en el centro del pueblo, cerca de las tiendas, escuelas y servicios andando a 5 minutos, a solo 8 minutos caminando de una playa amplia y tranquila,",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-13T11:49:51.410344",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Ático en Calle Tribala, 50, Centre, Pineda de Mar",
-      "precio": "275.000€",
-      "ubicacion": "50, Centre, Pineda de Mar",
-      "habitaciones": "4 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110207563/",
-      "descripcion": "Ático exterior muy soleado con ascensor, terraza, balcón y galería, 4 habitaciones. ( 3 dobles), buena zona céntrica cerca de la playa, ventanas aluminio. Conservado para entrar a vivir o a reformar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.410353",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Avenida de doctor María Serra, 7, Canet de Mar",
-      "precio": "258.000€",
-      "ubicacion": "7, Canet de Mar",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/108227381/",
-      "descripcion": "Piso en planta baja. Ideal para gente mayor, niños, mascotas o personas con poca movilidad.\nTiene parket y puertas de madera. Dos habitaciones individuales y una doble. Gran baño. Comedor con chimenea de piedra y abertura a la cocina. Tiene un patio exterior con barbacoa y fregadero, además tiene toldo eléctrico. Zona",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:49:51.410363",
       "portal": "Idealista",
       "telefono": null
     }

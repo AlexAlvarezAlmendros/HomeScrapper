@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:50:37.968509",
   "ubicacion": "Alt Camp",
   "url": "https://www.idealista.com/venta-viviendas/tarragona/alt-camp/?ordenado-por=fecha-publicacion-desc",
-  "total": 46,
+  "total": 45,
   "viviendas": [
     {
       "titulo": "Casa o chalet independiente en Calle Marmellar, 6, Aiguamurcia",
@@ -94,19 +94,6 @@
       "fecha_scraping": "2026-02-15T12:40:23.931679",
       "portal": "Idealista",
       "telefono": "695 86 78 17"
-    },
-    {
-      "titulo": "Piso en Calle Avenir, 40, Valls",
-      "precio": "167.000€",
-      "ubicacion": "40, Valls",
-      "habitaciones": "4 hab.",
-      "metros": "121 m²",
-      "url": "https://www.idealista.com/inmueble/110393981/",
-      "descripcion": "Amplio piso exterior a dos bandas, cuatro habitaciones, un baño completo y un cuarto de baño de cortesía. Cocina completamente equipada con electrodomésticos y galería con lavadora. Piso en ubicacion privilegiada con todos los servicios Amueblado con lo necesario para entrar a vivir. Amplia terraza para disfrutar. Abst",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:40:23.931690",
-      "portal": "Idealista",
-      "telefono": "655 98 62 58"
     },
     {
       "titulo": "Casa o chalet independiente en castellon, 564, Aiguamurcia",

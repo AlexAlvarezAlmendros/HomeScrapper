@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:49:14.983421",
   "ubicacion": "Urgell",
   "url": "https://www.idealista.com/venta-viviendas/lleida/urgell/?ordenado-por=fecha-publicacion-desc",
-  "total": 43,
+  "total": 41,
   "viviendas": [
     {
       "titulo": "Casa de pueblo en Calle Major, 20, Tárrega",
@@ -187,19 +187,6 @@
       "telefono": "647 76 08 95"
     },
     {
-      "titulo": "Piso en Calle de la Ciutat de Mataró, 2, Tárrega",
-      "precio": "140.000€",
-      "ubicacion": "2, Tárrega",
-      "habitaciones": "4 hab.",
-      "metros": "98 m²",
-      "url": "https://www.idealista.com/inmueble/109526496/",
-      "descripcion": "Piso en venta con 4 dormitorios de buen tamaño, 1 baño reformado con ducha y bidet (posibilidad de hacer otro aseo), cocina office con despensa y lugar para lavadora y secadora, tambien con salida a lavadero y patio de luces. Comedor grande con salida directa al balcon.\nLa habitacion de matrimonio y otra de ellas tambi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:29:11.500572",
-      "portal": "Idealista",
-      "telefono": "679 81 74 40"
-    },
-    {
       "titulo": "Casa de pueblo en Calle Major, 18, Tornabous",
       "precio": "115.000€",
       "ubicacion": "18, Tornabous",
@@ -224,19 +211,6 @@
       "fecha_scraping": "2026-02-15T12:29:11.500591",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Chalet adosado en Calle la Creu, 3, Bellpuig",
-      "precio": "110.000€",
-      "ubicacion": "3, Bellpuig",
-      "habitaciones": "3 hab.",
-      "metros": "261 m²",
-      "url": "https://www.idealista.com/inmueble/109082539/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:29:11.500601",
-      "portal": "Idealista",
-      "telefono": "646 03 72 66"
     },
     {
       "titulo": "Casa de pueblo en Plaza de l'Església, 1, Vallbona de les Monges",

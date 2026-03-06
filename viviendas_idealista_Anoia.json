@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:13:56.721448",
   "ubicacion": "Anoia",
   "url": "https://www.idealista.com/venta-viviendas/barcelona/anoia/?ordenado-por=fecha-publicacion-desc",
-  "total": 77,
+  "total": 68,
   "viviendas": [
     {
       "titulo": "Piso en Calle del Castell, 14, Vilanova del Camí",
@@ -122,19 +122,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Plaza d'Alcàntara, 6, Llevant, Igualada",
-      "precio": "110.000€",
-      "ubicacion": "6, Llevant, Igualada",
-      "habitaciones": "3 hab.",
-      "metros": "67 m²",
-      "url": "https://www.idealista.com/inmueble/110116122/",
-      "descripcion": "El piso se encuentra en el barrio de Montserrat y actualmente está alquilado. Tiene dos fachadas, 3 dormitorios, cocina, salón, aseo con ducha y balcón. El barrio está muy bien ubicado, cerca de hospital, estación de tren y autobús, supermercados y otras zonas comunes. Para más información, no dude en contactarnos.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:33:31.392453",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle del Pont, 81, Santa Margarida de Montbui",
       "precio": "99.000€",
       "ubicacion": "81, Santa Margarida de Montbui",
@@ -159,19 +146,6 @@
       "fecha_scraping": "2026-02-12T19:30:31.619945",
       "portal": "Idealista",
       "telefono": "661 91 90 65"
-    },
-    {
-      "titulo": "Piso en Calle de la Foradada, 15, Vilanova del Camí",
-      "precio": "99.000€",
-      "ubicacion": "15, Vilanova del Camí",
-      "habitaciones": "1 hab.",
-      "metros": "45 m²",
-      "url": "https://www.idealista.com/inmueble/110578463/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:30:31.619978",
-      "portal": "Idealista",
-      "telefono": "629 05 07 92"
     },
     {
       "titulo": "Ático en Paseo Miquel I Mas, 9, Capellades",
@@ -226,19 +200,6 @@
       "telefono": "611 60 73 73"
     },
     {
-      "titulo": "Dúplex en Avenida d Andorra, 5, Pla de Sant Magi, Igualada",
-      "precio": "229.000€",
-      "ubicacion": "5, Pla de Sant Magi, Igualada",
-      "habitaciones": "2 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/109823391/",
-      "descripcion": "Precios duplex a l'avinguda andorra amb dos terrasses, de 18 i 15 metres cadasquna. A la planta superior trobem un gran espai de 27 metres que s'utilitza de sala d'estar o per habitacions. Adalt tambe hi ha un bany amb plat de dutxa i un traster.\nA la planta inferior, trobem el rebedor, la cuina, la sala d'estar, que",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:30:31.620088",
-      "portal": "Idealista",
-      "telefono": "636 74 16 19"
-    },
-    {
       "titulo": "Dúplex en Piera",
       "precio": "275.000€",
       "ubicacion": "",
@@ -250,19 +211,6 @@
       "fecha_scraping": "2026-02-12T19:30:31.620107",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Chalet adosado en Calle del Bisbe Perelló, 34, Llevant, Igualada",
-      "precio": "590.000€",
-      "ubicacion": "34, Llevant, Igualada",
-      "habitaciones": "6 hab.",
-      "metros": "360 m²",
-      "url": "https://www.idealista.com/inmueble/110451232/",
-      "descripcion": "Espectacular Casa amb Gran Magatzem i Terrasses al costat de l'Estació de Busos\nBusques espai, comoditat i versatilitat en una ubicació immillorable? Presentem aquesta propietat única de 360 m² construïts, ideal tant per a famílies nombroses com per a professionals que necessitin un espai ampli de treball o inversors q",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:30:31.620126",
-      "portal": "Idealista",
-      "telefono": "640 53 51 14"
     },
     {
       "titulo": "Casa de pueblo en 1 de mayo, 5, Calaf",
@@ -328,19 +276,6 @@
       "fecha_scraping": "2026-02-12T19:30:31.620220",
       "portal": "Idealista",
       "telefono": "680 23 25 31"
-    },
-    {
-      "titulo": "Piso en Calle Josep Vidal, 50, Piera",
-      "precio": "165.000€",
-      "ubicacion": "50, Piera",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/93973675/",
-      "descripcion": "Piso seminuevo. Consta de tres habitaciones (una de matrimonio tipo suite) dos lavabos completos, amplio comedor con salida a terraza, cocina y recibidor. Muchisima claridad y vistas a la montaña. Zona tranquila, a 5 minutos caminando de las piscinas, polideportivo, y zona de deporte. Muy cerca del centro del pueblo. E",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:30:31.620239",
-      "portal": "Idealista",
-      "telefono": "648 12 93 03"
     },
     {
       "titulo": "Casa de pueblo en Calle del Born, s/n, Calaf",
@@ -538,19 +473,6 @@
       "telefono": "687 09 23 01"
     },
     {
-      "titulo": "Piso en Calle President Companys, 49, Vilanova del Camí",
-      "precio": "110.000€",
-      "ubicacion": "49, Vilanova del Camí",
-      "habitaciones": "1 hab.",
-      "metros": "58 m²",
-      "url": "https://www.idealista.com/inmueble/109268905/",
-      "descripcion": "Piso ideal parejas, muy cerca de colegios y transporte público.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:30:31.620677",
-      "portal": "Idealista",
-      "telefono": "687 55 67 86"
-    },
-    {
       "titulo": "Chalet adosado en Calle Font de Vinço, 12, La Pobla de Claramunt",
       "precio": "335.000€",
       "ubicacion": "12, La Pobla de Claramunt",
@@ -668,19 +590,6 @@
       "telefono": "608 73 23 41"
     },
     {
-      "titulo": "Dúplex en de vilanova, 8, Llevant, Igualada",
-      "precio": "315.000€",
-      "ubicacion": "8, Llevant, Igualada",
-      "habitaciones": "3 hab.",
-      "metros": "200 m²",
-      "url": "https://www.idealista.com/inmueble/107992608/",
-      "descripcion": "Ático dúplex con muy grande terraza.\n¿Busca un duplex amplio, cómodo y bien ubicado? Le ofrecemos este fantástico dúplex de casi 200m2, con muy grande terraza. Primer piso con 2 habitación doble, una suite con baño con ducha, cocina abierta a comedor y muy luminosa, lavadero y baño. Segundo piso con gran habitacion. b",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:30:31.620856",
-      "portal": "Idealista",
-      "telefono": "639 38 12 87"
-    },
-    {
       "titulo": "Piso en Calle de Santa Caterina, 30, Centre, Igualada",
       "precio": "320.000€",
       "ubicacion": "30, Centre, Igualada",
@@ -731,19 +640,6 @@
       "fecha_scraping": "2026-02-12T19:30:31.621235",
       "portal": "Idealista",
       "telefono": "645 52 41 85"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle de les Guixeres, 70, Les Comes, Igualada",
-      "precio": "470.000€",
-      "ubicacion": "70, Les Comes, Igualada",
-      "habitaciones": "4 hab.",
-      "metros": "375 m²",
-      "url": "https://www.idealista.com/inmueble/107677608/",
-      "descripcion": "Se vende casa 4 vientos con garaje para tres coches.\nPiscina y ascensor, con parcela de 81 m2. 3 plantas, suelo radiante. placas solares.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:30:31.621259",
-      "portal": "Idealista",
-      "telefono": "636 41 38 83"
     },
     {
       "titulo": "Casa o chalet independiente en Calle de Roma, 8, Piera",
@@ -900,19 +796,6 @@
       "fecha_scraping": "2026-02-12T19:30:31.621551",
       "portal": "Idealista",
       "telefono": "675 84 83 82"
-    },
-    {
-      "titulo": "Chalet adosado en Calle mediodia, s/n, Vilanova del Camí",
-      "precio": "160.000€",
-      "ubicacion": "s/n, Vilanova del Camí",
-      "habitaciones": "2 hab.",
-      "metros": "195 m²",
-      "url": "https://www.idealista.com/inmueble/96277949/",
-      "descripcion": "Casa de pueblo en venta, consta de dos pisos independientes de 45 m2con terraza y un garaje. de 100 m2. En buena calle. Con posibilidades de ampliar los dos pisos.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:30:31.621583",
-      "portal": "Idealista",
-      "telefono": "647 32 72 83"
     },
     {
       "titulo": "Casa o chalet independiente en Calle de Collbato, 71, El Bruc",

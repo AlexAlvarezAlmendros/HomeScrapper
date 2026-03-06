@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:25:00.666978",
   "ubicacion": "Garraf",
   "url": "https://www.idealista.com/venta-viviendas/barcelona/garraf/?ordenado-por=fecha-publicacion-desc",
-  "total": 91,
+  "total": 74,
   "viviendas": [
     {
       "titulo": "Casa terrera en Calle roca, s/n, Mas Alba-Can Lloses, Sant Pere de Ribes",
@@ -187,32 +187,6 @@
       "telefono": "651 53 97 50"
     },
     {
-      "titulo": "Chalet pareado en Calle la Sajolida, 21, Mas Alba-Can Lloses, Sant Pere de Ribes",
-      "precio": "295.000€",
-      "ubicacion": "21, Mas Alba-Can Lloses, Sant Pere de Ribes",
-      "habitaciones": "2 hab.",
-      "metros": "63 m²",
-      "url": "https://www.idealista.com/inmueble/110706194/",
-      "descripcion": "Encantadora casa pareada en el Parque Natural del Garraf con vistas a la montaña\nUbicada en un entorno tranquilo de montaña dentro del Parque Natural del Garraf, esta acogedora casa pareada se encuentra sobre una parcela de 890 m² distribuida en tres niveles. Los espacios exteriores están pensados para disfrutar de la",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:15:52.496297",
-      "portal": "Idealista",
-      "telefono": "664 16 53 08"
-    },
-    {
-      "titulo": "Estudio en Paseo Pujades, 1, Vallpineda-Rocamar, Sant Pere de Ribes",
-      "precio": "189.000€",
-      "ubicacion": "1, Vallpineda-Rocamar, Sant Pere de Ribes",
-      "habitaciones": null,
-      "metros": "35 m²",
-      "url": "https://www.idealista.com/inmueble/110699814/",
-      "descripcion": "Se vende espectacular estudio/loft reformado con un gusto exquisito, ubicado en la exclusiva urbanización de Vallpineda, una de las zonas más seguras, tranquilas y prestigiosas de Sitges.\nEl Apartamento:\nEste loft destaca por su diseño moderno y funcional, aprovechando cada metro cuadrado para ofrecer un ambiente lumi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:15:52.496309",
-      "portal": "Idealista",
-      "telefono": "+39 334 817 7353"
-    },
-    {
       "titulo": "Piso en Bv-2117, 10, Castellet i la Gornal",
       "precio": "102.000€",
       "ubicacion": "10, Castellet i la Gornal",
@@ -237,71 +211,6 @@
       "fecha_scraping": "2026-02-23T16:15:52.496331",
       "portal": "Idealista",
       "telefono": "626 75 86 65"
-    },
-    {
-      "titulo": "Ático en Centro Pueblo, Sant Pere de Ribes",
-      "precio": "189.000€",
-      "ubicacion": "Sant Pere de Ribes",
-      "habitaciones": "2 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/102485243/",
-      "descripcion": "Te encantará este ático por su luz natural, su distribución y su ubicación inmejorable (a solo un minuto a pie de la Plaza Mercer, centro Sant Pere de Ribes). Dispone de 2 habitaciones dobles con armarios empotrados y un baño. La cocina se acaba de reformar, es pequeña pero moderna y muy funcional. La sala de estar com",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T20:18:17.303621",
-      "portal": "Idealista",
-      "telefono": "654 54 50 27"
-    },
-    {
-      "titulo": "Piso en Paseo Marítim, 70, Vinyet-Terramar-Can Pei-Can Girona, Sitges",
-      "precio": "1.550.000€",
-      "ubicacion": "70, Vinyet-Terramar-Can Pei-Can Girona, Sitges",
-      "habitaciones": "4 hab.",
-      "metros": "135 m²",
-      "url": "https://www.idealista.com/inmueble/110657346/",
-      "descripcion": "Ubicado en primera línea de mar, este exclusivo apartamento orientado al sur ofrece impresionantes vistas abiertas al Mediterráneo y una luminosidad excepcional durante todo el día. Una propiedad única donde el sonido del mar y la luz natural se convierten en parte de tu día a día.\nLa vivienda destaca por su amplia zo",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:07:45.109485",
-      "portal": "Idealista",
-      "telefono": "607 35 62 57"
-    },
-    {
-      "titulo": "Piso en Calle de Lluís Companys, 64, Centro Pueblo, Sant Pere de Ribes",
-      "precio": "250.000€",
-      "ubicacion": "64, Centro Pueblo, Sant Pere de Ribes",
-      "habitaciones": "3 hab.",
-      "metros": "94 m²",
-      "url": "https://www.idealista.com/inmueble/110642868/",
-      "descripcion": "Piso céntrico con ascensor: 3 dormitorios (principal con vestidor), 2 baños, balcón, patio privado y ascensor | Zona Correos\nPiso céntrico en Zona Correos, en 1ª planta con ascensor, con 3 dormitorios (principal con vestidor), 2 baños, balcón y patio interior privado. Una vivienda muy completa para quien busca amplitu",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:41:58.254962",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Chalet pareado en Avenida d'Artur Carbonell, 25, Centre, Sitges",
-      "precio": "1.250.000€",
-      "ubicacion": "25, Centre, Sitges",
-      "habitaciones": "4 hab.",
-      "metros": "198 m²",
-      "url": "https://www.idealista.com/inmueble/110640169/",
-      "descripcion": "Joya arquitectónica catalogada obra del arquitecto Juli Batllevell. Excelente ubicación y excelente estado. Elegancia de otra época. Un palacio en venta directo de particular. Abstenerse agencias. Precio negociable!",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:41:58.255008",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Dúplex en Paseo de Vilanova, 54, Santa Maria-Eixample-Sud Sumella, Cubelles",
-      "precio": "195.000€",
-      "ubicacion": "54, Santa Maria-Eixample-Sud Sumella, Cubelles",
-      "habitaciones": "3 hab.",
-      "metros": "180 m²",
-      "url": "https://www.idealista.com/inmueble/104407181/",
-      "descripcion": "Piso duplex de 88 m2 vivienda + 90 m2 terraza individual privada con excelentes vistas a mar y montaña a 4 vientos. Piso reformado, 3 habitaciones, 2 baños, amplia cocina con vitrocerámica y horno nuevo. Salón comedor de 30 m2. Todo impecable. Escalera de caracol en el comedor que da a la terraza del piso superior. Muy",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:09:27.056574",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Chalet adosado en Avenida de Daltmar, 4, Canyelles",
@@ -408,19 +317,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle de Joaquim Mir, 14, Centre Vila - La Geltrú, Vilanova i la Geltrú",
-      "precio": "280.000€",
-      "ubicacion": "14, Centre Vila - La Geltrú, Vilanova i la Geltrú",
-      "habitaciones": "3 hab.",
-      "metros": "92 m²",
-      "url": "https://www.idealista.com/inmueble/110588262/",
-      "descripcion": "Vivir en el corazón de Vilanova i la Geltrú y disfrutar de la tranquilidad de un hogar con espacios exteriores propios es posible. Esta acogedora planta baja de 92 m², ubicada en una finca moderna del año 2004, combina comodidad, funcionalidad y una ubicación inmejorable.\nLa vivienda dispone de tres habitaciones, dos",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:28:25.163299",
-      "portal": "Idealista",
-      "telefono": "654 45 79 33"
-    },
-    {
       "titulo": "Piso en Rambla de Sant Jordi, 37, Les Casernes - Sant Jordi, Vilanova i la Geltrú",
       "precio": "320.000€",
       "ubicacion": "37, Les Casernes - Sant Jordi, Vilanova i la Geltrú",
@@ -460,19 +356,6 @@
       "telefono": null
     },
     {
-      "titulo": "Ático en Calle Jacint Verdaguer, 5, El Castell de Cubelles, Cubelles",
-      "precio": "179.000€",
-      "ubicacion": "5, El Castell de Cubelles, Cubelles",
-      "habitaciones": "3 hab.",
-      "metros": "92 m²",
-      "url": "https://www.idealista.com/inmueble/110571414/",
-      "descripcion": "Te presentamos esta luminosa vivienda de 92 m² situada en pleno centro de Cubelles, con todos los servicios a un paso: comercios, transporte público, colegios y zonas de ocio.\nEl piso se distribuye en tres habitaciones, actualmente organizadas como:\n•Una habitación doble, amplia y confortable.\n•Una habitación individu",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:28:25.163338",
-      "portal": "Idealista",
-      "telefono": "629 78 65 94"
-    },
-    {
       "titulo": "Piso en Camino de la Fita, 40, Els Molins-Observatorio-Pins Vens, Sitges",
       "precio": "270.000€",
       "ubicacion": "40, Els Molins-Observatorio-Pins Vens, Sitges",
@@ -499,19 +382,6 @@
       "telefono": "649 14 75 75"
     },
     {
-      "titulo": "Piso en Calle Ramon Figueras, 8, Vallpineda-Santa Bárbara, Sitges",
-      "precio": "319.000€",
-      "ubicacion": "8, Vallpineda-Santa Bárbara, Sitges",
-      "habitaciones": "3 hab.",
-      "metros": "112 m²",
-      "url": "https://www.idealista.com/inmueble/110503019/",
-      "descripcion": "OPORTUNIDAD ÚNICA! Piso 3 hab + 2 baños en Sitges (Listo para vivir)\nPresentamos este piso impecable. Olvídate de obras, ruidos y esperas. Solo trae tus maletas.\n- 3 habitaciones luminosas (ideales para familia o teletrabajo).\n- 2 baños completos\n- Salón diáfano con luz natural que invita a disfrutar\n- 2 amplios balcon",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:28:25.163366",
-      "portal": "Idealista",
-      "telefono": "661 60 73 70"
-    },
-    {
       "titulo": "Piso en Calle d'Espalter, 18  1, Centre, Sitges",
       "precio": "460.000€",
       "ubicacion": "18  1, Centre, Sitges",
@@ -536,32 +406,6 @@
       "fecha_scraping": "2026-02-13T11:28:25.163385",
       "portal": "Idealista",
       "telefono": "650 43 65 33"
-    },
-    {
-      "titulo": "Piso en Calle Ramon Figueras, 8, Vallpineda-Santa Bárbara, Sitges",
-      "precio": "319.000€",
-      "ubicacion": "8, Vallpineda-Santa Bárbara, Sitges",
-      "habitaciones": "3 hab.",
-      "metros": "112 m²",
-      "url": "https://www.idealista.com/inmueble/110503052/",
-      "descripcion": "OPORTUNIDAD ÚNICA! Piso 3 hab + 2 baños en Sitges (Listo para vivir)\nPresentamos este piso impecable. Olvídate de obras, ruidos y esperas. Solo trae tus maletas.\n- 3 habitaciones luminosas (ideales para familia o teletrabajo).\n- 2 baños completos\n- Salón diáfano con luz natural que invita a disfrutar\n- 2 amplios balcon",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:28:25.163394",
-      "portal": "Idealista",
-      "telefono": "661 60 73 70"
-    },
-    {
-      "titulo": "Piso en Mas d'En Serra-Els Cards, Sant Pere de Ribes",
-      "precio": "550.000€",
-      "ubicacion": "Sant Pere de Ribes",
-      "habitaciones": "4 hab.",
-      "metros": "176 m²",
-      "url": "https://www.idealista.com/inmueble/110493555/",
-      "descripcion": "Dúplex con vistas al mar en Casas del Mar: Exclusividad, diseño y terrazas\nUbicado en la prestigiosa y exclusiva comunidad de Casas del Mar (Sant Pere de Ribes), este dúplex de 150 m2 (excluyendo terrazas) ofrece una experiencia de vida única. La urbanización es un referente de diseño arquitectónico y paisajístico en",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:28:25.163403",
-      "portal": "Idealista",
-      "telefono": "609 44 97 43"
     },
     {
       "titulo": "Piso en Calle de Pere Riudor, 14, Barri de Mar, Vilanova i la Geltrú",
@@ -642,19 +486,6 @@
       "telefono": "616 06 81 56"
     },
     {
-      "titulo": "Piso en Calle Almogavers, 4, Pla de Sant Pere-Les Salines, Cubelles",
-      "precio": "375.000€",
-      "ubicacion": "4, Pla de Sant Pere-Les Salines, Cubelles",
-      "habitaciones": "3 hab.",
-      "metros": "115 m²",
-      "url": "https://www.idealista.com/inmueble/110177521/",
-      "descripcion": "Vivienda luminosa y bien distribuida, cuenta con 3 habitaciones dobles y 2 baños completos, amplio salón comedor y cocina independiente, ambos con salida a la terraza.\nUbicación privilegiada para quienes buscan estar cerca del mar y con excelente comunicación por carretera.\nTambién tiene un solárium privado de 56m2 con",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:28:25.163474",
-      "portal": "Idealista",
-      "telefono": "669 66 08 31"
-    },
-    {
       "titulo": "Casa o chalet independiente en Avenida Cunit, 47, Castellet i la Gornal",
       "precio": "295.000€",
       "ubicacion": "47, Castellet i la Gornal",
@@ -666,19 +497,6 @@
       "fecha_scraping": "2026-02-13T11:28:25.163484",
       "portal": "Idealista",
       "telefono": "662 43 78 18"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Pouet, 19, Mas Alba-Can Lloses, Sant Pere de Ribes",
-      "precio": "170.000€",
-      "ubicacion": "19, Mas Alba-Can Lloses, Sant Pere de Ribes",
-      "habitaciones": "3 hab.",
-      "metros": "233 m²",
-      "url": "https://www.idealista.com/inmueble/110232631/",
-      "descripcion": "Venta urgente de casa por divorcio para reformar ya iniciada la reforma. Instalación eléctrica nueva a medias con cuadro eléctrico a medias ya sin cocina ni baño ni puertas ni techo de pladur ya preparada para empezar la reforma. Cédula de habitabilidad renovada en noviembre, certificado energético. Todo legal. Comprad",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:28:25.163494",
-      "portal": "Idealista",
-      "telefono": "619 60 15 29"
     },
     {
       "titulo": "Casa o chalet independiente en Avenida dels Garrofers, 80, Levantina-Montgavina-Quintmar, Sitges",
@@ -731,19 +549,6 @@
       "fecha_scraping": "2026-02-13T11:28:25.163534",
       "portal": "Idealista",
       "telefono": "608 57 04 41"
-    },
-    {
-      "titulo": "Piso en Calle Lope de Vega, 11 -13, Els Molins-Observatorio-Pins Vens, Sitges",
-      "precio": "180.000€",
-      "ubicacion": "11 -13, Els Molins-Observatorio-Pins Vens, Sitges",
-      "habitaciones": "1 hab.",
-      "metros": "51 m²",
-      "url": "https://www.idealista.com/inmueble/110147799/",
-      "descripcion": "EL PIS ES PODRÀ ENSENYAR A PARTIR DEL DIA 28 DE FEBRER, QUE ES QUAN MARXA L'ACTUAL INQUILI.\nEs ven pis de 51 m² construïts situat a Sitges, entre els barris de Poble Sec i Els Molins, una zona molt tranquil·la i ben valorada, a només 5 minuts a peu de l’estació i de la platja.\nL’habitatge es troba en un primer pis sen",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:28:25.163544",
-      "portal": "Idealista",
-      "telefono": "627 59 05 75"
     },
     {
       "titulo": "Casa rural en Diseminado Disseminat, s/n, Mas Alba-Can Lloses, Sant Pere de Ribes",
@@ -1045,19 +850,6 @@
       "telefono": "673 00 67 77"
     },
     {
-      "titulo": "Piso en Calle de Pau Claris, s/n, Pla de Sant Pere-Les Salines, Cubelles",
-      "precio": "299.000€",
-      "ubicacion": "s/n, Pla de Sant Pere-Les Salines, Cubelles",
-      "habitaciones": "2 hab.",
-      "metros": "82 m²",
-      "url": "https://www.idealista.com/inmueble/109603700/",
-      "descripcion": "BAJOS EXCLUSIVO EN 1ª LÍNEA DE MAR: TERRAZA, BARBACOA Y ACCESO DIRECTO A PISCINA Y PLAYA\n¿Buscas la comodidad de una casa con las ventajas de un complejo de lujo frente al mar? Este espectacular bajo en la zona de Les Salines (Cubelles) es una pieza única. Olvídate de ascensores y pasillos: aquí tu terraza es la puerta",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:28:25.163783",
-      "portal": "Idealista",
-      "telefono": "649 32 65 37"
-    },
-    {
       "titulo": "Casa o chalet independiente en Ribes Roges, Vilanova i la Geltrú",
       "precio": "930.000€",
       "ubicacion": "Vilanova i la Geltrú",
@@ -1171,19 +963,6 @@
       "descripcion": "Venta directa con los propietarios y sin intermediarios ni comisiones ocultas, POR FAVOR NO CONTACTAR INMOBILIARIAS NI INTERMEDIARIOS.\nTu hogar soñado en Mas d’en Serra: casa amplia, reformada y muy luminosa. Si buscas una casa lista para entrar a vivir, con luz natural en cada rincón, amplios espacios y una ubicación",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-13T11:28:25.163868",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Sant Vicenç, 13, Mas Trader-Corral D’En Tort-Corral D’En Cona, Cubelles",
-      "precio": "425.000€",
-      "ubicacion": "13, Mas Trader-Corral D’En Tort-Corral D’En Cona, Cubelles",
-      "habitaciones": "3 hab.",
-      "metros": "265 m²",
-      "url": "https://www.idealista.com/inmueble/107462424/",
-      "descripcion": "Se vende casa recién construida hobra nueva de dos plantas 115mc por planta, planta baja sala de juegos niños despensa alimentos baño Cosina salón, segunda planta dos dormitorios para niños, baño grande con jacuzzi despensa lavadora, secadora más el dormitorio de matrimoño grande con baño y vestidor de\nropa con salida",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:28:25.163877",
       "portal": "Idealista",
       "telefono": null
     }

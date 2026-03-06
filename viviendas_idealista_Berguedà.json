@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:23:02.083839",
   "ubicacion": "Berguedà",
   "url": "https://www.idealista.com/venta-viviendas/barcelona/bergueda/?ordenado-por=fecha-publicacion-desc",
-  "total": 63,
+  "total": 53,
   "viviendas": [
     {
       "titulo": "Finca rústica en C1411 Torrent de Dalt, s/n, Berga",
@@ -44,19 +44,6 @@
       "telefono": null
     },
     {
-      "titulo": "Casa de pueblo en Calle del Regatell, 21, La Pobla de Lillet",
-      "precio": "36.000€",
-      "ubicacion": "21, La Pobla de Lillet",
-      "habitaciones": null,
-      "metros": "272 m²",
-      "url": "https://www.idealista.com/inmueble/110726894/",
-      "descripcion": "Casa de pueblo en venta en pleno centro urbano, en la carretera B-402 que une Guardiola de Berguedà con Ripoll. Cuenta con una parcela de 68 m² y un total de 272 m² construidos, distribuidos en planta baja, dos plantas de un piso por planta y buhardilla.\nLa casa tiene tres fachadas exteriores.\nEl edificio es inhabitabl",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:23:14.497915",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Avenida Reina Elisenda, 13, Bagà",
       "precio": "226.000€",
       "ubicacion": "13, Bagà",
@@ -66,19 +53,6 @@
       "descripcion": "Piso en venta con fuego a tierra, Bagà.\nMagnífico piso de 95 m2 construidos, ubicado en primera planta con ascensor, en una excelente localización en el corazón de Bagà.\nLa vivienda se encuentra en una finca construida en 2004, de piedra y madera, siguiendo la estética típica de montaña. Destaca por su excelente estad",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-23T16:14:12.728831",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Chalet pareado en Calle de M. Buxadé, 34, Berga",
-      "precio": "315.000€",
-      "ubicacion": "34, Berga",
-      "habitaciones": "7 hab.",
-      "metros": "448 m²",
-      "url": "https://www.idealista.com/inmueble/110677583/",
-      "descripcion": "Gran casa en venta en el centro de Berga – Espacio, versatilidad y ubicación inmejorable\nSe vende magnífica propiedad de 448 m² construidos, situada en pleno centro de Berga, ideal tanto para familia numerosa como para inversión.\n 336 m² destinados a vivienda\n 112 m² de aparcamiento privado con capacidad para 2-3",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:14:12.728853",
       "portal": "Idealista",
       "telefono": null
     },
@@ -122,19 +96,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Avenida Reina Elisenda, 13, Bagà",
-      "precio": "220.000€",
-      "ubicacion": "13, Bagà",
-      "habitaciones": "3 hab.",
-      "metros": "98 m²",
-      "url": "https://www.idealista.com/inmueble/110625337/",
-      "descripcion": "Magnífico piso de 98 m² construidos, ubicado en primera planta con ascensor, en una excelente localización en el corazón de Bagà (Alt Berguedà), dentro del incomparable entorno del Parc Natural del Cadí-Moixeró.\nLa vivienda se encuentra en una finca construida en 2004, de piedra y madera, siguiendo la estética típica d",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:11:26.045480",
-      "portal": "Idealista",
-      "telefono": "650 92 66 90"
-    },
-    {
       "titulo": "Dúplex en Diseminado Pino-sant Josep, 16, Cercs",
       "precio": "120.000€",
       "ubicacion": "16, Cercs",
@@ -159,58 +120,6 @@
       "fecha_scraping": "2026-02-13T11:11:26.045515",
       "portal": "Idealista",
       "telefono": "650 44 25 25"
-    },
-    {
-      "titulo": "Piso en Calle Verdaguer, 10, Berga",
-      "precio": "65.000€",
-      "ubicacion": "10, Berga",
-      "habitaciones": "2 hab.",
-      "metros": "47 m²",
-      "url": "https://www.idealista.com/inmueble/110611033/",
-      "descripcion": "Piso pequeño ideal persona sola o pareja. Tiene dos habitaciones ( una doble y una individual) Edificio que se ha acaba de realizar la division horizontal. En el centro (casco antiguo ) de berga. Ideal para primera vivenda o inversion.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:11:26.045525",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en C-16, 86, Gironella",
-      "precio": "27.500€",
-      "ubicacion": "86, Gironella",
-      "habitaciones": "3 hab.",
-      "metros": "40 m²",
-      "url": "https://www.idealista.com/inmueble/110582724/",
-      "descripcion": "Oportunidad de Mobilhome situado en parcela de camping en Gironella.\nLas medidas (10x4 ) del módulo están muy bien distribuidos en salón independiente, cocina, baño y tres habitaciones de las cuales dos son dobles y la otra individual.\nEn su exterior dispone de un gran porche de madera con varias zonas, dispone tambi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:11:26.045536",
-      "portal": "Idealista",
-      "telefono": "636 95 41 77"
-    },
-    {
-      "titulo": "Chalet adosado en Carretera de Casserres, 13, Gironella",
-      "precio": "210.000€",
-      "ubicacion": "13, Gironella",
-      "habitaciones": "12 hab.",
-      "metros": "500 m²",
-      "url": "https://www.idealista.com/inmueble/106943791/",
-      "descripcion": "Casa para reformar, con patio de 1050m2 en uno de los municipios más bonitos de la zona. La casa permite una reforma donde saldrian 2 pisos, 2 dúplex, 1 apartamento, párquings y trasteros, tras la reforma. El patio tiene muchas posibilidades y dispone de pozo de agua. Ideal para emprendedores con ganas de realizar un p",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:11:26.045546",
-      "portal": "Idealista",
-      "telefono": "699 08 50 23"
-    },
-    {
-      "titulo": "Piso en Calle Orient, 5, Puig-Reig",
-      "precio": "107.000€",
-      "ubicacion": "5, Puig-Reig",
-      "habitaciones": "3 hab.",
-      "metros": "85 m²",
-      "url": "https://www.idealista.com/inmueble/110414813/",
-      "descripcion": "Piso recién reformado a estrenar\nDistribuido en tres dormitorios, dos de ellos dobles, amplio salón comedor de 35 m2 con cocina abierta. Balcón soleado con vistas para disfrutar en todas las estaciones. Finca histórica, se han conservado y restaurado sus techos abovedados, puertas y ventanas, conservando su encanto a",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:11:26.045556",
-      "portal": "Idealista",
-      "telefono": "687 70 50 29"
     },
     {
       "titulo": "Piso en Calle de l'Harmonia, 1, Berga",
@@ -328,19 +237,6 @@
       "fecha_scraping": "2026-02-13T11:11:26.045644",
       "portal": "Idealista",
       "telefono": "661 51 92 77"
-    },
-    {
-      "titulo": "Piso en Calle Santa Eulàlia, 37, Berga",
-      "precio": "92.000€",
-      "ubicacion": "37, Berga",
-      "habitaciones": "3 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110033613/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:11:26.045654",
-      "portal": "Idealista",
-      "telefono": "681 60 53 94"
     },
     {
       "titulo": "Chalet adosado en Calle Pedraforca, 1, Cercs",
@@ -538,19 +434,6 @@
       "telefono": "647 79 10 99"
     },
     {
-      "titulo": "Casa o chalet independiente en Viladomiu Vell, s/n, Gironella",
-      "precio": "550.000€",
-      "ubicacion": "s/n, Gironella",
-      "habitaciones": "25 hab.",
-      "metros": "1.800 m²",
-      "url": "https://www.idealista.com/inmueble/29168538/",
-      "descripcion": "Edificio de estilo Modernista construido en 1. 910 por el Sr. Tomás Viladomiu. Cuenta con 1. 790 m2 construidos, divididos en 4 plantas. El tipo de construcción es en piedra, ladrillo macizo y los suelos se asientan sobre bóveda catalana, constituida por viga de hierro y ladrillo macizo. En la buhardilla hay un entrama",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:11:26.045815",
-      "portal": "Idealista",
-      "telefono": "609 38 06 09"
-    },
-    {
       "titulo": "Piso en Calle Alzina, 10, Puig-Reig",
       "precio": "135.000€",
       "ubicacion": "10, Puig-Reig",
@@ -627,19 +510,6 @@
       "fecha_scraping": "2026-02-13T11:11:26.045874",
       "portal": "Idealista",
       "telefono": "649 41 22 56"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Cal Nen Pere, 1, Sant Julià de Cerdanyola",
-      "precio": "340.000€",
-      "ubicacion": "1, Sant Julià de Cerdanyola",
-      "habitaciones": "5 hab.",
-      "metros": "200 m²",
-      "url": "https://www.idealista.com/inmueble/106587244/",
-      "descripcion": "Bonita casa de pueblo.\nSe vende espectacular casa de 278 metros cuadrados con jardín, en una de las zonas más tranquilas y acogedoras de Sant Julia de Cerdanyola.\nEsta propiedad es perfecta para familias que busquen espacio y luminosidad.\nCaracteristicas:\nLa casa despone de 5 Habitaciones: dos de matrimonio y tres adi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:11:26.045883",
-      "portal": "Idealista",
-      "telefono": "649 22 68 20"
     },
     {
       "titulo": "Chalet adosado en Calle Sense Nom, 28, Vallcebre",

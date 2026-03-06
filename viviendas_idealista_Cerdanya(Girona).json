@@ -2,7 +2,7 @@
   "timestamp": "2026-02-26T16:38:23.058089",
   "ubicacion": "Cerdanya(Girona)",
   "url": "https://www.idealista.com/venta-viviendas/girona/la-cerdanya/?ordenado-por=fecha-publicacion-desc",
-  "total": 21,
+  "total": 18,
   "viviendas": [
     {
       "titulo": "Chalet pareado en Ger",
@@ -14,19 +14,6 @@
       "descripcion": "Vendo casa ideal para disfrutar de la naturaleza en familia.\nSi quieres despertarte sin ruido a tu alrededor en uno de los pueblos más bonitos de la Cerdanya, és para ti.\nSi te gusta despejarte los fines de semana en un entorno tranquilo y cerca de las estaciones de esquí, es un lugar ideal.\nY si quieres disfrutar e",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-26T16:38:23.057760",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Camino d'Age, 23, Puigcerdà",
-      "precio": "250.000€",
-      "ubicacion": "23, Puigcerdà",
-      "habitaciones": "2 hab.",
-      "metros": "69 m²",
-      "url": "https://www.idealista.com/inmueble/110635145/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:17:00.336864",
       "portal": "Idealista",
       "telefono": null
     },
@@ -55,19 +42,6 @@
       "fecha_scraping": "2026-02-13T13:17:00.561529",
       "portal": "Idealista",
       "telefono": "667 73 63 45"
-    },
-    {
-      "titulo": "Ático en Calle del Raval, 32, Llívia",
-      "precio": "275.000€",
-      "ubicacion": "32, Llívia",
-      "habitaciones": "4 hab.",
-      "metros": "144 m²",
-      "url": "https://www.idealista.com/inmueble/109047474/",
-      "descripcion": "Ático dúplex reformado con chimenea y vistas al Cadí en el centro de Llívia\nTasación reciente superior a precio.\nUbicado en calle Raval, en pleno corazón de Llívia (Cerdanya), este ático dúplex de 120 m² útiles, más buhardilla, ofrece una combinación única de vivienda de montaña con carácter y comodidad moderna, todo",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:17:00.561550",
-      "portal": "Idealista",
-      "telefono": "652 73 08 97"
     },
     {
       "titulo": "Ático en Avenida del Segre, 17, Puigcerdà",
@@ -198,19 +172,6 @@
       "fecha_scraping": "2026-02-13T13:17:00.561651",
       "portal": "Idealista",
       "telefono": "628 10 29 29"
-    },
-    {
-      "titulo": "Estudio en Avenida Supermolina, 25, Alp",
-      "precio": "125.000€",
-      "ubicacion": "25, Alp",
-      "habitaciones": null,
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/92316974/",
-      "descripcion": "Precioso piso en venta. Ubicación espetacular y a 3 min de pista de esquí. Gran zona ajardinada comunitaria y parquing. El edificio consta de ascensor y zonas comunitarias. Zona muy tranquila y acogedora. Piso reformado.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:17:00.561661",
-      "portal": "Idealista",
-      "telefono": "660 38 50 05"
     },
     {
       "titulo": "Casa o chalet independiente en Calle dels Plans, s/n, Alp",

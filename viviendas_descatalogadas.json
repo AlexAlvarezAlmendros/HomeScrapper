@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-05T08:23:52.308543",
-  "total": 589,
+  "timestamp": "2026-03-06T10:04:25.037437",
+  "total": 628,
   "nuevas_esta_ejecucion": 0,
   "urls": [
     "https://www.fotocasa.es/es/comprar/vivienda/mediona/parking-jardin-terraza-trastero-amueblado/188750593/d",
@@ -591,7 +591,46 @@
     "https://www.idealista.com/inmueble/109758427/",
     "https://www.idealista.com/inmueble/100389819/",
     "https://www.idealista.com/inmueble/110135368/",
-    "https://www.idealista.com/inmueble/104858816/"
+    "https://www.idealista.com/inmueble/104858816/",
+    "https://www.idealista.com/inmueble/110690238/",
+    "https://www.idealista.com/inmueble/110381259/",
+    "https://www.idealista.com/inmueble/104964691/",
+    "https://www.idealista.com/inmueble/110762835/",
+    "https://www.idealista.com/inmueble/108641950/",
+    "https://www.idealista.com/inmueble/110803926/",
+    "https://www.idealista.com/inmueble/110777875/",
+    "https://www.idealista.com/inmueble/97790964/",
+    "https://www.idealista.com/inmueble/110638176/",
+    "https://www.idealista.com/inmueble/110132409/",
+    "https://www.idealista.com/inmueble/110699695/",
+    "https://www.idealista.com/inmueble/110634959/",
+    "https://www.idealista.com/inmueble/110762750/",
+    "https://www.idealista.com/inmueble/110711202/",
+    "https://www.idealista.com/inmueble/110617247/",
+    "https://www.idealista.com/inmueble/110616619/",
+    "https://www.idealista.com/inmueble/110604763/",
+    "https://www.idealista.com/inmueble/431120/",
+    "https://www.idealista.com/inmueble/108217863/",
+    "https://www.idealista.com/inmueble/110196568/",
+    "https://www.idealista.com/inmueble/110747984/",
+    "https://www.idealista.com/inmueble/110638672/",
+    "https://www.idealista.com/inmueble/110121663/",
+    "https://www.idealista.com/inmueble/110770730/",
+    "https://www.idealista.com/inmueble/110779025/",
+    "https://www.idealista.com/inmueble/110235446/",
+    "https://www.idealista.com/inmueble/92750208/",
+    "https://www.idealista.com/inmueble/109212851/",
+    "https://www.idealista.com/inmueble/110163211/",
+    "https://www.idealista.com/inmueble/108022940/",
+    "https://www.idealista.com/inmueble/107576826/",
+    "https://www.idealista.com/inmueble/106828617/",
+    "https://www.idealista.com/inmueble/110344670/",
+    "https://www.fotocasa.es/es/comprar/vivienda/vilafranca-del-penedes/calefaccion-parking-trastero-ascensor/188445269/d",
+    "https://www.fotocasa.es/es/comprar/vivienda/mediona/parking-jardin-amueblado/188423104/d",
+    "https://www.fotocasa.es/es/comprar/vivienda/castellet-i-la-gornal/calefaccion-parking-jardin-terraza-trastero-piscina/188530819/d",
+    "https://www.fotocasa.es/es/comprar/vivienda/gelida/aire-acondicionado-calefaccion-terraza-patio-amueblado/187455441/d",
+    "https://www.fotocasa.es/es/comprar/vivienda/torrelles-de-foix/calefaccion-parking-jardin-terraza-trastero-patio-piscina-amueblado/185259644/d",
+    "https://www.fotocasa.es/es/comprar/vivienda/olesa-de-bonesvalls/parking-jardin-terraza-trastero-piscina/184755745/d"
   ],
   "detalle": [
     {
@@ -4127,6 +4166,240 @@
       "ubicacion": "Tarragonès",
       "portal": "idealista",
       "titulo": "Estudio en Calle de Josep Carner, 18, Salou de Llevant, Salou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110690238/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Piso en Sagrada Familia, Manresa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110381259/",
+      "ubicacion": "Barcelona - Nou Barris",
+      "portal": "idealista",
+      "titulo": "Piso en Verdun, Barcelona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/104964691/",
+      "ubicacion": "La Selva",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Plaza Alfred Sisquella, 3, Fenals, Lloret de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110762835/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Masía en Ds Afores 3899901, 3899901, Centre, Pineda de Mar"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108641950/",
+      "ubicacion": "Maresme",
+      "portal": "idealista",
+      "titulo": "Piso en Camino Pla de la Torreta, 2, Playa, Sant Andreu de Llavaneres"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110803926/",
+      "ubicacion": "Pla d'Urgell",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Marius Torres, 12, El Palau d'Anglesola"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110777875/",
+      "ubicacion": "Pla de l'Estany",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Sant Antoni, 2, Cornellá del Terri"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/97790964/",
+      "ubicacion": "Ribera d'Ebre",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Raval de Santa Anna, 9, Garcia"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110638176/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Olèrdola"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110132409/",
+      "ubicacion": "AltPenedès",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle del Doctor Fleming, 2, Barceloneta - Molí d'En Rovira, Vilafranca del Penedès"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110699695/",
+      "ubicacion": "Badalona",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle de la República Argentina, 88, Progrés-Pep Ventura, Badalona"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110634959/",
+      "ubicacion": "Bages",
+      "portal": "idealista",
+      "titulo": "Ático en Calle Doctor Fleming, 2, Súria"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110762750/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Vent, 30, Centre, Reus"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110711202/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Calle de la Mare Molas, 23, Ponent, Reus"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110617247/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Ático en Avenida de Sant Jordi, 17, Centre, Reus"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110616619/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida del Francesc Macià, 9, Ponent, Reus"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110604763/",
+      "ubicacion": "Baix Camp",
+      "portal": "idealista",
+      "titulo": "Piso en Avenida de Barcelona, 109, Mestral, Reus"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/431120/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Lleida, 10, Vilartagues i Tueda de Dalt, Sant Feliu de Guíxols"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108217863/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Piso en Camino Jardí Botànic, 100, Calella, Palafrugell"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110196568/",
+      "ubicacion": "Baix Empordà",
+      "portal": "idealista",
+      "titulo": "Chalet pareado en Calle Pinsà, 51, El Mas Pinell, Torroella de Montgrí"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110747984/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Camino del Pinar, 6, Gavà Mar, Gavà"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110638672/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Ático en Avenida de la Generalitat de Catalunya, 79, El Papiol"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110121663/",
+      "ubicacion": "Baix Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Paseo de la Generalitat, 1, Sant Andreu de la Barca"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110770730/",
+      "ubicacion": "Baix Penedes",
+      "portal": "idealista",
+      "titulo": "Casa o chalet independiente en Calle Girona, 8, Residencial, Cunit"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110779025/",
+      "ubicacion": "Catalunya Central",
+      "portal": "idealista",
+      "titulo": "Piso en Calle del Col·legi, 41, Centre, Terrassa"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110235446/",
+      "ubicacion": "L'Hospitalet de Llobregat",
+      "portal": "idealista",
+      "titulo": "Piso en Castelao, 76, Santa Eulàlia, Hospitalet de Llobregat"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/92750208/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Chalet adosado en Calle de Pablo Picasso, 20, Plaça Europa i Covamar, Salou"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/109212851/",
+      "ubicacion": "Tarragonès",
+      "portal": "idealista",
+      "titulo": "Estudio en Calle d'Enric Morera, 285, La Pineda"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110163211/",
+      "ubicacion": "Terra Alta",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Calle de Bot, 34, Prat de Comte"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/108022940/",
+      "ubicacion": "Terra Alta",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Calle de Colomer, 39, La Pobla de Massaluca"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/107576826/",
+      "ubicacion": "Terra Alta",
+      "portal": "idealista",
+      "titulo": "Casa de pueblo en Plaza ď Espanya, 14, Batea"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/106828617/",
+      "ubicacion": "Terra Alta",
+      "portal": "idealista",
+      "titulo": "Piso en Major, 28, Corbera d'Ebre"
+    },
+    {
+      "url": "https://www.idealista.com/inmueble/110344670/",
+      "ubicacion": "Val d'Aran",
+      "portal": "idealista",
+      "titulo": "Piso en Calle Av de Betren, urb privilege, 1, Vielha"
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/vilafranca-del-penedes/calefaccion-parking-trastero-ascensor/188445269/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Pisoen Carrer d'Amàlia Soler, 9, Poble Nou"
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/mediona/parking-jardin-amueblado/188423104/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Finca rústicaen Carrer Dalt, 6, Mediona"
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/castellet-i-la-gornal/calefaccion-parking-jardin-terraza-trastero-piscina/188530819/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Casa adosadacon piscina en Castellet i la Gornal"
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/gelida/aire-acondicionado-calefaccion-terraza-patio-amueblado/187455441/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Pisoen Carrer Doctor Rafael Galés, 1, Gelida"
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/torrelles-de-foix/calefaccion-parking-jardin-terraza-trastero-patio-piscina-amueblado/185259644/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Casa o chaleten Carrer Dragó, 18, Torrelles de Foix"
+    },
+    {
+      "url": "https://www.fotocasa.es/es/comprar/vivienda/olesa-de-bonesvalls/parking-jardin-terraza-trastero-piscina/184755745/d",
+      "ubicacion": "AltPenedès",
+      "portal": "fotocasa",
+      "titulo": "Casa o chaleten Carrer Rovellons, 15, Olesa de Bonesvalls"
     }
   ]
 }

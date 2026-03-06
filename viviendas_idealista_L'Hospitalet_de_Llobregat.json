@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:21:02.091245",
   "ubicacion": "L'Hospitalet de Llobregat",
   "url": "https://www.idealista.com/venta-viviendas/hospitalet-de-llobregat-barcelona/?ordenado-por=fecha-publicacion-desc",
-  "total": 86,
+  "total": 56,
   "viviendas": [
     {
       "titulo": "Piso en Collblanc, Hospitalet de Llobregat",
@@ -96,32 +96,6 @@
       "telefono": "679 00 57 09"
     },
     {
-      "titulo": "Piso en Avenida del Bosc, 25, Pubilla Cases, Hospitalet de Llobregat",
-      "precio": "410.000€",
-      "ubicacion": "25, Pubilla Cases, Hospitalet de Llobregat",
-      "habitaciones": "4 hab.",
-      "metros": "106 m²",
-      "url": "https://www.idealista.com/inmueble/110712998/",
-      "descripcion": "Piso luminoso con vistas despejadas al mar y al Tibidabo. Muy buena orientación, sol todo el día.\n4 habitaciones, 1 baño completo y 1 cuarto de aseo.\nPerfectamente ubicado, con conexión metro linea azul, roja y tranvía.\nOpcional 2 plazas de parking con precio a consultar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:11:55.112491",
-      "portal": "Idealista",
-      "telefono": "664 20 90 13"
-    },
-    {
-      "titulo": "Ático en Calle de Rodés, 27, Sant Josep, Hospitalet de Llobregat",
-      "precio": "339.000€",
-      "ubicacion": "27, Sant Josep, Hospitalet de Llobregat",
-      "habitaciones": "4 hab.",
-      "metros": "110 m²",
-      "url": "https://www.idealista.com/inmueble/110711422/",
-      "descripcion": "Sobre Ático de 110m2 compuesto de vivienda de 69 m2 más dos terrazas de 13m2 y 28m2.\nLa vivienda se distribuye en 4 habitaciones, una de ellas doble con acceso a una de las terrazas, un baño completo, recibidor, cocina y salón/comedor con acceso a otra de las terrazas que aporta una gran entrada de luz natural al espa",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:11:55.112513",
-      "portal": "Idealista",
-      "telefono": "638 81 49 59"
-    },
-    {
       "titulo": "Piso en Calle de l'Església, 1, Centre, Hospitalet de Llobregat",
       "precio": "375.000€",
       "ubicacion": "1, Centre, Hospitalet de Llobregat",
@@ -146,136 +120,6 @@
       "fecha_scraping": "2026-02-23T16:11:55.112536",
       "portal": "Idealista",
       "telefono": "636 45 77 51"
-    },
-    {
-      "titulo": "Piso en Calle de Rafael Campalans, 138, La Torrasa, Hospitalet de Llobregat",
-      "precio": "209.000€",
-      "ubicacion": "138, La Torrasa, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "63 m²",
-      "url": "https://www.idealista.com/inmueble/110705667/",
-      "descripcion": "¡Descubre tu nuevo hogar en el corazón de Hospitalet! Este encantador piso exterior, situado junto a poca distancia del mercado de Collblanc, ofrece una ubicación inmejorable, rodeado de todos los servicios que necesitas. La finca dispone de ascensor y está listo para entrar a vivir.\nOrientación este, garantizando el",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:11:55.112544",
-      "portal": "Idealista",
-      "telefono": "632 48 21 65"
-    },
-    {
-      "titulo": "Piso en Calle de Barcelona, 21, Centre, Hospitalet de Llobregat",
-      "precio": "400.000€",
-      "ubicacion": "21, Centre, Hospitalet de Llobregat",
-      "habitaciones": "4 hab.",
-      "metros": "150 m²",
-      "url": "https://www.idealista.com/inmueble/25228847/",
-      "descripcion": "Venta directa del propietario: sin comisiones de agencia.\nSe vende extraordinario piso céntrico, en una de las mejores ubicaciones de L'Hospitalet con todos los servicios a su alcance.\nAmplio comedor con concepto abierto a cocina reformada y galería.\n4 habitaciones todas dobles, la de matrimonio en suite 4 piezas con",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:11:55.112552",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Ático en Parc dels cirerers, 10 X, Sanfeliu, Hospitalet de Llobregat",
-      "precio": "535.000€",
-      "ubicacion": "10 X, Sanfeliu, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "138 m²",
-      "url": "https://www.idealista.com/inmueble/110692019/",
-      "descripcion": "Ático exclusivo de obra nueva con gran terraza privada y vistas despejadas al mar – Can Boixeres \nPresentamos esta excepcional vivienda situada en Can Boixeres, junto a Cornellà de Llobregat y Esplugues de Llobregat, a tan solo 3 minutos andando de la estación de metro Can Boixeres (L5 – línea azul). Una ubicación",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:11:55.112562",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en La Florida, Hospitalet de Llobregat",
-      "precio": "107.000€",
-      "ubicacion": "Hospitalet de Llobregat",
-      "habitaciones": "2 hab.",
-      "metros": "46 m²",
-      "url": "https://www.idealista.com/inmueble/110672221/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T20:15:41.647450",
-      "portal": "Idealista",
-      "telefono": "652 04 79 19"
-    },
-    {
-      "titulo": "Ático en Emigrante, 13, Sanfeliu, Hospitalet de Llobregat",
-      "precio": "532.000€",
-      "ubicacion": "13, Sanfeliu, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "138 m²",
-      "url": "https://www.idealista.com/inmueble/110665457/",
-      "descripcion": "Ático exclusivo de obra nueva con gran terraza privada y vistas despejadas al mar – Can Boixeres \nPresentamos esta excepcional vivienda situada en Can Boixeres, junto a Cornellà de Llobregat y Esplugues de Llobregat, a tan solo 3 minutos andando de la estación de metro Can Boixeres (L5 – línea azul). Una ubicación",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:05:10.494213",
-      "portal": "Idealista",
-      "telefono": "666 06 06 77"
-    },
-    {
-      "titulo": "Piso en Plaza de la Pubilla Cases, 1, Pubilla Cases, Hospitalet de Llobregat",
-      "precio": "125.000€",
-      "ubicacion": "1, Pubilla Cases, Hospitalet de Llobregat",
-      "habitaciones": "1 hab.",
-      "metros": "55 m²",
-      "url": "https://www.idealista.com/inmueble/110652216/",
-      "descripcion": "Bajo exterior con patio en excelente zona – ¡Listo para entrar a vivir! \nSe vende acogedor bajo de 55 m², ideal para quienes buscan comodidad y buena ubicación. La vivienda es exterior, lo que garantiza buena luz natural y ventilación.\nDispone de 1 habitación amplia, salón confortable y un patio privado, perfecto",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:05:10.494237",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Ronda de la Torrassa, 22, La Torrasa, Hospitalet de Llobregat",
-      "precio": "149.500€",
-      "ubicacion": "22, La Torrasa, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "65 m²",
-      "url": "https://www.idealista.com/inmueble/86303308/",
-      "descripcion": "“De particular a particular, piso para entrar a vivir” POR FAVOR ABSTENERSE INMOBILIARIAS\nPiso en Hospitalet de Llobregat, semi exterior, ya que todas las estancias dan a 2 patios de manzana, lo que asegura luz natural y buena ventilación. Al lado del Carrer Riera Blanca, a solo 2 minutos caminando de la estación del m",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:37:37.006738",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Martí Codolar, 46, Santa Eulàlia, Hospitalet de Llobregat",
-      "precio": "170.000€",
-      "ubicacion": "46, Santa Eulàlia, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "72 m²",
-      "url": "https://www.idealista.com/inmueble/110645514/",
-      "descripcion": "Oportunidad para inversores – Vivienda en L’Hospitalet con precio muy por debajo de mercado\nSe ofrece vivienda en L’Hospitalet de Llobregat, ideal para inversores o compradores patrimonialistas que busquen una operación con alto potencial de revalorización.\nEl inmueble se transmite en su estado actual de posesión,",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:37:37.006763",
-      "portal": "Idealista",
-      "telefono": "611 50 62 07"
-    },
-    {
-      "titulo": "Dúplex en Calle de Graner, 39, Collblanc, Hospitalet de Llobregat",
-      "precio": "240.000€",
-      "ubicacion": "39, Collblanc, Hospitalet de Llobregat",
-      "habitaciones": "2 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110644366/",
-      "descripcion": "Ático dúplex con 2 terrazas y reforma reciente en Collblanc\nSi buscas un hogar especial, con espacios exteriores y mucha luz, este ático dúplex en Collblanc es una excelente oportunidad de compra. Reformado íntegramente hace solo 4 años, combina comodidad, diseño actual y una distribución muy funcional.\nLa vivienda d",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:37:37.006776",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle del Rosselló, 55, La Torrasa, Hospitalet de Llobregat",
-      "precio": "190.000€",
-      "ubicacion": "55, La Torrasa, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110642462/",
-      "descripcion": "PISO EXTERIOR\n- Consta de 3 Habitaciones TODAS Exteriores a la calle.\n- Gran Salón-Comedor con balcón.\n- Cocina equipada con salida a patio interior de 10m2.\n- 1 baño completo.\n- Muy Soleado. Finca tranquila y pocos vecinos.\nLocalizado a unos pasos de la Riera Blanca. Supermercados, cafeterías, restaurantes, banco",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:37:37.006786",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Calle Jardí, 2, La Florida, Hospitalet de Llobregat",
@@ -317,19 +161,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle de París, 30, Collblanc, Hospitalet de Llobregat",
-      "precio": "209.000€",
-      "ubicacion": "30, Collblanc, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/110580069/",
-      "descripcion": "Piso en Hospitalet de Llobregat, zona Collblanc y la Torrasa. Tiene 3 habitaciones, dos de ellas individuales y un baño completo con bañera. Dispone de un balcón con salida des del comedor. La cocina está equipada. Dispone también de un altillo en la zona del pasillo. Magnífica oportunidad por zona y precio.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538141",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle Mina, 38, Pubilla Cases, Hospitalet de Llobregat",
       "precio": "350.000€",
       "ubicacion": "38, Pubilla Cases, Hospitalet de Llobregat",
@@ -356,32 +187,6 @@
       "telefono": "607 37 66 53"
     },
     {
-      "titulo": "Piso en Sant Josep, Hospitalet de Llobregat",
-      "precio": "180.000€",
-      "ubicacion": "Hospitalet de Llobregat",
-      "habitaciones": "2 hab.",
-      "metros": "43 m²",
-      "url": "https://www.idealista.com/inmueble/110573982/",
-      "descripcion": "Edificio con terrado comunitario con tendederos, todo el piso exterior. Muy bien comunicado con buses y a 250m de metro Torrasa L1, L9 y L10. Cerca de piscina, gimnasio, biblioteca, mercado y tiendas.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538174",
-      "portal": "Idealista",
-      "telefono": "687 23 70 69"
-    },
-    {
-      "titulo": "Piso en Calle de l'Aprestadora, 10 -20, Santa Eulàlia, Hospitalet de Llobregat",
-      "precio": "470.000€",
-      "ubicacion": "10 -20, Santa Eulàlia, Hospitalet de Llobregat",
-      "habitaciones": "4 hab.",
-      "metros": "129 m²",
-      "url": "https://www.idealista.com/inmueble/110572055/",
-      "descripcion": "Te presentamos en exclusiva este magnifico piso alto y luminoso de 100m2 útiles y 129m2. Vistas despejadas a la Ciutat de la Justicia. Plaza de parking mediano en el precio.\nConsta de:\n•Gran salón- comedor exterior con salida a la terraza\n•Recibidor\n•Balcón\n•Amplia cocina\n•4 Dormitorios: 2 de ellos dobles y las 2",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538184",
-      "portal": "Idealista",
-      "telefono": "678 27 71 67"
-    },
-    {
       "titulo": "Piso en Plaza de Sant Jordi, 2, Sant Josep, Hospitalet de Llobregat",
       "precio": "219.000€",
       "ubicacion": "2, Sant Josep, Hospitalet de Llobregat",
@@ -391,45 +196,6 @@
       "descripcion": "Se vende piso amueblado en Plaça Sant Jordi, en una zona tranquila y bien comunicada de L’Hospitalet de Llobregat.\nLa vivienda se encuentra en una quinta planta (sin ascensor, con posibilidad de instalación), lo que le proporciona gran luminosidad y buena ventilación durante todo el día.\nDispone de:\nSalón-comedor ampl",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-13T10:56:46.538193",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle del Montseny, 55, La Torrasa, Hospitalet de Llobregat",
-      "precio": "260.000€",
-      "ubicacion": "55, La Torrasa, Hospitalet de Llobregat",
-      "habitaciones": "2 hab.",
-      "metros": "85 m²",
-      "url": "https://www.idealista.com/inmueble/110483519/",
-      "descripcion": "AQUILADO por 1000€/mes HASTA ABRIL DE 2028\nBonito piso en Collblanc-Torrasa de 68m² con terraza privada de 15m² y trastero de 12m²\nDescubre este encantador piso que combina funcionalidad y espacios bien distribuidos en una de las zonas mejor comunicadas de Barcelona.\nCaracterísticas principales:\n2 Amplias habitacio",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538203",
-      "portal": "Idealista",
-      "telefono": "627 91 84 99"
-    },
-    {
-      "titulo": "Piso en Castelao, 76, Santa Eulàlia, Hospitalet de Llobregat",
-      "precio": "258.000€",
-      "ubicacion": "76, Santa Eulàlia, Hospitalet de Llobregat",
-      "habitaciones": "5 hab.",
-      "metros": "72 m²",
-      "url": "https://www.idealista.com/inmueble/110235446/",
-      "descripcion": "Agencias NO (soy propietaria y trabajo en el sector)\n Piso esquinero luminoso nuevo en ubicación estratégica – Carrer de Castelao, L’Hospitalet \nOs presento mi piso a la venta: vivienda de 5 habitaciones todas exteriores, situada en Carrer de Castelao 76, en el consolidado barrio de Santa Eulàlia / Plaza Europa, un",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538213",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Passatge de Llunàs, 2, Sanfeliu, Hospitalet de Llobregat",
-      "precio": "360.000€",
-      "ubicacion": "2, Sanfeliu, Hospitalet de Llobregat",
-      "habitaciones": "4 hab.",
-      "metros": "114 m²",
-      "url": "https://www.idealista.com/inmueble/110514601/",
-      "descripcion": "Piso en venta por mudanza, actualmente habitado, direccion mostrada no exacta. 114 metros construidos, en excelente estado. Con instalacion de sistema de alarma con conexion a policia. Fachada rehabilitada en 2023, sin derramas en trámite. Muy cuidado y amplio, totalmente soleado, tres balcones a calle. Zona muy bien c",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538223",
       "portal": "Idealista",
       "telefono": null
     },
@@ -445,19 +211,6 @@
       "fecha_scraping": "2026-02-13T10:56:46.538233",
       "portal": "Idealista",
       "telefono": "610 45 50 59"
-    },
-    {
-      "titulo": "Piso en Calle Mare de Deu de Nuria, 43, La Florida, Hospitalet de Llobregat",
-      "precio": "199.000€",
-      "ubicacion": "43, La Florida, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/105695059/",
-      "descripcion": "EL INMUEBLE (abstenerse agencias)\nVivienda reformada integralmente.\nAlquilada hasta Sep 2026, 1200€ al mes.\nAzotea comunitaria y volta catalana.\nSITUACIÓN\nITE favorable y Certificado de Aptitud disponible. Edificio con seguimiento técnico profesional y documentación en regla.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538242",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Avenida del Carrilet, 70, Santa Eulàlia, Hospitalet de Llobregat",
@@ -499,19 +252,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en La Torrasa, Hospitalet de Llobregat",
-      "precio": "265.000€",
-      "ubicacion": "Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "104 m²",
-      "url": "https://www.idealista.com/inmueble/110401581/",
-      "descripcion": "¿Buscas un piso amplio y luminoso con unas vistas impresionantes? Descubre esta oportunidad única a un paso de Sants (Santa Eulália), ideal tanto para vivir como para invertir.\nCaracterísticas principales:\n- Amplio y luminoso salón-comedor de 45 m²: disfruta de un espacio de ensueño con grandes ventanales orientados a",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538282",
-      "portal": "Idealista",
-      "telefono": "694 22 61 37"
-    },
-    {
       "titulo": "Piso en Plaza d'Europa, 3, Gran Via L-h, Hospitalet de Llobregat",
       "precio": "340.000€",
       "ubicacion": "3, Gran Via L-h, Hospitalet de Llobregat",
@@ -538,19 +278,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle Bellavista, 27, Centre, Hospitalet de Llobregat",
-      "precio": "198.000€",
-      "ubicacion": "27, Centre, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "55 m²",
-      "url": "https://www.idealista.com/inmueble/102372136/",
-      "descripcion": "Piso 3 habitaciones, planta segunda sin ascensor, en Hospitalet Centro cerca de la farga y la rambla de hospitalet. Esta compuesto de 2 habitaciones dobles, una individual y baño recién reformado, muy soleado con orientacion sur. No Respondo al Chat de Idealista, pero si atiendo Watsapp y llamadas, por favor no me cont",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538312",
-      "portal": "Idealista",
-      "telefono": "722 83 96 07"
-    },
-    {
       "titulo": "Piso en Ronda de la Torrassa, 135, La Torrasa, Hospitalet de Llobregat",
       "precio": "130.000€",
       "ubicacion": "135, La Torrasa, Hospitalet de Llobregat",
@@ -562,32 +289,6 @@
       "fecha_scraping": "2026-02-13T10:56:46.538322",
       "portal": "Idealista",
       "telefono": "680 56 32 12"
-    },
-    {
-      "titulo": "Piso en Calle Príncep de Bergara, 25, Centre, Hospitalet de Llobregat",
-      "precio": "220.000€",
-      "ubicacion": "25, Centre, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "144 m²",
-      "url": "https://www.idealista.com/inmueble/109917449/",
-      "descripcion": "En venta local en planta baja en edificio singular en el centro de Hospitalet, con entrada autónoma y patio trasero de 20 m2. 4 vecinos. Tiene proyecto de cambio de uso para vivienda visado y presentado en espera de aprobación por el ayuntamiento para iniciar las obras.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538332",
-      "portal": "Idealista",
-      "telefono": "661 81 75 02"
-    },
-    {
-      "titulo": "Piso en Calle del General Prim, 10, Santa Eulàlia, Hospitalet de Llobregat",
-      "precio": "219.000€",
-      "ubicacion": "10, Santa Eulàlia, Hospitalet de Llobregat",
-      "habitaciones": "2 hab.",
-      "metros": "53 m²",
-      "url": "https://www.idealista.com/inmueble/110372527/",
-      "descripcion": "Piso 100% reformado de 50m2, muy luminoso y tranquilo con amplio balcón de 7m2. Consta de dos habitaciones, cocina abierta con encimera porcelánica, comedor con aire acondicionado, y baño con ducha. Está recién reformado, con suelo de parquet y ventanas nuevas de aluminio blanco. Se vende con los muebles y electrodomés",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538342",
-      "portal": "Idealista",
-      "telefono": "672 22 46 13"
     },
     {
       "titulo": "Piso en Calle Santa Eulàlia, 186, Santa Eulàlia, Hospitalet de Llobregat",
@@ -733,32 +434,6 @@
       "telefono": "687 18 14 01"
     },
     {
-      "titulo": "Piso en Calle de la Riera Blanca, 178, Santa Eulàlia, Hospitalet de Llobregat",
-      "precio": "325.000€",
-      "ubicacion": "178, Santa Eulàlia, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110209911/",
-      "descripcion": "Piso en la zona de Sta Eulàlia, Hospitalet. Muy bien comunicado, a 20 metros de la salida de metro de Riera Blanca y en frente de una parada de autobús.\nEl piso tiene 70m² útiles, 3 habitaciones, 2 individuales y 1 doble, cocina, baño, balcón y un altillo en la pasillo de entrada.\nMuy luminoso, ventanas de aluminio,",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538461",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Rambla de la Marina, 2025, Bellvitge, Hospitalet de Llobregat",
-      "precio": "260.000€",
-      "ubicacion": "2025, Bellvitge, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/110091981/",
-      "descripcion": "Luminoso piso de 3 habitaciones con ascensor – Rambla Marina, Hospitalet\nDescubre este piso luminoso y bien distribuido ubicado en Rambla Marina bloque enfrente de la flama, y metro Bellvitge, una de las zonas más prácticas y bien comunicadas de L'Hospitalet.\nLa vivienda cuenta con 75 m², distribuidos en:\n3 habitaci",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538470",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Ático en Calle Holanda, 18, La Torrasa, Hospitalet de Llobregat",
       "precio": "250.000€",
       "ubicacion": "18, La Torrasa, Hospitalet de Llobregat",
@@ -796,32 +471,6 @@
       "fecha_scraping": "2026-02-13T10:56:46.538501",
       "portal": "Idealista",
       "telefono": "636 01 37 79"
-    },
-    {
-      "titulo": "Piso en Calle Mare de Déu dels Desemparats, 46, La Torrasa, Hospitalet de Llobregat",
-      "precio": "158.000€",
-      "ubicacion": "46, La Torrasa, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "52 m²",
-      "url": "https://www.idealista.com/inmueble/109941655/",
-      "descripcion": "Piso en zona de la Torrassa en Hospitalet de Llobregat, Calle mare de deu dels desamparats. El piso dispone de 3 habitaciones exteriores, muy luminoso, piso 3ª planta (4 real sin ascensor). Piso muy cuidado listo para entrar a vivir. Termo eléctrico nuevo. Zona muy bien comunicada con transporte público.\nPiso de part",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538511",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Estudio en Calle Progrés, 51, Collblanc, Hospitalet de Llobregat",
-      "precio": "150.000€",
-      "ubicacion": "51, Collblanc, Hospitalet de Llobregat",
-      "habitaciones": null,
-      "metros": "94 m²",
-      "url": "https://www.idealista.com/inmueble/109857233/",
-      "descripcion": "Zona Santa Eulalia, cerca de la plaza española hermoso Local vivienda totalmente reformado, para entrar a vivir.\nLa zona muy comercial, a unos minutos del ambulatorio, farmacias, supermercados y otras tiendas comerciales.\nSon 70m2, 3 habitaciones, 2 grandes y 1 mediana.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538521",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Rambla de la Marina, 402, Bellvitge, Hospitalet de Llobregat",
@@ -874,19 +523,6 @@
       "fecha_scraping": "2026-02-13T10:56:46.538562",
       "portal": "Idealista",
       "telefono": "619 07 37 43"
-    },
-    {
-      "titulo": "Piso en Plaza Blocs Florida, 4, Les Planes, Hospitalet de Llobregat",
-      "precio": "127.000€",
-      "ubicacion": "4, Les Planes, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "45 m²",
-      "url": "https://www.idealista.com/inmueble/109726200/",
-      "descripcion": "Piso en venta en La Florida-Les Planes para entrar a vivir. 45 m2, 3 habitaciones 1 baño, piso exterior con ascensor. Se ha cambiado la distribución original, todo tabiqueria con muchas posibilidades. El edificio está dotado también de rampas de acceso. A 2 minutos del metro línea roja, a 5 minutos de la renfe. Mercado",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538572",
-      "portal": "Idealista",
-      "telefono": "603 47 88 75"
     },
     {
       "titulo": "Piso en Ronda de la Torrassa, 26, La Torrasa, Hospitalet de Llobregat",
@@ -1019,19 +655,6 @@
       "telefono": "644 28 79 85"
     },
     {
-      "titulo": "Piso en Calle Subur, 30, Les Planes, Hospitalet de Llobregat",
-      "precio": "129.000€",
-      "ubicacion": "30, Les Planes, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "45 m²",
-      "url": "https://www.idealista.com/inmueble/108332406/",
-      "descripcion": "El piso se reformó hace 4 meses antes de que ingrese el inquilino. El inquilino es pagador y muy confiable. En caso de querer comprarlo sin inquilino también se puede conversar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538682",
-      "portal": "Idealista",
-      "telefono": "695 09 36 17"
-    },
-    {
       "titulo": "Dúplex en Pubilla Cases, Hospitalet de Llobregat",
       "precio": "279.900€",
       "ubicacion": "Hospitalet de Llobregat",
@@ -1108,19 +731,6 @@
       "fecha_scraping": "2026-02-13T10:56:46.538741",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle de Simancas, 70, Pubilla Cases, Hospitalet de Llobregat",
-      "precio": "119.000€",
-      "ubicacion": "70, Pubilla Cases, Hospitalet de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "63 m²",
-      "url": "https://www.idealista.com/inmueble/98283564/",
-      "descripcion": "De particular a particular, abstenerse inmobiliarias, piso muy luminoso y tranquilo por ser interior y con amplias vistas, vecindario tranquilo y respetable, piso tercero, hecha preinstalación de ascensor, tres dormitorios, cocina independiente, un baño, salón comedor, una galería con cerramiento cristal, dos terrazas",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:56:46.538750",
-      "portal": "Idealista",
-      "telefono": "600 52 88 29"
     }
   ]
 }

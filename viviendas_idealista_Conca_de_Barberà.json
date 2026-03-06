@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:59:43.858040",
   "ubicacion": "Conca de Barberà",
   "url": "https://www.idealista.com/venta-viviendas/tarragona/conca-de-barbera/?ordenado-por=fecha-publicacion-desc",
-  "total": 31,
+  "total": 28,
   "viviendas": [
     {
       "titulo": "Casa de pueblo en Calle de la Font, 7, L'Espluga de Francoli",
@@ -55,19 +55,6 @@
       "fecha_scraping": "2026-02-16T17:38:40.130756",
       "portal": "Idealista",
       "telefono": "639 66 76 76"
-    },
-    {
-      "titulo": "Casa rural en Calle Rosina i Francesc, 10, Rocafort de Queralt",
-      "precio": "90.000€",
-      "ubicacion": "10, Rocafort de Queralt",
-      "habitaciones": "5 hab.",
-      "metros": "200 m²",
-      "url": "https://www.idealista.com/inmueble/110366505/",
-      "descripcion": "Tiene un 60% de zona comun en el jardin de la parte posterior accesible des de la parte del sotano, en el sotano hay una cisterna y un Lagar, y dos depositos tinas de almacenaje de vino de unos 2m3 cada uno y con baldosa roja. El hardin tiene una superficie de \"aproximadamebte un campo de futbol\" y un pinar de pinos ce",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:38:40.130785",
-      "portal": "Idealista",
-      "telefono": "658 91 32 22"
     },
     {
       "titulo": "Casa de pueblo en Calle de la Pedrera, 11, Montblanc",
@@ -148,19 +135,6 @@
       "telefono": "687 63 34 73"
     },
     {
-      "titulo": "Casa de pueblo en Raval de la Creu, 3, Senan",
-      "precio": "18.500€",
-      "ubicacion": "3, Senan",
-      "habitaciones": "5 hab.",
-      "metros": "84 m²",
-      "url": "https://www.idealista.com/inmueble/109917952/",
-      "descripcion": "Casa de pueblo a reformar totalmente en pueblo tranquilo y acogedor.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:38:40.130859",
-      "portal": "Idealista",
-      "telefono": "650 55 64 86"
-    },
-    {
       "titulo": "Piso en Calle Regne de València, 1969, Montblanc",
       "precio": "192.000€",
       "ubicacion": "1969, Montblanc",
@@ -211,19 +185,6 @@
       "fecha_scraping": "2026-02-16T17:38:40.130897",
       "portal": "Idealista",
       "telefono": "630 15 90 14"
-    },
-    {
-      "titulo": "Dúplex en Muralla de Santa Tecla, 8, Montblanc",
-      "precio": "210.000€",
-      "ubicacion": "8, Montblanc",
-      "habitaciones": "3 hab.",
-      "metros": "172 m²",
-      "url": "https://www.idealista.com/inmueble/109547851/",
-      "descripcion": "Magnífico ático dúplex en la mejor zona de Montblanc. Situado en el cruce de los dos viales principales de la localidad, se encuentra rodeado de servicios, comercios y equipamientos públicos. A 5 minutos paseando de la Plaça Major y del conjunto monumental medieval de Montblanc. El edificio incluye cochera y el portal",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:38:40.130907",
-      "portal": "Idealista",
-      "telefono": "619 85 26 13"
     },
     {
       "titulo": "Ático en Avenida Amics de Vimbodí, 7, Vimbodi",

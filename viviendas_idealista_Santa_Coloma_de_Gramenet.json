@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:22:23.170269",
   "ubicacion": "Santa Coloma de Gramenet",
   "url": "https://www.idealista.com/venta-viviendas/santa-coloma-de-gramenet-barcelona/?ordenado-por=fecha-publicacion-desc",
-  "total": 34,
+  "total": 24,
   "viviendas": [
     {
       "titulo": "Ático en Calle del Rellotge, Santa Coloma de Gramenet, 53, Fondo, Santa Coloma de Gramenet",
@@ -44,19 +44,6 @@
       "telefono": "684 05 56 38"
     },
     {
-      "titulo": "Ático en Fondo, Santa Coloma de Gramenet",
-      "precio": "179.000€",
-      "ubicacion": "Santa Coloma de Gramenet",
-      "habitaciones": "2 hab.",
-      "metros": "54 m²",
-      "url": "https://www.idealista.com/inmueble/110717848/",
-      "descripcion": "Ático luminoso con terraza privada y vistas a la montaña\nPresentamos este acogedor ático de 54 m² construidos según catastro, ubicado en una finca pequeña de solo tres vecinos, uno por planta, garantizando tranquilidad y privacidad. Se trata de una tercera planta real, sin ascensor, en un edificio cuya fachada ha sido",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:13:18.798877",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle Milton, 26, Singuerlín, Santa Coloma de Gramenet",
       "precio": "165.000€",
       "ubicacion": "26, Singuerlín, Santa Coloma de Gramenet",
@@ -81,32 +68,6 @@
       "fecha_scraping": "2026-02-23T16:13:18.798914",
       "portal": "Idealista",
       "telefono": "635 05 22 82"
-    },
-    {
-      "titulo": "Piso en Calle del Dr. Torras i Bages, 5, Santa Rosa - Can Mariner, Santa Coloma de Gramenet",
-      "precio": "154.000€",
-      "ubicacion": "5, Santa Rosa - Can Mariner, Santa Coloma de Gramenet",
-      "habitaciones": "3 hab.",
-      "metros": "64 m²",
-      "url": "https://www.idealista.com/inmueble/110229541/",
-      "descripcion": "GANGA EN LA ZONA¡El piso se encuentra en una ubicacion fantastica, tocando a la av generalitat, solo 3 minutos andando del metro L9 múltiples líneas de autobuses, acceso a las rondes, 15 minutos andando de la Maquinista, y 5 minutos andando del centro de santa coloma.\nFinca muy bien conservada.\nEn el piso se puede entr",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:06:59.014129",
-      "portal": "Idealista",
-      "telefono": "664 68 52 85"
-    },
-    {
-      "titulo": "Piso en Calle de Sicília, 35, Riera Alta - Llatí, Santa Coloma de Gramenet",
-      "precio": "98.900€",
-      "ubicacion": "35, Riera Alta - Llatí, Santa Coloma de Gramenet",
-      "habitaciones": "2 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/110371151/",
-      "descripcion": "Se vende estudio recién reformado en zona muy comercial de Sancha Coloma de Gramanet, a 50 metros de la parada de metro Fondo.\nMagnífica inversión ya que no hay que hacer absolutamente nada.\nPrecio de derribo por la zona.\nAbstenerse agencias captando producto.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:06:59.014181",
-      "portal": "Idealista",
-      "telefono": "630 59 23 25"
     },
     {
       "titulo": "Piso en Riera Alta - Llatí, Santa Coloma de Gramenet",
@@ -161,32 +122,6 @@
       "telefono": "603 53 96 74"
     },
     {
-      "titulo": "Piso en Calle de Sant Joaquim, 87, Riu, Santa Coloma de Gramenet",
-      "precio": "199.000€",
-      "ubicacion": "87, Riu, Santa Coloma de Gramenet",
-      "habitaciones": "2 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110274239/",
-      "descripcion": "Se vende piso de 2 habitaciones, una doble y una individual, y un baño.\nA destacar:\n- totalmente amueblado\n- amplia cocina con lavadero\n- calefacción\n- aire acondicionado\n- ubicación céntrica (a 5 minutos de paradas de metro, todos los servicios en las inmediaciones)\nLas fotos de algunas estancias no están actualiza",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:06:59.014237",
-      "portal": "Idealista",
-      "telefono": "630 41 26 56"
-    },
-    {
-      "titulo": "Piso en El Raval, Santa Coloma de Gramenet",
-      "precio": "210.000€",
-      "ubicacion": "Santa Coloma de Gramenet",
-      "habitaciones": "2 hab.",
-      "metros": "46 m²",
-      "url": "https://www.idealista.com/inmueble/110269376/",
-      "descripcion": "Se pone a la venta este acogedor piso bajo exterior, totalmente reformado de manera integral este mismo año, listo para entrar a vivir. La vivienda será estrenada por la nueva propiedad, ideal para quien busca comodidad y tranquilidad sin necesidad de realizar ninguna inversión adicional.\nEl piso dispone de 46 m² útil",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:06:59.014247",
-      "portal": "Idealista",
-      "telefono": "635 66 62 47"
-    },
-    {
       "titulo": "Piso en Calle Galicia, 2, Singuerlín, Santa Coloma de Gramenet",
       "precio": "395.000€",
       "ubicacion": "2, Singuerlín, Santa Coloma de Gramenet",
@@ -226,45 +161,6 @@
       "telefono": "669 56 10 95"
     },
     {
-      "titulo": "Estudio en Calle d'Espriu, 21, El Raval, Santa Coloma de Gramenet",
-      "precio": "170.000€",
-      "ubicacion": "21, El Raval, Santa Coloma de Gramenet",
-      "habitaciones": null,
-      "metros": "96 m²",
-      "url": "https://www.idealista.com/inmueble/109982301/",
-      "descripcion": "Local de 96 m² dividido en 2 viviendas reformadas con inquilinos — Rentabilidad inmediata YA QUE HAY INQUILINOS SOLVENTES (1.800 €/mes: 800€ LOFT Y 1000€ ESTILO PISO\nNO AGENCIAS\nSe vende local de 96 m² totalmente transformado en dos viviendas independientes SIN CEDULA DE HABITABILIDAD, ambas reformadas y actualmente",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:06:59.014290",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle de Sant Ernest, 6 -8, El Raval, Santa Coloma de Gramenet",
-      "precio": "195.000€",
-      "ubicacion": "6 -8, El Raval, Santa Coloma de Gramenet",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/109973542/",
-      "descripcion": "Piso tipo casa de 78m2, en planta baja con entrada independiente. Solo 1 vecino.\n3 habitaciones dobles, comedor, cocina y baño, y balcón trasero. Toda a reformar, está de origen.\nTiene un espacio anexo en el mismo solar, con otra entrada independiente por otra puerta exterior. Actualmente no hay nada, pero se podría",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:06:59.014302",
-      "portal": "Idealista",
-      "telefono": "687 12 01 86"
-    },
-    {
-      "titulo": "Piso en Calle de Sant Ernest, 6 -8, El Raval, Santa Coloma de Gramenet",
-      "precio": "160.000€",
-      "ubicacion": "6 -8, El Raval, Santa Coloma de Gramenet",
-      "habitaciones": "3 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/109973649/",
-      "descripcion": "Piso tipo casa, con entrada independiente y patio exterior.\n3 habitaciones. Cocina y comedor juntos. 3 habitaciones. baño. 78m2 vivienda y 40m2 patio exterior + trasteros.\nTrastero y la sala de lavadora exterior.\nActualmente está alquilado 7% rentabilidad. Se puede vender con o sin inquilino. Se puede visitar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:06:59.014313",
-      "portal": "Idealista",
-      "telefono": "687 12 01 86"
-    },
-    {
       "titulo": "Dúplex en Calle Major, 43, Riu, Santa Coloma de Gramenet",
       "precio": "495.000€",
       "ubicacion": "43, Riu, Santa Coloma de Gramenet",
@@ -274,19 +170,6 @@
       "descripcion": "Vivienda céntrica de 2 plantas, 4 habitaciones, 2 de ellas dobles, 2 baños completos, 1 terraza superior de 50 M2, patio y jardín 80 M2, cocina Office, salón comedor 30 M2, trastero 10 M2, local comercial de 70 M2, con almacén y aseo.",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-13T11:06:59.014323",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle del Dr. Torras i Bages, 44, Santa Rosa - Can Mariner, Santa Coloma de Gramenet",
-      "precio": "75.000€",
-      "ubicacion": "44, Santa Rosa - Can Mariner, Santa Coloma de Gramenet",
-      "habitaciones": "1 hab.",
-      "metros": "47 m²",
-      "url": "https://www.idealista.com/inmueble/109644456/",
-      "descripcion": "Se vende estudio de 47 m², distribuidos en 32 m² de vivienda y 15 m² de terraza, ubicado en Carrer Torres i Bages, en Santa Coloma de Gramenet, a solo 2 minutos andando del metro Santa Rosa (L9).\nEl piso cuenta con:\n1 habitación\nSalón-comedor con cocina\nBaño completo con plato de ducha\nTerraza privada de 15 m² con",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:06:59.014334",
       "portal": "Idealista",
       "telefono": null
     },
@@ -302,19 +185,6 @@
       "fecha_scraping": "2026-02-13T11:06:59.014346",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle de Francesc Moragas, 34, Riu, Santa Coloma de Gramenet",
-      "precio": "190.000€",
-      "ubicacion": "34, Riu, Santa Coloma de Gramenet",
-      "habitaciones": "3 hab.",
-      "metros": "52 m²",
-      "url": "https://www.idealista.com/inmueble/109547126/",
-      "descripcion": "Piso de 50 metros, 3 habitaciones, ascensor. Centro, muy cerca del metro de Santa Coloma. Calefacción de gas. El salón da a un pequeño patio.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:06:59.014356",
-      "portal": "Idealista",
-      "telefono": "615 47 60 43"
     },
     {
       "titulo": "Piso en Roger de Lluria, 34, El Raval, Santa Coloma de Gramenet",

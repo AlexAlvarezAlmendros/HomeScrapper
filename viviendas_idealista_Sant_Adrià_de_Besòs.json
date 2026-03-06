@@ -2,21 +2,8 @@
   "timestamp": "2026-02-23T16:12:34.832170",
   "ubicacion": "Sant Adrià de Besòs",
   "url": "https://www.idealista.com/venta-viviendas/sant-adria-de-besos-barcelona/?ordenado-por=fecha-publicacion-desc",
-  "total": 15,
+  "total": 11,
   "viviendas": [
-    {
-      "titulo": "Piso en Calle d'Antoni Puigvert, 4, La Catalana, Sant Adriá de Besós",
-      "precio": "365.000€",
-      "ubicacion": "4, La Catalana, Sant Adriá de Besós",
-      "habitaciones": "2 hab.",
-      "metros": "88 m²",
-      "url": "https://www.idealista.com/inmueble/110709036/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:12:34.831859",
-      "portal": "Idealista",
-      "telefono": null
-    },
     {
       "titulo": "Piso en Calle de la Mare de Déu del Carme, 140, Sant Joan Baptista, Sant Adriá de Besós",
       "precio": "366.000€",
@@ -27,19 +14,6 @@
       "descripcion": "Piso familiar en avenida cotizada de Sant Adrià de Besòs, excelente ubicación y conexión\nTe presentamos esta vivienda en muy buen estado, situada en Mare de Déu del Carme, una de las avenidas más cotizadas de Sant Adrià de Besòs, por su excelente comunicación y proximidad a todo tipo de servicios.\nUbicada a un minuto",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-16T16:38:12.422938",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Plaza d'Andreu Molins, 1, Sant Adriá Nord, Sant Adriá de Besós",
-      "precio": "350.000€",
-      "ubicacion": "1, Sant Adriá Nord, Sant Adriá de Besós",
-      "habitaciones": "3 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/110641300/",
-      "descripcion": "Piso de 120m2 reformado y listo para entrar a vivir, con espacios amplios, mucha luz natural y acabados de alta calidad.\nLa vivienda cuenta con una cocina grande totalmente equipada con salida a lavadero cerrado y aislado, un salón-comedor luminoso con salida a un balcón grande y reformado, dormitorios amplios con pe",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:38:12.422963",
       "portal": "Idealista",
       "telefono": null
     },
@@ -66,19 +40,6 @@
       "descripcion": "PISO EN VENTA DE PARTICULAR A PARTICULAR (abstenerse agencias)\nPiso exclusivo con dos terrazas privadas y doble orientación – a 600 metros playa forum\nDescubre este magnífico piso completamente exterior, luminoso y ventilado a dos vientos, ubicado en una finca moderna del año 2017 con ascensor, cámaras de seguridad y",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-13T10:59:25.870209",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Avenida de les Corts Catalanes, 6, El Besós, Sant Adriá de Besós",
-      "precio": "230.000€",
-      "ubicacion": "6, El Besós, Sant Adriá de Besós",
-      "habitaciones": "3 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110417670/",
-      "descripcion": "Gran vía, zona Sant Adria. Se vende piso, consta de 3 habitaciones, salón con salida a balcón, cocina, lavadero y baño completo.\nUbicado cerca del metro L4 Besos, lineas de autobus: V33, H12, N2, 136, V31, B25, está muy bien comunicada con las rondas de Barcelona, a escasos minutos del Centro Comercial Diagonal Mar, e",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:59:25.870221",
       "portal": "Idealista",
       "telefono": null
     },
@@ -159,19 +120,6 @@
       "fecha_scraping": "2026-02-13T10:59:25.870284",
       "portal": "Idealista",
       "telefono": "670 82 84 29"
-    },
-    {
-      "titulo": "Dúplex en Calle de la Torrassa, 6, Sant Joan Baptista, Sant Adriá de Besós",
-      "precio": "260.000€",
-      "ubicacion": "6, Sant Joan Baptista, Sant Adriá de Besós",
-      "habitaciones": "3 hab.",
-      "metros": "103 m²",
-      "url": "https://www.idealista.com/inmueble/109263249/",
-      "descripcion": "¡Gran oportunidad de compra! Dúplex luminoso con muchas posibilidades y adaptado para personas con movilidad reducida.\nSe vende amplio y luminoso piso dúplex, de 103 m2, situado en una tercera planta con entresuelo a tan solo 900 m de la playa. Este inmueble, que da todo al exterior, destaca por su claridad natural dur",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:59:25.870294",
-      "portal": "Idealista",
-      "telefono": "658 18 28 74"
     },
     {
       "titulo": "Ático en Calle Marta Mata, 1, La Catalana, Sant Adriá de Besós",

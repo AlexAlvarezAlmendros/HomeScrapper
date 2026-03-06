@@ -2,21 +2,8 @@
   "timestamp": "2026-03-04T11:39:49.194185",
   "ubicacion": "Garrotxa",
   "url": "https://www.idealista.com/venta-viviendas/girona/la-garrotxa/?ordenado-por=fecha-publicacion-desc",
-  "total": 33,
+  "total": 28,
   "viviendas": [
-    {
-      "titulo": "Masía en Via Sense Nom, s/n, Sant Ferriol",
-      "precio": "290.000€",
-      "ubicacion": "s/n, Sant Ferriol",
-      "habitaciones": "4 hab.",
-      "metros": "500 m²",
-      "url": "https://www.idealista.com/inmueble/110778147/",
-      "descripcion": "Finca rústica con masia en ruinas para rehabilitar. Pozo d agua. Vistas al Emporda.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-03-04T11:39:49.193792",
-      "portal": "Idealista",
-      "telefono": null
-    },
     {
       "titulo": "Piso en Olot",
       "precio": "335.000€",
@@ -83,19 +70,6 @@
       "telefono": "691 13 61 69"
     },
     {
-      "titulo": "Piso en Calle Bonaire, 16, Olot",
-      "precio": "75.000€",
-      "ubicacion": "16, Olot",
-      "habitaciones": "3 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110542835/",
-      "descripcion": "Piso venta directa de propietario\nzona cèntrica de olot\nsolo 3 vecinos.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:22:25.149725",
-      "portal": "Idealista",
-      "telefono": "637 24 43 37"
-    },
-    {
       "titulo": "Finca rústica en Calle Semalers, 1, Olot",
       "precio": "105.000€",
       "ubicacion": "1, Olot",
@@ -120,19 +94,6 @@
       "fecha_scraping": "2026-02-13T13:22:25.149745",
       "portal": "Idealista",
       "telefono": "628 19 52 93"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Castell d'Hostoles, 26, Les Planes d'Hostoles",
-      "precio": "395.000€",
-      "ubicacion": "26, Les Planes d'Hostoles",
-      "habitaciones": "4 hab.",
-      "metros": "240 m²",
-      "url": "https://www.idealista.com/inmueble/110132639/",
-      "descripcion": "Posibilidad de adquirir casa de diseño en la Garrotxa pensada para disfrutar de las montañas desde su Terraza de 60m2 y sus acogedoras Posibilidad de elegir acabados.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:22:25.149756",
-      "portal": "Idealista",
-      "telefono": "696 68 71 93"
     },
     {
       "titulo": "Piso en Calle de Santa Magdalena, 13, Sant Joan les Fonts",
@@ -185,19 +146,6 @@
       "fecha_scraping": "2026-02-13T13:22:25.149795",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Chalet adosado en Calle Pintor Josep Colomer, 17, Sant Feliu de Pallerols",
-      "precio": "400.000€",
-      "ubicacion": "17, Sant Feliu de Pallerols",
-      "habitaciones": "3 hab.",
-      "metros": "220 m²",
-      "url": "https://www.idealista.com/inmueble/109580768/",
-      "descripcion": "Promoción exclusiva de chalets sostenibles en la Garrotxa\nEstrena tu hogar eficiente y natural en el corazón de la Garrotxa, con jardín, garaje y vistas al Parque Natural.\nViviendas de 3 dormitorios y diseño moderno, integradas en una comunidad energética geotérmica para un confort 100 % renovable.\nSolicita el dossie",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:22:25.149806",
-      "portal": "Idealista",
-      "telefono": "621 30 32 72"
     },
     {
       "titulo": "Masía en Barri dels vilars, 13, Montagut",
@@ -276,19 +224,6 @@
       "fecha_scraping": "2026-02-13T13:22:25.149866",
       "portal": "Idealista",
       "telefono": "609 30 47 83"
-    },
-    {
-      "titulo": "Piso en Calle Clivillers, 8, Olot",
-      "precio": "210.000€",
-      "ubicacion": "8, Olot",
-      "habitaciones": "2 hab.",
-      "metros": "95 m²",
-      "url": "https://www.idealista.com/inmueble/108453207/",
-      "descripcion": "Exclusivo piso en el corazón de Olot – Amplio, luminoso y con todas las comodidades\nUbicado en Carrer Clivillers nº4 – 2º de altos, este piso único por rellano forma parte de un bloque de tan solo 4 viviendas, ideal para quienes buscan tranquilidad, privacidad y ubicación privilegiada, a solo unos pasos de la Plaça",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:22:25.149876",
-      "portal": "Idealista",
-      "telefono": "699 85 35 12"
     },
     {
       "titulo": "Chalet pareado en Calle Santa Margarida, 5, Les Planes d'Hostoles",

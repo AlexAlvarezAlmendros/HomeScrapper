@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:58:42.887337",
   "ubicacion": "Baix Penedes",
   "url": "https://www.idealista.com/venta-viviendas/tarragona/baix-penedes/?ordenado-por=fecha-publicacion-desc",
-  "total": 87,
+  "total": 68,
   "viviendas": [
     {
       "titulo": "Piso en Calle Baixador, 42, Segur Platja, Calafell",
@@ -68,19 +68,6 @@
       "fecha_scraping": "2026-03-04T11:58:42.886562",
       "portal": "Idealista",
       "telefono": "644 80 36 27"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Girona, 8, Residencial, Cunit",
-      "precio": "305.000€",
-      "ubicacion": "8, Residencial, Cunit",
-      "habitaciones": "3 hab.",
-      "metros": "178 m²",
-      "url": "https://www.idealista.com/inmueble/110770730/",
-      "descripcion": "Chalet independiente bien situado Cunit Playa con vistas mas y montaña.\nLa vivienda es eficiente, se abastece de energía limpia y renovable con seis placas solares.\nCerca y alrededores, playa, montaña, Barcelona, Tarragona, medicos, colegios, ocio, supermercados, trasporte publico y todos los servicios i instalacione",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-03-04T11:58:42.886572",
-      "portal": "Idealista",
-      "telefono": "622 00 99 95"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Eliseu Meifrèn i Roig, 4, Coma-Ruga, El Vendrell",
@@ -174,19 +161,6 @@
       "telefono": "610 04 18 92"
     },
     {
-      "titulo": "Piso en Calle de Jacint Verdaguer, 14, Platja Calafell, Calafell",
-      "precio": "125.000€",
-      "ubicacion": "14, Platja Calafell, Calafell",
-      "habitaciones": "1 hab.",
-      "metros": "38 m²",
-      "url": "https://www.idealista.com/inmueble/110702642/",
-      "descripcion": "Magnífico ático en Calafell Playa, a pasos del mar y de la estación de tren.\nOportunidad única en Calafell Playa: vivienda exterior situada justo al lado de la estación de tren y a tan solo dos minutos caminando de la playa.\nCon 35 m² muy bien aprovechados, el piso dispone de una habitación doble amplia y muy luminos",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:44:49.759497",
-      "portal": "Idealista",
-      "telefono": "646 59 84 98"
-    },
-    {
       "titulo": "Piso en Calle Josep Irla Bosch, 87, El Tancat - Mas d'en Gual, El Vendrell",
       "precio": "190.000€",
       "ubicacion": "87, El Tancat - Mas d'en Gual, El Vendrell",
@@ -226,32 +200,6 @@
       "telefono": null
     },
     {
-      "titulo": "Ático en Paseo Marítim de Sant Joan de Déu, 181, Platja Calafell, Calafell",
-      "precio": "300.000€",
-      "ubicacion": "181, Platja Calafell, Calafell",
-      "habitaciones": "4 hab.",
-      "metros": "95 m²",
-      "url": "https://www.idealista.com/inmueble/83747996/",
-      "descripcion": "Primera línea de mar, preciosas vistas, fantástico paseo marítimo portero, acción zona deportiva con entrada desde el mismo edificio, con piscina niños y adultos, pádel, frontón, 3 pistas de tenis, zona de barbacoa, etc. Supermercado, bar y restaurante en el mismo edificio.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:30:18.428416",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle de la Indústria, 31, Centre, El Vendrell",
-      "precio": "145.000€",
-      "ubicacion": "31, Centre, El Vendrell",
-      "habitaciones": "3 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110655139/",
-      "descripcion": "Único propietario que vende vivienda amueblada con electrodomésticos calefacción y acc por problemas familiares.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:30:18.428440",
-      "portal": "Idealista",
-      "telefono": "665 59 37 81"
-    },
-    {
       "titulo": "Piso en Cunidor, Cunit",
       "precio": "330.000€",
       "ubicacion": "Cunit",
@@ -263,45 +211,6 @@
       "fecha_scraping": "2026-02-18T11:30:18.428453",
       "portal": "Idealista",
       "telefono": "610 72 54 90"
-    },
-    {
-      "titulo": "Piso en Calle Galeno, 4, Bonavista, El Vendrell",
-      "precio": "205.000€",
-      "ubicacion": "4, Bonavista, El Vendrell",
-      "habitaciones": "2 hab.",
-      "metros": "64 m²",
-      "url": "https://www.idealista.com/inmueble/108600688/",
-      "descripcion": "Se vende fantástico piso en una acogedora comunidad de pocos vecinos, con ascensor, piscina comunitaria y jardines compartidos, ideal para quienes buscan tranquilidad y calidad de vida.\nLa vivienda se distribuye en:\n•2 dormitorios dobles, ambos con ventanas exteriores y mucha luz natural.\n•Salón-comedor amplio y lumin",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613302",
-      "portal": "Idealista",
-      "telefono": "616 18 62 62"
-    },
-    {
-      "titulo": "Piso en Calle Doctor Trueta, 112, Nucli Urbà, Calafell",
-      "precio": "190.000€",
-      "ubicacion": "112, Nucli Urbà, Calafell",
-      "habitaciones": "3 hab.",
-      "metros": "82 m²",
-      "url": "https://www.idealista.com/inmueble/110642496/",
-      "descripcion": "PISO REFORMADO EN ZONA TRANQUILA Y BIEN COMUNICADA — LISTO PARA ENTRAR A VIVIR\nEN EL CENTRO DE SEGUR DE CALAFELL\nSe vende acogedor piso reformado de 82 m² construidos (73 m² útiles) ubicado en una primera planta sin ascensor dentro de un edificio bien conservado de 1989, situado en una calle tranquila con pocos veci",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613324",
-      "portal": "Idealista",
-      "telefono": "622 36 86 60"
-    },
-    {
-      "titulo": "Piso en Calle Montpeo, 3, Bellvei",
-      "precio": "140.000€",
-      "ubicacion": "3, Bellvei",
-      "habitaciones": "4 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/110641183/",
-      "descripcion": "DE PARTICULAR A PARTICULAR (NO ATIENDO LLAMADAS)\nSe vende amplio piso de 4 habitaciones y 2 baños completos, ideal para familias o como inversión. Vivienda en buen estado, lista para entrar a vivir, con estancias cómodas y bien distribuidas, salón luminoso y cocina funcional.\nUbicado en segunda planta sin ascensor,",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613338",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Dúplex en Calle del Miño, 5 -9, Segur Platja, Calafell",
@@ -328,19 +237,6 @@
       "fecha_scraping": "2026-02-16T17:34:51.613360",
       "portal": "Idealista",
       "telefono": "658 62 59 59"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle suiza, 64 f, El Montmell",
-      "precio": "213.000€",
-      "ubicacion": "64 f, El Montmell",
-      "habitaciones": "4 hab.",
-      "metros": "900 m²",
-      "url": "https://www.idealista.com/inmueble/110547338/",
-      "descripcion": "sólo a particular.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613371",
-      "portal": "Idealista",
-      "telefono": "677 72 57 40"
     },
     {
       "titulo": "Ático en Avenida Penedès, 5, L'Arboç",
@@ -380,19 +276,6 @@
       "fecha_scraping": "2026-02-16T17:34:51.613400",
       "portal": "Idealista",
       "telefono": "625 03 60 46"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle de l'Atlàntìda, 10, Els Masos, El Vendrell",
-      "precio": "299.000€",
-      "ubicacion": "10, Els Masos, El Vendrell",
-      "habitaciones": "4 hab.",
-      "metros": "96 m²",
-      "url": "https://www.idealista.com/inmueble/110579281/",
-      "descripcion": "Se vende chalet adosado esquinero en Comarruga el Vendrell. en la planta de abajo tenemos el patio la entrada un salón grande cocina que accede al patio y a la piscina. un baño. y subiendo tendríamos cuatro habitaciones una de ellas con balcon. buenas vistas al mar y a la piscina. Un baño comunitario. muy buenas vistas",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613410",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Avenida Catalunya, 2, Nucli Urbà, Calafell",
@@ -445,19 +328,6 @@
       "fecha_scraping": "2026-02-16T17:34:51.613449",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Tulipa, 10, Costa Cunit - Els Jardins - Els  Rosers, Cunit",
-      "precio": "137.000€",
-      "ubicacion": "10, Costa Cunit - Els Jardins - Els  Rosers, Cunit",
-      "habitaciones": "2 hab.",
-      "metros": "57 m²",
-      "url": "https://www.idealista.com/inmueble/110570539/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613459",
-      "portal": "Idealista",
-      "telefono": "611 80 48 00"
     },
     {
       "titulo": "Dúplex en Calle de Benvingut Socias, 56, El Tancat - Mas d'en Gual, El Vendrell",
@@ -538,19 +408,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Nucli Urbà, Calafell",
-      "precio": "229.000€",
-      "ubicacion": "Calafell",
-      "habitaciones": "2 hab.",
-      "metros": "65 m²",
-      "url": "https://www.idealista.com/inmueble/110459137/",
-      "descripcion": "Planta baja con jardín y piscina privada – Calafell\n229.000 €\nVive como en un chalet, con total independencia y tranquilidad, a solo 10 minutos andando de la playa y a 4 minutos estacion tren.\nPlanta baja impecable, lista para entrar a vivir, con 100 m² de jardín privado y piscina, doble acceso (comunidad y entrada ind",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613526",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle Cúspide, 17, Nucli Urbà, Calafell",
       "precio": "190.000€",
       "ubicacion": "17, Nucli Urbà, Calafell",
@@ -601,19 +458,6 @@
       "fecha_scraping": "2026-02-16T17:34:51.613566",
       "portal": "Idealista",
       "telefono": "632 08 93 76"
-    },
-    {
-      "titulo": "Piso en Calle de l'Ebre, 5, Segur Platja, Calafell",
-      "precio": "265.000€",
-      "ubicacion": "5, Segur Platja, Calafell",
-      "habitaciones": "3 hab.",
-      "metros": "91 m²",
-      "url": "https://www.idealista.com/inmueble/110428449/",
-      "descripcion": "Magnífico apartamento en segunda linea de mar, ideal tanto como vivienda habitual como segunda residencia o inversión.\nLa vivienda dispone de tres habitaciones, una cocina totalmente reformada y un baño reformado.\nDispone de una terraza de 10 m2 con salida directa a un gran jardín privado de 100m2.\nGracias a su orient",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613576",
-      "portal": "Idealista",
-      "telefono": "607 87 35 18"
     },
     {
       "titulo": "Casa o chalet independiente en Calle de Nicaragua, 3, Nucli Urbà, Calafell",
@@ -668,19 +512,6 @@
       "telefono": "631 68 26 69"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle Clotes, 18, Els Masos, El Vendrell",
-      "precio": "320.000€",
-      "ubicacion": "18, Els Masos, El Vendrell",
-      "habitaciones": "4 hab.",
-      "metros": "113 m²",
-      "url": "https://www.idealista.com/inmueble/110399636/",
-      "descripcion": "Exclusiva vivienda con impresionantes vistas panorámicas al mar y a al pueblo.\nTe presentamos esta magnífica vivienda situada en un entorno tranquilo y elevado, que destaca por sus espectaculares vistas abiertas al mar, al pueblo y la naturaleza, ideales para disfrutar de atardeceres únicos durante todo el año.\nLa vi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613624",
-      "portal": "Idealista",
-      "telefono": "617 04 66 16"
-    },
-    {
       "titulo": "Chalet adosado en Calle de Sant Julià, 1, Santa Oliva",
       "precio": "240.000€",
       "ubicacion": "1, Santa Oliva",
@@ -694,19 +525,6 @@
       "telefono": "623 33 50 43"
     },
     {
-      "titulo": "Piso en Calle Gegants Pere i Carme, 13, Calafell Residencial, Calafell",
-      "precio": "399.000€",
-      "ubicacion": "13, Calafell Residencial, Calafell",
-      "habitaciones": "3 hab.",
-      "metros": "145 m²",
-      "url": "https://www.idealista.com/inmueble/104589526/",
-      "descripcion": "Fantástico piso en una de las zonas más exclusivas de Calafell, El Vilarenc.\nEn el núcleo de todos los equipamientos (Colegios, Parques infantiles, Cap, Instalaciones deportivas, Policía local, Oficinas municipales, Oficina bancaria, Mercado, Supermercados). A tan sólo 5 minutos a pie de la estación de ferrocarril y",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613643",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle de Montserrat, 39, Platja Calafell, Calafell",
       "precio": "189.000€",
       "ubicacion": "39, Platja Calafell, Calafell",
@@ -718,32 +536,6 @@
       "fecha_scraping": "2026-02-16T17:34:51.613653",
       "portal": "Idealista",
       "telefono": "695 46 69 36"
-    },
-    {
-      "titulo": "Ático en Avenida Masia Blanca, 19, Coma-Ruga, El Vendrell",
-      "precio": "410.000€",
-      "ubicacion": "19, Coma-Ruga, El Vendrell",
-      "habitaciones": "2 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/110324734/",
-      "descripcion": "60 m² de vivienda, pero 120 m² de espacios exteriores frente al mar: terraza + solárium privado y acceso directo a la playa.\nEste ático en Masía Blanca, Coma-ruga, combina privacidad, vistas panorámicas y espacios al aire libre que lo hacen único en la zona. El solárium, del mismo tamaño que la vivienda, y la terraza p",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613663",
-      "portal": "Idealista",
-      "telefono": "683 27 46 90"
-    },
-    {
-      "titulo": "Chalet adosado en Calle Mèxic, 30, Nucli Urbà, Calafell",
-      "precio": "389.000€",
-      "ubicacion": "30, Nucli Urbà, Calafell",
-      "habitaciones": "6 hab.",
-      "metros": "288 m²",
-      "url": "https://www.idealista.com/inmueble/110276292/",
-      "descripcion": "Estupenda casa adosada en pleno núcleo urbano de Segur de Calafell, a menos de 2km de la playa! terreno de 2.000 m2 potencialmente utilizables, justo al lado de un área deportiva (club de tenis) cuya zona no pueden edificar y siempre se mantendrán las vistas despejadas!\nLa casa se divide en dos plantas:\n- La planta",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613672",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Casa o chalet independiente en Calle sant pere, 66, Calafell Residencial, Calafell",
@@ -770,19 +562,6 @@
       "fecha_scraping": "2026-02-16T17:34:51.613693",
       "portal": "Idealista",
       "telefono": "639 83 46 63"
-    },
-    {
-      "titulo": "Piso en Avenida Mossèn Jaume Soler, 97 -98, Platja Calafell, Calafell",
-      "precio": "255.000€",
-      "ubicacion": "97 -98, Platja Calafell, Calafell",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/108988217/",
-      "descripcion": "Te presentamos este luminoso piso seminuevo de 88 m², situado en una cuidada finca con dos piscinas comunitarias, a tan solo 150 metros de la playa de Calafell. Una vivienda ideal tanto como residencia habitual como para disfrutarla en vacaciones.\nLa vivienda se distribuye en:\n•3 habitaciones amplias y bien proporcion",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613703",
-      "portal": "Idealista",
-      "telefono": "647 51 56 46"
     },
     {
       "titulo": "Chalet pareado en Urbanització Alorda Park, 2, Alorda Park, Calafell",
@@ -928,19 +707,6 @@
       "telefono": "699 10 69 59"
     },
     {
-      "titulo": "Chalet pareado en Av. Illes Filipines, 26, Nucli Urbà, Calafell",
-      "precio": "359.000€",
-      "ubicacion": "26, Nucli Urbà, Calafell",
-      "habitaciones": "4 hab.",
-      "metros": "200 m²",
-      "url": "https://www.idealista.com/inmueble/109882981/",
-      "descripcion": "Se vende fantástica vivienda familiar de 4 habitaciones y 3 baños, perfecta para quienes buscan comodidad, espacio y calidad de vida. La casa destaca por su luminosidad, su excelente distribución y sus amplias zonas para disfrutar durante todo el año.\nCaracterísticas principales:\n•4 habitaciones muy espaciosas y lumin",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613824",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle Oratgell, 31, Mas Mel - Bellamar, Calafell",
       "precio": "380.000€",
       "ubicacion": "31, Mas Mel - Bellamar, Calafell",
@@ -1082,19 +848,6 @@
       "fecha_scraping": "2026-02-16T17:34:51.613931",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Paseo Marítim de Masia Blanca, 9, Coma-Ruga, El Vendrell",
-      "precio": "270.000€",
-      "ubicacion": "9, Coma-Ruga, El Vendrell",
-      "habitaciones": "5 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/109677535/",
-      "descripcion": "Impresionante piso en primera línea de mar en Coma-ruga – Totalmente reformado con altas calidades\nDescubre esta exclusiva vivienda situada en primera línea de la playa de Coma-ruga. Se trata de un amplio piso de 5 habitaciones, ideal tanto para familias como para quienes buscan espacio y confort frente al Mediterráne",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:34:51.613941",
-      "portal": "Idealista",
-      "telefono": "611 43 03 07"
     },
     {
       "titulo": "Chalet pareado en Coma-Ruga, El Vendrell",

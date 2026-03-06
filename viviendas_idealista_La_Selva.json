@@ -2,21 +2,8 @@
   "timestamp": "2026-03-04T11:42:37.389900",
   "ubicacion": "La Selva",
   "url": "https://www.idealista.com/venta-viviendas/girona/la-selva/?ordenado-por=fecha-publicacion-desc",
-  "total": 104,
+  "total": 83,
   "viviendas": [
-    {
-      "titulo": "Piso en Federico García Lorca, 5, La Plantera, Blanes",
-      "precio": "165.000€",
-      "ubicacion": "5, La Plantera, Blanes",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/94570696/",
-      "descripcion": "Piso reformado hace 3 años.\nCon 3 habitaciones y 2 baños completos.\nBalcón + patio interior propio + terrado comunitario.\nZona tranquila cerca de servicios, cine, playa, supermercado, medico y estación.\nPara más información contactar preferiblemente por Whatsapp.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-03-04T11:42:37.388759",
-      "portal": "Idealista",
-      "telefono": "649 38 77 95"
-    },
     {
       "titulo": "Piso en Cala Salionç, s/n, La Pola i Giverola-Salionç, Tossa de Mar",
       "precio": "120.000€",
@@ -187,19 +174,6 @@
       "telefono": "636 30 70 41"
     },
     {
-      "titulo": "Piso en Calle Josep Ximeno, 5, Sant Hilari Sacalm",
-      "precio": "78.000€",
-      "ubicacion": "5, Sant Hilari Sacalm",
-      "habitaciones": "4 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/110742928/",
-      "descripcion": "OPORTUNIDAD UNICA!\nPiso amueblado en Sant Hilary Sacalm Comarca La Selva\nse encuentra situado en el corazón de Les Guilleries\nSolo tres vecinos cuatro habitaciones cocina de origen pero bien conservada\nGalería y balcón Todo completamente exterior. Armarios empotrados\nEl piso se encuentra en pleno centro en la calle",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:41:38.155013",
-      "portal": "Idealista",
-      "telefono": "666 36 29 67"
-    },
-    {
       "titulo": "Estudio en Avenida de les Alegries, 20, Can Sabata, Lloret de Mar",
       "precio": "84.000€",
       "ubicacion": "20, Can Sabata, Lloret de Mar",
@@ -317,19 +291,6 @@
       "telefono": "641 25 86 05"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle del Roure, 19, Sils",
-      "precio": "265.000€",
-      "ubicacion": "19, Sils",
-      "habitaciones": "5 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/110638411/",
-      "descripcion": "Casa aislada a cuatro vientos, con un terreno espectacular. Buena oportunidad para reformar a tu gusto.\nCasa ubicada en la zona alta de Les Comes, Sils, orientada al sureste y noroeste. Desde el comedor y la cocina podrás ver la salida del sol y desde el jardín una puesta de sol increíble con las montañas de fondo. En",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:50:38.092180",
-      "portal": "Idealista",
-      "telefono": "666 78 51 53"
-    },
-    {
       "titulo": "Piso en Calle de la Muralla, 5, Centre, Blanes",
       "precio": "398.000€",
       "ubicacion": "5, Centre, Blanes",
@@ -341,19 +302,6 @@
       "fecha_scraping": "2026-02-15T11:49:56.176881",
       "portal": "Idealista",
       "telefono": "609 91 88 57"
-    },
-    {
-      "titulo": "Chalet adosado en Calle Jesús Costa, 23, Sils",
-      "precio": "350.000€",
-      "ubicacion": "23, Sils",
-      "habitaciones": "4 hab.",
-      "metros": "166 m²",
-      "url": "https://www.idealista.com/inmueble/110625354/",
-      "descripcion": "¡Última vivienda disponible! Entrega febrero 2026.\nLa planta baja está distribuida en garaje-lavadero, salón-comedor-cocina, recibidor y baño de cortesía. Terraza exterior pavimentada de 17 m2 para poder instalar una pérgola, más jardín de 50 m2.\nLa planta piso está distribuida en habitación tipo suite con baño y ves",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.176903",
-      "portal": "Idealista",
-      "telefono": "695 32 89 37"
     },
     {
       "titulo": "Piso en Calle Barcelona, 5, Tossa de Mar",
@@ -408,19 +356,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Passatge Mas Torrents, 6  a, Els Pavos, Blanes",
-      "precio": "230.000€",
-      "ubicacion": "6  a, Els Pavos, Blanes",
-      "habitaciones": "2 hab.",
-      "metros": "100 m²",
-      "url": "https://www.idealista.com/inmueble/110600845/",
-      "descripcion": "Descripción\nEn la Costa Brava; vive o desconecta a tan solo 1 hora de Barcelona\nEXCLUSIVA\nDescubre esta fantástica vivienda situada en una de las zonas más valoradas de Blanes. Con sus 120 m² construidos, este piso ofrece espacio, luz natural y unas vistas privilegiadas con garaje cerrado tipo almacén.\nLa d",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.176956",
-      "portal": "Idealista",
-      "telefono": "641 12 73 03"
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle les Heures, 180, Terrafortuna - Puig Vento, Vidreres",
       "precio": "250.000€",
       "ubicacion": "180, Terrafortuna - Puig Vento, Vidreres",
@@ -432,19 +367,6 @@
       "fecha_scraping": "2026-02-15T11:49:56.176966",
       "portal": "Idealista",
       "telefono": "611 30 23 62"
-    },
-    {
-      "titulo": "Estudio en Urbanització Cala Llevadó, 11 z, Santa María de Llorell, Tossa de Mar",
-      "precio": "125.000€",
-      "ubicacion": "11 z, Santa María de Llorell, Tossa de Mar",
-      "habitaciones": null,
-      "metros": "26 m²",
-      "url": "https://www.idealista.com/inmueble/110590338/",
-      "descripcion": "Estudio reformado con licencia turística, en una cala con acceso privado, a 3km de Tossa de Mar.\nConsta de una pequeña cocina, baño completo, sala polivalente y una terraza cara sur. Piscina comunitaria.\nVistas al mar, acceso directo a la playa.\nUbicado en un entorno privilegiado en la Costa Brava, perfecto para descon",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.176976",
-      "portal": "Idealista",
-      "telefono": "678 69 56 20"
     },
     {
       "titulo": "Ático en Calle d'Ignasi Iglesias, 2, Els Pins, Blanes",
@@ -499,19 +421,6 @@
       "telefono": "653 10 13 29"
     },
     {
-      "titulo": "Piso en Calle dels Pirineus, 28, Anglès",
-      "precio": "95.000€",
-      "ubicacion": "28, Anglès",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110572257/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177025",
-      "portal": "Idealista",
-      "telefono": "631 03 93 11"
-    },
-    {
       "titulo": "Ático en Calle del Marfull, 18, Santa Clotilde, Lloret de Mar",
       "precio": "350.000€",
       "ubicacion": "18, Santa Clotilde, Lloret de Mar",
@@ -564,19 +473,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle d'Ignasi Iglesias, 2, Els Pins, Blanes",
-      "precio": "240.000€",
-      "ubicacion": "2, Els Pins, Blanes",
-      "habitaciones": "2 hab.",
-      "metros": "54 m²",
-      "url": "https://www.idealista.com/inmueble/110502591/",
-      "descripcion": "Piso bajo reformado en primera línea de mar – Blanes (Costa Brava)\nBajo de 54 m², totalmente reformado y listo para entrar a vivir, en comunidad privada frente al mar y zona tranquila: 1 habitación + estancia polivalente, 1 baño, salón luminoso, cocina independiente, armarios empotrados y parquet.\nOrientación este/su",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177082",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle d'Anselm Clavé, 47, Centre, Blanes",
       "precio": "269.000€",
       "ubicacion": "47, Centre, Blanes",
@@ -616,19 +512,6 @@
       "telefono": "654 50 45 48"
     },
     {
-      "titulo": "Chalet adosado en Barri de la Pau, s/n, Centro, Vidreres",
-      "precio": "300.000€",
-      "ubicacion": "s/n, Centro, Vidreres",
-      "habitaciones": "3 hab.",
-      "metros": "152 m²",
-      "url": "https://www.idealista.com/inmueble/110500415/",
-      "descripcion": "Vivienda adosada entre medianeras situada en el Barrio de la Pau en Vidreres, con excelente orientación SUR que garantiza luz natural durante todo el día.\nLa vivienda esta distribuida en dos plantas. La planta baja cuenta con porche de entrada, recibidor, cocina, comedor-sala de estar, aseo, garaje, jardín y acceso a",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177121",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Masía en Calle del Mediterráneo, s/n, Maçanet de la Selva poble, Maçanet de la Selva",
       "precio": "205.000€",
       "ubicacion": "s/n, Maçanet de la Selva poble, Maçanet de la Selva",
@@ -642,19 +525,6 @@
       "telefono": "607 97 16 91"
     },
     {
-      "titulo": "Piso en Calle Menorca, 10, Els Pins, Blanes",
-      "precio": "210.000€",
-      "ubicacion": "10, Els Pins, Blanes",
-      "habitaciones": "1 hab.",
-      "metros": "50 m²",
-      "url": "https://www.idealista.com/inmueble/110460458/",
-      "descripcion": "Abstenerse curiosos, precio no negociable.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177140",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Finca rústica en Raval, 33, Hostalric",
       "precio": "280.000€",
       "ubicacion": "33, Hostalric",
@@ -666,19 +536,6 @@
       "fecha_scraping": "2026-02-15T11:49:56.177151",
       "portal": "Idealista",
       "telefono": "689 02 75 55"
-    },
-    {
-      "titulo": "Piso en Calle de Sant Pere Màrtir, 14, Centre, Blanes",
-      "precio": "175.000€",
-      "ubicacion": "14, Centre, Blanes",
-      "habitaciones": "2 hab.",
-      "metros": "81 m²",
-      "url": "https://www.idealista.com/inmueble/110428414/",
-      "descripcion": "Joya reformada en el Casco Antiguo: ¡A 10 min de la playa!\n¿Buscas el equilibrio perfecto entre la esencia del Mediterráneo y la comodidad moderna? Este luminoso piso en el corazón del casco antiguo de Blanes es justo lo que tu familia necesita para vivir o disfrutar de unas vacaciones inolvidables.\n Lo que hace e",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177161",
-      "portal": "Idealista",
-      "telefono": "602 56 38 89"
     },
     {
       "titulo": "Ático en Calle Garbí, 38, Centro, Vidreres",
@@ -720,19 +577,6 @@
       "telefono": "613 81 30 35"
     },
     {
-      "titulo": "Estudio en Plaza Núria, 7, Els Pavos, Blanes",
-      "precio": "159.000€",
-      "ubicacion": "7, Els Pavos, Blanes",
-      "habitaciones": null,
-      "metros": "50 m²",
-      "url": "https://www.idealista.com/inmueble/101551487/",
-      "descripcion": "Apartamento renovado recientemente de 1 habitación, cocina-comedor, lavadero amplio y 1 baño (plato de ducha). Muy soleado. Ubicado en zona muy tranquila de Quatre Vents. Cerca de servicios públicos (ambulatorio, bus, supermercados, colegios, farmacias,.. . ). Zonas verdes anexas. Fácil acceso al piso (pocas escaleras)",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177200",
-      "portal": "Idealista",
-      "telefono": "625 30 48 28"
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle Mas Borinot, 35, Semicentre, Blanes",
       "precio": "485.000€",
       "ubicacion": "35, Semicentre, Blanes",
@@ -757,19 +601,6 @@
       "fecha_scraping": "2026-02-15T11:49:56.177220",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle València, 60, Els Pinars, Lloret de Mar",
-      "precio": "240.000€",
-      "ubicacion": "60, Els Pinars, Lloret de Mar",
-      "habitaciones": "4 hab.",
-      "metros": "158 m²",
-      "url": "https://www.idealista.com/inmueble/110283771/",
-      "descripcion": "Casa en venta en los Pinares, cerca del acceso principal. Dispone de dos plantas, una (vivienda) y sotano, ademas de garaje para dos coches. Terreno de 1200 metros cuadrados orientado a mar. Se vende directamente de propietario. A parte de lo mencionado hay unos 100 metros aprox. de sotano(el cual no está actualmente h",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177230",
-      "portal": "Idealista",
-      "telefono": "672 33 36 72"
     },
     {
       "titulo": "Piso en Calle d'Enric Morera, 1, Els Pins, Blanes",
@@ -809,19 +640,6 @@
       "fecha_scraping": "2026-02-15T11:49:56.177260",
       "portal": "Idealista",
       "telefono": "672 60 95 81"
-    },
-    {
-      "titulo": "Piso en Avenida Mar Menuda, 6, Tossa de Mar",
-      "precio": "295.000€",
-      "ubicacion": "6, Tossa de Mar",
-      "habitaciones": "3 hab.",
-      "metros": "92 m²",
-      "url": "https://www.idealista.com/inmueble/110281423/",
-      "descripcion": "Apartamento con licencia turística a 50 metros de la Playa de La Mar Menuda. Tiene una magnífica terraza de 22m2 con sol y vistas.\nEl apartamento es antiguo pero está bien conservado.\nConsta de un recibidor/ distribuidor, cocina con barra americana, salón-comedor y 3 habitaciones y 2 baños. Las 3 habitaciones son exte",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177270",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Calle de la Font, 6, Massanes",
@@ -993,19 +811,6 @@
       "telefono": "634 37 19 65"
     },
     {
-      "titulo": "Casa o chalet independiente en Plaza Alfred Sisquella, 3, Fenals, Lloret de Mar",
-      "precio": "3.000.000€",
-      "ubicacion": "3, Fenals, Lloret de Mar",
-      "habitaciones": "6 hab.",
-      "metros": "584 m²",
-      "url": "https://www.idealista.com/inmueble/104964691/",
-      "descripcion": "VILLA EN ZONA EXCLUSIVA FENALS A 150 METROS DE PLAYA\nEspaciosa Villa orientada hacia la Playa de Fenals, a 150 metros del mar. Ideal para familias que quieran venir a vivir la zona más tranquila de Lloret de Mar en una villa completamente equipada y lista para entrar a vivir.\nVilla situada en la urbanización exclusi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177410",
-      "portal": "Idealista",
-      "telefono": "669 70 09 86"
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle Montsoriu Sortida, 75, Arbúcies",
       "precio": "485.000€",
       "ubicacion": "75, Arbúcies",
@@ -1030,32 +835,6 @@
       "fecha_scraping": "2026-02-15T11:49:56.177431",
       "portal": "Idealista",
       "telefono": "686 48 30 88"
-    },
-    {
-      "titulo": "Piso en Joan Carles 1, 148, Mont Ferrant - Sant Joan, Blanes",
-      "precio": "105.000€",
-      "ubicacion": "148, Mont Ferrant - Sant Joan, Blanes",
-      "habitaciones": "3 hab.",
-      "metros": "56 m²",
-      "url": "https://www.idealista.com/inmueble/109987679/",
-      "descripcion": "Se vende piso soleado para reformar en una zona tranquila de Blanes\nSe ofrece un piso de 56 m², ideal para quienes quieren hacer su hogar a su gusto. El piso está en fase de reforma: ya tiene luz, gas y agua, y los antiguos propietarios cambiaron todas las tuberías de agua utilizando materiales de alta calidad.\nActual",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177440",
-      "portal": "Idealista",
-      "telefono": "656 68 25 36"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Orevetas, 19, Fenals, Lloret de Mar",
-      "precio": "777.000€",
-      "ubicacion": "19, Fenals, Lloret de Mar",
-      "habitaciones": "3 hab.",
-      "metros": "280 m²",
-      "url": "https://www.idealista.com/inmueble/109985567/",
-      "descripcion": "Espectacular villa independiente con vistas al mar en Serra Brava (Lloret de Mar)\nDescubre esta exclusiva valla de 280 m, ubicada en la cima de la montaña Serra Brava, una de las zonas más privilegiadas de Loret de Mar, conocida como la perla de la Costa Brava. Un enorme natural único, privacidad total y unas impresio",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177450",
-      "portal": "Idealista",
-      "telefono": "644 23 37 77"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Nou de Dalt, 3, Sant Juliá del Llor i Bonmati",
@@ -1188,19 +967,6 @@
       "telefono": "646 36 51 51"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle Vidreres, 31, Maçanet de la Selva poble, Maçanet de la Selva",
-      "precio": "320.000€",
-      "ubicacion": "31, Maçanet de la Selva poble, Maçanet de la Selva",
-      "habitaciones": "6 hab.",
-      "metros": "330 m²",
-      "url": "https://www.idealista.com/inmueble/82480112/",
-      "descripcion": "Casa en zona muy tranquila, cerca del centro en zona de comercios y restaurantes. A diez minutos de la playa. Consta de dos viviendas con 3 habitaciones, baño, cocina y comedor, 120 m2 cada una, garage de 48 m2 para 2 coches y almacén de 33 m2, total parcela 770 m2. La casa se pueden convertir en una sola, o si se pref",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177558",
-      "portal": "Idealista",
-      "telefono": "646 40 20 95"
-    },
-    {
       "titulo": "Chalet adosado en Caldes de Malavella",
       "precio": "389.000€",
       "ubicacion": "",
@@ -1227,19 +993,6 @@
       "telefono": null
     },
     {
-      "titulo": "Casa o chalet independiente en Calle de les Agudes, s/n, Caldes de Malavella",
-      "precio": "375.000€",
-      "ubicacion": "s/n, Caldes de Malavella",
-      "habitaciones": "3 hab.",
-      "metros": "150 m²",
-      "url": "https://www.idealista.com/inmueble/109727368/",
-      "descripcion": "Oportunidad exclusiva en Can Carbonell (Caldes de Malavella) Vivienda unifamiliar reformada en planta baja, ubicada en la tranquila y bien comunicada urbanización Can Carbonell, sobre una parcela esquinera de más de 1.000 m². Propiedad ideal tanto para residencia habitual como para segunda residencia o veraneo: privaci",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177587",
-      "portal": "Idealista",
-      "telefono": "600 16 77 39"
-    },
-    {
       "titulo": "Piso en Carretera Lloret a Tossa km 18,8, 682, Santa María de Llorell, Tossa de Mar",
       "precio": "230.000€",
       "ubicacion": "8, 682, Santa María de Llorell, Tossa de Mar",
@@ -1264,32 +1017,6 @@
       "fecha_scraping": "2026-02-15T11:49:56.177607",
       "portal": "Idealista",
       "telefono": "603 90 72 08"
-    },
-    {
-      "titulo": "Piso en Calle de Francesc Mas i Ros, 10, Tossa de Mar",
-      "precio": "161.000€",
-      "ubicacion": "10, Tossa de Mar",
-      "habitaciones": "1 hab.",
-      "metros": "50 m²",
-      "url": "https://www.idealista.com/inmueble/109691882/",
-      "descripcion": "Un hogar con historia\nEste apartamento es perfecto para quienes buscan una vida tranquila\ny pintoresca. La Vila Vella, el casco antiguo de Tossa de Mar, es un\nconjunto amurallado del siglo XII que ha sido declarado Monumento\nHistórico-Artístico Nacional. Sus calles empedradas y estrechas,\nf\nlanqueadas por casas d",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177617",
-      "portal": "Idealista",
-      "telefono": "689 73 47 17"
-    },
-    {
-      "titulo": "Piso en Calle de Costa de Carbonell, 71, Fenals, Lloret de Mar",
-      "precio": "205.000€",
-      "ubicacion": "71, Fenals, Lloret de Mar",
-      "habitaciones": "2 hab.",
-      "metros": "50 m²",
-      "url": "https://www.idealista.com/inmueble/108456444/",
-      "descripcion": "¡Piso en venta en una de las zonas más bonitas de Lloret de Mar!\nSe vende acogedor piso en zona tranquila y muy bien ubicada, a solo 500 metros de la playa y cerca del centro, con todos los servicios al alcance.\nLa vivienda dispone de dos dormitorios, un balcón con vistas despejadas, y se vende medio amueblada, lista",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:49:56.177626",
-      "portal": "Idealista",
-      "telefono": "633 12 55 26"
     },
     {
       "titulo": "Piso en Calle Joan Durall, 36, Casc Antic, Lloret de Mar",

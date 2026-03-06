@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:12:49.156591",
   "ubicacion": "Barcelona - Sarrià - Sant Gervasi",
   "url": "https://www.idealista.com/venta-viviendas/barcelona/sarria-sant-gervasi/?ordenado-por=fecha-publicacion-desc",
-  "total": 64,
+  "total": 47,
   "viviendas": [
     {
       "titulo": "Piso en Paseo de la Reina Elisenda de Montcada, 13, Sarrià, Barcelona",
@@ -16,19 +16,6 @@
       "fecha_scraping": "2026-03-04T11:12:49.156029",
       "portal": "Idealista",
       "telefono": "634 09 91 30"
-    },
-    {
-      "titulo": "Piso en Passatge de Marimon, 4, Sant Gervasi - Galvany, Barcelona",
-      "precio": "35.000€",
-      "ubicacion": "4, Sant Gervasi - Galvany, Barcelona",
-      "habitaciones": "3 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/110750433/",
-      "descripcion": "Oportunidad de Inversión: Pisos a Precio Imbatible\n¿Buscas una inversión con potencial de alta rentabilidad? Te presentamos pisos desde 35.000 euros, situados en una zona con alta demanda. Actualmente ocupados, estos inmuebles ofrecen un gran margen de ganancia una vez se liberen. ¡No dejes pasar esta oportunidad de f",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:14:13.173016",
-      "portal": "Idealista",
-      "telefono": "683 61 04 26"
     },
     {
       "titulo": "Casa o chalet independiente en Vallvidrera - El Tibidabo i les Planes, Barcelona",
@@ -57,19 +44,6 @@
       "telefono": "614 97 60 91"
     },
     {
-      "titulo": "Ático en Calle de Ganduxer, 82, Sant Gervasi - Galvany, Barcelona",
-      "precio": "2.290.000€",
-      "ubicacion": "82, Sant Gervasi - Galvany, Barcelona",
-      "habitaciones": "3 hab.",
-      "metros": "182 m²",
-      "url": "https://www.idealista.com/inmueble/110730676/",
-      "descripcion": "Ático en Calle Ganduxer. Obra nueva\n182m de terraza.\nNO INMOBILIARIAS / AGENCIAS\nDe particular a particular.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:14:13.173070",
-      "portal": "Idealista",
-      "telefono": "633 12 23 32"
-    },
-    {
       "titulo": "Piso en Sant Gervasi - La Bonanova, Barcelona",
       "precio": "495.000€",
       "ubicacion": "Barcelona",
@@ -96,19 +70,6 @@
       "telefono": "661 46 12 70"
     },
     {
-      "titulo": "Piso en Sant Gervasi - La Bonanova, Barcelona",
-      "precio": "740.000€",
-      "ubicacion": "Barcelona",
-      "habitaciones": "2 hab.",
-      "metros": "98 m²",
-      "url": "https://www.idealista.com/inmueble/110679645/",
-      "descripcion": "Magnífico piso de 90 m² ubicado en una calle tranquila de la zona alta de Barcelona, en Carrer de la Ciutat de Balaguer, en el prestigioso barrio de Barcelona. Finca regia en muy buen estado, ITE en regla.\nLa vivienda destaca por su gran luminosidad y sus techos altos, que aportan amplitud y elegancia a todas las est",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:05:19.820780",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle del Camp, 39, Sant Gervasi - La Bonanova, Barcelona",
       "precio": "570.000€",
       "ubicacion": "39, Sant Gervasi - La Bonanova, Barcelona",
@@ -118,19 +79,6 @@
       "descripcion": "Piso de 3 habitaciones, 2 baños y un aseo. Muy buen estado.\nPor favor, sólo particulares. NO AGENCIAS.",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-18T10:59:32.043130",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Dúplex en Calle de Ganduxer, 143, Les Tres Torres, Barcelona",
-      "precio": "1.350.000€",
-      "ubicacion": "143, Les Tres Torres, Barcelona",
-      "habitaciones": "4 hab.",
-      "metros": "173 m²",
-      "url": "https://www.idealista.com/inmueble/110627356/",
-      "descripcion": "Ático duplex en Ganduxer/Bonanova de 120 m2 útiles en planta, salón de 35m2, 4 habitaciones, 2 baños y balcón esquinero de 7m2\nEn el piso superior hay un estudio-buhardilla de 20 m2 y una terraza de 40 m2 que goza de absoluta privacidad, barbacoa y vistas de Barcelona y el Tibidabo\nSe incluyen dos plazas de parking gra",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:43:57.989205",
       "portal": "Idealista",
       "telefono": null
     },
@@ -146,19 +94,6 @@
       "fecha_scraping": "2026-02-12T19:19:05.755496",
       "portal": "Idealista",
       "telefono": "670 37 83 87"
-    },
-    {
-      "titulo": "Piso en Paseo de la Bonanova, 28, Les Tres Torres, Barcelona",
-      "precio": "2.572.750€",
-      "ubicacion": "28, Les Tres Torres, Barcelona",
-      "habitaciones": "5 hab.",
-      "metros": "251 m²",
-      "url": "https://www.idealista.com/inmueble/110589863/",
-      "descripcion": "EXTRAORDINARIO PISO NUEVO A ESTRENAR EN PASEO BONANOVA.\nLISTO PARA ENTRAR A VIVIR. DIRECTO DEL PROMOTOR. NO AGENCIAS.\nLe Apartment tiene el placer de presentarles esta magnífica vivienda de 251 m2 construidos con una espectacular terraza de 26 m2. Este lujoso apartamento en la zona alta de Barcelona respira elegancia",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755519",
-      "portal": "Idealista",
-      "telefono": "639 38 99 00"
     },
     {
       "titulo": "Casa o chalet independiente en Sarrià, Barcelona",
@@ -187,58 +122,6 @@
       "telefono": null
     },
     {
-      "titulo": "Ático en Calle de Santaló, 1, Sant Gervasi - Galvany, Barcelona",
-      "precio": "2.199.000€",
-      "ubicacion": "1, Sant Gervasi - Galvany, Barcelona",
-      "habitaciones": "3 hab.",
-      "metros": "155 m²",
-      "url": "https://www.idealista.com/inmueble/110569136/",
-      "descripcion": "ÁTICO DE AUTOR en Turó Parc: 150m² de Lujo, Luz y Terraza Privada\nHay viviendas que se visitan y otras que se sienten. Este ático es, sin duda, de las segundas.\nPresentamos una pieza arquitectónica de 150 m², mas 20m2 de terraza privada donde la luz natural y el diseño de vanguardia se fusionan para crear un hogar cál",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755558",
-      "portal": "Idealista",
-      "telefono": "659 06 31 83"
-    },
-    {
-      "titulo": "Piso en Avenida Diagonal, 594, Sant Gervasi - Galvany, Barcelona",
-      "precio": "1.050.000€",
-      "ubicacion": "594, Sant Gervasi - Galvany, Barcelona",
-      "habitaciones": "3 hab.",
-      "metros": "133 m²",
-      "url": "https://www.idealista.com/inmueble/110560677/",
-      "descripcion": "133 m² construidos · 3 habitaciones · 2 baños\nMagnífico piso reformado situado a pocos metros de la Plaza Francesc Macià, en una de las zonas\nmás cotizadas de Barcelona. Vivienda en planta alta, muy luminosa y lista para entrar a vivir.\nLa zona de día ofrece un amplio salón-comedor diáfano con grandes ventanales y vist",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755569",
-      "portal": "Idealista",
-      "telefono": "689 59 99 06"
-    },
-    {
-      "titulo": "Piso en Sant Gervasi - Galvany, Barcelona",
-      "precio": "1.090.000€",
-      "ubicacion": "Barcelona",
-      "habitaciones": "3 hab.",
-      "metros": "133 m²",
-      "url": "https://www.idealista.com/inmueble/110562570/",
-      "descripcion": "CASTELLANO\n133 m² construidos · 3 habitaciones · 2 baños\nMagnífico piso reformado situado a pocos metros de la Plaza Francesc Macià, en una de las zonas\nmás cotizadas de Barcelona. Vivienda en planta alta, muy luminosa y lista para entrar a vivir.\nLa zona de día ofrece un amplio salón-comedor diáfano con grandes ventan",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755579",
-      "portal": "Idealista",
-      "telefono": "689 59 99 06"
-    },
-    {
-      "titulo": "Piso en El Putxet i el Farró, Barcelona",
-      "precio": "770.000€",
-      "ubicacion": "Barcelona",
-      "habitaciones": "4 hab.",
-      "metros": "130 m²",
-      "url": "https://www.idealista.com/inmueble/110561267/",
-      "descripcion": "Amplio piso exterior con terraza y vistas abiertas en Sarrià–Sant Gervasi\nEn una de las zonas residenciales más consolidadas y valoradas de Barcelona, se encuentra esta elegante vivienda de 130 m², situada en una planta exterior, con vistas abiertas y sin edificios enfrente, lo que garantiza una excelente entrada de l",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755589",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Ronda del General Mitre, 105, Sant Gervasi - La Bonanova, Barcelona",
       "precio": "775.000€",
       "ubicacion": "105, Sant Gervasi - La Bonanova, Barcelona",
@@ -263,19 +146,6 @@
       "fecha_scraping": "2026-02-12T19:19:05.755609",
       "portal": "Idealista",
       "telefono": "658 93 24 15"
-    },
-    {
-      "titulo": "Estudio en Calle de Bertran, 4, El Putxet i el Farró, Barcelona",
-      "precio": "230.000€",
-      "ubicacion": "4, El Putxet i el Farró, Barcelona",
-      "habitaciones": null,
-      "metros": "52 m²",
-      "url": "https://www.idealista.com/inmueble/106942429/",
-      "descripcion": "LOCAL - ESTUDIO - DESPACHO EN LA MEJOR UBICACIÓN\nGeneral Mitre con Balmes\n* Cocina-office y todo nuevo.\n* Electricidad cuadro y cableado sin halógeno, según la normativa actual. Nuevo\n* 2 aparatos de aire acondicionado y 2 split.\n* 2 baños, uno arriba y otro abajo.\n* Ambiente de concepto abierto.\nTotalmente func",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755619",
-      "portal": "Idealista",
-      "telefono": "625 08 62 31"
     },
     {
       "titulo": "Piso en Calle de Balmes, 180, Sant Gervasi - Galvany, Barcelona",
@@ -525,58 +395,6 @@
       "telefono": "659 37 71 10"
     },
     {
-      "titulo": "Estudio en Calle de la Nena Casas, 60, Les Tres Torres, Barcelona",
-      "precio": "290.000€",
-      "ubicacion": "60, Les Tres Torres, Barcelona",
-      "habitaciones": null,
-      "metros": "45 m²",
-      "url": "https://www.idealista.com/inmueble/110005164/",
-      "descripcion": "Oficina – loft SIN CEDULA DE HABITABILIDAD a estrenar en el corazón de Tres Torres –\nCalle Nena Casas, 60 (Barcelona)\nEN VENTA, con una superficie de 48 m² construidos, situadas en una de las zonas más\nexclusivas y tranquilas de Tres Torres (Barcelona).\nEl espacio ha sido diseñado para ofrecer máximo confort y func",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755816",
-      "portal": "Idealista",
-      "telefono": "609 46 32 48"
-    },
-    {
-      "titulo": "Estudio en Calle de la Nena Casas, 60, Les Tres Torres, Barcelona",
-      "precio": "495.000€",
-      "ubicacion": "60, Les Tres Torres, Barcelona",
-      "habitaciones": null,
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/110005140/",
-      "descripcion": "Oficina – loft SIN CEDULA DE HABITABILIDAD a estrenar en el corazón de Tres Torres –\nCalle Nena Casas, 60 (Barcelona)\nEN VENTA, con una superficie de 120 m² construidos, situadas en una de las zonas más\nexclusivas y tranquilas de Tres Torres (Barcelona).\nEl espacio ha sido diseñado para ofrecer máximo confort y fun",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755826",
-      "portal": "Idealista",
-      "telefono": "609 46 32 48"
-    },
-    {
-      "titulo": "Piso en Calle de Balmes, 317, Sant Gervasi - Galvany, Barcelona",
-      "precio": "460.000€",
-      "ubicacion": "317, Sant Gervasi - Galvany, Barcelona",
-      "habitaciones": "2 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110003197/",
-      "descripcion": "INVERSION piso en SAN GERVASIO\nPiso alquilado con buena rentabilidad y totalmente reformado; consta de dos habitaciones dobles y una zona de trabajo, la cocina abierta al salon y baño.\nEstá equipada con electrodomésticos y suelos de parquet de alta calidad.\naire acondicionado por conductos y calefacción central.\ncierr",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755835",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Sant Gervasi - Galvany, Barcelona",
-      "precio": "625.000€",
-      "ubicacion": "Barcelona",
-      "habitaciones": "4 hab.",
-      "metros": "110 m²",
-      "url": "https://www.idealista.com/inmueble/107684540/",
-      "descripcion": "Cómodo piso alto con mucho sol y vistas agradables a calle tranquila.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755845",
-      "portal": "Idealista",
-      "telefono": "696 54 81 31"
-    },
-    {
       "titulo": "Piso en Calle de Benet Mateu, 55, Sarrià, Barcelona",
       "precio": "525.000€",
       "ubicacion": "55, Sarrià, Barcelona",
@@ -601,32 +419,6 @@
       "fecha_scraping": "2026-02-12T19:19:05.755864",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle de l'Avenir, 37, Sant Gervasi - Galvany, Barcelona",
-      "precio": "460.000€",
-      "ubicacion": "37, Sant Gervasi - Galvany, Barcelona",
-      "habitaciones": "2 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/109630943/",
-      "descripcion": "Piso de 70m² en plena zona Santaló-Galvany, ¡la mejor de Barcelona!\nINVERSIÓN ideal, ya que somos PROPIETARIOS y ya está alquilada, ¡compra sin intermediarios!\nEl piso está reformado con dos habitaciones, baño, cocina con barra abierta al salón, y pequeño lavadero. Está equipado con electrodomésticos, suelo de parq",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755874",
-      "portal": "Idealista",
-      "telefono": "629 43 98 83"
-    },
-    {
-      "titulo": "Estudio en Calle de Vallirana, 43, El Putxet i el Farró, Barcelona",
-      "precio": "255.000€",
-      "ubicacion": "43, El Putxet i el Farró, Barcelona",
-      "habitaciones": null,
-      "metros": "67 m²",
-      "url": "https://www.idealista.com/inmueble/109624854/",
-      "descripcion": "ESTUDIO en venta en El Putxet i el Farró\nGran oportunidad de ESTUDIO-OFICINA, de 67m2, en una planta baja de la tranquila y silenciosa zona residencial del Putxet i el Farró (abstenerse agencias).\nExterior, luminosa (orientada a Suroeste), recién reformada a estrenar, de diseño con buenos acabados (carpintería de alu",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755883",
-      "portal": "Idealista",
-      "telefono": "623 78 03 67"
     },
     {
       "titulo": "Piso en Ronda del General Mitre, 110, Sant Gervasi - Galvany, Barcelona",
@@ -679,19 +471,6 @@
       "fecha_scraping": "2026-02-12T19:19:05.755922",
       "portal": "Idealista",
       "telefono": "615 84 52 40"
-    },
-    {
-      "titulo": "Piso en Calle jorda, 11, Sarrià, Barcelona",
-      "precio": "560.000€",
-      "ubicacion": "11, Sarrià, Barcelona",
-      "habitaciones": "2 hab.",
-      "metros": "79 m²",
-      "url": "https://www.idealista.com/inmueble/108673920/",
-      "descripcion": "Llicència us Turístic vigent.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:19:05.755933",
-      "portal": "Idealista",
-      "telefono": "624 19 64 09"
     },
     {
       "titulo": "Casa o chalet independiente en Calle de la Fonolleda, 10, Vallvidrera - El Tibidabo i les Planes, Barcelona",

@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:36:44.240576",
   "ubicacion": "Alt Empordà",
   "url": "https://www.idealista.com/venta-viviendas/girona/alt-emporda/?ordenado-por=fecha-publicacion-desc",
-  "total": 76,
+  "total": 62,
   "viviendas": [
     {
       "titulo": "Piso en Port Esportiu - Puig Rom - Canyelles, Roses",
@@ -161,19 +161,6 @@
       "telefono": null
     },
     {
-      "titulo": "Ático en Calle de les Creus, 49, Cadaqués",
-      "precio": "750.000€",
-      "ubicacion": "49, Cadaqués",
-      "habitaciones": "2 hab.",
-      "metros": "110 m²",
-      "url": "https://www.idealista.com/inmueble/110617344/",
-      "descripcion": "Exclusivo ático a tres vientos con gran terraza y garage de gran capacidad.\nSe vende espectacular ático a tres vientos de 110 m2, diseñado para disfrutar al máximo de la luz natural, la amplitud y la comodidad.\nLa vivienda cuenta con dos habitaciones grandes, ambas equipadas con armarios empotrados, ofreciendo un excel",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.795784",
-      "portal": "Idealista",
-      "telefono": "617 37 72 36"
-    },
-    {
       "titulo": "Chalet pareado en La Vila, Llançà",
       "precio": "220.000€",
       "ubicacion": "Llançà",
@@ -185,19 +172,6 @@
       "fecha_scraping": "2026-02-13T12:56:10.795796",
       "portal": "Idealista",
       "telefono": "606 76 71 30"
-    },
-    {
-      "titulo": "Ático en Calle d'en Mairó, 16, Centre, Roses",
-      "precio": "339.000€",
-      "ubicacion": "16, Centre, Roses",
-      "habitaciones": "3 hab.",
-      "metros": "123 m²",
-      "url": "https://www.idealista.com/inmueble/110580260/",
-      "descripcion": "Amplio apartamento en las calles peatonales de Roses a solo 50 metros de la playa.\nEste apartamento de 103 m2 útiles combina confort, modernidad y autenticidad.\nEs una casa de pescadores reformada en piso que dispone de tres habitaciones, un baño completo y un aseo, perfecto para acoger a familia y amigos.\nLa sal",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.795806",
-      "portal": "Idealista",
-      "telefono": "663 89 39 33"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Aribau, 5, Poblenou - L'Oliva Gran, Figueres",
@@ -224,32 +198,6 @@
       "fecha_scraping": "2026-02-13T12:56:10.795828",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Avenida de la Bocana, 9 11, Santa Margarida, Roses",
-      "precio": "195.000€",
-      "ubicacion": "9 11, Santa Margarida, Roses",
-      "habitaciones": "1 hab.",
-      "metros": "45 m²",
-      "url": "https://www.idealista.com/inmueble/109274120/",
-      "descripcion": "Piso en avda Bocana Roses Santa Margarita n° 9/11,\nApartamento situado en Santa Margarita, Roses, a tan solo 50 metros de la playa.\nEl alojamiento esta ubicado en la primera plata, con ascensor, del edificio  Grand Pavois  con vista panoramica al mar, a la playa, al canal, a la montaña.\nEl apartamento de 35m2 se encue",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.795838",
-      "portal": "Idealista",
-      "telefono": "+33 7 67 36 06 50"
-    },
-    {
-      "titulo": "Piso en Calle de Pep Ventura, 25, Centre, Roses",
-      "precio": "315.000€",
-      "ubicacion": "25, Centre, Roses",
-      "habitaciones": "4 hab.",
-      "metros": "110 m²",
-      "url": "https://www.idealista.com/inmueble/110557055/",
-      "descripcion": "Espectacular piso con terraza y vistas a 3 min de la playa – Trato Directo\nDescripción:\nLo mejor de la vivienda:\nZona de día moderna: Amplio salón-comedor de 25 m² con una cocina semi-abierta que aporta amplitud y un estilo contemporáneo.\nTerraza de 12 m²: Un espacio exterior con impresionantes vistas panorámicas al",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.795849",
-      "portal": "Idealista",
-      "telefono": "649 32 49 92"
     },
     {
       "titulo": "Piso en Calle del Port de Reig, 42, Santa Margarida, Roses",
@@ -356,19 +304,6 @@
       "telefono": "605 25 66 47"
     },
     {
-      "titulo": "Piso en Calle Tirso de Molina, 49, Els Grecs - Mas Oliva, Roses",
-      "precio": "230.000€",
-      "ubicacion": "49, Els Grecs - Mas Oliva, Roses",
-      "habitaciones": "2 hab.",
-      "metros": "63 m²",
-      "url": "https://www.idealista.com/inmueble/110160265/",
-      "descripcion": "Precioso piso de 63m2 con dos balcones en el centro de Roses. Cerca de la playa, estación de autobuses, CAP, escuelas y comercios.\nConsta de cocina independiente, 2 habitaciones dobles, bano, salon comedor y dos balcones.\nSegundo piso con ascensor.\nSe vende con muebles y electrodomesticos.\nTambién hay grande plaza park",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.795942",
-      "portal": "Idealista",
-      "telefono": "691 44 03 59"
-    },
-    {
       "titulo": "Piso en Calle Muga-B, 5, Muga - Gran Reserva - Badia, Empuriabrava",
       "precio": "170.000€",
       "ubicacion": "5, Muga - Gran Reserva - Badia, Empuriabrava",
@@ -406,32 +341,6 @@
       "fecha_scraping": "2026-02-13T12:56:10.795973",
       "portal": "Idealista",
       "telefono": "683 45 44 55"
-    },
-    {
-      "titulo": "Dúplex en Nucli Antic, L'Escala",
-      "precio": "425.000€",
-      "ubicacion": "L'Escala",
-      "habitaciones": "2 hab.",
-      "metros": "73 m²",
-      "url": "https://www.idealista.com/inmueble/110280721/",
-      "descripcion": "Ático dúplex exclusivo en el casco histórico de L’Escala, a un minuto de la playa, con terraza privada, vistas al mar y parking\nExcepcional ático dúplex situado en una de las ubicaciones más emblemáticas de L’Escala, en pleno casco histórico y a tan solo un minuto a pie de la playa. La vivienda combina diseño contempo",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.795983",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Chalet adosado en Calle Muga-B, 10, Muga - Gran Reserva - Badia, Empuriabrava",
-      "precio": "140.000€",
-      "ubicacion": "10, Muga - Gran Reserva - Badia, Empuriabrava",
-      "habitaciones": "2 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/102193015/",
-      "descripcion": "Vendo la casa con las peores vistas de Empuriabrava.\nMi casa es fea, es pequeña, es vieja y tiene vistas a un edificio muy feo y muy grande.\nVale.\nTodo esto es verdad.\nTambien es verdad que yo he vivido en ella los ultimos siete años y han sido los mejores años de mi vida.\nTambién es verdad que es una casa que est",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.795993",
-      "portal": "Idealista",
-      "telefono": "685 90 05 41"
     },
     {
       "titulo": "Piso en Calle Nicolás Salmerón, 29, La Vila, Llançà",
@@ -473,32 +382,6 @@
       "telefono": "655 40 33 83"
     },
     {
-      "titulo": "Piso en Calle de Sant Elm, 2, Centre, Roses",
-      "precio": "129.500€",
-      "ubicacion": "2, Centre, Roses",
-      "habitaciones": "1 hab.",
-      "metros": "24 m²",
-      "url": "https://www.idealista.com/inmueble/110285725/",
-      "descripcion": "Vendo estudio (CON LICENCIA TURISTICA) de 24 m2 con vistas al mar en una de las mejores zonas de Roses. A 50 metros de la playa, en pleno centro de Roses y con vistas al puerto y Puig Rom. Se encuentra recientemente reformado, decorado con detalles de calidad y con electrodomésticos nuevos (nevera, vitrocerámica, etc.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.796043",
-      "portal": "Idealista",
-      "telefono": "666 17 94 09"
-    },
-    {
-      "titulo": "Dúplex en Calle Pau Vila, 11, Port Esportiu - Puig Rom - Canyelles, Roses",
-      "precio": "249.000€",
-      "ubicacion": "11, Port Esportiu - Puig Rom - Canyelles, Roses",
-      "habitaciones": "2 hab.",
-      "metros": "100 m²",
-      "url": "https://www.idealista.com/inmueble/110281649/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.796053",
-      "portal": "Idealista",
-      "telefono": "657 79 76 73"
-    },
-    {
       "titulo": "Piso en Port Esportiu - Puig Rom - Canyelles, Roses",
       "precio": "419.000€",
       "ubicacion": "Roses",
@@ -510,19 +393,6 @@
       "fecha_scraping": "2026-02-13T12:56:10.796063",
       "portal": "Idealista",
       "telefono": "687 58 46 19"
-    },
-    {
-      "titulo": "Dúplex en Calle del Sud, 14, Creu de la Ma - Rally sur, Figueres",
-      "precio": "170.000€",
-      "ubicacion": "14, Creu de la Ma - Rally sur, Figueres",
-      "habitaciones": "3 hab.",
-      "metros": "130 m²",
-      "url": "https://www.idealista.com/inmueble/110273059/",
-      "descripcion": "Increíble dúplex en el centro de Figueras.\nDispone de amplio comedor con cocina abierta con salida a balcón.\nDispone de terraza en segunda planta de 10 m2. El inmueble tiene 3 habitaciones de matrimonio con 2 baños, trastero y parquin. Está muy bien orientado al sur con luz y sol todo el día.\nDispone de wifi, calefacci",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.796072",
-      "portal": "Idealista",
-      "telefono": "651 59 53 04"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Salvia, 5, Riells, L'Escala",
@@ -655,19 +525,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle Sant Josep, 4, Centre, Figueres",
-      "precio": "67.000€",
-      "ubicacion": "4, Centre, Figueres",
-      "habitaciones": "1 hab.",
-      "metros": "40 m²",
-      "url": "https://www.idealista.com/inmueble/107338522/",
-      "descripcion": "Piso muy céntrico. A 1 minuto a pie de la Rambla. Dispone de una azotea comunitaria. Tiene bastante luz.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.796176",
-      "portal": "Idealista",
-      "telefono": "650 43 24 68"
-    },
-    {
       "titulo": "Chalet pareado en Calle del Xiprer, 14, Navata",
       "precio": "435.000€",
       "ubicacion": "14, Navata",
@@ -746,19 +603,6 @@
       "telefono": "663 58 58 68"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle Montgrí, 62, Montgrí, Empuriabrava",
-      "precio": "695.000€",
-      "ubicacion": "62, Montgrí, Empuriabrava",
-      "habitaciones": "4 hab.",
-      "metros": "140 m²",
-      "url": "https://www.idealista.com/inmueble/110135610/",
-      "descripcion": "Se vende una villa excepcional en una zona privilegiada de Empuriabrava, cerca del mar, del centro y del canal. La villa ha sido completamente renovada y cuenta con piscina privada y terraza.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.796247",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle Canigó, 2, Saus",
       "precio": "575.000€",
       "ubicacion": "2, Saus",
@@ -770,19 +614,6 @@
       "fecha_scraping": "2026-02-13T12:56:10.796257",
       "portal": "Idealista",
       "telefono": "657 86 05 45"
-    },
-    {
-      "titulo": "Piso en Avenida Riells, 25, Eixample Residencial, L'Escala",
-      "precio": "230.000€",
-      "ubicacion": "25, Eixample Residencial, L'Escala",
-      "habitaciones": "2 hab.",
-      "metros": "74 m²",
-      "url": "https://www.idealista.com/inmueble/110117016/",
-      "descripcion": "Appartement de 74m² composé d'une cuisine ouverte sur un grand salon séjour avec terrasse exposition sud soleil toute le journée. d'une salle de douche rénovée, de deux chambres chacune avec un accès privilégié à une vaste terrasse de 40m². Cet espace extérieur exceptionnel offre un potentiel d'aménagement illimité: im",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.796267",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Ático en Avenida Pastor, 1, Santa Margarida, Roses",
@@ -913,19 +744,6 @@
       "fecha_scraping": "2026-02-13T12:56:10.796367",
       "portal": "Idealista",
       "telefono": "659 96 04 27"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Alberes, 208 a, Alberes, Empuriabrava",
-      "precio": "1.595.000€",
-      "ubicacion": "208 a, Alberes, Empuriabrava",
-      "habitaciones": "4 hab.",
-      "metros": "309 m²",
-      "url": "https://www.idealista.com/inmueble/109972527/",
-      "descripcion": "Villa Exclusiva de Diseño en Canal Ancho 13.30 amarre.\nPresentamos esta propiedad de arquitectura minimalista y líneas limpias, que destaca por su privacidad, tranquilidad, pero cerca de todos los servicios y transportes.\nConsta de 231 m² habitables con acabados de alta calidad.\nAmarre Privado: 13,30 metros lineales e",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T12:56:10.796376",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Estudio en Calle Muga-Delta, 2 EdificioSolIIB, Muga - Gran Reserva - Badia, Empuriabrava",

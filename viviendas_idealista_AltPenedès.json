@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:14:43.244903",
   "ubicacion": "AltPenedès",
   "url": "https://www.idealista.com/venta-viviendas/barcelona/alt-penedes/?ordenado-por=fecha-publicacion-desc",
-  "total": 76,
+  "total": 61,
   "viviendas": [
     {
       "titulo": "Piso en Barceloneta - Molí d'En Rovira, Vilafranca del Penedès",
@@ -57,32 +57,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Ronda de Mar, 77, La Girada, Vilafranca del Penedès",
-      "precio": "360.000€",
-      "ubicacion": "77, La Girada, Vilafranca del Penedès",
-      "habitaciones": "3 hab.",
-      "metros": "102 m²",
-      "url": "https://www.idealista.com/inmueble/110658832/",
-      "descripcion": "Promoción de sólo 8 viviendas en la Ronda de Mar, barrio de La Girada.\nBien situado, cerca del centro, de la estación del tren y de la estación de bus.\nBien comunicado por carretera N-340 y autopista AP-7.\nPisos de 2 i 3 habitaciones, amplios y muy luminosos.\nClimatización con sistema de aerotermia, sistema eficien",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:01:03.720894",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Chalet pareado en Olèrdola",
-      "precio": "420.000€",
-      "ubicacion": "",
-      "habitaciones": "4 hab.",
-      "metros": "180 m²",
-      "url": "https://www.idealista.com/inmueble/110638176/",
-      "descripcion": "Patio con barbacoa, calefacción Gas Natural, cerramientos metálicos, dos balcones y chimenea de leña tradicional.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:00:55.454658",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle Maria Montserrat, 6, Sant Sadurní d'Anoia",
       "precio": "280.000€",
       "ubicacion": "6, Sant Sadurní d'Anoia",
@@ -92,19 +66,6 @@
       "descripcion": "Luminoso piso totalmente reformado con parking y trastero incluidos\nSe vende precioso piso de 3 habitaciones totalmente exterior, con orientación sur, lo que garantiza luz natural durante todo el día.\nLa vivienda cuenta con:\n3 dormitorios amplios y luminosos\n2 baños completos\nMosquiteras instaladas en todas las ven",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-13T13:45:14.128284",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle del Molí Nou, 24, Gelida",
-      "precio": "280.000€",
-      "ubicacion": "24, Gelida",
-      "habitaciones": "3 hab.",
-      "metros": "93 m²",
-      "url": "https://www.idealista.com/inmueble/105978030/",
-      "descripcion": "Piso Obra nueva en Gelida\nTe presentamos este espectacular piso prácticamente a estrenar, construido en 2023, que combina modernidad y confort en una ubicación privilegiada. Con 93 m² de espacio bien distribuido, este luminoso tercer piso con ascensor es ideal para disfrutar de la vida en familia.\nCaracterísticas del",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092625",
       "portal": "Idealista",
       "telefono": null
     },
@@ -148,19 +109,6 @@
       "telefono": "679 93 05 06"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle les Roques, 18, Avinyonet del Penedès",
-      "precio": "340.000€",
-      "ubicacion": "18, Avinyonet del Penedès",
-      "habitaciones": "4 hab.",
-      "metros": "311 m²",
-      "url": "https://www.idealista.com/inmueble/110570823/",
-      "descripcion": "Información detallada\nCONTACTAR POR Whatsapp. OPORTUNIDAD. DE PARTICULAR SIN INTEREDIARIOS.\n¿Buscas un hogar con espacio, luz y un sin fín de posibilidades? Presentamos esta magnífica propiedad en L'Arboçar de Dalt. lista para entrar a vivir. Con 165 m² construidos de vivienda con 311 m2 total construida sobre una amp",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092687",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle de Ferran, 1, Centre Vila, Vilafranca del Penedès",
       "precio": "259.000€",
       "ubicacion": "1, Centre Vila, Vilafranca del Penedès",
@@ -183,58 +131,6 @@
       "descripcion": "Amplio y luminoso salón con techos altos y vigas de madera vistas que aportan calidez y personalidad al espacio. Grandes ventanales permiten la entrada de abundante luz natural, creando un ambiente acogedor y lleno de vida. La estancia cuenta con suelo de madera que realza su estética y una chimenea que se convierte en",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-12T19:41:16.092706",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle de la Pau, 7, Castellví de la Marca",
-      "precio": "383.500€",
-      "ubicacion": "7, Castellví de la Marca",
-      "habitaciones": "3 hab.",
-      "metros": "245 m²",
-      "url": "https://www.idealista.com/inmueble/110537406/",
-      "descripcion": "Amplio salón con un encanto único, caracterizado por sus techos a doble altura y estructura de madera vista que aportan personalidad y calidez al espacio. La estancia disfruta de una excelente entrada de luz natural gracias a sus grandes ventanas, creando un ambiente agradable y muy confortable. El suelo de madera real",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092714",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle de la Pau, 38, Castellví de la Marca",
-      "precio": "382.000€",
-      "ubicacion": "38, Castellví de la Marca",
-      "habitaciones": "4 hab.",
-      "metros": "250 m²",
-      "url": "https://www.idealista.com/inmueble/110537127/",
-      "descripcion": "Luminoso y acogedor salón de estilo rústico con techos altos de madera y vigas vistas, que aportan una gran sensación de amplitud y carácter. El espacio destaca por su suelo de madera natural, una elegante chimenea que se convierte en el corazón de la estancia y grandes ventanales que inundan la vivienda de luz natural",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092723",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en C 17, 276, Mediona",
-      "precio": "160.000€",
-      "ubicacion": "276, Mediona",
-      "habitaciones": "4 hab.",
-      "metros": "150 m²",
-      "url": "https://www.idealista.com/inmueble/110535781/",
-      "descripcion": "Encantadora casa a cuatro vientos en la urbanización Sant Elías, a pocos minutos de Sant Joan de Mediona. Venta directa de propietarios.\nEsta propiedad ofrece una excelente oportunidad tanto para familias como para quienes buscan dos viviendas independientes en un mismo terreno. La casa se distribuye en dos plantas to",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092733",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle del Mediterrani, 34, Castellví de la Marca",
-      "precio": "382.000€",
-      "ubicacion": "34, Castellví de la Marca",
-      "habitaciones": "4 hab.",
-      "metros": "248 m²",
-      "url": "https://www.idealista.com/inmueble/110529368/",
-      "descripcion": "Hermosa casa luminosa con detalles en madera y excelente distribución\nPropiedad muy bien cuidada, con ambientes amplios, luminosos y una cálida combinación de madera y luz natural que aporta confort y estilo.\nCuenta con pisos de madera en excelente estado, escalera de diseño en madera maciza y espacios de circulación",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092742",
       "portal": "Idealista",
       "telefono": null
     },
@@ -276,19 +172,6 @@
       "fecha_scraping": "2026-02-12T19:41:16.092772",
       "portal": "Idealista",
       "telefono": "644 78 12 98"
-    },
-    {
-      "titulo": "Chalet pareado en Calle de Sant Antoni, 34, Sant Cugat Sesgarrigues",
-      "precio": "135.000€",
-      "ubicacion": "34, Sant Cugat Sesgarrigues",
-      "habitaciones": "4 hab.",
-      "metros": "131 m²",
-      "url": "https://www.idealista.com/inmueble/110453009/",
-      "descripcion": "Nuda propiedad.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092782",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Casa o chalet independiente en Torrelles de Foix",
@@ -343,19 +226,6 @@
       "telefono": "687 72 06 47"
     },
     {
-      "titulo": "Ático en Calle del Mossèn Jaume Via, 25, Gelida",
-      "precio": "199.999€",
-      "ubicacion": "25, Gelida",
-      "habitaciones": "4 hab.",
-      "metros": "137 m²",
-      "url": "https://www.idealista.com/inmueble/87677436/",
-      "descripcion": "Muy centrico, terraza espectacular con grandes vistas y sol a todas horas.\nDisponible en abril 2026.\nLa dirección correcta es Mossen Jaume Via 29.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092832",
-      "portal": "Idealista",
-      "telefono": "656 40 60 81"
-    },
-    {
       "titulo": "Casa o chalet independiente en Urbanització Safari, 15 b, Gelida",
       "precio": "340.000€",
       "ubicacion": "15 b, Gelida",
@@ -393,32 +263,6 @@
       "fecha_scraping": "2026-02-12T19:41:16.092862",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Finca rústica en Can Paixano, 4, Mediona",
-      "precio": "160.000€",
-      "ubicacion": "4, Mediona",
-      "habitaciones": "5 hab.",
-      "metros": "275 m²",
-      "url": "https://www.idealista.com/inmueble/86626148/",
-      "descripcion": "Preciosa masía rústica a reformar en Can Paixano, término municipal de Mediona (Barcelona). A 1 hora de Barcelona ciudad (autovía A-2) y a 20 minutos de Igualada y Vilafranca del Penedés.\nIdeal para casa de colonias, granja escuela, turismo rural o similar. Posibilidad de construir 2 viviendas enfrente de la masía ya e",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092873",
-      "portal": "Idealista",
-      "telefono": "650 55 33 81"
-    },
-    {
-      "titulo": "Chalet pareado en Calle del Doctor Fleming, 2, Barceloneta - Molí d'En Rovira, Vilafranca del Penedès",
-      "precio": "390.000€",
-      "ubicacion": "2, Barceloneta - Molí d'En Rovira, Vilafranca del Penedès",
-      "habitaciones": "5 hab.",
-      "metros": "150 m²",
-      "url": "https://www.idealista.com/inmueble/110132409/",
-      "descripcion": "Casa situada en el barrio del Moli d'en rovira, totalmente exterior y luz natural, reformada y lista para entrar a vivir. A 5 minutos de la estación de autobuses y de la Renfe, a 15 minutos de las playas de Vilanova y de Sitges y a 30 minutos de Barcelona.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092883",
-      "portal": "Idealista",
-      "telefono": "629 57 01 13"
     },
     {
       "titulo": "Chalet pareado en Calle Nou, 2, Santa Margarida i els Monjos",
@@ -510,19 +354,6 @@
       "fecha_scraping": "2026-02-12T19:41:16.092954",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en 9, 7, Mediona",
-      "precio": "98.000€",
-      "ubicacion": "7, Mediona",
-      "habitaciones": "6 hab.",
-      "metros": "112 m²",
-      "url": "https://www.idealista.com/inmueble/109363420/",
-      "descripcion": "Precioso chalet en Sant Elies, Mediona.\n6 habitaciones todas exteriores, terraza y jardín. La casa es un lienzo en blanco para reformar a su gusto. Instalación eléctrica exterior nueva (poste, boletín) Tenemos un presupuesto de 20mil euros para toda la reforma y tener la casa lista para entrar a vivir.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.092964",
-      "portal": "Idealista",
-      "telefono": "649 55 06 22"
     },
     {
       "titulo": "Piso en Paseo Circumval·lació, 6, Gelida",
@@ -694,19 +525,6 @@
       "telefono": null
     },
     {
-      "titulo": "Casa de pueblo en Calle Doctor Escayola, 10, Sant Sadurní d'Anoia",
-      "precio": "185.000€",
-      "ubicacion": "10, Sant Sadurní d'Anoia",
-      "habitaciones": "3 hab.",
-      "metros": "129 m²",
-      "url": "https://www.idealista.com/inmueble/108286911/",
-      "descripcion": "PRECIO NEGOCIABLE. ABSTÉNGANSE INMOBILIARIAS.\nCasa en pleno centro de Sant Sadurní d'Anoia (a 35 minutos en coche de Barcelona y a diez minutos caminando de la estación de tren de Sant Sadurní). Cerca de comercios y servicios.\nLa vivienda tiene 126 m2 con la siguiente distribución:\n-Acceso vivienda: planta baja-pasi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.093109",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Dúplex en Rambla de la Girada, 58, La Girada, Vilafranca del Penedès",
       "precio": "247.000€",
       "ubicacion": "58, La Girada, Vilafranca del Penedès",
@@ -874,19 +692,6 @@
       "fecha_scraping": "2026-02-12T19:41:16.093238",
       "portal": "Idealista",
       "telefono": "664 21 46 93"
-    },
-    {
-      "titulo": "Chalet pareado en Pacs del Penedès",
-      "precio": "420.000€",
-      "ubicacion": "",
-      "habitaciones": "5 hab.",
-      "metros": "218 m²",
-      "url": "https://www.idealista.com/inmueble/102971556/",
-      "descripcion": "[Consultas por WHATSAPP o por mensaje, por favor]\nParticular vende casa en Pacs en un entorno natural y privilegiado.\nEncantadora propiedad que cuenta con una superficie habitable de 218 metros y se encuentra en un terreno de 685 metros, rodeada de un cautivador paisaje mediterráneo de viñedos y montañas.\nSituada en",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T19:41:16.093248",
-      "portal": "Idealista",
-      "telefono": "611 63 52 51"
     },
     {
       "titulo": "Ático en Calle el Raval, 103, Torrelles de Foix",

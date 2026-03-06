@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:53:03.354748",
   "ubicacion": "Baix Camp",
   "url": "https://www.idealista.com/venta-viviendas/tarragona/baix-camp/?ordenado-por=fecha-publicacion-desc",
-  "total": 127,
+  "total": 104,
   "viviendas": [
     {
       "titulo": "Ático en Avenida de Reus, 30, Mont-Roig, Mont-Roig del Camp",
@@ -161,19 +161,6 @@
       "telefono": "621 12 55 09"
     },
     {
-      "titulo": "Piso en Calle del Vent, 30, Centre, Reus",
-      "precio": "214.000€",
-      "ubicacion": "30, Centre, Reus",
-      "habitaciones": "2 hab.",
-      "metros": "68 m²",
-      "url": "https://www.idealista.com/inmueble/110762750/",
-      "descripcion": "Reus Centro\nPiso exterior reformado totalmente a medida. Consta de dos habitaciones, dos baños y cocina.\nEn nuestras reformas se cambian todas las instalaciones y tabiquerías interiores, incidiendo en la eficiencia energética y el aprovechamiento del espacio. La instalación eléctrica se compone de cuadro elevado y ca",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-03-04T11:53:03.353645",
-      "portal": "Idealista",
-      "telefono": "621 12 55 09"
-    },
-    {
       "titulo": "Piso en Paseo de Prim, 41, Centre, Reus",
       "precio": "165.000€",
       "ubicacion": "41, Centre, Reus",
@@ -211,19 +198,6 @@
       "fecha_scraping": "2026-03-04T11:53:03.353673",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle de la Mare Molas, 23, Ponent, Reus",
-      "precio": "188.500€",
-      "ubicacion": "23, Ponent, Reus",
-      "habitaciones": "4 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110711202/",
-      "descripcion": "PISO EXCLUSIVO, REFORMADO EN PLENO CENTRO DE REUS – 4 HABITACIONES – ASCENSOR – MUY LUMINOSO – 188.500€\nHay pisos… y luego está tu hogar, ese piso que cuando lo visitas sabes que es para ti.\nVivienda totalmente reformada en el centro de Reus, lista para entrar a vivir sin hacer absolutamente nada. Quinta planta con a",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:42:02.505217",
-      "portal": "Idealista",
-      "telefono": "682 01 79 36"
     },
     {
       "titulo": "Piso en Avenida de la Diputació, 177 b, Cap de San Pere, Cambrils",
@@ -317,45 +291,6 @@
       "telefono": "660 05 25 76"
     },
     {
-      "titulo": "Piso en Calle del Doctor Paul Wiringuer, 12, Vilafortuny platja, Cambrils",
-      "precio": "280.000€",
-      "ubicacion": "12, Vilafortuny platja, Cambrils",
-      "habitaciones": "1 hab.",
-      "metros": "68 m²",
-      "url": "https://www.idealista.com/inmueble/110649884/",
-      "descripcion": "Planta baja con acceso a jardín de más de 1.500m2 y salida a la mejor playa de la bahía de Cambrils-Salou. Orientación sur que permite disfrutar de la vivienda todo el año. Barrio con las viviendas más exclusivas de Cambrils. Totalmente reformado con acabados de primera calidad. Salón con salida a jardín, dormitorio de",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:28:31.317295",
-      "portal": "Idealista",
-      "telefono": "669 45 35 74"
-    },
-    {
-      "titulo": "Piso en Calle de París, 1, L'Hospitalet de l'Infant",
-      "precio": "105.000€",
-      "ubicacion": "1, L'Hospitalet de l'Infant",
-      "habitaciones": "2 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110624435/",
-      "descripcion": "Piso de 45 años de antiguedad, con 2 habitaciones, cocina, galeria, baño con media bañera, amplio comedor con terrazita, y armario empotrado en la entrada.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143518",
-      "portal": "Idealista",
-      "telefono": "620 42 75 39"
-    },
-    {
-      "titulo": "Chalet adosado en Regueral - Prat d'En Foré, Cambrils",
-      "precio": "435.000€",
-      "ubicacion": "Cambrils",
-      "habitaciones": "5 hab.",
-      "metros": "309 m²",
-      "url": "https://www.idealista.com/inmueble/110621639/",
-      "descripcion": "Chalet adosado situado en la prestigiosa urbanización Molí de la Torre, una de las zonas residenciales más valoradas de Cambrils. Una vivienda que combina diseño funcional, amplitud y luminosidad.\nDistribuida en varias plantas:\nPlanta sótano:\nAmplio garaje con capacidad para dos vehículos, trastero y una acogedora sal",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143542",
-      "portal": "Idealista",
-      "telefono": "696 94 48 32"
-    },
-    {
       "titulo": "Piso en Calle Gregal, 2, Olivers-Paseo Marítimo, Mont-Roig del Camp",
       "precio": "215.000€",
       "ubicacion": "2, Olivers-Paseo Marítimo, Mont-Roig del Camp",
@@ -369,45 +304,6 @@
       "telefono": "680 13 32 86"
     },
     {
-      "titulo": "Ático en Avenida de Sant Jordi, 17, Centre, Reus",
-      "precio": "465.000€",
-      "ubicacion": "17, Centre, Reus",
-      "habitaciones": "4 hab.",
-      "metros": "159 m²",
-      "url": "https://www.idealista.com/inmueble/110617247/",
-      "descripcion": "Exclusivo ático en la Avenida Sant Jordi – Reus\nAlquiler con opción a compra por 1.200 € al mes\nDescubre una auténtica joya inmobiliaria en una de las zonas más prestigiosas y demandadas de Reus. Este espectacular ático en Avenida Sant Jordi combina elegancia, amplitud y unas vistas privilegiadas, convirtiéndose en e",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143564",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Avenida del Francesc Macià, 9, Ponent, Reus",
-      "precio": "178.000€",
-      "ubicacion": "9, Ponent, Reus",
-      "habitaciones": "3 hab.",
-      "metros": "110 m²",
-      "url": "https://www.idealista.com/inmueble/110616619/",
-      "descripcion": "Vive en el corazón de la ciudad con el espacio y la comodidad que siempre has buscado\nTe presentamos esta magnífica vivienda en venta, ubicada en una de las zonas más céntricas y demandadas, rodeada de todos los servicios: comercios, transporte, colegios, zonas de ocio y todo lo necesario para disfrutar de una vida u",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143574",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Chalet pareado en Deessa Isis, 37, Casalot, Mont-Roig del Camp",
-      "precio": "249.000€",
-      "ubicacion": "37, Casalot, Mont-Roig del Camp",
-      "habitaciones": "4 hab.",
-      "metros": "185 m²",
-      "url": "https://www.idealista.com/inmueble/110612293/",
-      "descripcion": "CHALET pareado esquinero EXPECTACULAR!\nParcela 400 m2\nHabitable 120 m2\nPLANTA BAJA:\nSalon Comedor c/Chimenea\nCocina Independiente salida piscina\nDormitorio Matrimonio Suite c/. Baño\nPLANTA SÚPERIOR:\nDormitorio Matrimonio Suite c/. Baño\nDormitorio Matrimonio salida terraza\nDormitorio Matrimonio salida terraza\nBa",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143585",
-      "portal": "Idealista",
-      "telefono": "666 04 60 00"
-    },
-    {
       "titulo": "Piso en Calle del Campassos, 22, Montbrio del Camp",
       "precio": "180.000€",
       "ubicacion": "22, Montbrio del Camp",
@@ -419,19 +315,6 @@
       "fecha_scraping": "2026-02-15T12:58:43.143595",
       "portal": "Idealista",
       "telefono": "692 44 20 21"
-    },
-    {
-      "titulo": "Piso en Avenida de Barcelona, 109, Mestral, Reus",
-      "precio": "35.000€",
-      "ubicacion": "109, Mestral, Reus",
-      "habitaciones": "2 hab.",
-      "metros": "87 m²",
-      "url": "https://www.idealista.com/inmueble/110604763/",
-      "descripcion": "Se vende piso de banco, a muy buen precio. Operación al contado, no se puede pedir hipoteca, no se puede visitar y no hay fotos. Pasamos más documentación registral a los realmente interesados.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143605",
-      "portal": "Idealista",
-      "telefono": "613 81 39 94"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Verge de la Roca, 1, Mont-Roig, Mont-Roig del Camp",
@@ -471,19 +354,6 @@
       "fecha_scraping": "2026-02-15T12:58:43.143635",
       "portal": "Idealista",
       "telefono": "616 75 70 41"
-    },
-    {
-      "titulo": "Piso en Calle del Doctor Robert, 31, Centre, Reus",
-      "precio": "158.000€",
-      "ubicacion": "31, Centre, Reus",
-      "habitaciones": "2 hab.",
-      "metros": "87 m²",
-      "url": "https://www.idealista.com/inmueble/110572327/",
-      "descripcion": "Piso reformado con encanto en pleno centro de Reus\nSe vende acogedor piso recién reformado en una de las mejores zonas del centro de Reus, ubicado en una finca clásica con carácter y únicamente tres vecinos (uno por planta). El edificio ha sido recientemente rehabilitado, incluyendo tejado, patio interior y actualment",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143644",
-      "portal": "Idealista",
-      "telefono": "606 24 86 50"
     },
     {
       "titulo": "Chalet adosado en Calle Mas de la Comtessa, 46, Llevant, Reus",
@@ -564,19 +434,6 @@
       "telefono": null
     },
     {
-      "titulo": "Finca rústica en Poligono 24, s/n, Mont-Roig, Mont-Roig del Camp",
-      "precio": "90.000€",
-      "ubicacion": "s/n, Mont-Roig, Mont-Roig del Camp",
-      "habitaciones": "2 hab.",
-      "metros": "82 m²",
-      "url": "https://www.idealista.com/inmueble/110292893/",
-      "descripcion": "En un entorno único y aislado (sin vecinos), rodeada de naturaleza y a tan solo 7 km del mar (aproximadamente 1 hora y 45 minutos a pie), encontramos esta finca rústica de 6,5 hectáreas con vistas a la llanura. Orientada al este-sureste, a una altitud de entre 230 y 285 m, y enclavada al pie de una montaña de 483 m de",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143712",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Avenida Diputación, 79, Vilafortuny platja, Cambrils",
       "precio": "230.000€",
       "ubicacion": "79, Vilafortuny platja, Cambrils",
@@ -642,19 +499,6 @@
       "telefono": "678 44 05 67"
     },
     {
-      "titulo": "Piso en Calle de Cristòfor Colom, 26, Port, Cambrils",
-      "precio": "299.000€",
-      "ubicacion": "26, Port, Cambrils",
-      "habitaciones": "3 hab.",
-      "metros": "73 m²",
-      "url": "https://www.idealista.com/inmueble/110496224/",
-      "descripcion": "Piso de obra nueva junto al puerto de Cambrils – listo para entrar a vivir\nSe vende precioso piso de 72 m² en una de las mejores zonas de Cambrils, a un paso del puerto y rodeado de todos los servicios: CAP, supermercados, comercios, restaurantes y transporte.\nLa vivienda dispone de 3 habitaciones, una de ellas en su",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143777",
-      "portal": "Idealista",
-      "telefono": "722 71 89 62"
-    },
-    {
       "titulo": "Chalet pareado en Calle de Pere Rius i Gatell, 52, Migjorn, Reus",
       "precio": "365.000€",
       "ubicacion": "52, Migjorn, Reus",
@@ -666,19 +510,6 @@
       "fecha_scraping": "2026-02-15T12:58:43.143789",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Ático en Calle Castell de Tona, 23, Els Tallats - Mas Olivé, Cambrils",
-      "precio": "380.000€",
-      "ubicacion": "23, Els Tallats - Mas Olivé, Cambrils",
-      "habitaciones": "4 hab.",
-      "metros": "206 m²",
-      "url": "https://www.idealista.com/inmueble/28890797/",
-      "descripcion": "Ático con solárium con excelentes calidades y en una de las mejores urbanizaciones privadas de la costa Dorada “PortMarino”. Dicha urbanización está equipada con tres piscinas, canales y estanques, zona de juegos para niños, dentro de un gran y espectacular jardín. Por su ubicación estratégica, se encuentra muy próximo",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143799",
-      "portal": "Idealista",
-      "telefono": "646 97 58 68"
     },
     {
       "titulo": "Ático en Avenida de Pere el Cerimoniós, 91, Centre, Reus",
@@ -705,19 +536,6 @@
       "fecha_scraping": "2026-02-15T12:58:43.143819",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Chalet adosado en Calle Montroig de Sio, 25, Casalot, Mont-Roig del Camp",
-      "precio": "180.000€",
-      "ubicacion": "25, Casalot, Mont-Roig del Camp",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/25454282/",
-      "descripcion": "3 habitaciones 2 baños jardin piscina comunitaria solo 5 vecinos.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143829",
-      "portal": "Idealista",
-      "telefono": "607 21 24 14"
     },
     {
       "titulo": "Piso en Calle de l'Estació, 64, L'Hospitalet de l'Infant",
@@ -811,19 +629,6 @@
       "telefono": "687 20 58 09"
     },
     {
-      "titulo": "Piso en Calle Colon, 10, Mont-Roig, Mont-Roig del Camp",
-      "precio": "188.000€",
-      "ubicacion": "10, Mont-Roig, Mont-Roig del Camp",
-      "habitaciones": "3 hab.",
-      "metros": "99 m²",
-      "url": "https://www.idealista.com/inmueble/110286732/",
-      "descripcion": "Piso de 3 hab, 2 dobles. 2 baños. Cocina equipada. Parket, calefaccion, aire, terrasa. Amueblado. Para entrar ya. Piscina comunitaria.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143911",
-      "portal": "Idealista",
-      "telefono": "632 24 65 50"
-    },
-    {
       "titulo": "Ático en Plaza de la Constitució, 6, Port, Cambrils",
       "precio": "399.000€",
       "ubicacion": "6, Port, Cambrils",
@@ -889,19 +694,6 @@
       "telefono": "664 40 22 18"
     },
     {
-      "titulo": "Casa o chalet independiente en Camino de Les Valls, s/n, Les Borges del Camp",
-      "precio": "154.900€",
-      "ubicacion": "s/n, Les Borges del Camp",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/110253548/",
-      "descripcion": "Hipotecable.\nTiene cédula de habitabilidad.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.143971",
-      "portal": "Idealista",
-      "telefono": "623 32 31 98"
-    },
-    {
       "titulo": "Piso en Calle Pau Casals, 1, La Selva del Camp",
       "precio": "238.000€",
       "ubicacion": "1, La Selva del Camp",
@@ -926,32 +718,6 @@
       "fecha_scraping": "2026-02-15T12:58:43.143991",
       "portal": "Idealista",
       "telefono": "659 39 35 40"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle Lluís Domènech I Montaner, 4, La Dorada, Cambrils",
-      "precio": "630.000€",
-      "ubicacion": "4, La Dorada, Cambrils",
-      "habitaciones": "3 hab.",
-      "metros": "210 m²",
-      "url": "https://www.idealista.com/inmueble/110198626/",
-      "descripcion": "Muy bonita villa independiente del año 2005, a unos 200 metros de la playa, aire acondicionado, panelas solares 6kw, reversible, calefacción durante 3 años, servicios de alta gama, casa de arquitecto. Paredes interiores aisladas en planta baja, amplio terreno con piscina, salón independiente con barbacoa y cuarto técni",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.144000",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Avenida de Barcelona, 2, Centro, Mont-Roig del Camp",
-      "precio": "180.000€",
-      "ubicacion": "2, Centro, Mont-Roig del Camp",
-      "habitaciones": "2 hab.",
-      "metros": "92 m²",
-      "url": "https://www.idealista.com/inmueble/110197408/",
-      "descripcion": "Plaza de parquing numerada para un vehículo, zona ajardinada, bajos con acceso directo a la piscina, cocina amueblada armarios empotrados con todos los\nEquipamientos para entrar a vivir. A 5 minutos de la playa tercera línea de mar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.144011",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Chalet adosado en Calle gran canaria, 76, Centro, Mont-Roig del Camp",
@@ -1136,19 +902,6 @@
       "telefono": "605 63 95 02"
     },
     {
-      "titulo": "Piso en Calle de Neptú, 35, Tarraco, Cambrils",
-      "precio": "195.000€",
-      "ubicacion": "35, Tarraco, Cambrils",
-      "habitaciones": "1 hab.",
-      "metros": "40 m²",
-      "url": "https://www.idealista.com/inmueble/109951087/",
-      "descripcion": "Apartamento totalmente reformado con vistas al mar en ubicación muy buena a 80 metros de las playas. La orientación del apartamento es norte, muy favorable para verano. Además dispone de Licencia turística, necesaria para cualquier alquiler turístico, con muy buena rentabilidad demostrable para inversores.\nReformado i",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.144169",
-      "portal": "Idealista",
-      "telefono": "646 98 84 08"
-    },
-    {
       "titulo": "Chalet adosado en Via Augusta, 80, L'Hospitalet de l'Infant",
       "precio": "399.000€",
       "ubicacion": "80, L'Hospitalet de l'Infant",
@@ -1227,19 +980,6 @@
       "telefono": "711 22 77 54"
     },
     {
-      "titulo": "Piso en Calle d'O'Donnell, 13, Centre, Reus",
-      "precio": "118.000€",
-      "ubicacion": "13, Centre, Reus",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/109843206/",
-      "descripcion": "Piso en el corazón de Reus, a 5 minutos andando de la Plaza Mercadal, muy bien conservado. La vivienda consiste en un piso en segunda planta sin ascensor, semi reformado y cuenta con 3 habitaciones, sala de estar, cocina y baño. Se venda parcialmente amueblado.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.144238",
-      "portal": "Idealista",
-      "telefono": "686 10 27 07"
-    },
-    {
       "titulo": "Ático en Calle de Josep Carner, 1, Migjorn, Reus",
       "precio": "318.000€",
       "ubicacion": "1, Migjorn, Reus",
@@ -1249,32 +989,6 @@
       "descripcion": "Si buscas amplitud, luz y tranquilidad, este ático es para ti.\nUbicado en la codiciada zona de Más Iglesias, una de las áreas más demandadas de Reus, este magnífico ático combina el confort de un hogar moderno con un espacio exterior inigualable.",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-15T12:58:43.144248",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Avenida Verge de Montserrat, 6, Centro, Mont-Roig del Camp",
-      "precio": "420.000€",
-      "ubicacion": "6, Centro, Mont-Roig del Camp",
-      "habitaciones": "6 hab.",
-      "metros": "180 m²",
-      "url": "https://www.idealista.com/inmueble/95369086/",
-      "descripcion": "Chalet indivifual compuesto de doble vivienda. Con 2 accesos independientes. con piscina privada de 10 m y garaje. Completamente pintado y renovado interior.\nConsta en planta baja de\nEntrada. Cocina equipada.\nSalon comedor.\n3 habitaciones dobles con 2 baños.\nPorche terraza acristalada\nEn el piso superior consta otra ha",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.144258",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Finca rústica en T-310, 11, Montbrio del Camp",
-      "precio": "170.000€",
-      "ubicacion": "11, Montbrio del Camp",
-      "habitaciones": "1 hab.",
-      "metros": "52 m²",
-      "url": "https://www.idealista.com/inmueble/109803513/",
-      "descripcion": "Se vende finca rústica con casa muy cerca del Hotel Termes Montbrió, con 5.000 m2 de terreno y con una casa y un almacén. La casa es en planta baja con comedor-salón, cocina, habitación y baño. Tiene anexo un almacén de unos 22 m2.\nLa finca tiene luz de la red, agua de pozo propio y todo el perímetro esta vallado. Est",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.144268",
       "portal": "Idealista",
       "telefono": null
     },
@@ -1342,19 +1056,6 @@
       "fecha_scraping": "2026-02-15T12:58:43.144315",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Paseo del Mediterrani, 52, Olivers-Paseo Marítimo, Mont-Roig del Camp",
-      "precio": "183.000€",
-      "ubicacion": "52, Olivers-Paseo Marítimo, Mont-Roig del Camp",
-      "habitaciones": "2 hab.",
-      "metros": "74 m²",
-      "url": "https://www.idealista.com/inmueble/109675426/",
-      "descripcion": "Venta directa del particular:\n¡Vive la experiencia de Miami Playa en tu nuevo hogar!\nImagina despertar cada día con la brisa marina y, en apenas unos pasos, tener la arena y el Mediterráneo a tus pies. Eso es lo que te ofrece este luminoso y acogedor piso, situado en el corazón de Miami Playa.\nUn refugio moderno jun",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:58:43.144325",
-      "portal": "Idealista",
-      "telefono": "699 07 41 49"
     },
     {
       "titulo": "Piso en Calle de Xavier Gambús, 1, Ponent, Reus",

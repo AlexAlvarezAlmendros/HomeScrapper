@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T12:01:47.115401",
   "ubicacion": "Ribera d'Ebre",
   "url": "https://www.idealista.com/venta-viviendas/tarragona/ribera-d-ebre/?ordenado-por=fecha-publicacion-desc",
-  "total": 59,
+  "total": 56,
   "viviendas": [
     {
       "titulo": "Finca rústica en C-233, s/n, Flix",
@@ -16,32 +16,6 @@
       "fecha_scraping": "2026-03-04T12:01:47.114882",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Chalet pareado en Calle Joan Segú, 12, Mora d'Ebre",
-      "precio": "131.000€",
-      "ubicacion": "12, Mora d'Ebre",
-      "habitaciones": "3 hab.",
-      "metros": "105 m²",
-      "url": "https://www.idealista.com/inmueble/110655241/",
-      "descripcion": "Se vende fantástica vivienda de 2 plantas en pleno corazón de Mora Debre, ubicada a pocos pasos de la plaza principal y rodeada de todos los comercios y servicios esenciales (supermercados, farmacia, bancos, cafeterías y más).\n Características principales:\nVivienda distribuida en dos plantas\nExcelente ubicación cén",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:33:38.472994",
-      "portal": "Idealista",
-      "telefono": "640 67 73 53"
-    },
-    {
-      "titulo": "Chalet pareado en Calle Ribera d'Ebre, 15, Mora la Nova",
-      "precio": "185.000€",
-      "ubicacion": "15, Mora la Nova",
-      "habitaciones": "2 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/110528364/",
-      "descripcion": "Casa de planta baja luminosa con patio delante y detrás. Totalmente reformada de alta calidad con nuevas instalaciones de luz y agua, paredes sólidas enyesadas (nada de pladur) suelos de barro natural, aislamiento de techo, suelo y paredes exteriores y placas solares. Ventanas de aluminio y doble cristal, suelo radiant",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:03:20.541949",
-      "portal": "Idealista",
-      "telefono": "643 35 43 42"
     },
     {
       "titulo": "Piso en Calle Doctor Borràs, 6 a, Mora d'Ebre",
@@ -562,19 +536,6 @@
       "fecha_scraping": "2026-02-16T18:03:20.542411",
       "portal": "Idealista",
       "telefono": "619 45 86 76"
-    },
-    {
-      "titulo": "Casa de pueblo en Raval de Santa Anna, 9, Garcia",
-      "precio": "54.750€",
-      "ubicacion": "9, Garcia",
-      "habitaciones": "2 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/97790964/",
-      "descripcion": "Casa de pueblo tradicional con dos dormitorios y dos aseos, cocina, salón y trastero. Modernizado y en muy buen estado, y se vende completamente amueblado.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T18:03:20.542422",
-      "portal": "Idealista",
-      "telefono": "+44 7768 277748"
     },
     {
       "titulo": "Finca rústica en Benisanet camino, s/n, Benissanet",

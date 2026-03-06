@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:44:11.176877",
   "ubicacion": "Ripollès",
   "url": "https://www.idealista.com/venta-viviendas/girona/ripolles/?ordenado-por=fecha-publicacion-desc",
-  "total": 49,
+  "total": 45,
   "viviendas": [
     {
       "titulo": "Casa rural en Calle Sant Amand, 2, Ogassa",
@@ -213,19 +213,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Plaza de la Vila, 8 n, Camprodon",
-      "precio": "335.000€",
-      "ubicacion": "8 n, Camprodon",
-      "habitaciones": "4 hab.",
-      "metros": "135 m²",
-      "url": "https://www.idealista.com/inmueble/110060669/",
-      "descripcion": "Pis en venda a la Plaça de la Vila de Camprodon – 130 m² en finca històrica\nEs ven ampli i lluminós pis de 130 m² situat al cor de Camprodon, en una finca històrica i amb vistes privilegiades a la Plaça de la Vila.\nL’habitatge disposa de:\n4 habitacions àmplies\n2 banys complets\nCuina-menjador espaiós, amb llum natu",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:56:06.491790",
-      "portal": "Idealista",
-      "telefono": "660 46 68 02"
-    },
-    {
       "titulo": "Casa o chalet independiente en Carretera de Ripoll, s/n, Sant Joan de les Abadesses",
       "precio": "425.000€",
       "ubicacion": "s/n, Sant Joan de les Abadesses",
@@ -250,19 +237,6 @@
       "fecha_scraping": "2026-02-15T11:56:06.491809",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Dúplex en Calle d'Ignasi Casabó, 6, Camprodon",
-      "precio": "555.000€",
-      "ubicacion": "6, Camprodon",
-      "habitaciones": "2 hab.",
-      "metros": "172 m²",
-      "url": "https://www.idealista.com/inmueble/109880221/",
-      "descripcion": "Residencia elegante y luminosa en el corazón de Camprodon\nEn una de las ubicaciones más encantadoras de Camprodon, cerca del río y a un paso del Pont Nou, se encuentra este exclusivo dúplex de 172 m² que combina el encanto de una casa señorial con la calidez de un hogar contemporáneo.\nReformado con un estilo rústico c",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:56:06.491820",
-      "portal": "Idealista",
-      "telefono": "678 16 76 08"
     },
     {
       "titulo": "Chalet adosado en Avenida Catalunya, 3, Campdevánol",
@@ -365,19 +339,6 @@
       "descripcion": "Casa de fusta 4 vents de 130 m2, garatge inclòs. 3 habitacions. 2 dobles i una suite. 2 banys. Cuina oberta al menjador i saló. Estufa de llenya i calefacció elèctrica en totes les habitacions. La casa està construïda en una sola planta. Gran jardí amb bones vistes i sense grans desnivells. Fàcil accés a la parcel. la.",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-15T11:56:06.491897",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle de l'Empriu, 6, Vilallonga de Ter",
-      "precio": "450.000€",
-      "ubicacion": "6, Vilallonga de Ter",
-      "habitaciones": "3 hab.",
-      "metros": "135 m²",
-      "url": "https://www.idealista.com/inmueble/109031332/",
-      "descripcion": "Se vende Casa-Chalet en Vilallonga de Ter - Oportunidad Única!\nSe pone a la venta una amplia y versátil casa-chalet de tres plantas, situada en el corazón de Vilallonga de Ter, ideal tanto para vivienda familiar como para inversión.\nDistribución:\n• Planta baja: Local comercial con excelente visibilidad, ideal para",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:56:06.491907",
       "portal": "Idealista",
       "telefono": null
     },
@@ -601,19 +562,6 @@
       "fecha_scraping": "2026-02-15T11:56:06.492078",
       "portal": "Idealista",
       "telefono": "651 81 57 61"
-    },
-    {
-      "titulo": "Ático en Calle de ntra. sra. de gràcia, 28, Ribes de Freser",
-      "precio": "180.000€",
-      "ubicacion": "28, Ribes de Freser",
-      "habitaciones": "4 hab.",
-      "metros": "110 m²",
-      "url": "https://www.idealista.com/inmueble/32480181/",
-      "descripcion": "Magnífico piso con ascensor privado\nPiso único en 4ª planta con acceso directo con ascensor privado desde el parking, planta calle, hasta el interior de la vivienda. El piso tiene 4 habitaciones dobles y espaciosas con armarios empotrados y con vistas exteriores. Además cuenta con un baño completo, aseo, lavadero, rec",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:56:06.492087",
-      "portal": "Idealista",
-      "telefono": "609 46 65 92"
     },
     {
       "titulo": "Dúplex en Calle del Prat, 2, Ripoll",

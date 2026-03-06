@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:45:54.660343",
   "ubicacion": "Noguera",
   "url": "https://www.idealista.com/venta-viviendas/lleida/noguera/?ordenado-por=fecha-publicacion-desc",
-  "total": 56,
+  "total": 52,
   "viviendas": [
     {
       "titulo": "Finca rústica en Avenida la Solana, s/n, Camarasa",
@@ -42,19 +42,6 @@
       "fecha_scraping": "2026-02-15T12:06:54.792581",
       "portal": "Idealista",
       "telefono": "608 80 42 37"
-    },
-    {
-      "titulo": "Dúplex en Paseo Sant Jordi, 3 b, Vallfogona de Balaguer",
-      "precio": "189.000€",
-      "ubicacion": "3 b, Vallfogona de Balaguer",
-      "habitaciones": "3 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/110471067/",
-      "descripcion": "Àtic dúplex invertit molt lluminós, amb una gran terrassa i excel·lents qualitats, ideal per a famílies o per a qui busca comoditat.\n Distribució\n- 3 habitacions\n- 2 banys complets\n- Menjador amb balconera, sostre de fusta i llum indirecta\n- Cuina equipada amb sortida directa a la terrassa\n- Safareig fet a mida amb b",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:06:54.792603",
-      "portal": "Idealista",
-      "telefono": "648 81 79 30"
     },
     {
       "titulo": "Piso en Plaza de l'Església, 6, Alós de Balaguer",
@@ -133,19 +120,6 @@
       "fecha_scraping": "2026-02-15T12:06:54.792663",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Chalet pareado en Calle la costa, 26, Algerri",
-      "precio": "7.500€",
-      "ubicacion": "26, Algerri",
-      "habitaciones": "5 hab.",
-      "metros": "170 m²",
-      "url": "https://www.idealista.com/inmueble/109812328/",
-      "descripcion": "vivienda en estado de abandono que precisa reformas integral, posibilidad de hacer 70m por planta, garaje, bajo, 1° y 2° piso con terraza interior en la segunda planta (para reformar totalmente no se puede entrar a vivir) dada de baja luz y agua.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:06:54.792674",
-      "portal": "Idealista",
-      "telefono": "661 23 02 29"
     },
     {
       "titulo": "Piso en Calle de Sant Jordi, 12, Artesa de Segre",
@@ -328,19 +302,6 @@
       "fecha_scraping": "2026-02-15T12:06:54.792810",
       "portal": "Idealista",
       "telefono": "667 21 48 71"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle del Calvari, 17, Artesa de Segre",
-      "precio": "35.000€",
-      "ubicacion": "17, Artesa de Segre",
-      "habitaciones": "3 hab.",
-      "metros": "226 m²",
-      "url": "https://www.idealista.com/inmueble/108321536/",
-      "descripcion": "Ubicación: En el corazón de Artesa de Segre, con vistas al entorno natural y muy cerca de servicios básicos.\nDescripción:\nCasa de pueblo con estructura original del año 1890 y encanto rústico, perfecta para proyectos de rehabilitación. Distribuida en varias plantas, con espacios amplios y mucha luz natural. Necesita u",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:06:54.792819",
-      "portal": "Idealista",
-      "telefono": "640 05 78 11"
     },
     {
       "titulo": "Piso en Calle Escoles, 2, Vilanova de Meiá",
@@ -718,19 +679,6 @@
       "fecha_scraping": "2026-02-15T12:06:54.793109",
       "portal": "Idealista",
       "telefono": "973 30 84 07"
-    },
-    {
-      "titulo": "Piso en Soldevila, 1, Les Avellanes i Santa Linya",
-      "precio": "75.000€",
-      "ubicacion": "1, Les Avellanes i Santa Linya",
-      "habitaciones": "2 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/1912564/",
-      "descripcion": "En pueblo tranquilo cerca del montsec. Con mucho patrominio cultural y rutas de senderismo. cerca de dos pantanos. ideal para gente mayor que busca tranquilidad y parejas de jovenes con hijos pequeños\ndistribución:\nterraza descubierta de 10 m2\n2 vecinos en el edificio\nla casa dispone de:\nportero automático.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T12:06:54.793119",
-      "portal": "Idealista",
-      "telefono": "973 45 41 34"
     }
   ]
 }

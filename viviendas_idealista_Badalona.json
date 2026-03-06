@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:19:24.500493",
   "ubicacion": "Badalona",
   "url": "https://www.idealista.com/venta-viviendas/badalona-barcelona/?ordenado-por=fecha-publicacion-desc",
-  "total": 85,
+  "total": 65,
   "viviendas": [
     {
       "titulo": "Piso en Calle Pluto, 11, Llefià, Badalona",
@@ -42,19 +42,6 @@
       "fecha_scraping": "2026-03-04T11:19:24.499615",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Calle de Pau Piferrer, 87, La Salut, Badalona",
-      "precio": "90.000€",
-      "ubicacion": "87, La Salut, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "62 m²",
-      "url": "https://www.idealista.com/inmueble/110754363/",
-      "descripcion": "OCUPADO\nInmueble de 62 m² ubicado en una zona residencial muy tranquila, ideal para quienes buscan una inversión con alta rentabilidad tras gestión de posesión. La vivienda cuenta con una distribución funcional de 3 habitaciones, cocina independiente y un baño.\nEl gran valor añadido de esta propiedad es su espacio ex",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:20:27.147189",
-      "portal": "Idealista",
-      "telefono": "622 70 33 51"
     },
     {
       "titulo": "Estudio en Calle de Calderón de la Barca, 123, La Salut, Badalona",
@@ -148,19 +135,6 @@
       "telefono": "661 56 06 39"
     },
     {
-      "titulo": "Chalet adosado en Calle de la República Argentina, 88, Progrés-Pep Ventura, Badalona",
-      "precio": "929.000€",
-      "ubicacion": "88, Progrés-Pep Ventura, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "192 m²",
-      "url": "https://www.idealista.com/inmueble/110699695/",
-      "descripcion": "Exclusiva vivienda unifamiliar de 192 m² con jardin y piscina, concebida para quienes valoran la amplitud, la privacidad y el diseño contemporáneo en un entorno privilegiado.\nConstruida en 1997 y sometida a una reforma integral en 2022, la propiedad ha sido actualizada con materiales y acabados de alta calidad, ofreci",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:10:52.299415",
-      "portal": "Idealista",
-      "telefono": "650 71 12 39"
-    },
-    {
       "titulo": "Piso en Calle de Saturn, 29, Llefià, Badalona",
       "precio": "80.000€",
       "ubicacion": "29, Llefià, Badalona",
@@ -213,19 +187,6 @@
       "telefono": "678 82 29 16"
     },
     {
-      "titulo": "Piso en Bufalà, Badalona",
-      "precio": "265.000€",
-      "ubicacion": "Badalona",
-      "habitaciones": "4 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110617788/",
-      "descripcion": "Piso en venta ubicado en el barrio de Bufalà (Badalona), en zona residencial tranquila y bien comunicada.\nLa vivienda cuenta con una superficie de 80 m², situada en segunda planta de finca construida en 1993, sin ascensor.\nSe distribuye en:\nSalón-comedor con salida a balcón exterior\nCocina independiente\n4 habitaci",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:04:11.775157",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Ático en Calle de Francesc Macià, 32, Progrés-Pep Ventura, Badalona",
       "precio": "550.000€",
       "ubicacion": "32, Progrés-Pep Ventura, Badalona",
@@ -250,58 +211,6 @@
       "fecha_scraping": "2026-02-13T10:42:02.764122",
       "portal": "Idealista",
       "telefono": "691 09 72 13"
-    },
-    {
-      "titulo": "Piso en Passatge Riu Ter, 2, Lloreda, Badalona",
-      "precio": "273.000€",
-      "ubicacion": "2, Lloreda, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "73 m²",
-      "url": "https://www.idealista.com/inmueble/110205104/",
-      "descripcion": "Vivienda restaurada, lista para entrar a vivir o como inversión.\nDispone de 73 m², totalmente exterior y esquinero, lo cual favorece la entrada de luz natural durante todo el día.\nDispone de 3 habitaciones, una doble y dos individuales.\nLa vivienda dispone de falso techo en toda su estancia, el pasillo incluye un alti",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764134",
-      "portal": "Idealista",
-      "telefono": "675 51 39 79"
-    },
-    {
-      "titulo": "Piso en Calle de Calderón de la Barca, 75, La Salut, Badalona",
-      "precio": "169.000€",
-      "ubicacion": "75, La Salut, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110561377/",
-      "descripcion": "ABSTENERSE DE CONTACTAR AGENCIAS CON INTENCIÓN DE CAPTACIÓN.\nSi hay interesados en colaborar, estaremos encantados de valorarlo, en caso contrario, por favor no me escribáis.\nVivienda lista para entrar a vivir en La Salut - Sistreis - Badalona\nAcogedora vivienda de 57 m², situada en una primera planta sin ascensor,",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764144",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en industria, 200, Progrés-Pep Ventura, Badalona",
-      "precio": "395.000€",
-      "ubicacion": "200, Progrés-Pep Ventura, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "93 m²",
-      "url": "https://www.idealista.com/inmueble/110551646/",
-      "descripcion": "\"ABSTERNERSE INMOBILIARIAS\"\nFantástico piso de 3 habitaciones con terraza, listo para entrar a vivir, situado en una de las zonas más tranquilas de Badalona, a pocos metros de la playa.\nLa vivienda se ubica en una finca residencial construida en 2004, con zonas comunes cuidadas y un entorno agradable que ofrece todas",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764155",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle de Pau Piferrer, 114, La Salut, Badalona",
-      "precio": "172.000€",
-      "ubicacion": "114, La Salut, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "65 m²",
-      "url": "https://www.idealista.com/inmueble/110561305/",
-      "descripcion": "Vivienda reformada y exterior, ubicado en una primera planta sin ascensor, listo para entrar a vivir. La vivienda dispone de tres habitaciones, una doble y dos individuales, siendo estas últimas exteriores manteniendo buena ventilación entre estancias.\nEl inmueble se encuentra en muy buen estado, cuenta con aire acond",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764167",
-      "portal": "Idealista",
-      "telefono": "692 23 84 95"
     },
     {
       "titulo": "Piso en Plaza de Bac de Roda, 9, La Morera, Badalona",
@@ -382,19 +291,6 @@
       "telefono": "644 57 10 45"
     },
     {
-      "titulo": "Piso en Calle de la Pallaresa, 20, Sant Crist, Badalona",
-      "precio": "185.000€",
-      "ubicacion": "20, Sant Crist, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110507025/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764233",
-      "portal": "Idealista",
-      "telefono": "692 61 20 87"
-    },
-    {
       "titulo": "Piso en Rambla de Sant Joan, 38, La Salut, Badalona",
       "precio": "350.000€",
       "ubicacion": "38, La Salut, Badalona",
@@ -434,19 +330,6 @@
       "telefono": "661 39 10 40"
     },
     {
-      "titulo": "Piso en Calle de Cáceres, 30, Sant Roc, Badalona",
-      "precio": "129.900€",
-      "ubicacion": "30, Sant Roc, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "64 m²",
-      "url": "https://www.idealista.com/inmueble/110423419/",
-      "descripcion": "¡MARAVILLOSA OPORTUNIDAD! CONTACTO DIRECTO CON PROPIETARIO (así se ahorra los honorarios de agencia)\nPISO EXTERIOR, MUY LUMINOSO Y CON ACABADOS DE CALIDAD. Este impresionante piso esta listo para entrar a vivir ya que se vende con los muebles incluidos, destaca por su abundante luz natural que inunda todos sus espacio",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764273",
-      "portal": "Idealista",
-      "telefono": "640 24 51 86"
-    },
-    {
       "titulo": "Piso en Progrés-Pep Ventura, Badalona",
       "precio": "565.000€",
       "ubicacion": "Badalona",
@@ -458,19 +341,6 @@
       "fecha_scraping": "2026-02-13T10:42:02.764283",
       "portal": "Idealista",
       "telefono": "600 83 33 57"
-    },
-    {
-      "titulo": "Piso en Calle Jerez de la Frontera, 13, Sant Roc, Badalona",
-      "precio": "160.000€",
-      "ubicacion": "13, Sant Roc, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "73 m²",
-      "url": "https://www.idealista.com/inmueble/110366931/",
-      "descripcion": "Piso 73 metros exterior muy luminoso.\nCocina abierta, doble ventana, balcón, aire acondicionado y instalación filtro agua.\nFinca con ascensor.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764292",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Calle Tarragona, 12, Llefià, Badalona",
@@ -497,19 +367,6 @@
       "fecha_scraping": "2026-02-13T10:42:02.764310",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Chalet adosado en Casagemes, Badalona",
-      "precio": "640.000€",
-      "ubicacion": "Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "118 m²",
-      "url": "https://www.idealista.com/inmueble/110308827/",
-      "descripcion": "*Las fotos son reales estado actual*\nEn 2ª línea de mar a solo 50 metros del Mediterráneo, y en pleno centro histórico y comercial de Badalona, se encuentra esta casa adosada independiente de obra reciente (construcción entregada en 2022), ubicada entre Canonge Baranera y la Rambla de Badalona: una de las zonas más cot",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764319",
-      "portal": "Idealista",
-      "telefono": "619 94 56 84"
     },
     {
       "titulo": "Piso en murillo, 16, Manresa, Badalona",
@@ -603,32 +460,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle d'Orió, 29 31, Llefià, Badalona",
-      "precio": "135.000€",
-      "ubicacion": "29 31, Llefià, Badalona",
-      "habitaciones": "4 hab.",
-      "metros": "65 m²",
-      "url": "https://www.idealista.com/inmueble/110233657/",
-      "descripcion": "Piso reformado, amplio y muy bien comunicado en Badalona\nIdeal vivienda totalmente reformada, lista para entrar a vivir, situada en el Artigues (Badalona), entre La Salut y Llefià, cerca de Gorg, en una zona consolidada y con todos los servicios a su alcance.\nLa propiedad dispone de 4 habitaciones dobles, ofreciendo am",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764397",
-      "portal": "Idealista",
-      "telefono": "636 94 27 94"
-    },
-    {
-      "titulo": "Piso en Calle de Coll i Pujol, 181, Sant Crist, Badalona",
-      "precio": "205.000€",
-      "ubicacion": "181, Sant Crist, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/108886656/",
-      "descripcion": "vendo piso con inquilinos hasta 31 diciembre de 2026. Actualmente cobro 809.93 de alquiler.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764407",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Ático en Calle Independencia, 94, Bufalà, Badalona",
       "precio": "250.000€",
       "ubicacion": "94, Bufalà, Badalona",
@@ -668,32 +499,6 @@
       "telefono": "619 71 93 82"
     },
     {
-      "titulo": "Piso en Calle de Natzaret, 8, Llefià, Badalona",
-      "precio": "142.000€",
-      "ubicacion": "8, Llefià, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/109815116/",
-      "descripcion": "Este piso semi exterior cuenta con 3 dormitorios, salón, baño con ducha, lavadero y cocina independiente. La finca dispone de ascensor, lo que garantiza comodidad y accesibilidad. La ubicación es inmejorable: estarás junto a todo tipo de comercios de barrio, con fácil acceso a paradas de autobús, la parada de metro La",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764446",
-      "portal": "Idealista",
-      "telefono": "615 27 54 92"
-    },
-    {
-      "titulo": "Piso en Bufalà, Badalona",
-      "precio": "235.000€",
-      "ubicacion": "Badalona",
-      "habitaciones": "2 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/109901268/",
-      "descripcion": "¡ PISO REFORMADO EN BADALONA ¡\nUbicado en una de las zonas de Bufalà, donde la comodidad y la calidad de vida van\nde la mano, se presenta este piso completamente reformado que combina buena\nubicación y luminosidad.\nDisfruta de este segundo de altura con una excelente entrada de luz natural. La\nvivienda cuenta con 63m2",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764456",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Ático en General Weyler, 78, Progrés-Pep Ventura, Badalona",
       "precio": "238.000€",
       "ubicacion": "78, Progrés-Pep Ventura, Badalona",
@@ -705,19 +510,6 @@
       "fecha_scraping": "2026-02-13T10:42:02.764466",
       "portal": "Idealista",
       "telefono": "646 57 13 35"
-    },
-    {
-      "titulo": "Piso en Calle de Pi i Margall, 11, Port, Badalona",
-      "precio": "560.000€",
-      "ubicacion": "11, Port, Badalona",
-      "habitaciones": "3 hab.",
-      "metros": "89 m²",
-      "url": "https://www.idealista.com/inmueble/109783461/",
-      "descripcion": "Piso en el canal de Badalona.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764476",
-      "portal": "Idealista",
-      "telefono": "669 46 96 83"
     },
     {
       "titulo": "Piso en Calle d'Eduard Maristany, 209, Port, Badalona",
@@ -759,32 +551,6 @@
       "telefono": "622 66 33 74"
     },
     {
-      "titulo": "Piso en Centre, Badalona",
-      "precio": "489.000€",
-      "ubicacion": "Badalona",
-      "habitaciones": "4 hab.",
-      "metros": "114 m²",
-      "url": "https://www.idealista.com/inmueble/109497417/",
-      "descripcion": "Reforma integral a estrenar!\nUbicado en la calle Arnús, en una de las zonas más agradables y tranquilas del centro de Badalona,\neste piso de 114 m² construidos combina amplitud, luz natural y una reforma integral de alta calidad.\nSituado en una segunda planta real con ascensor (hay entresuelo), el piso es esquinero y",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764516",
-      "portal": "Idealista",
-      "telefono": "601 23 64 04"
-    },
-    {
-      "titulo": "Piso en Calle de la Indústria, 310, Port, Badalona",
-      "precio": "430.000€",
-      "ubicacion": "310, Port, Badalona",
-      "habitaciones": "2 hab.",
-      "metros": "82 m²",
-      "url": "https://www.idealista.com/inmueble/108741451/",
-      "descripcion": "*Venta directa, sin agencias ni intermediarios*\n(abstenerse inmobiliarias).\n*Despierta cada mañana con vistas al canal de Badalona*, los barcos navegando y la Sagrada Familia como telón de fondo. Disfruta también de la piscina desde tu hogar.\nA solo 5 minutos caminando de la playa y a 15 minutos del corazón de Barce",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764525",
-      "portal": "Idealista",
-      "telefono": "626 66 19 96"
-    },
-    {
       "titulo": "Chalet adosado en Calle de Santa Anna, 25 -27, Centre, Badalona",
       "precio": "695.000€",
       "ubicacion": "25 -27, Centre, Badalona",
@@ -796,19 +562,6 @@
       "fecha_scraping": "2026-02-13T10:42:02.764536",
       "portal": "Idealista",
       "telefono": "606 10 03 93"
-    },
-    {
-      "titulo": "Piso en Calle del General Weyler, 152, Progrés-Pep Ventura, Badalona",
-      "precio": "185.000€",
-      "ubicacion": "152, Progrés-Pep Ventura, Badalona",
-      "habitaciones": "1 hab.",
-      "metros": "56 m²",
-      "url": "https://www.idealista.com/inmueble/109276342/",
-      "descripcion": "Ideal para una persona/pareja joven, que quiere vivir cerca de la playa y mantener buena comunicación con BCN.\nSemi-reformado, estado bueno:\nCocina nueva (placa doble de induccion, encimera madera maciza, cajones IKEA), puerta de entrada acorazada de seguridad, ventana/puerta PVC oscilobatiente en las habitaciones (a",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764546",
-      "portal": "Idealista",
-      "telefono": "722 27 82 55"
     },
     {
       "titulo": "Ático en Calle de Ramiro de Maeztu, 25, Llefià, Badalona",
@@ -1030,19 +783,6 @@
       "fecha_scraping": "2026-02-13T10:42:02.764713",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Ausiàs marc, 113, Progrés-Pep Ventura, Badalona",
-      "precio": "160.000€",
-      "ubicacion": "113, Progrés-Pep Ventura, Badalona",
-      "habitaciones": "1 hab.",
-      "metros": "65 m²",
-      "url": "https://www.idealista.com/inmueble/103162515/",
-      "descripcion": "hola vendo piso por 160000 euros, tres habitaciones, tiene ascensor.\ntiene inquilino, 650 euros el alquiler.\nideal inversores.\n.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T10:42:02.764722",
-      "portal": "Idealista",
-      "telefono": "635 57 85 35"
     },
     {
       "titulo": "Piso en Carretera de Mena, 20, Llefià, Badalona",

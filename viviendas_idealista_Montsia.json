@@ -2,7 +2,7 @@
   "timestamp": "2026-02-23T16:47:14.454087",
   "ubicacion": "Montsia",
   "url": "https://www.idealista.com/venta-viviendas/tarragona/montsia/?ordenado-por=fecha-publicacion-desc",
-  "total": 136,
+  "total": 124,
   "viviendas": [
     {
       "titulo": "Piso en Calle Alcalá Galiano, 9, Les Cases d'Alcanar, Alcanar",
@@ -29,19 +29,6 @@
       "fecha_scraping": "2026-02-23T16:47:14.453110",
       "portal": "Idealista",
       "telefono": "610 36 70 24"
-    },
-    {
-      "titulo": "Piso en Platjas, Sant Carles de la Rápita",
-      "precio": "151.900€",
-      "ubicacion": "Sant Carles de la Rápita",
-      "habitaciones": "1 hab.",
-      "metros": "55 m²",
-      "url": "https://www.idealista.com/inmueble/110705366/",
-      "descripcion": "Segunda planta exterior de una habitación y un baño, garaje y trastero. Ubicada en la urbanización Golden Beach, una de las mejores zonas de Sant Carles de la Ràpita. Este inmueble cuenta con una superficie útil de 62 m2, 50 m2 de superficie interior y una amplia terraza con vistas al mar de 12 m2. El apartamento se en",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:47:14.453121",
-      "portal": "Idealista",
-      "telefono": "679 85 39 31"
     },
     {
       "titulo": "Casa o chalet independiente en Centre, Sant Carles de la Rápita",
@@ -122,19 +109,6 @@
       "telefono": "639 15 07 76"
     },
     {
-      "titulo": "Piso en Calle de F. Vicent Montejano, 16, Sant Jaume d'Enveja",
-      "precio": "120.000€",
-      "ubicacion": "16, Sant Jaume d'Enveja",
-      "habitaciones": "3 hab.",
-      "metros": "126 m²",
-      "url": "https://www.idealista.com/inmueble/105436355/",
-      "descripcion": "Piso amplio todo exterior y amueblado, con dos aires acondicionados, radiadores por todas las habitaciones, en comedor, cocina y recibidor, en el precio incluye dos plazas de parking y dos trasteros y una terraza totalmente acristalada.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.631683",
-      "portal": "Idealista",
-      "telefono": "679 70 82 66"
-    },
-    {
       "titulo": "Piso en Calle Logroño, 2, Sebastiá Juan Arbó-Sant Cristofol, Amposta",
       "precio": "215.000€",
       "ubicacion": "2, Sebastiá Juan Arbó-Sant Cristofol, Amposta",
@@ -144,19 +118,6 @@
       "descripcion": "¡Oportunidad única por espacio y ubicación en Amposta!\nVendemos magnífico piso de 150 m² útiles, totalmente REFORMADO y listo para entrar a vivir. Ubicado en la tranquila y valorada Calle Logroño, a un paso del Parque de los Xiribecs y rodeado de todos los servicios (colegios, supermercados y zonas verdes).\nAl ser un",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-16T17:54:01.631694",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Des Poligono, 15, Freginals",
-      "precio": "380.000€",
-      "ubicacion": "15, Freginals",
-      "habitaciones": "4 hab.",
-      "metros": "18.425 m²",
-      "url": "https://www.idealista.com/inmueble/105655031/",
-      "descripcion": "Información General\nSituada en las estribaciones de la Sierra Montsia y en el Parque Nacional del Delta del Ebro, nuestra villa de primera categoría tiene acceso por carretera asfaltada y su terreno está rodeado de barrancos, lo que la convierte en una casa muy segura y privada.\nCaracterísticas generales\nImpresiona",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.631705",
       "portal": "Idealista",
       "telefono": null
     },
@@ -525,19 +486,6 @@
       "telefono": null
     },
     {
-      "titulo": "Casa rural en Diseminado, s/n, La Galera",
-      "precio": "40.000€",
-      "ubicacion": "s/n, La Galera",
-      "habitaciones": null,
-      "metros": "20 m²",
-      "url": "https://www.idealista.com/inmueble/109675004/",
-      "descripcion": "Vendo finca rustica en La Galera, 20000 metros cuadrados con olivos, almendros, algarrobos, con casa aperos, totalmente llano.\nes finca de secano no tiene agua y luz, tiene pequeña casita para guardar utensilios o pasar el día, sin cocina ni lavabo, precio 40000 euros negociable.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.631991",
-      "portal": "Idealista",
-      "telefono": "605 27 51 57"
-    },
-    {
       "titulo": "Piso en Calle de Sant Josep, 76, Nord, Sant Carles de la Rápita",
       "precio": "124.000€",
       "ubicacion": "76, Nord, Sant Carles de la Rápita",
@@ -575,19 +523,6 @@
       "fecha_scraping": "2026-02-16T17:54:01.632019",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Finca rústica en Callejón polígono 14 parcela 286, 14, Centro, Alcanar",
-      "precio": "86.000€",
-      "ubicacion": "14, Centro, Alcanar",
-      "habitaciones": "2 hab.",
-      "metros": "1.598 m²",
-      "url": "https://www.idealista.com/inmueble/109522005/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.632029",
-      "portal": "Idealista",
-      "telefono": "620 97 30 82"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Constitución, 13, Masdenverge",
@@ -1032,19 +967,6 @@
       "telefono": "608 89 57 86"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle Entença, 49, Ulldecona",
-      "precio": "170.000€",
-      "ubicacion": "49, Ulldecona",
-      "habitaciones": "3 hab.",
-      "metros": "140 m²",
-      "url": "https://www.idealista.com/inmueble/107836922/",
-      "descripcion": "Casa situada en un pueblo donde la tranquilidad y la comodidad se combinan a la perfección con la belleza del entorno. Situada en Ulldecona, al lado del Delta del Ebro, a quince minutos de la playa y a 20 minutos de Peníscola.\nLa casa cuenta con una superfície de 140m², está lista para vivir. Es amplia y luminosa, di",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.632378",
-      "portal": "Idealista",
-      "telefono": "687 74 53 92"
-    },
-    {
       "titulo": "Piso en Calle Verge de Montserrat, 28, Centro, Alcanar",
       "precio": "125.000€",
       "ubicacion": "28, Centro, Alcanar",
@@ -1069,19 +991,6 @@
       "fecha_scraping": "2026-02-16T17:54:01.632397",
       "portal": "Idealista",
       "telefono": "654 33 71 64"
-    },
-    {
-      "titulo": "Piso en Calle Cervantes, 10, Zona Hospital, Amposta",
-      "precio": "87.500€",
-      "ubicacion": "10, Zona Hospital, Amposta",
-      "habitaciones": "3 hab.",
-      "metros": "84 m²",
-      "url": "https://www.idealista.com/inmueble/107520713/",
-      "descripcion": "¡Oportunidad única! Se vende fantástico piso en una excelente ubicación en el centro de Amposta.\nEste cómodo y luminoso hogar cuenta con:\n- 3 habitaciones (2 dobles y 1 individual) perfectas para descansar y disfrutar.\n- Salón/comedor y cocina independiente con una práctica despensa.\n- 1 Pequeño balcón.\n-1 Baño pequeñ",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.632406",
-      "portal": "Idealista",
-      "telefono": "697 23 72 12"
     },
     {
       "titulo": "Piso en Buenos Aires, 230, Zona Hospital, Amposta",
@@ -1121,19 +1030,6 @@
       "fecha_scraping": "2026-02-16T17:54:01.632434",
       "portal": "Idealista",
       "telefono": "647 54 23 37"
-    },
-    {
-      "titulo": "Piso en Calle de l'Alguer, 27, Les Cases d'Alcanar, Alcanar",
-      "precio": "100.000€",
-      "ubicacion": "27, Les Cases d'Alcanar, Alcanar",
-      "habitaciones": "1 hab.",
-      "metros": "50 m²",
-      "url": "https://www.idealista.com/inmueble/107132148/",
-      "descripcion": "Acogedor apartamento de 1 habitación a 50m de la playa y al lado del centro\nde Les Cases d’Alcanar.\nEl apartamento consta de salón, cocina comedor, baño, habitación doble y terraza.\nA demás dispone de 2 plazas de pàrquing incluidas en el precio.\nTiene bomba de aire acondicionado frío y calor en todo el apartamento. Inc",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.632443",
-      "portal": "Idealista",
-      "telefono": "685 39 92 88"
     },
     {
       "titulo": "Dúplex en Calle del Suís, 59, Montsià de Mar, Alcanar",
@@ -1227,19 +1123,6 @@
       "telefono": "677 42 44 35"
     },
     {
-      "titulo": "Piso en Calle mas del cec, 20, Montsià de Mar, Alcanar",
-      "precio": "120.000€",
-      "ubicacion": "20, Montsià de Mar, Alcanar",
-      "habitaciones": "2 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/31087821/",
-      "descripcion": "Apartamento Seminuevo, cocina integrada al salon de 25 metros.\nTerraza de 14 m2.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.632518",
-      "portal": "Idealista",
-      "telefono": "686 06 02 77"
-    },
-    {
       "titulo": "Piso en Partida Codonyol, 271, Montsià de Mar, Alcanar",
       "precio": "130.000€",
       "ubicacion": "271, Montsià de Mar, Alcanar",
@@ -1262,19 +1145,6 @@
       "descripcion": "Se vende piso por necesidad de capital a persona que quiera vivir en el en 3 años o a inversor ya que tiene inquilino con seguro de impago concedido, pagando 560€/ mes ( quedan 3 años de contrato ) Buen pagador. Parking Incluido, magníficas vistas las mejores de toda la comunidad.",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-16T17:54:01.632538",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Sant Miquel, 29, Nord, Sant Carles de la Rápita",
-      "precio": "135.000€",
-      "ubicacion": "29, Nord, Sant Carles de la Rápita",
-      "habitaciones": "4 hab.",
-      "metros": "122 m²",
-      "url": "https://www.idealista.com/inmueble/105757456/",
-      "descripcion": "Precioso piso en perfecto estado, amueblado y todo equipado. Para entrar a vivir.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.632548",
       "portal": "Idealista",
       "telefono": null
     },
@@ -1396,19 +1266,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle de trafalgar, 2, Les Cases d'Alcanar, Alcanar",
-      "precio": "130.000€",
-      "ubicacion": "2, Les Cases d'Alcanar, Alcanar",
-      "habitaciones": "3 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/31095741/",
-      "descripcion": "Apartamento A ESTRENAR en la calle central del pueblo, Gran salón con terraza, habitación principal con terraza y la otra con patio. A 150 metros de la Playa.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.632645",
-      "portal": "Idealista",
-      "telefono": "609 39 34 07"
-    },
-    {
       "titulo": "Piso en Calle Albarede, 324, Centro, Alcanar",
       "precio": "125.000€",
       "ubicacion": "324, Centro, Alcanar",
@@ -1459,19 +1316,6 @@
       "fecha_scraping": "2026-02-16T17:54:01.632683",
       "portal": "Idealista",
       "telefono": "654 28 74 30"
-    },
-    {
-      "titulo": "Casa de pueblo en Calle del Cardenal Cisneros, 25, La Sénia",
-      "precio": "140.000€",
-      "ubicacion": "25, La Sénia",
-      "habitaciones": "6 hab.",
-      "metros": "491 m²",
-      "url": "https://www.idealista.com/inmueble/95714091/",
-      "descripcion": "Gran casa estilo rústico en casco antiguo con vistas magnificas a montañas y al rio.\nPlanta baja con gran entrada y comedor con cocina abierta y chimenea.\nPrimera planta con tres dormitorios, baño, cocina y comedor con chimenea y dos terrazas.\nSegunda planta con dos dormitorios, con cocina antigua conservada y grandes",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T17:54:01.632693",
-      "portal": "Idealista",
-      "telefono": "671 17 66 73"
     },
     {
       "titulo": "Chalet adosado en Calle del Bisbe Berenguer de Prats, 4, La Sénia",

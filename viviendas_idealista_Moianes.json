@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:28:47.130523",
   "ubicacion": "Moianes",
   "url": "https://www.idealista.com/venta-viviendas/barcelona/moianes/?ordenado-por=fecha-publicacion-desc",
-  "total": 18,
+  "total": 16,
   "viviendas": [
     {
       "titulo": "Casa o chalet independiente en Calle de la Casanova, 17, Monistrol de Calders",
@@ -27,19 +27,6 @@
       "descripcion": "OPORTUNITAT REAL PER INVERSORS DE CATALUNYA \nEs ven el 50% d’una casa a preu molt per sota de mercat \nOperació ideal per a inversors\n Actiu amb recorregut de revalorització\n Perfecte per estratègies patrimonials o especulatives\n Només per compradors amb visió i decisió ràpida\n Catalunya\ninversio\ninve",
       "anunciante": "Particular",
       "fecha_scraping": "2026-03-04T11:28:47.130211",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Casa de pueblo en Calle Moià, 22, Calders",
-      "precio": "195.000€",
-      "ubicacion": "22, Calders",
-      "habitaciones": "4 hab.",
-      "metros": "254 m²",
-      "url": "https://www.idealista.com/inmueble/110751306/",
-      "descripcion": "CASA DE PUEBLO CON GRAN GARAJE Y TERRAZA CON VISTAS ESPECTACULARES EN CALDERS\nSi buscas espacio, vistas y el encanto de una casa de pueblo auténtica, esta vivienda en Calders te va a sorprender.\n* 254 m² construidos distribuidos en tres plantas, con una combinación difícil de encontrar:\nPlanta baja – Garaje de 94 m²\nU",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:27:37.567698",
       "portal": "Idealista",
       "telefono": null
     },
@@ -198,19 +185,6 @@
       "fecha_scraping": "2026-02-13T11:52:32.577909",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Plaza pinyons, 8, Sant Quirze Safaja",
-      "precio": "260.000€",
-      "ubicacion": "8, Sant Quirze Safaja",
-      "habitaciones": "4 hab.",
-      "metros": "224 m²",
-      "url": "https://www.idealista.com/inmueble/99465218/",
-      "descripcion": "casa a 4 vientos, distribuida en dos plantas la primera planta està compuesta por porche, sala de almacenaje, y sala de caldera de gasoil, la segunda es toda vivienda, 4 hab, 2 baños, cocina nueva muy amplia, comedor a dos alturas, grandes ventanales, dispone de garage, con terraza, amplio balcón, con huerta y árboles",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T11:52:32.577918",
-      "portal": "Idealista",
-      "telefono": "660 02 79 80"
     },
     {
       "titulo": "Finca rústica en Carretera Bv-1245, s/n, Granera",

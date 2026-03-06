@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:41:03.992957",
   "ubicacion": "Girones",
   "url": "https://www.idealista.com/venta-viviendas/girona/girones/?ordenado-por=fecha-publicacion-desc",
-  "total": 58,
+  "total": 46,
   "viviendas": [
     {
       "titulo": "Estudio en Carme-Vistalegre, Girona",
@@ -109,19 +109,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Carme-Vistalegre, Girona",
-      "precio": "180.000€",
-      "ubicacion": "Girona",
-      "habitaciones": "1 hab.",
-      "metros": "55 m²",
-      "url": "https://www.idealista.com/inmueble/110635934/",
-      "descripcion": "Acogedor piso de 40 m² útiles con un espectacular patio privado de 65 m², situado en el corazón de Girona, en el barrio de Vista Alegre.\nLa vivienda destaca por su espacio diáfano y muy luminoso, con orientación este, que permite disfrutar de luz natural por la mañana y de un ambiente cálido y agradable durante todo e",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.330636",
-      "portal": "Idealista",
-      "telefono": "621 24 26 54"
-    },
-    {
       "titulo": "Piso en Fontajau-Domeny, Girona",
       "precio": "360.000€",
       "ubicacion": "Girona",
@@ -133,19 +120,6 @@
       "fecha_scraping": "2026-02-15T11:32:40.330658",
       "portal": "Idealista",
       "telefono": "629 00 52 96"
-    },
-    {
-      "titulo": "Chalet pareado en Calle Julià de Chia, 51, Carme-Vistalegre, Girona",
-      "precio": "250.000€",
-      "ubicacion": "51, Carme-Vistalegre, Girona",
-      "habitaciones": "2 hab.",
-      "metros": "65 m²",
-      "url": "https://www.idealista.com/inmueble/110633251/",
-      "descripcion": "Se vende casa reformada de 65 m² con 600 m² de terreno y posibilidad de ampliación. La vivienda está lista para entrar a vivir y está a pocos minutos a pie del centro de Girona.\nLa distribución es práctica y funcional, y dispone de:\n- 2 habitaciones dobles\n- 1 baño completo\n- Cocina\n- Salón-comedor\n- Despensa i",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.330670",
-      "portal": "Idealista",
-      "telefono": "609 96 20 74"
     },
     {
       "titulo": "Piso en Calle de la Maçana, 21, Santa Eugenia, Girona",
@@ -226,32 +200,6 @@
       "telefono": "615 57 47 09"
     },
     {
-      "titulo": "Piso en Calle Major, 3, Veinat, Salt",
-      "precio": "79.000€",
-      "ubicacion": "3, Veinat, Salt",
-      "habitaciones": "3 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/105732147/",
-      "descripcion": "Venta de Piso Exterior Luminoso en Zona Residencial y Tranquila;\nSe vende piso completamente exterior con doble fachada, ideal para quienes buscan luminosidad y vistas despejadas. El inmueble cuenta con 3 habitaciones (2 dobles y 1 individual), un amplio salón comedor, cocina, baño, lavadero y balcón. Gracias a su ori",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.330740",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Bonastruc de Porta, 33, Eixample, Girona",
-      "precio": "377.000€",
-      "ubicacion": "33, Eixample, Girona",
-      "habitaciones": "3 hab.",
-      "metros": "117 m²",
-      "url": "https://www.idealista.com/inmueble/110383627/",
-      "descripcion": "Vivienda de 123 m² situada en el corazón de La Devesa, una de las zonas más valoradas de Girona por su tranquilidad, zonas verdes y cercanía al centro histórico. A solo 8 minutos andando de la estación de tren/AVE y 5 minutos de la Rambla, disfrutarás de una ubicación inmejorable: tranquila, pero muy bien conectada con",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.330750",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Chalet adosado en Avenida de l'Amical Mauthausen, 57, Montjuïc, Girona",
       "precio": "499.999€",
       "ubicacion": "57, Montjuïc, Girona",
@@ -278,19 +226,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle de les Agudes, 50, Santa Eugenia, Girona",
-      "precio": "169.000€",
-      "ubicacion": "50, Santa Eugenia, Girona",
-      "habitaciones": "2 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/110294572/",
-      "descripcion": "Pis recent reformat de 2 dormitoris - Llest per entrar a viure\nEs ven pis recentment reformat amb molt de gust, ideal per a qui busca comoditat i funcionalitat.\nL'habitatge disposa de dos dormitoris, un bany complet amb acabats moderns i una cuina renovada integrada i en un espai acollidor.\nLa reforma s'ha fet amb mate",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.330780",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en carmen, 15, Eixample, Girona",
       "precio": "790.000€",
       "ubicacion": "15, Eixample, Girona",
@@ -304,19 +239,6 @@
       "telefono": "677 22 64 92"
     },
     {
-      "titulo": "Dúplex en Plaza Empuries, 2 a, Sant Narcís, Girona",
-      "precio": "259.990€",
-      "ubicacion": "2 a, Sant Narcís, Girona",
-      "habitaciones": "3 hab.",
-      "metros": "148 m²",
-      "url": "https://www.idealista.com/inmueble/110188810/",
-      "descripcion": "IMPORTANTE; ANUNCIO DE PARTICULAR A PARTICULAR; AGENCIAS ABSTENERSE.\nEspectacular Duplex en muy buen estado, cuenta con una superficie construida de 148m2 que se distribuyen del siguiente modo:\nPlanta inferior con cocina equipada + balcón, zona salón/comedor con apertura a piso superior, 3 habitaciones ( 1 tipo suite c",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.330799",
-      "portal": "Idealista",
-      "telefono": "607 97 44 59"
-    },
-    {
       "titulo": "Piso en Paseo de Sant Joan Bosco, 51, Pont Major-Pedret, Girona",
       "precio": "235.000€",
       "ubicacion": "51, Pont Major-Pedret, Girona",
@@ -328,19 +250,6 @@
       "fecha_scraping": "2026-02-15T11:32:40.330810",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle de Portlligat, 8, Pont Major-Pedret, Girona",
-      "precio": "220.000€",
-      "ubicacion": "8, Pont Major-Pedret, Girona",
-      "habitaciones": "2 hab.",
-      "metros": "98 m²",
-      "url": "https://www.idealista.com/inmueble/110098463/",
-      "descripcion": "Piso luminoso en zona tranquila de Girona, con amplio balcón, parking y trastero — ideal para familias o parejas\nSe vende piso en primera planta de edificio moderno (construcción 2007), con ascensor, ubicado en zona residencial con zonas verdes, parques, colegios y supermercados, y con fácil acceso al centro de Girona",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.330821",
-      "portal": "Idealista",
-      "telefono": "605 56 35 04"
     },
     {
       "titulo": "Piso en Barri Vell, Girona",
@@ -367,32 +276,6 @@
       "fecha_scraping": "2026-02-15T11:32:40.330841",
       "portal": "Idealista",
       "telefono": "618 15 14 02"
-    },
-    {
-      "titulo": "Dúplex en Calle de la Rutlla, 13, Eixample, Girona",
-      "precio": "440.000€",
-      "ubicacion": "13, Eixample, Girona",
-      "habitaciones": "3 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/109945293/",
-      "descripcion": "Pis ampli de 120 m² amb terrassa i vistes espectaculars al riu Onyar.\nEt presentem aquest magnífic pis de 120 m², lluminós i amb una distribució molt còmoda, situat en un entorn privilegiat amb vistes fantàstiques al riu Onyar.\nL’habitatge disposa de 3 habitacions espaioses i 2 banys complets.\nLa cuina oberta al me",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.330852",
-      "portal": "Idealista",
-      "telefono": "654 27 50 42"
-    },
-    {
-      "titulo": "Piso en Carretera de Taialà, 50, Talaia - Germans Sabat, Girona",
-      "precio": "175.000€",
-      "ubicacion": "50, Talaia - Germans Sabat, Girona",
-      "habitaciones": "3 hab.",
-      "metros": "85 m²",
-      "url": "https://www.idealista.com/inmueble/109935906/",
-      "descripcion": "PISO EN VENTA EN CTRA. TAIALÀ A REFORMAR. GIRONA\n70m2 útiles aprox. Piso amplio y luminoso que consta de cocina-comedor, tres habitaciones amplias y un baño. Ademàs consta de una terraza amplia y viene con un trastero amplio y una plaza de garaje en el precio incluido.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.330862",
-      "portal": "Idealista",
-      "telefono": "615 46 16 89"
     },
     {
       "titulo": "Casa de pueblo en Calle de la Ronda de Baix, 37, Celrà",
@@ -486,19 +369,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle de Sant Joan Baptista la Salle, 20, Eixample, Girona",
-      "precio": "460.000€",
-      "ubicacion": "20, Eixample, Girona",
-      "habitaciones": "5 hab.",
-      "metros": "185 m²",
-      "url": "https://www.idealista.com/inmueble/96912349/",
-      "descripcion": "Fantástico piso en el centro de Girona, en una de las zonas más cotizadas de la ciudad. Un piso con grandes posibilidades e inmejorable ubicación. A 5 minutos de la estación de tren, AVE y autobuses, a 10 minutos del centro histórico y a 7 minutos del Campus Centre de la Universitat de Girona. Su céntrica ubicación hac",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.330942",
-      "portal": "Idealista",
-      "telefono": "677 77 56 88"
-    },
-    {
       "titulo": "Dúplex en Calle de Bilbao, 5, Sant Narcís, Girona",
       "precio": "315.000€",
       "ubicacion": "5, Sant Narcís, Girona",
@@ -588,19 +458,6 @@
       "fecha_scraping": "2026-02-15T11:32:40.331011",
       "portal": "Idealista",
       "telefono": "637 36 60 40"
-    },
-    {
-      "titulo": "Piso en Calle Pau Casals, 6, Sant Julià de Ramis",
-      "precio": "180.000€",
-      "ubicacion": "6, Sant Julià de Ramis",
-      "habitaciones": "2 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/29192073/",
-      "descripcion": "Zona tranquil. la, pocs veïns, acollidora, lluminosa i amb acabats de qualitat. Pis 84 m2 i 6m2 de traster. Actualment el pis està llogat però s'acaba el contracte a principis de l'any 2026.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.331020",
-      "portal": "Idealista",
-      "telefono": "683 55 80 60"
     },
     {
       "titulo": "Chalet pareado en Mas Catofa, 31, Talaia - Germans Sabat, Girona",
@@ -705,19 +562,6 @@
       "fecha_scraping": "2026-02-15T11:32:40.331110",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Paseo de Sant Joan Bosco, 38, Pont Major-Pedret, Girona",
-      "precio": "45.000€",
-      "ubicacion": "38, Pont Major-Pedret, Girona",
-      "habitaciones": "2 hab.",
-      "metros": "47 m²",
-      "url": "https://www.idealista.com/inmueble/102336693/",
-      "descripcion": "Immueble pendiente de reformar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:32:40.331119",
-      "portal": "Idealista",
-      "telefono": "620 65 44 32"
     },
     {
       "titulo": "Finca rústica en Veïnat de les Bosques, 75, Sant Andreu Salou",

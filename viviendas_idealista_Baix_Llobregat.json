@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:18:10.675359",
   "ubicacion": "Baix Llobregat",
   "url": "https://www.idealista.com/multi/venta-viviendas/btP,dR7,dSG,dSR,dSm,dSn,dSp,dSx,dSz,dTb,daS/?ordenado-por=fecha-publicacion-desc",
-  "total": 123,
+  "total": 89,
   "viviendas": [
     {
       "titulo": "Piso en Calle Miquel Cardona, 10, Santa Coloma de Cervelló",
@@ -109,19 +109,6 @@
       "telefono": "666 21 52 12"
     },
     {
-      "titulo": "Estudio en Cerdeña, 32, Marianao, Sant Boi de Llobregat",
-      "precio": "100.000€",
-      "ubicacion": "32, Marianao, Sant Boi de Llobregat",
-      "habitaciones": null,
-      "metros": "69 m²",
-      "url": "https://www.idealista.com/inmueble/107597597/",
-      "descripcion": "Vendo o cambio, Estudio/local tipo lof, luminoso, a 5´ de la playa zona céntrica al lado de la ciudad de Barcelona. compuesto de dos ambientes grandes exteriores y diáfanos, que dan a la calle.\nTechos altos, una cocina independiente, lavadero independiente y baño completo con ducha.\nListo para usarlo para lo que quiera",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:19:15.256798",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Dúplex en Camino Ral, 136, Begues",
       "precio": "495.000€",
       "ubicacion": "136, Begues",
@@ -133,32 +120,6 @@
       "fecha_scraping": "2026-02-26T16:19:15.256823",
       "portal": "Idealista",
       "telefono": "664 31 63 23"
-    },
-    {
-      "titulo": "Piso en Calle de les Flors, 8, Sant esteve Sesrovires",
-      "precio": "325.000€",
-      "ubicacion": "8, Sant esteve Sesrovires",
-      "habitaciones": "4 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/110749000/",
-      "descripcion": "Piso lleno de Amplitud, Luz y Vistas a la Cordillera Litoral Catalana (con Parking y FGC)\n¿Buscas un hogar donde la luz y las vistas sean los protagonistas? Este piso de 120 m² en Sant Esteve Sesrovires, en Barcelona, combina la tranquilidad de un entorno natural con la comodidad de tenerlo todo a un paso.\nUbica",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:19:15.256836",
-      "portal": "Idealista",
-      "telefono": "689 56 18 95"
-    },
-    {
-      "titulo": "Piso en Camino del Pinar, 6, Gavà Mar, Gavà",
-      "precio": "245.000€",
-      "ubicacion": "6, Gavà Mar, Gavà",
-      "habitaciones": "1 hab.",
-      "metros": "63 m²",
-      "url": "https://www.idealista.com/inmueble/110747984/",
-      "descripcion": "¿Te imaginas vivir a pasos del mar en una de las zonas más top de Gavà Mar? Pues aquí lo tienes.\nEsta acogedora vivienda de 63 m² está pensada para aprovechar cada rincón sin perder comodidad. Nada de metros inútiles: aquí todo suma.\nEl salón-comedor es luminoso y tiene salida directa a la terraza. ¿Traducción? Desayun",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-26T16:19:15.256845",
-      "portal": "Idealista",
-      "telefono": "671 55 60 03"
     },
     {
       "titulo": "Piso en Calle de la Torre Bovera, 12, Sant Andreu de la Barca",
@@ -185,19 +146,6 @@
       "fecha_scraping": "2026-02-26T16:19:15.256863",
       "portal": "Idealista",
       "telefono": "665 11 17 56"
-    },
-    {
-      "titulo": "Piso en Calle del General Palafox, 2 -20, El Castell-Poble Vell, Castelldefels",
-      "precio": "379.000€",
-      "ubicacion": "2 -20, El Castell-Poble Vell, Castelldefels",
-      "habitaciones": "2 hab.",
-      "metros": "103 m²",
-      "url": "https://www.idealista.com/inmueble/110712617/",
-      "descripcion": "Espectacular piso con vistas al Castillo y salón XL – Reforma de diseño en General Palafox\n¡Directo de propietario y listo para entrar a vivir! . Presentamos esta exclusiva vivienda de 93 m² totalmente reformada, donde la luz natural y las vistas despejadas a la montaña y castillo de Castelldefels son las auténticas p",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:09:05.207486",
-      "portal": "Idealista",
-      "telefono": "652 07 62 14"
     },
     {
       "titulo": "Casa o chalet independiente en Calle d'en Tan, 6, Begues",
@@ -239,19 +187,6 @@
       "telefono": "670 02 97 95"
     },
     {
-      "titulo": "Chalet adosado en Plaza de Rosa Sensat, 14, Torrent Ballester, Viladecans",
-      "precio": "596.250€",
-      "ubicacion": "14, Torrent Ballester, Viladecans",
-      "habitaciones": "6 hab.",
-      "metros": "340 m²",
-      "url": "https://www.idealista.com/inmueble/108341455/",
-      "descripcion": "jardín muy grande buhardilla y terraza supermercados colegios Rambla tren autobuses playa hospitales etcétera. no se acepta agencias solo venta para particulares. repito no quiero agencias.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-23T16:09:05.207540",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Passatge de Xaloc, 22, Campreciós - Torre Roja, Viladecans",
       "precio": "360.000€",
       "ubicacion": "22, Campreciós - Torre Roja, Viladecans",
@@ -278,19 +213,6 @@
       "telefono": "614 38 23 74"
     },
     {
-      "titulo": "Dúplex en Avenida de l'Eramprunyà, 27, Bobiles - Diagonal - Les Colomeres, Gavà",
-      "precio": "680.000€",
-      "ubicacion": "27, Bobiles - Diagonal - Les Colomeres, Gavà",
-      "habitaciones": "4 hab.",
-      "metros": "180 m²",
-      "url": "https://www.idealista.com/inmueble/30438834/",
-      "descripcion": "Se vende ático dúplex de 180m2 con terraza de 90 m2 en Gavà (Barcelona), zona Pl. Catalunya. Solo dos vecinos en el edificio. . Primera planta: salón comedor (25 m2), cocina totalmente equipada (13 m2), habitación doble (10 m2), baño de cortesía (6 m2), recibidor (4 m2). Segunda planta: habitación principal con vistas",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:02:46.790812",
-      "portal": "Idealista",
-      "telefono": "630 05 99 71"
-    },
-    {
       "titulo": "Ático en Sant Vicenç Dels Horts",
       "precio": "315.000€",
       "ubicacion": "",
@@ -302,19 +224,6 @@
       "fecha_scraping": "2026-02-18T11:02:46.790837",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Avenida de Pau Casals, 9, Torrent Ballester, Viladecans",
-      "precio": "183.000€",
-      "ubicacion": "9, Torrent Ballester, Viladecans",
-      "habitaciones": "2 hab.",
-      "metros": "89 m²",
-      "url": "https://www.idealista.com/inmueble/109977966/",
-      "descripcion": "Oportunidad en Viladecans\n¿Buscáis un hogar donde empezar vuestra historia\njuntos?\nEste piso listo para entrar a vivir, es justo lo que\nnecesitáis: acogedor, moderno y con ese “algo”\nespecial que invita a quedarse.\n 2 habitaciones dobles (con posibilidad de recuperar\nla tercera)\n Suelos de parquet que aportan calidez",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:02:46.790849",
-      "portal": "Idealista",
-      "telefono": "609 97 80 61"
     },
     {
       "titulo": "Piso en Calle Roger de Lluria Militar, 6, Pallejà",
@@ -330,32 +239,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Corbera de Llobregat",
-      "precio": "195.000€",
-      "ubicacion": "",
-      "habitaciones": "1 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110642596/",
-      "descripcion": "(Vende particular. Inmobiliarias abstenerse)\nBajos reformado - Listo para entrar a vivir!\nAcogedor bajo (a calle tranquila) de 45 m², con 1 habitación, cocina-comedor y baño completo, reformado recientemente y listo para entrar a vivir. El piso se entrega con muebles, cuidando cada detalle para que solo tengas que tr",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-16T16:35:56.827844",
-      "portal": "Idealista",
-      "telefono": "627 55 78 59"
-    },
-    {
-      "titulo": "Ático en Avenida de la Generalitat de Catalunya, 79, El Papiol",
-      "precio": "375.000€",
-      "ubicacion": "79, El Papiol",
-      "habitaciones": "4 hab.",
-      "metros": "104 m²",
-      "url": "https://www.idealista.com/inmueble/110638672/",
-      "descripcion": "ESTUPENDO ATICO CON EXCELENTE UBICACIÓN EN POBLACION ZONA COLLCEROLA, MUY CERCA DE BARCELONA CAPITAL\nÁtico en venta en El Papiol (Barcelona), en edificio de tres plantas con sólo 8 departamentos, más un local.\nVivienda de 104m2 mas terraza de 38 m2 y balcón de 14m2, aprox.\nOrientación excelente con todas las depende",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:03:26.226352",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Ático en Avenida de Manuel Girona, 52, Can Vinader, Castelldefels",
       "precio": "675.000€",
       "ubicacion": "52, Can Vinader, Castelldefels",
@@ -367,19 +250,6 @@
       "fecha_scraping": "2026-02-15T11:03:26.226375",
       "portal": "Idealista",
       "telefono": "641 69 55 60"
-    },
-    {
-      "titulo": "Ático en Calle Sant Isidre, 98, Pallejà",
-      "precio": "530.000€",
-      "ubicacion": "98, Pallejà",
-      "habitaciones": "4 hab.",
-      "metros": "160 m²",
-      "url": "https://www.idealista.com/inmueble/110630207/",
-      "descripcion": "TRÍPLEX ESPECTACULAR REFORMADO • ACABADOS PREMIUM • TERRAZAS EN TODAS LAS PLANTAS • VISTAS DESPEJADAS • SE VENDE TOTALMENTE AMUEBLADO • PALLEJÀ\nPresentamos este impresionante tríplex de 164 m² totalmente reformado, diseñado con materiales de alta calidad y pensado para disfrutar de la luz, el espacio y la comodidad en",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-15T11:03:26.226387",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Ático en Avenida de Pau Claris, 7, Martorell",
@@ -408,32 +278,6 @@
       "telefono": "687 50 66 30"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle del Gerani, 35, Mas d'en Gall, Esparreguera",
-      "precio": "325.000€",
-      "ubicacion": "35, Mas d'en Gall, Esparreguera",
-      "habitaciones": "4 hab.",
-      "metros": "120 m²",
-      "url": "https://www.idealista.com/inmueble/110605476/",
-      "descripcion": "Fantástica casa a 4 vientos de 120 m², ubicada en una parcela de 500 m², perfecta para quienes buscan privacidad, comodidad y espacio exterior. Muy luminosa.\nLa vivienda se distribuye en una sola planta, sin escaleras, con pasillo ancho y accesible, ideal para personas con movilidad reducida.\nLa vivienda dispone de 4",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801129",
-      "portal": "Idealista",
-      "telefono": "634 61 02 62"
-    },
-    {
-      "titulo": "Piso en Passatge de Xaloc, 22, Campreciós - Torre Roja, Viladecans",
-      "precio": "395.000€",
-      "ubicacion": "22, Campreciós - Torre Roja, Viladecans",
-      "habitaciones": "4 hab.",
-      "metros": "95 m²",
-      "url": "https://www.idealista.com/inmueble/110601889/",
-      "descripcion": "ABSTENERSE AGENCIAS\nPiso en edificio plurifamiliar con una excelente distribución y habitaciones amplias y funcionales.\nLa zona de día se compone de un salón-comedor de 21,75 m², espacioso y confortable, con salida a un pequeño balcón de 5 m² que aporta luz natural. La cocina independiente de 10,50 m² se encuentra e",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801139",
-      "portal": "Idealista",
-      "telefono": "692 02 19 70"
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle Garbí, 18, Sant esteve Sesrovires",
       "precio": "495.000€",
       "ubicacion": "18, Sant esteve Sesrovires",
@@ -445,19 +289,6 @@
       "fecha_scraping": "2026-02-12T20:14:02.801150",
       "portal": "Idealista",
       "telefono": "659 19 02 00"
-    },
-    {
-      "titulo": "Piso en Calle la Vinyala, 7, Sant Vicenç Dels Horts",
-      "precio": "120.000€",
-      "ubicacion": "7, Sant Vicenç Dels Horts",
-      "habitaciones": "3 hab.",
-      "metros": "65 m²",
-      "url": "https://www.idealista.com/inmueble/110600287/",
-      "descripcion": "IDEAL INVERSORES! Piso en venta con inquilinos (pago demostrable antes del día 5 de cada mes)\nNo se puede visitar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801160",
-      "portal": "Idealista",
-      "telefono": "711 26 24 92"
     },
     {
       "titulo": "Casa o chalet independiente en Paseo Gabri, 147, Montmar, Castelldefels",
@@ -486,19 +317,6 @@
       "telefono": "611 85 11 93"
     },
     {
-      "titulo": "Piso en Avenida de Llorenç Puig, 50, Campreciós - Torre Roja, Viladecans",
-      "precio": "389.000€",
-      "ubicacion": "50, Campreciós - Torre Roja, Viladecans",
-      "habitaciones": "3 hab.",
-      "metros": "116 m²",
-      "url": "https://www.idealista.com/inmueble/110351004/",
-      "descripcion": "Fantástico piso en zona residencial de Viladecans, ideal para quienes buscan amplitud, comodidad y calidad de vida.\nLa vivienda cuenta con 116 m² construidos (86 m² útiles) distribuidos de forma muy funcional. Dispone de tres habitaciones dobles, una de ellas en suite con baño privado, pensada para ofrecer un espacio",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801190",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Chalet adosado en Joan Maragall, 8, Sant Andreu de la Barca",
       "precio": "380.000€",
       "ubicacion": "8, Sant Andreu de la Barca",
@@ -510,19 +328,6 @@
       "fecha_scraping": "2026-02-12T20:14:02.801201",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Plaza de l'Església, 5, Centre, Castelldefels",
-      "precio": "355.000€",
-      "ubicacion": "5, Centre, Castelldefels",
-      "habitaciones": "3 hab.",
-      "metros": "99 m²",
-      "url": "https://www.idealista.com/inmueble/110587637/",
-      "descripcion": "Piso reformado en el corazón de Castelldefels, junto a todos los servicios\nUbicado en pleno centro de Castelldefels, junto a la plaza de la Iglesia y a un paso de todos los servicios: estación de tren, paradas de autobús, CAP, centros médicos, colegios supermercados, parques, zonas de aparcamiento y comercios de pro",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801210",
-      "portal": "Idealista",
-      "telefono": "619 95 54 69"
     },
     {
       "titulo": "Piso en Calle de Carles Altés, 12, Barri Antic - Centre, Viladecans",
@@ -551,19 +356,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Vallirana",
-      "precio": "150.000€",
-      "ubicacion": "",
-      "habitaciones": "2 hab.",
-      "metros": "46 m²",
-      "url": "https://www.idealista.com/inmueble/110578673/",
-      "descripcion": "Piso en planta baja, accesible, apto para personas con mobilidad reducida, una habitación doble, que abre ventana a la calle orientada al sur con sol por la mañana, habitación simple que abre ventana a patio interior cubierto parcialmente para albergar calentador de gas de agua sanitaria y calefacción y lavadora, salón",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801239",
-      "portal": "Idealista",
-      "telefono": "639 63 20 90"
-    },
-    {
       "titulo": "Piso en Avenida Sant Antoni Mª Claret, 19, Martorell",
       "precio": "180.000€",
       "ubicacion": "19, Martorell",
@@ -575,19 +367,6 @@
       "fecha_scraping": "2026-02-12T20:14:02.801249",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Casa o chalet independiente en Paseo de Can Solé, 13, Bellamar, Castelldefels",
-      "precio": "2.730.000€",
-      "ubicacion": "13, Bellamar, Castelldefels",
-      "habitaciones": "4 hab.",
-      "metros": "295 m²",
-      "url": "https://www.idealista.com/inmueble/110574475/",
-      "descripcion": "Exclusiva villa de diseño contemporáneo con piscina y vistas al mar. Ubicada cerca de colegios internacionales, servicios, aeropuerto y Barcelona ciudad.\nEsta elegante vivienda unifamiliar independiente combina arquitectura moderna, luz natural y máxima privacidad.\nLa propiedad ofrece 295 m² construidos sobre una par",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801259",
-      "portal": "Idealista",
-      "telefono": "649 41 02 90"
     },
     {
       "titulo": "Piso en Calle d'Antoni Gaudí, 39, Marianao, Sant Boi de Llobregat",
@@ -629,19 +408,6 @@
       "telefono": "649 87 96 95"
     },
     {
-      "titulo": "Casa o chalet independiente en Calle del Bon Punt, 30, Sant Vicenç Dels Horts",
-      "precio": "370.000€",
-      "ubicacion": "30, Sant Vicenç Dels Horts",
-      "habitaciones": "3 hab.",
-      "metros": "100 m²",
-      "url": "https://www.idealista.com/inmueble/110555306/",
-      "descripcion": "Hermoso terreno con vistas abiertas en la zona residencial de Sant Antoni, en Sant Vicenç dels Horts, a tan solo 9 km de Barcelona.\nLa parcela se sitúa en la zona media de la montaña, una ubicación especialmente valorada por su equilibrio en altura, con vistas despejadas y una excelente orientación que garantiza lumin",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801300",
-      "portal": "Idealista",
-      "telefono": "639 02 39 12"
-    },
-    {
       "titulo": "Piso en Can Vinader, Castelldefels",
       "precio": "235.000€",
       "ubicacion": "Castelldefels",
@@ -668,19 +434,6 @@
       "telefono": "667 28 23 09"
     },
     {
-      "titulo": "Piso en Avenida Santa Coloma, 82, Santa Coloma de Cervelló",
-      "precio": "390.000€",
-      "ubicacion": "82, Santa Coloma de Cervelló",
-      "habitaciones": "4 hab.",
-      "metros": "105 m²",
-      "url": "https://www.idealista.com/inmueble/110535681/",
-      "descripcion": "Amplio piso familiar con piscina y parking en Santa Coloma de Cervelló.\nTe presentamos este fantástico piso del año 1998, ideal para familias que buscan espacio, comodidad y calidad de vida en una zona tranquila y bien comunicada.\nLa vivienda cuenta con 105 m² construidos, muy bien distribuidos, ofreciendo 4 habitacio",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801329",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Casa o chalet independiente en Calle Lanzarote, 90, Sant Vicenç Dels Horts",
       "precio": "399.000€",
       "ubicacion": "90, Sant Vicenç Dels Horts",
@@ -705,19 +458,6 @@
       "fecha_scraping": "2026-02-12T20:14:02.801350",
       "portal": "Idealista",
       "telefono": "639 91 93 69"
-    },
-    {
-      "titulo": "Casa o chalet independiente en Corbera de Llobregat",
-      "precio": "1.800.000€",
-      "ubicacion": "",
-      "habitaciones": "7 hab.",
-      "metros": "417 m²",
-      "url": "https://www.idealista.com/inmueble/109939457/",
-      "descripcion": "Chalet de lujo con licencia turística en la prestigiosa zona alta de Corbera de Llobregat. A 30 minutos de Barcelona centro y de el aeropuerto. Supermercado a 5 minutos y ruta oficial de senderismo en frente de la propia vivienda.\nEste exclusivo chalet con licencia turística, ofrece una combinación única de lujo, ampl",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801360",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Chalet adosado en Calle del Raval de Corbera, 60, Sant Andreu de la Barca",
@@ -850,19 +590,6 @@
       "telefono": "682 31 00 07"
     },
     {
-      "titulo": "Piso en Avenida de Ballester, 7, Torrent Ballester, Viladecans",
-      "precio": "89.000€",
-      "ubicacion": "7, Torrent Ballester, Viladecans",
-      "habitaciones": "1 hab.",
-      "metros": "40 m²",
-      "url": "https://www.idealista.com/inmueble/110429300/",
-      "descripcion": "Espectacular planta baja en edificio seminuevo en una muy buena zona.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801470",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Barrio centro, 1, Marianao, Sant Boi de Llobregat",
       "precio": "219.900€",
       "ubicacion": "1, Marianao, Sant Boi de Llobregat",
@@ -941,19 +668,6 @@
       "telefono": "622 16 64 12"
     },
     {
-      "titulo": "Piso en Calle de Pau Claris, 35, Plaça Catalunya - Vinyets, Sant Boi de Llobregat",
-      "precio": "265.000€",
-      "ubicacion": "35, Plaça Catalunya - Vinyets, Sant Boi de Llobregat",
-      "habitaciones": "4 hab.",
-      "metros": "70 m²",
-      "url": "https://www.idealista.com/inmueble/110364411/",
-      "descripcion": "Directo de propietario. Piso todo exterior, muy luminoso, esquinero con ascensor y muy bien ubicado, entre plaza Cataluña y Parque de la Montañeta. Dispone de 4 habitaciones, 1 baño, balcón esquinero soleado. Orientación oeste.\nPiso con muchas posibilidades, para reformar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801539",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle de Josep Anselm Clavé, 72, Olesa de Montserrat",
       "precio": "210.000€",
       "ubicacion": "72, Olesa de Montserrat",
@@ -993,19 +707,6 @@
       "telefono": null
     },
     {
-      "titulo": "Casa o chalet independiente en Corbera de Llobregat",
-      "precio": "390.000€",
-      "ubicacion": "",
-      "habitaciones": "4 hab.",
-      "metros": "240 m²",
-      "url": "https://www.idealista.com/inmueble/110327364/",
-      "descripcion": "Vivienda montaña con vistas al mar!\nEntrada con acceso al parquing.\nzona de jardín.\nAccedemos a otro nivel de jardín con acceso directo al patio trasero y entrada principal.\nPlanta principal gran porche al entrar el recibidor con espacio de despensa y almacenamiento separando dos zonas.\nLa primera zona es la de desc",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801576",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Piso en Calle de les Corts de Cadis, 8, Vistalegre, Castelldefels",
       "precio": "375.000€",
       "ubicacion": "8, Vistalegre, Castelldefels",
@@ -1017,19 +718,6 @@
       "fecha_scraping": "2026-02-12T20:14:02.801585",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Avenida Mas Sellarès, 5, Centre, Gavà",
-      "precio": "345.700€",
-      "ubicacion": "5, Centre, Gavà",
-      "habitaciones": "3 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110303474/",
-      "descripcion": "Obra Nueva Exclusiva en el Corazón de Gavà | Últimas Viviendas con Acabados Premium y Parking\nLe presentamos una promoción de obra nueva única, situada en la zona más privilegiada y céntrica de Gavà, donde la comodidad de tener todos los servicios a mano se une a la calidad de una vivienda de diseño.\nUbicación Inmejora",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801594",
-      "portal": "Idealista",
-      "telefono": "699 06 89 55"
     },
     {
       "titulo": "Piso en Sant Andreu de la Barca",
@@ -1084,19 +772,6 @@
       "telefono": "608 28 35 89"
     },
     {
-      "titulo": "Piso en Baixada Torrent Mal, 3, Nucli Urbà, Esparreguera",
-      "precio": "184.000€",
-      "ubicacion": "3, Nucli Urbà, Esparreguera",
-      "habitaciones": "4 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110289694/",
-      "descripcion": "Piso totalmente reformado del año 2024.\nTodo exterior.\nCon vistas a zona verde.\nTercero sin ascensor.\nCarpintería exterior PVC nueva con persiana.\nLibre de cargas.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801641",
-      "portal": "Idealista",
-      "telefono": "667 90 89 12"
-    },
-    {
       "titulo": "Piso en Calle iglesia, 9, Centre, Castelldefels",
       "precio": "295.000€",
       "ubicacion": "9, Centre, Castelldefels",
@@ -1134,19 +809,6 @@
       "fecha_scraping": "2026-02-12T20:14:02.801671",
       "portal": "Idealista",
       "telefono": "608 28 35 89"
-    },
-    {
-      "titulo": "Piso en Calle de Castelldefels, 8, Centre, Gavà",
-      "precio": "244.500€",
-      "ubicacion": "8, Centre, Gavà",
-      "habitaciones": "4 hab.",
-      "metros": "80 m²",
-      "url": "https://www.idealista.com/inmueble/110256630/",
-      "descripcion": "NO AGENCIAS. Preciosa planta baja, zona las panas, Gava, muy bien situado. A reformar. 72 m2 útiles. 4 hab. Comedor, cocina a reformar 1 baño a reformar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801681",
-      "portal": "Idealista",
-      "telefono": "622 86 57 22"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Sardana, 924, Sant esteve Sesrovires",
@@ -1201,19 +863,6 @@
       "telefono": "688 98 58 54"
     },
     {
-      "titulo": "Casa o chalet independiente en Avenida del Mas Picó, 41, Sant Vicenç Dels Horts",
-      "precio": "226.000€",
-      "ubicacion": "41, Sant Vicenç Dels Horts",
-      "habitaciones": "3 hab.",
-      "metros": "100 m²",
-      "url": "https://www.idealista.com/inmueble/110220747/",
-      "descripcion": "Casa a reformar con gran terreno, huerto bien cuidado, pozo y en una de las mejores zonas del pueblo con todos los servicios a mano, fácil acceso a la capital (Bcn) y muchísimo potencial. Ideal para inversores.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801729",
-      "portal": "Idealista",
-      "telefono": "611 16 44 02"
-    },
-    {
       "titulo": "Piso en Plaza Joan Serrats, 1, Martorell",
       "precio": "280.000€",
       "ubicacion": "1, Martorell",
@@ -1266,19 +915,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle de Montserrat, 2, Nucli Urbà, Esparreguera",
-      "precio": "269.000€",
-      "ubicacion": "2, Nucli Urbà, Esparreguera",
-      "habitaciones": "4 hab.",
-      "metros": "142 m²",
-      "url": "https://www.idealista.com/inmueble/110204971/",
-      "descripcion": "PISO EN VENTA EN EL CENTRO DE ESPARREGUERA – UBICACIÓN PRIVILEGIADA\nSe vende magnífico piso de 4 habitaciones situado en pleno centro de Esparreguera, justo al lado de la iglesia de Santa Eulàlia, y con vistas a Montserrat.\nLa vivienda, muy amplia y elegante, se encuentra en una primera planta con ascensor y cuenta c",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801778",
-      "portal": "Idealista",
-      "telefono": "611 09 47 49"
-    },
-    {
       "titulo": "Piso en C/Libertad, 11, Centre, Castelldefels",
       "precio": "225.000€",
       "ubicacion": "11, Centre, Castelldefels",
@@ -1303,19 +939,6 @@
       "fecha_scraping": "2026-02-12T20:14:02.801797",
       "portal": "Idealista",
       "telefono": "674 62 47 03"
-    },
-    {
-      "titulo": "Piso en Ronda de Sant Ramon, 82, Marianao, Sant Boi de Llobregat",
-      "precio": "340.000€",
-      "ubicacion": "82, Marianao, Sant Boi de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/110153023/",
-      "descripcion": "PARTICULAR VENDE PISO. (ABSTENERSE AGENCIAS o INTERMEDIARIOS)\nParticular vende piso en la mejor zona de Sant Boi de Llobregat (Ronda Sant Ramón / Antonio Gaudí) planta segunda con ascensor, en finca seminueva de solo 8 vecinos, muy tranquila y bien conservada. Vivienda amplia de aproximadamente 90 m², totalmente exteri",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801807",
-      "portal": "Idealista",
-      "telefono": "634 61 37 50"
     },
     {
       "titulo": "Estudio en Calle Sant Pere, 21, Olesa de Montserrat",
@@ -1344,19 +967,6 @@
       "telefono": "644 15 22 81"
     },
     {
-      "titulo": "Ático en Avenida de Castelldefels, 71, La Pineda, Castelldefels",
-      "precio": "390.000€",
-      "ubicacion": "71, La Pineda, Castelldefels",
-      "habitaciones": "2 hab.",
-      "metros": "98 m²",
-      "url": "https://www.idealista.com/inmueble/110139124/",
-      "descripcion": "Se pone a la venta magnífico ático en tercera planta situado en la playa de Castelldefels, una de las zonas más demandadas por su entorno tranquilo, su cercanía al mar y su excelente calidad de vida durante todo el año.\nLa propiedad cuenta con una superficie construida de 98 m², distribuidos de forma muy funcional en:",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801836",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
       "titulo": "Casa o chalet independiente en Guillermo Baurel, 100, Corbera de Llobregat",
       "precio": "550.000€",
       "ubicacion": "100, Corbera de Llobregat",
@@ -1368,19 +978,6 @@
       "fecha_scraping": "2026-02-12T20:14:02.801846",
       "portal": "Idealista",
       "telefono": null
-    },
-    {
-      "titulo": "Piso en Paseo de la Generalitat, 1, Sant Andreu de la Barca",
-      "precio": "285.000€",
-      "ubicacion": "1, Sant Andreu de la Barca",
-      "habitaciones": "3 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/110121663/",
-      "descripcion": "¡Oportunidad! Piso de 3 habitaciones en venta – Zona céntrica y tranquila\nSe vende espectacular piso con una ubicación inmejorable: céntrico pero muy tranquilo, ideal para disfrutar de comodidad y accesibilidad sin renunciar al descanso.\nCaracterísticas principales:\n3 habitaciones dobles, una de ellas suite con baño",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801856",
-      "portal": "Idealista",
-      "telefono": "654 26 63 16"
     },
     {
       "titulo": "Casa o chalet independiente en Calle numero 4, 17, Corbera de Llobregat",
@@ -1435,19 +1032,6 @@
       "telefono": "618 77 90 56"
     },
     {
-      "titulo": "Casa o chalet independiente en Nucli Urbà, Esparreguera",
-      "precio": "650.000€",
-      "ubicacion": "Esparreguera",
-      "habitaciones": "5 hab.",
-      "metros": "336 m²",
-      "url": "https://www.idealista.com/inmueble/110007511/",
-      "descripcion": "Espectacular casa de ALTO STANDING a 4 vientos situada en El Castell. Casa con gimnasio y sauna. Espectacular por diseño, por construcción, por luminosidad, por acabados, .\nGrandes acristalamientos, clima por conductos en las 2 plantas. Sanitarios Stark by duravit, griferias Axor Starck, bañera Horsch. Cocina Gaggenau",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801905",
-      "portal": "Idealista",
-      "telefono": "684 20 81 74"
-    },
-    {
       "titulo": "Casa o chalet independiente en Avenida Ca n'Amat, 17, Abrera",
       "precio": "429.000€",
       "ubicacion": "17, Abrera",
@@ -1470,32 +1054,6 @@
       "descripcion": "Descubre un hogar cómodo y muy bien distribuido, con tres habitaciones espaciosas: una principal y dos individuales de excelente tamaño. Su cocina office, práctica y funcional, y el baño con plato de ducha ofrecen el confort que buscas en tu día a día. El salón comedor, amplio e independiente, te permitirá crear un amb",
       "anunciante": "Particular",
       "fecha_scraping": "2026-02-12T20:14:02.801924",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Camps Blancs, 136, Camps Blancs - Els Canons, Sant Boi de Llobregat",
-      "precio": "215.000€",
-      "ubicacion": "136, Camps Blancs - Els Canons, Sant Boi de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/109978223/",
-      "descripcion": "un hogar muy cómodo que dispone de tres habitaciones espaciosas: la principal y dos individuales de buen tamaño. La cocina office es práctica y funcional, el baño cuenta con plato de ducha, y el salón comedor es amplio e independiente, perfecto para organizarlo según tus gustos. Desde las ventanas se puede disfrutar de",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801934",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Calle Camps Blancs, 110, Camps Blancs - Els Canons, Sant Boi de Llobregat",
-      "precio": "210.000€",
-      "ubicacion": "110, Camps Blancs - Els Canons, Sant Boi de Llobregat",
-      "habitaciones": "3 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/109976669/",
-      "descripcion": "tres habitaciones espaciosas: la principal y dos individuales de buen tamaño. La cocina office es práctica y funcional, el baño cuenta con plato de ducha, y el salón comedor es amplio e independiente, perfecto para organizarlo según tus gustos. Desde las ventanas se puede disfrutar de una vista abierta y muy agradable.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-12T20:14:02.801944",
       "portal": "Idealista",
       "telefono": null
     },

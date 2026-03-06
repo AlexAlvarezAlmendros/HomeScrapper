@@ -2,7 +2,7 @@
   "timestamp": "2026-03-04T11:38:33.777524",
   "ubicacion": "Baix Empordà",
   "url": "https://www.idealista.com/venta-viviendas/girona/baix-emporda/?ordenado-por=fecha-publicacion-desc",
-  "total": 87,
+  "total": 71,
   "viviendas": [
     {
       "titulo": "Piso en Centre-El Pedró, Palamós",
@@ -161,71 +161,6 @@
       "telefono": null
     },
     {
-      "titulo": "Piso en Calle dels Forcats, 3, Calella, Palafrugell",
-      "precio": "300.000€",
-      "ubicacion": "3, Calella, Palafrugell",
-      "habitaciones": "1 hab.",
-      "metros": "55 m²",
-      "url": "https://www.idealista.com/inmueble/110674520/",
-      "descripcion": "Apartamento con jardín privado y vistas al mar en Calella de Palafrugell – Residencial Santa Agatha\nEncantador apartamento con jardín situado en el residencial Santa Agatha, en Calella de Palafrugell, a tan solo 1 minuto caminando del mar.\nLa vivienda cuenta con 55 m² (terrazza incluida) y se distribuye en:\n•1 dormit",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T20:25:17.042761",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Paseo Marítim, 166, Platja Llarga, Castell-Platja d'Aro",
-      "precio": "65.000€",
-      "ubicacion": "166, Platja Llarga, Castell-Platja d'Aro",
-      "habitaciones": "1 hab.",
-      "metros": "18 m²",
-      "url": "https://www.idealista.com/inmueble/110377845/",
-      "descripcion": "SIN CÉDULA DE HABITABILIDAD – Playa de Aro\nSe vende estudio en primera línea de mar, situado en el Paseo Marítimo, con acceso directo a la playa de Playa de Aro, una de las zonas más demandadas de la Costa Brava.\nLa vivienda se encuentra en la 13ª planta, con una vista despejada a la ciudad, lo que le aporta mucha lu",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T20:25:17.042784",
-      "portal": "Idealista",
-      "telefono": "613 86 26 67"
-    },
-    {
-      "titulo": "Chalet adosado en Calle de Lluís Companys, 6, Molí de Vent-La Sauleda-Santa Margarida, Palafrugell",
-      "precio": "320.000€",
-      "ubicacion": "6, Molí de Vent-La Sauleda-Santa Margarida, Palafrugell",
-      "habitaciones": "5 hab.",
-      "metros": "190 m²",
-      "url": "https://www.idealista.com/inmueble/110664937/",
-      "descripcion": "¡Oportunidad por amplitud y luz! Casa adosada con encanto en excelente ubicación\nSe vende espaciosa casa adosada, caracterizada por su gran luminosidad y ventilación cruzada (a dos calles), situada en una zona estratégica: a un paso de la estación de autobuses Sarfa y a pocos minutos del centro del pueblo.\nLa vivienda,",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:16:28.858943",
-      "portal": "Idealista",
-      "telefono": "650 68 45 46"
-    },
-    {
-      "titulo": "Piso en Calle Jordi Verrié Faget, 3, Santa Cristina Poble, Santa Cristina d'Aro",
-      "precio": "265.000€",
-      "ubicacion": "3, Santa Cristina Poble, Santa Cristina d'Aro",
-      "habitaciones": "3 hab.",
-      "metros": "90 m²",
-      "url": "https://www.idealista.com/inmueble/109914988/",
-      "descripcion": "Piso reformado, con jardín, porche, plaza garage y trastero.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:16:28.858966",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Piso en Ronda de l'Arquitecte Guitart, 41, Vilartagues i Tueda de Dalt, Sant Feliu de Guíxols",
-      "precio": "230.000€",
-      "ubicacion": "41, Vilartagues i Tueda de Dalt, Sant Feliu de Guíxols",
-      "habitaciones": "3 hab.",
-      "metros": "112 m²",
-      "url": "https://www.idealista.com/inmueble/110659456/",
-      "descripcion": "",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:16:28.858979",
-      "portal": "Idealista",
-      "telefono": "658 65 14 72"
-    },
-    {
       "titulo": "Piso en Plaza Catalunya, 6, Sant Antoni, Calonge",
       "precio": "245.000€",
       "ubicacion": "6, Sant Antoni, Calonge",
@@ -250,19 +185,6 @@
       "fecha_scraping": "2026-02-18T11:16:28.858999",
       "portal": "Idealista",
       "telefono": "646 37 25 40"
-    },
-    {
-      "titulo": "Piso en Calle Miramar, 27, Platja Llarga, Castell-Platja d'Aro",
-      "precio": "399.000€",
-      "ubicacion": "27, Platja Llarga, Castell-Platja d'Aro",
-      "habitaciones": "2 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/93912219/",
-      "descripcion": "SUPERBEACH - REFORMA INTEGRAL - CENTRO 2hab. dobles + PARQUING INCLUIDO (valorado en 40.000€) - A/C DAIKYN- fibra optica INSTALADA.\nEn primera linia de mar y en el mismo centro de platja d´aro, c/miramar. Edificio superbeach, novena 9a planta, por lo que tiene las vistas despejadas al mar y al pueblo. Despejado de los",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-18T11:16:28.859009",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Dúplex en Calle d'Almeria, 102, Vilartagues i Tueda de Dalt, Sant Feliu de Guíxols",
@@ -354,19 +276,6 @@
       "fecha_scraping": "2026-02-13T13:13:05.621333",
       "portal": "Idealista",
       "telefono": "656 98 95 35"
-    },
-    {
-      "titulo": "Piso en Calle Lleida, 10, Vilartagues i Tueda de Dalt, Sant Feliu de Guíxols",
-      "precio": "145.000€",
-      "ubicacion": "10, Vilartagues i Tueda de Dalt, Sant Feliu de Guíxols",
-      "habitaciones": "1 hab.",
-      "metros": "50 m²",
-      "url": "https://www.idealista.com/inmueble/431120/",
-      "descripcion": "lavadero cubierto\ndistribución:\nterraza descubierta de 15 m2",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:13:05.621345",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Chalet pareado en Carretera Nacional, 1, Port d'Aro, Castell-Platja d'Aro",
@@ -525,19 +434,6 @@
       "telefono": "619 34 21 22"
     },
     {
-      "titulo": "Ático en Calle del Sol, 18, L'Eixample, Sant Feliu de Guíxols",
-      "precio": "252.000€",
-      "ubicacion": "18, L'Eixample, Sant Feliu de Guíxols",
-      "habitaciones": "3 hab.",
-      "metros": "78 m²",
-      "url": "https://www.idealista.com/inmueble/108512055/",
-      "descripcion": "Fantástico ático + parking grande. Totalmente amueblado y con todos los electrodomésticos, listo para entrar a vivir.\nUbicado en unas de las mejores zonas de Sant Feliu de Guíxols, a 5 minutos de la playa y 3 minutos de la Rambla Vidal.\nSe vende sin mediación de inmobiliaria, directo de particular.\nPlaza de parking.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:13:05.621476",
-      "portal": "Idealista",
-      "telefono": "659 55 20 15"
-    },
-    {
       "titulo": "Dúplex en Calle Doctor Casals, 20, Santa Cristina Poble, Santa Cristina d'Aro",
       "precio": "295.000€",
       "ubicacion": "20, Santa Cristina Poble, Santa Cristina d'Aro",
@@ -562,19 +458,6 @@
       "fecha_scraping": "2026-02-13T13:13:05.621495",
       "portal": "Idealista",
       "telefono": "619 17 03 78"
-    },
-    {
-      "titulo": "Piso en Paseo del Mar, 2, Platja Gran, Palamós",
-      "precio": "325.000€",
-      "ubicacion": "2, Platja Gran, Palamós",
-      "habitaciones": "2 hab.",
-      "metros": "75 m²",
-      "url": "https://www.idealista.com/inmueble/110428979/",
-      "descripcion": "Piso a primera línea de mar con vistas increíbles. Puedes ver el mar incluso des de la cocina. Tiene 2 habitaciones y 1 baño. Calefacción eléctrica. 2 ascensores. En el centro del pueblo, a 1 minuto de la playa, y con todos los servicio al lado.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:13:05.621505",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Calle Toses, 6, Port d'Aro, Castell-Platja d'Aro",
@@ -707,19 +590,6 @@
       "telefono": "624 51 89 66"
     },
     {
-      "titulo": "Piso en Camino Jardí Botànic, 100, Calella, Palafrugell",
-      "precio": "366.000€",
-      "ubicacion": "100, Calella, Palafrugell",
-      "habitaciones": "3 hab.",
-      "metros": "67 m²",
-      "url": "https://www.idealista.com/inmueble/108217863/",
-      "descripcion": "Este amplio apartamento de 3 habitaciones ofrece comodidad y vistas espectaculares al jardín y a una enorme piscina de 33m de largo. ! Dispone de licencia Turistica!\nSi te gusta nadar, salir en bici, hacer excursiones, jugar a fútbol, ping pong, hacer yoga.\nHay infinitas opciones de deporte que se puede practicar en l",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:13:05.621615",
-      "portal": "Idealista",
-      "telefono": "+55 11 96181-4223"
-    },
-    {
       "titulo": "Chalet pareado en Calle Mas Sagrera, 21, Les Teules - Mas Pla, Santa Cristina d'Aro",
       "precio": "485.000€",
       "ubicacion": "21, Les Teules - Mas Pla, Santa Cristina d'Aro",
@@ -731,32 +601,6 @@
       "fecha_scraping": "2026-02-13T13:13:05.621625",
       "portal": "Idealista",
       "telefono": "620 25 32 74"
-    },
-    {
-      "titulo": "Chalet adosado en Calle Pinsà, 155, El Mas Pinell, Torroella de Montgrí",
-      "precio": "279.000€",
-      "ubicacion": "155, El Mas Pinell, Torroella de Montgrí",
-      "habitaciones": "2 hab.",
-      "metros": "60 m²",
-      "url": "https://www.idealista.com/inmueble/110203997/",
-      "descripcion": "Casa adosada en Mas Pinell con patio delantero y trasero, posibilidad de aparcamiento dentro de la parcela, cocina abierta al salón, 2 habitaciones y 1 baño. Piscina comunitaria. Zona tranquila cercana a la playa. Vivienda lista para entrar.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:13:05.621635",
-      "portal": "Idealista",
-      "telefono": null
-    },
-    {
-      "titulo": "Chalet pareado en Calle Pinsà, 51, El Mas Pinell, Torroella de Montgrí",
-      "precio": "395.000€",
-      "ubicacion": "51, El Mas Pinell, Torroella de Montgrí",
-      "habitaciones": "3 hab.",
-      "metros": "124 m²",
-      "url": "https://www.idealista.com/inmueble/110196568/",
-      "descripcion": "Oasis junto al mar en Mas Pinell: Casa a 3 vientos a 200m de la playa\nDisfrute de la exclusividad de vivir en el corazón de la Costa Brava. Esta impecable casa unifamiliar a tres vientos se ubica en la prestigiosa zona de Mas Pinell, dentro del \"Triángulo de Oro\" del Baix Empordà. A tan solo 2 minutos a pie de la arena",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:13:05.621645",
-      "portal": "Idealista",
-      "telefono": "669 88 51 03"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Olivar de Can Pou, 8, Els Masos de Pals, Pals",
@@ -941,19 +785,6 @@
       "telefono": "656 64 13 12"
     },
     {
-      "titulo": "Ático en Calle d\\'Alfons XII, s/n, Piverd-La Roella-Bruguerol, Palafrugell",
-      "precio": "225.000€",
-      "ubicacion": "s/n, Piverd-La Roella-Bruguerol, Palafrugell",
-      "habitaciones": "3 hab.",
-      "metros": "96 m²",
-      "url": "https://www.idealista.com/inmueble/105391730/",
-      "descripcion": "Soleado Ático en el fabuloso barrio del Pi Verd, Palafrugell. Todo exterior, tres habitaciones, dos de ellas dobles, aseo y baño completo. Amplio y soleado comedor con toldo en terraza y foscurit, cocina Office y lavadero también exterior en pequeña finca muy tranquila.\nParking en el interior del recinto con techo cubi",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:13:05.621790",
-      "portal": "Idealista",
-      "telefono": "620 31 06 58"
-    },
-    {
       "titulo": "Piso en Calle de Pecher, 1, L'Eixample, Sant Feliu de Guíxols",
       "precio": "248.000€",
       "ubicacion": "1, L'Eixample, Sant Feliu de Guíxols",
@@ -978,19 +809,6 @@
       "fecha_scraping": "2026-02-13T13:13:05.621809",
       "portal": "Idealista",
       "telefono": "699 22 03 36"
-    },
-    {
-      "titulo": "Masía en Plaza de la torre, 9, Cruílles, Monells i Sant Sadurni de l'Heura",
-      "precio": "639.900€",
-      "ubicacion": "9, Cruílles, Monells i Sant Sadurni de l'Heura",
-      "habitaciones": "4 hab.",
-      "metros": "500 m²",
-      "url": "https://www.idealista.com/inmueble/109886547/",
-      "descripcion": "¡ EN VENTA PROPIEDAD URBANA CON MUCHAS POSIBILIDADES EN EL CORAZÓN DEL BAIX EMPORDÀ!\n“ABSTENERSE INMOBILIARIAS. Solo contacto directo con particulares interesados.\nUbicada en el tranquilo pueblo de CRUILLES, en pleno corazón del Baix Empordà y a pocos kilómetros de las idílicas playas de la Costa Brava, esta propieda",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:13:05.621819",
-      "portal": "Idealista",
-      "telefono": "627 23 10 05"
     },
     {
       "titulo": "Casa o chalet independiente en Calle Pere Vidal, 4, Ullá",
@@ -1019,19 +837,6 @@
       "telefono": "607 22 69 70"
     },
     {
-      "titulo": "Piso en Sant Antoni, Calonge",
-      "precio": "243.000€",
-      "ubicacion": "Calonge",
-      "habitaciones": "2 hab.",
-      "metros": "52 m²",
-      "url": "https://www.idealista.com/inmueble/109880943/",
-      "descripcion": "Apartamento a pocos pasos de la playa en Sant Antoni de Calonge – sin comunidad\nAcogedor apartamento de 52 m², construido en 1997, situado en una calle perpendicular al mar, entre segunda y tercera línea, lo que permite disfrutar de vistas directas al mar desde el balcón. A un paso del paseo marítimo y muy cerca de",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:13:05.621848",
-      "portal": "Idealista",
-      "telefono": "669 66 64 66"
-    },
-    {
       "titulo": "Ático en Calle Garbí, 2, La Fosca-Cala Margarida, Palamós",
       "precio": "520.000€",
       "ubicacion": "2, La Fosca-Cala Margarida, Palamós",
@@ -1056,19 +861,6 @@
       "fecha_scraping": "2026-02-13T13:13:05.621868",
       "portal": "Idealista",
       "telefono": "609 57 54 22"
-    },
-    {
-      "titulo": "Ático en Calle Església, 2, Fenals, Castell-Platja d'Aro",
-      "precio": "299.000€",
-      "ubicacion": "2, Fenals, Castell-Platja d'Aro",
-      "habitaciones": "2 hab.",
-      "metros": "78 m²",
-      "url": "https://www.idealista.com/inmueble/109747009/",
-      "descripcion": "NO INMOBILIARIAS\nAtico reformado en zona tranquila con vista despejada, 2 dormitorios dobles, 2 baños. La tercera habitación individual actualmente forma parte del salón. Lavadero. Aire acondicionado, Gas Natural. Muy soleado y luminoso. Garaje box opcional.",
-      "anunciante": "Particular",
-      "fecha_scraping": "2026-02-13T13:13:05.621878",
-      "portal": "Idealista",
-      "telefono": null
     },
     {
       "titulo": "Piso en Calle Caritat, 43, Centre, Palafrugell",
